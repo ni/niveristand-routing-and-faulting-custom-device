@@ -1,0 +1,20 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+
+[projects.raf]
+path = 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
+
+[projects.slsc]
+path = 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Build Routing and Faulting Custom Device'
+type = 'lvBuildAll'
+project = '{raf}'
+
+[[build.steps]]
+name = 'Build SLSC Switch Custom Device'
+type = 'lvBuildAll'
+project = '{slsc}'
+
