@@ -35,7 +35,7 @@
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder"/>
-				<Item Name="SLSC Switch System Tests.lvclass" Type="LVClass" URL="../Tests/System/SLSC Switch System Tests/SLSC Switch System Tests.lvclass"/>
+				<Item Name="SLSC Switch System Tests.lvclass" Type="LVClass" URL="../Tests/System/SLSC Switch System Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
