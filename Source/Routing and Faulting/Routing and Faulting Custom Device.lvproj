@@ -31,6 +31,9 @@
 		<Item Name="Scripting API" Type="Folder">
 			<Item Name="Switch Scripting.lvlib" Type="Library" URL="../../Scripting/Scripting/Switch Scripting.lvlib"/>
 		</Item>
+		<Item Name="Shared" Type="Folder">
+			<Item Name="Switch Shared.lvlib" Type="Library" URL="../../Shared/Switch Shared.lvlib"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
@@ -488,7 +491,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Switch Shared.lvlib" Type="Library" URL="../../Shared/Switch Shared.lvlib"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
