@@ -29,7 +29,7 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Scripting API" Type="Folder">
-			<Item Name="Switch Scripting.lvlib" Type="Library" URL="../../Scripting/Scripting/Switch Scripting.lvlib"/>
+			<Item Name="Switch Scripting.lvlib" Type="Library" URL="../../Scripting/Switch Scripting.lvlib"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Switch Shared.lvlib" Type="Library" URL="../../Shared/Switch Shared.lvlib"/>
@@ -55,8 +55,9 @@
 				</Item>
 				<Item Name="Scripting" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../../Scripting/Tests/System/Assets/Base System Definition.nivssdf"/>
+						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Tests/System/Scripting/Assets/Base System Definition.nivssdf"/>
 					</Item>
+					<Item Name="Switch Scripting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Scripting/Switch Scripting System Tests.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
