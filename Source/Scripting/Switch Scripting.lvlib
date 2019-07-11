@@ -15,6 +15,10 @@
 		<Item Name="Set Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Set Routing and Faulting Custom Device.vi"/>
 	</Item>
 	<Item Name="Mockups" Type="Folder">
+		<Item Name="ValueTableDictionaryTest" Type="Folder">
+			<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Mockups/ValueTableDictionaryTest/Base System Definition.nivssdf"/>
+			<Item Name="DictionaryTestCopy.vi" Type="VI" URL="../Mockups/ValueTableDictionaryTest/DictionaryTestCopy.vi"/>
+		</Item>
 		<Item Name="Channel States json test - state string.vi" Type="VI" URL="../Mockups/Channel States json test - state string.vi"/>
 		<Item Name="Channel States json test.vi" Type="VI" URL="../Mockups/Channel States json test.vi"/>
 		<Item Name="Palette mockup.vi" Type="VI" URL="../Mockups/Palette mockup.vi"/>
@@ -23,6 +27,7 @@
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
 		<Item Name="Construct Connection.vi" Type="VI" URL="../Routing Channel/Construct Connection.vi"/>
 		<Item Name="Get Routing Channel.vi" Type="VI" URL="../Routing Channel/Get Routing Channel.vi"/>
+		<Item Name="Set Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Channel States and Connections.vi"/>
 		<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
@@ -36,4 +41,5 @@
 		<Item Name="Connection.ctl" Type="VI" URL="../Routing Channel/Connection.ctl"/>
 		<Item Name="Routing State.ctl" Type="VI" URL="../Routing State.ctl"/>
 	</Item>
+	<Item Name="Get Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Channel States and Connections.vi"/>
 </Library>

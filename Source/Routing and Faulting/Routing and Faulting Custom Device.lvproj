@@ -473,9 +473,11 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Add Engine Simulation Toolkit Custom Device.vi" Type="VI" URL="../../github/niveristand-engine-simulation-toolkit-custom-device/Source/Scripting API/Custom Device/Add Engine Simulation Toolkit Custom Device.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Engine Simulation Toolkit Custom Device Settings.ctl" Type="VI" URL="../../github/niveristand-engine-simulation-toolkit-custom-device/Source/Scripting API/Custom Device/Engine Simulation Toolkit Custom Device Settings.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
