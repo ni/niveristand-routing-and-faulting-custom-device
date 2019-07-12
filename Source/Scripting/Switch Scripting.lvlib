@@ -32,14 +32,20 @@
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
 		<Item Name="Add Connection to State.vi" Type="VI" URL="../Routing Channel/Add Connection to State.vi"/>
-		<Item Name="Add Connections to State.vi" Type="VI" URL="../Routing Channel/Add Connections to State.vi"/>
+		<Item Name="Get Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Channel States and Connections.vi"/>
+		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
 		<Item Name="Remove Connection from State.vi" Type="VI" URL="../Routing Channel/Remove Connection from State.vi"/>
-		<Item Name="Remove Connections from State.vi" Type="VI" URL="../Routing Channel/Remove Connections from State.vi"/>
+		<Item Name="Set Channel Default State.vi" Type="VI" URL="../Routing Channel/Set Channel Default State.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Channel States.ctl" Type="VI" URL="../Channel States.ctl"/>
 		<Item Name="Connection.ctl" Type="VI" URL="../Routing Channel/Connection.ctl"/>
 		<Item Name="Routing State.ctl" Type="VI" URL="../Routing State.ctl"/>
 	</Item>
-	<Item Name="Get Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Channel States and Connections.vi"/>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Add Connection to State (data structure).vi" Type="VI" URL="../Routing Channel/Add Connection to State (data structure).vi"/>
+		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
+		<Item Name="Remove Connection from State (data structure).vi" Type="VI" URL="../Routing Channel/Remove Connection from State (data structure).vi"/>
+		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
+	</Item>
 </Library>
