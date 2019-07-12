@@ -265,14 +265,7 @@
 						<Errors />
 						<Section Name="Aliases" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
 							<Description />
-							<Properties>
-								<Property Name="user.CD.ECU+">
-									<String>Dev1/SomePinP</String>
-								</Property>
-								<Property Name="user.CD.ECU-">
-									<String>Dev1/SomePinN</String>
-								</Property>
-							</Properties>
+							<Properties />
 							<Errors />
 						</Section>
 						<Section Name="Routes" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">

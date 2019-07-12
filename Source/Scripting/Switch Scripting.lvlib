@@ -11,6 +11,8 @@
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
 		<Item Name="Get Alias.vi" Type="VI" URL="../Aliases/Get Alias.vi"/>
 		<Item Name="Get All Aliases.vi" Type="VI" URL="../Aliases/Get All Aliases.vi"/>
+		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
+		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Aliases/Remove All Aliases.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
