@@ -11,6 +11,7 @@
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Get Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Get Routing and Faulting Custom Device.vi"/>
+		<Item Name="Initialize RaF CD.vi" Type="VI" URL="../Custom Device/Initialize RaF CD.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Set Routing and Faulting Custom Device.vi"/>
 	</Item>
