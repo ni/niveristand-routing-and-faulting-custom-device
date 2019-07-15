@@ -478,6 +478,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Engine Simulation Toolkit Custom Device Settings.ctl" Type="VI" URL="../../github/niveristand-engine-simulation-toolkit-custom-device/Source/Scripting API/Custom Device/Engine Simulation Toolkit Custom Device Settings.ctl"/>
+			<Item Name="Get Routing and Faulting Custom Device.vi" Type="VI" URL="../../Scripting/Custom Device/Get Routing and Faulting Custom Device.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -494,6 +495,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Set Routing and Faulting Custom Device.vi" Type="VI" URL="../../Scripting/Custom Device/Set Routing and Faulting Custom Device.vi"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>

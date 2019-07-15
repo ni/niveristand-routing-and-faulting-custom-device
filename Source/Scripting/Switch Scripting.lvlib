@@ -17,10 +17,8 @@
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
-		<Item Name="Get Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Get Routing and Faulting Custom Device.vi"/>
 		<Item Name="Initialize RaF CD.vi" Type="VI" URL="../Custom Device/Initialize RaF CD.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
-		<Item Name="Set Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Set Routing and Faulting Custom Device.vi"/>
 	</Item>
 	<Item Name="Mockups" Type="Folder">
 		<Item Name="ValueTableDictionaryTest" Type="Folder">
@@ -32,17 +30,26 @@
 		<Item Name="Palette mockup.vi" Type="VI" URL="../Mockups/Palette mockup.vi"/>
 	</Item>
 	<Item Name="Routing Channel" Type="Folder">
+		<Item Name="private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
+		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
-		<Item Name="Construct Connection.vi" Type="VI" URL="../Routing Channel/Construct Connection.vi"/>
+		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
 		<Item Name="Get Routing Channel.vi" Type="VI" URL="../Routing Channel/Get Routing Channel.vi"/>
 		<Item Name="Set Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Channel States and Connections.vi"/>
-		<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
+		<Item Name="private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Add State (to Connections).vi" Type="VI" URL="../Routing Channel/Add State (to Connections).vi"/>
+			<Item Name="Remove State (from Connections).vi" Type="VI" URL="../Routing Channel/Remove State (from Connections).vi"/>
+		</Item>
 		<Item Name="Add Connection to State.vi" Type="VI" URL="../Routing Channel/Add Connection to State.vi"/>
+		<Item Name="Add State to Routing Channel.vi" Type="VI" URL="../Routing Channel/Add State to Routing Channel.vi"/>
 		<Item Name="Get Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Channel States and Connections.vi"/>
-		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
 		<Item Name="Remove Connection from State.vi" Type="VI" URL="../Routing Channel/Remove Connection from State.vi"/>
+		<Item Name="Remove State from Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove State from Routing Channel.vi"/>
 		<Item Name="Set Channel Default State.vi" Type="VI" URL="../Routing Channel/Set Channel Default State.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
@@ -54,6 +61,7 @@
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Add Connection to State (data structure).vi" Type="VI" URL="../Routing Channel/Add Connection to State (data structure).vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
+		<Item Name="Construct Connection.vi" Type="VI" URL="../Routing Channel/Construct Connection.vi"/>
 		<Item Name="Remove Connection from State (data structure).vi" Type="VI" URL="../Routing Channel/Remove Connection from State (data structure).vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 	</Item>
