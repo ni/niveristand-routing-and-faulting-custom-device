@@ -13,11 +13,18 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- TODO: include build steps here.
+Build specifications are provided for building the custom device. The build process should automatically
+copy the output files to the directory required by VeriStand.
 
 # Testing
 
-- TODO: include testing steps here.
+Both unit and system tests are provided with the custom device. These tests can be run from within the LabVIEW
+project using the [VI Tester](https://github.com/JKISoftware/JKI-VI-Tester) integration, or from the command line
+using the `RunVITester` operation provided by the [testing tools](https://github.com/ni/niveristand-custom-device-testing-tools).
+
+Running the system tests locally requires a specific hardware configuration, which will be documented [here].
+The IP address of local targets can be overridden at runtime through the creation of an `overrides.ini` file
+adjacent to the system definition.
 
 # Developer Certificate of Origin (DCO)
 

@@ -1,15 +1,24 @@
 # GitHub Repo Template
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+**Routing and Faulting Custom Device** allows user to configure routes and inject faults using SLSC Switch modules.
 
-## Using GitHub Repo Template
+## LabVIEW Version
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+LabVIEW 2017
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+## Dependencies
+
+- NI-SLSC >= 19.0
+- [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
+- [SLSC Switch Message Library](https://github.com/ni/niveristand-slsc-switch-message-library)
+- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+
+## Git History & Rebasing Policy
+
+Branch rebasing and other history modifications will be listed here, with several notable exceptions:
+- Branches prefixed with `dev/` may be rebased, overwritten, or deleted at any time.
+- Pull requests may be squashed on merge.
+
+## License
+
+The Scan Engine Custom Device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
