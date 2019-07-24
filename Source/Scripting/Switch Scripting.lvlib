@@ -8,6 +8,10 @@
 
 </Property>
 	<Item Name="Alias" Type="Folder">
+		<Item Name="Value Change" Type="Folder">
+			<Item Name="Update Alias name.vi" Type="VI" URL="../Aliases/Update Alias name.vi"/>
+			<Item Name="Update Alias pin.vi" Type="VI" URL="../Aliases/Update Alias pin.vi"/>
+		</Item>
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
 		<Item Name="Get Alias.vi" Type="VI" URL="../Aliases/Get Alias.vi"/>
 		<Item Name="Get All Aliases.vi" Type="VI" URL="../Aliases/Get All Aliases.vi"/>
@@ -34,8 +38,10 @@
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
-			<Item Name="Update State Name in Channel Value Table.vi" Type="VI" URL="../Routing Channel/Update State Name in Channel Value Table.vi"/>
-			<Item Name="Update State Value in Channel Value Table.vi" Type="VI" URL="../Routing Channel/Update State Value in Channel Value Table.vi"/>
+		</Item>
+		<Item Name="Value Change" Type="Folder">
+			<Item Name="Update Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Description.vi"/>
+			<Item Name="Update Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Name.vi"/>
 		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
 		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
