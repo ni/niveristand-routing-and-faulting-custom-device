@@ -289,16 +289,20 @@
 													<Elem>Dev1/SomeSource,Dev1/SomeDest</Elem>
 												</StringArray>
 											</Elem>
-											<Elem Key="Passthrough_Description">
-												<String>Passthrough description</String>
-											</Elem>
 											<Elem Key="Fault to Ground">
 												<StringArray>
 													<Elem>Dev1/SomeSource,Dev1/SomeDest2</Elem>
 													<Elem>Dev2/OtherSource,Dev2/OtherDest</Elem>
 												</StringArray>
 											</Elem>
-											<Elem Key="Fault to Ground_Description">
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="Passthrough">
+												<String>Passthrough description</String>
+											</Elem>
+											<Elem Key="Fault to Ground">
 												<String>Fault to Ground description</String>
 											</Elem>
 										</Dictionary>
