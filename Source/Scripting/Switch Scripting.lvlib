@@ -24,6 +24,7 @@
 		<Item Name="ValueTableDictionaryTest" Type="Folder">
 			<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Mockups/ValueTableDictionaryTest/Base System Definition.nivssdf"/>
 			<Item Name="DictionaryTestCopy.vi" Type="VI" URL="../Mockups/ValueTableDictionaryTest/DictionaryTestCopy.vi"/>
+			<Item Name="Overall RaF Scripting.vi" Type="VI" URL="../Mockups/ValueTableDictionaryTest/Overall RaF Scripting.vi"/>
 		</Item>
 		<Item Name="Channel States json test - state string.vi" Type="VI" URL="../Mockups/Channel States json test - state string.vi"/>
 		<Item Name="Channel States json test.vi" Type="VI" URL="../Mockups/Channel States json test.vi"/>
@@ -33,24 +34,27 @@
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
+			<Item Name="Update State Name in Channel Value Table.vi" Type="VI" URL="../Routing Channel/Update State Name in Channel Value Table.vi"/>
+			<Item Name="Update State Value in Channel Value Table.vi" Type="VI" URL="../Routing Channel/Update State Value in Channel Value Table.vi"/>
 		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
 		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
 		<Item Name="Get Routing Channel.vi" Type="VI" URL="../Routing Channel/Get Routing Channel.vi"/>
+		<Item Name="Remove Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel.vi"/>
+		<Item Name="Set Channel Default State.vi" Type="VI" URL="../Routing Channel/Set Channel Default State.vi"/>
 		<Item Name="Set Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Channel States and Connections.vi"/>
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Add State (to Connections).vi" Type="VI" URL="../Routing Channel/Add State (to Connections).vi"/>
-			<Item Name="Remove State (from Connections).vi" Type="VI" URL="../Routing Channel/Remove State (from Connections).vi"/>
+			<Item Name="Remove State (from Dictionaries).vi" Type="VI" URL="../Routing Channel/Remove State (from Dictionaries).vi"/>
 		</Item>
 		<Item Name="Add Connection to State.vi" Type="VI" URL="../Routing Channel/Add Connection to State.vi"/>
 		<Item Name="Add State to Routing Channel.vi" Type="VI" URL="../Routing Channel/Add State to Routing Channel.vi"/>
 		<Item Name="Get Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Channel States and Connections.vi"/>
 		<Item Name="Remove Connection from State.vi" Type="VI" URL="../Routing Channel/Remove Connection from State.vi"/>
 		<Item Name="Remove State from Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove State from Routing Channel.vi"/>
-		<Item Name="Set Channel Default State.vi" Type="VI" URL="../Routing Channel/Set Channel Default State.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Alias Mapping.ctl" Type="VI" URL="../Routing Channel/Alias Mapping.ctl"/>
@@ -65,4 +69,13 @@
 		<Item Name="Remove Connection from State (data structure).vi" Type="VI" URL="../Routing Channel/Remove Connection from State (data structure).vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 	</Item>
+	<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
+	<Item Name="Get State from Routing Channel.vi" Type="VI" URL="../Routing Channel/Get State from Routing Channel.vi"/>
+	<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
+	<Item Name="Update State Connections.vi" Type="VI" URL="../Routing Channel/Update State Connections.vi"/>
+	<Item Name="Update State Description.vi" Type="VI" URL="../Routing Channel/Update State Description.vi"/>
+	<Item Name="Update State in Routing Channel.vi" Type="VI" URL="../Routing Channel/Update State in Routing Channel.vi"/>
+	<Item Name="Update State Name 2.vi" Type="VI" URL="../Routing Channel/Update State Name 2.vi"/>
+	<Item Name="Update State Name.vi" Type="VI" URL="../Routing Channel/Update State Name.vi"/>
+	<Item Name="Update State Value.vi" Type="VI" URL="../Routing Channel/Update State Value.vi"/>
 </Library>
