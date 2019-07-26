@@ -280,7 +280,7 @@
 							<Properties />
 							<Errors />
 							<Channel Name="RoutingChannel0" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description />
+								<Description>this channel controls routes</Description>
 								<Properties>
 									<Property Name="user.CD.Connections">
 										<Dictionary>
