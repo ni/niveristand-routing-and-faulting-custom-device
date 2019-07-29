@@ -76,12 +76,13 @@
 		<Item Name="Routing State.ctl" Type="VI" URL="../Routing State.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
-		<Item Name="Add Connection to State (data structure).vi" Type="VI" URL="../Routing Channel/Add Connection to State (data structure).vi"/>
+		<Item Name="Add Connection to List (data structure)vi.vi" Type="VI" URL="../Routing Channel/Add Connection to List (data structure)vi.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="Construct Connection.vi" Type="VI" URL="../Routing Channel/Construct Connection.vi"/>
-		<Item Name="Remove Connection from State (data structure).vi" Type="VI" URL="../Routing Channel/Remove Connection from State (data structure).vi"/>
+		<Item Name="Remove Connection from List (data structure)vi.vi" Type="VI" URL="../Routing Channel/Remove Connection from List (data structure)vi.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 	</Item>
+	<Item Name="Find Aliases and Routes.vi" Type="VI" URL="../Custom Device/Find Aliases and Routes.vi"/>
 </Library>
