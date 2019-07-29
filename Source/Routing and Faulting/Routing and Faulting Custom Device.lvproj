@@ -37,28 +37,12 @@
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="General" Type="Folder">
-					<Item Name="Assets" Type="Folder"/>
-					<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/General/Routing and Faulting Unit Tests.lvclass"/>
-				</Item>
-				<Item Name="Scripting" Type="Folder">
-					<Item Name="Assets" Type="Folder">
-						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Tests/Unit/Scripting/Assets/Base System Definition.nivssdf"/>
-					</Item>
-					<Item Name="Switch Scripting Test Case.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Switch Scripting Test Case.lvclass"/>
-				</Item>
+				<Item Name="Assets" Type="Folder"/>
+				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/General/Routing and Faulting Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
-				<Item Name="General" Type="Folder">
-					<Item Name="Assets" Type="Folder"/>
-					<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/General/Routing and Faulting System Tests.lvclass"/>
-				</Item>
-				<Item Name="Scripting" Type="Folder">
-					<Item Name="Assets" Type="Folder">
-						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Tests/System/Scripting/Assets/Base System Definition.nivssdf"/>
-					</Item>
-					<Item Name="Switch Scripting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Scripting/Switch Scripting System Tests.lvclass"/>
-				</Item>
+				<Item Name="Assets" Type="Folder"/>
+				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/General/Routing and Faulting System Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">

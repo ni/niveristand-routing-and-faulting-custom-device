@@ -57,6 +57,20 @@
 		<Item Name="Update State Name.vi" Type="VI" URL="../Routing Channel/Update State Name.vi"/>
 		<Item Name="Update State Value.vi" Type="VI" URL="../Routing Channel/Update State Value.vi"/>
 	</Item>
+	<Item Name="Tests" Type="Folder">
+		<Item Name="System" Type="Folder">
+			<Item Name="Assets" Type="Folder">
+				<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Tests/System/Assets/Base System Definition.nivssdf"/>
+			</Item>
+			<Item Name="Switch Scripting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Switch Scripting System Tests.lvclass"/>
+		</Item>
+		<Item Name="Unit" Type="Folder">
+			<Item Name="Assets" Type="Folder">
+				<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Base System Definition.nivssdf"/>
+			</Item>
+			<Item Name="Switch Scripting Test Case.lvclass" Type="LVClass" URL="../Tests/Unit/Switch Scripting Test Case.lvclass"/>
+		</Item>
+	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Alias Mapping.ctl" Type="VI" URL="../Routing Channel/Alias Mapping.ctl"/>
 		<Item Name="Channel States.ctl" Type="VI" URL="../Channel States.ctl"/>
