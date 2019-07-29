@@ -20,6 +20,7 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
+		<Item Name="Find Aliases and Routes.vi" Type="VI" URL="../Custom Device/Find Aliases and Routes.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Initialize RaF CD.vi" Type="VI" URL="../Custom Device/Initialize RaF CD.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
@@ -84,5 +85,4 @@
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 	</Item>
-	<Item Name="Find Aliases and Routes.vi" Type="VI" URL="../Custom Device/Find Aliases and Routes.vi"/>
 </Library>
