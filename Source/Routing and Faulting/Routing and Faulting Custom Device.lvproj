@@ -37,11 +37,9 @@
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Assets" Type="Folder"/>
 				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
-				<Item Name="Assets" Type="Folder"/>
 				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
 		</Item>
