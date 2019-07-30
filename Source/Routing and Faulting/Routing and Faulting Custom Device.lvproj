@@ -38,16 +38,16 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Assets" Type="Folder"/>
-				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/General/Routing and Faulting Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder"/>
-				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/General/Routing and Faulting System Tests.lvclass"/>
+				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
-			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../../SLSC Switch/Utility/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../../SLSC Switch/Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Custom Device Routing and Faulting.xml" Type="Document" URL="../Custom Device Routing and Faulting.xml"/>
 		<Item Name="Routing and Faulting Engine.lvlib" Type="Library" URL="../Engine/Routing and Faulting Engine.lvlib"/>
@@ -293,7 +293,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
