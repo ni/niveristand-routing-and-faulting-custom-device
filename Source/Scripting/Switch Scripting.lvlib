@@ -45,6 +45,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Add State (to Dictionaries).vi" Type="VI" URL="../Routing Channel/Add State (to Dictionaries).vi"/>
 			<Item Name="Remove State (from Dictionaries).vi" Type="VI" URL="../Routing Channel/Remove State (from Dictionaries).vi"/>
+			<Item Name="Update State Description (in Dictionary).vi" Type="VI" URL="../Routing Channel/Update State Description (in Dictionary).vi"/>
 		</Item>
 		<Item Name="Add Connection to State.vi" Type="VI" URL="../Routing Channel/Add Connection to State.vi"/>
 		<Item Name="Add State to Routing Channel.vi" Type="VI" URL="../Routing Channel/Add State to Routing Channel.vi"/>
