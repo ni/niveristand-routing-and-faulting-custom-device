@@ -17,7 +17,7 @@
 		<Item Name="Update Alias pin.vi" Type="VI" URL="../Aliases/Update Alias pin.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="Constants.vi" Type="VI" URL="../../Shared/Constants.vi"/>
+		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
@@ -69,7 +69,7 @@
 			<Item Name="Assets" Type="Folder">
 				<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Base System Definition.nivssdf"/>
 			</Item>
-			<Item Name="Switch Scripting Test Case.lvclass" Type="LVClass" URL="../Tests/Unit/Switch Scripting Test Case.lvclass"/>
+			<Item Name="Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Switch Scripting Unit Tests.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
