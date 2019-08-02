@@ -1,5 +1,5 @@
 [archive]
-build_output_dir = 'Built'
+build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
 
 [projects.raf]
