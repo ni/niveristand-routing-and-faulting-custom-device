@@ -17,7 +17,7 @@
 		<Item Name="Update Alias pin.vi" Type="VI" URL="../Aliases/Update Alias pin.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="Scripting Constants.vi" Type="VI" URL="../Scripting Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
