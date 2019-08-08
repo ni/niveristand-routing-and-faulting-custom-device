@@ -40,6 +40,9 @@
 		<Item Name="Update Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Description.vi"/>
 		<Item Name="Update Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Name.vi"/>
 	</Item>
+	<Item Name="SLSC Switch" Type="Folder">
+		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
+	</Item>
 	<Item Name="States and Connections" Type="Folder">
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -68,10 +68,10 @@
         <loc>SLSC Switch</loc>
       </Name>
       <GUID>5e47c8de-3ec6-490b-8897-5526d4aea756</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
-      </Glyph>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>SLSC Plugins\Modules\SLSC EDS\Glyphs\SLSC_Module.png</Path>
+			</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Main Page.vi</Path>
