@@ -3,11 +3,11 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Base System Definition" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Base with 1 SLSC Switch CD" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Base System Definition</String>
+				<String>Base with 1 SLSC Switch CD</String>
 			</Property>
 			<Property Name="Version">
 				<String>1.0.0.3</String>
@@ -16,7 +16,7 @@
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3644236777.9953551</Double>
+				<Double>3648056976.7460656</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -31,7 +31,7 @@
 						<String>Windows</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String />
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -97,9 +97,6 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
-						<U16>0</U16>
-					</Property>
-					<Property Name="Timing Source Settings">
 						<U16>0</U16>
 					</Property>
 				</Properties>
@@ -180,6 +177,275 @@
 						<Description />
 						<Properties />
 						<Errors />
+						<Section Name="SLSC Chassis" TypeGUID="2d230194-1f79-4241-ad00-e5b0a0d634cb">
+							<Description />
+							<Properties>
+								<Property Name="Chassis Type">
+									<String>SLSC-12001</String>
+								</Property>
+								<Property Name="Chassis ID">
+									<String>mySLSCChassis</String>
+								</Property>
+								<Property Name="Username">
+									<String>anonymous</String>
+								</Property>
+								<Property Name="Password">
+									<String />
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Modules" TypeGUID="96319964-d29d-4af0-9c60-b1a785679b5f">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="Slot 1 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+									<Description />
+									<Properties>
+										<Property Name="CD Status">
+											<U32>1</U32>
+										</Property>
+										<Property Name="Driver VI Exec Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="Driver VI Path_0">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>VxWorks</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_4">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Windows</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Version">
+											<String>1.0.0</String>
+										</Property>
+										<Property Name="user.CD.Slot #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+										<Description />
+										<Properties />
+										<Errors />
+									</Section>
+								</Section>
+								<Section Name="Slot 2 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 4 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 8 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 9 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 10 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 11 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 12 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="Channels" TypeGUID="fa98037a-a524-4a77-b7d2-13997631fa25">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="BatteryVoltageSensor" TypeGUID="96faf7a1-7cab-4db2-971e-68b73536c883">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="SensorReading" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The current voltage of the battery in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorNominal" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The nomial voltage of the battery in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>3.6</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorLowerCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The lower battery threshold in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>2.9</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="HealthState" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+										<Description>Health State of the chassis battery.
+
+-1: Unknown
+0: Normal
+1: OutOfSpec
+2: RiskOfDamage</Description>
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="Unknown">
+														<Double>-1</Double>
+													</Elem>
+													<Elem Key="Normal">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="OutOfSpec">
+														<Double>1</Double>
+													</Elem>
+													<Elem Key="RiskOfDamage">
+														<Double>2</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>-1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="FanVoltageSensor" TypeGUID="96faf7a1-7cab-4db2-971e-68b73536c883">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="SensorReading" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The current voltage of the fan in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorLowerCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The fan's lower threshold of the operating voltage in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0.08</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="SensorUpperCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
+										<Description>The fan's upper threshold of the operating voltage in unit voltage.</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0.12</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="HealthState" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+										<Description>Health State of the chassis fan.
+
+-1: Unknown
+0: Normal
+1: OutOfSpec
+2: RiskOfDamage</Description>
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="Unknown">
+														<Double>-1</Double>
+													</Elem>
+													<Elem Key="Normal">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="OutOfSpec">
+														<Double>1</Double>
+													</Elem>
+													<Elem Key="RiskOfDamage">
+														<Double>2</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>-1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+						</Section>
 					</Section>
 				</Section>
 				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">

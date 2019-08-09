@@ -32,19 +32,21 @@
 			<Item Name="Tests" Type="Folder">
 				<Item Name="System" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../../Scripting/Tests/System/Assets/Base System Definition.nivssdf"/>
+						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/System/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
 					</Item>
-					<Item Name="Switch Scripting System Tests.lvclass" Type="LVClass" URL="../../Scripting/Tests/System/Switch Scripting System Tests.lvclass"/>
+					<Item Name="SLSC Switch Scripting System Tests.lvclass" Type="LVClass" URL="../../Scripting/SLSC Switch/Tests/System/SLSC Switch Scripting System Tests.lvclass"/>
 				</Item>
 				<Item Name="Unit" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../../Scripting/Tests/Unit/Assets/Base System Definition.nivssdf"/>
-						<Item Name="Base with SLSC chassis.nivssdf" Type="Document" URL="../../Scripting/Tests/Unit/Assets/Base with SLSC chassis.nivssdf"/>
+						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base System Definition.nivssdf"/>
+						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
+						<Item Name="Base with Multiple SLSC Switch CDs.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base with Multiple SLSC Switch CDs.nivssdf"/>
+						<Item Name="SLSC Switch Scripted.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/SLSC Switch Scripted.nivssdf"/>
 					</Item>
-					<Item Name="Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../../Scripting/Tests/Unit/Switch Scripting Unit Tests.lvclass"/>
+					<Item Name="SLSC Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../../Scripting/SLSC Switch/Tests/Unit/SLSC Switch Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Switch Scripting.lvlib" Type="Library" URL="../../Scripting/Switch Scripting.lvlib"/>
+			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../../Scripting/SLSC Switch/SLSC Switch Scripting.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -468,9 +470,19 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Add Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Add Alias.vi"/>
+			<Item Name="Add Connection to State.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Add Connection to State.vi"/>
+			<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../../Scripting/SLSC Switch/Custom Device/Add Routing and Faulting Custom Device.vi"/>
+			<Item Name="Add Routing Channel.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Add Routing Channel.vi"/>
+			<Item Name="Add State to Routing Channel.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Add State to Routing Channel.vi"/>
+			<Item Name="Alias Mapping.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Alias Mapping.ctl"/>
+			<Item Name="Connection.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Connection.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Get Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Get Alias.vi"/>
+			<Item Name="Get All Aliases.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Get All Aliases.vi"/>
+			<Item Name="Get State from Routing Channel.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Get State from Routing Channel.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -487,6 +499,10 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Remove Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Remove Alias.vi"/>
+			<Item Name="Routing State.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing State.ctl"/>
+			<Item Name="Update Alias name.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Update Alias name.vi"/>
+			<Item Name="Update Alias pin.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Update Alias pin.vi"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
