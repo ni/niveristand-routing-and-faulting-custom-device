@@ -10,35 +10,21 @@
 		<Item Name="SLSC Scripting Constants.vi" Type="VI" URL="../SLSC Scripting Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
-		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
-		<Item Name="Find Aliases and Routes.vi" Type="VI" URL="../Custom Device/Find Aliases and Routes.vi"/>
+		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
-		<Item Name="Initialize Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Routing and Faulting Custom Device.vi"/>
+		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 	</Item>
-	<Item Name="Properties" Type="Folder">
-		<Item Name="Add Endpoint Configuration.vi" Type="VI" URL="../Properties/Add Endpoint Configuration.vi"/>
-		<Item Name="Get Alias.vi" Type="VI" URL="../Properties/Get Alias.vi"/>
-		<Item Name="Get All Aliases.vi" Type="VI" URL="../Properties/Get All Aliases.vi"/>
-		<Item Name="Remove Alias.vi" Type="VI" URL="../Properties/Remove Alias.vi"/>
-		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Properties/Remove All Aliases.vi"/>
-		<Item Name="Update Alias name.vi" Type="VI" URL="../Properties/Update Alias name.vi"/>
-		<Item Name="Update Alias pin.vi" Type="VI" URL="../Properties/Update Alias pin.vi"/>
+	<Item Name="Endpoint Configuration" Type="Folder">
+		<Item Name="Add or Configure Endpoint.vi" Type="VI" URL="../Endpoint Configuration/Add or Configure Endpoint.vi"/>
+		<Item Name="Get All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Enpoint Configurations.vi"/>
+		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
+		<Item Name="Remove All Endpoints.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoints.vi"/>
+		<Item Name="Remove Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Remove Endpoint Configuration.vi"/>
 	</Item>
-	<Item Name="Routing Channel" Type="Folder">
-		<Item Name="private" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
-		</Item>
-		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
-		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
-		<Item Name="Get Routing Channel.vi" Type="VI" URL="../Routing Channel/Get Routing Channel.vi"/>
-		<Item Name="Remove Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel.vi"/>
-		<Item Name="Set Channel Default State.vi" Type="VI" URL="../Routing Channel/Set Channel Default State.vi"/>
-		<Item Name="Set Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Channel States and Connections.vi"/>
-		<Item Name="Update Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Description.vi"/>
-		<Item Name="Update Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Name.vi"/>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Update SLSC Switch Property.vi" Type="VI" URL="../Properties/Update SLSC Switch Property.vi"/>
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
 		<Item Name="private" Type="Folder">
@@ -59,17 +45,9 @@
 		<Item Name="Update State Value.vi" Type="VI" URL="../Routing Channel/Update State Value.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Alias Mapping.ctl" Type="VI" URL="../Routing Channel/Alias Mapping.ctl"/>
-		<Item Name="Channel States.ctl" Type="VI" URL="../Routing Channel/Channel States.ctl"/>
-		<Item Name="Connection.ctl" Type="VI" URL="../Routing Channel/Connection.ctl"/>
-		<Item Name="Endpoint Configuration.ctl" Type="VI" URL="../Endpoint Configuration.ctl"/>
-		<Item Name="Routing State.ctl" Type="VI" URL="../Routing Channel/Routing State.ctl"/>
+		<Item Name="Endpoint Configuration Cluster.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Cluster.ctl"/>
+		<Item Name="Endpoint Configuration Enum.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Enum.ctl"/>
+		<Item Name="SLSC Property Enum.ctl" Type="VI" URL="../SLSC Property Enum.ctl"/>
 	</Item>
-	<Item Name="Utility" Type="Folder">
-		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
-		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
-		<Item Name="Construct Connection.vi" Type="VI" URL="../Routing Channel/Construct Connection.vi"/>
-		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
-		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
-	</Item>
+	<Item Name="Utility" Type="Folder"/>
 </Library>
