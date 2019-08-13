@@ -471,18 +471,13 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Add Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Add Alias.vi"/>
-			<Item Name="Add Connection to State.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Add Connection to State.vi"/>
 			<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../../Scripting/SLSC Switch/Custom Device/Add Routing and Faulting Custom Device.vi"/>
-			<Item Name="Add Routing Channel.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Add Routing Channel.vi"/>
-			<Item Name="Add State to Routing Channel.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Add State to Routing Channel.vi"/>
 			<Item Name="Alias Mapping.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Alias Mapping.ctl"/>
-			<Item Name="Connection.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Connection.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Get Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Get Alias.vi"/>
 			<Item Name="Get All Aliases.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Get All Aliases.vi"/>
-			<Item Name="Get State from Routing Channel.vi" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Get State from Routing Channel.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -500,9 +495,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Remove Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Remove Alias.vi"/>
-			<Item Name="Routing State.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing State.ctl"/>
-			<Item Name="Update Alias name.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Update Alias name.vi"/>
-			<Item Name="Update Alias pin.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Update Alias pin.vi"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
