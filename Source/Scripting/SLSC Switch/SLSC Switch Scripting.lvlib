@@ -27,14 +27,24 @@
 		<Item Name="Remove Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Remove Endpoint Configuration.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Set SLSC Switch Property.vi" Type="VI" URL="../Properties/Set SLSC Switch Property.vi"/>
-		<Item Name="Get SLSC Switch Property.vi" Type="VI" URL="../Properties/Get SLSC Switch Property.vi"/>
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Get All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Get All SLSC Switch Properties.vi"/>
+		<Item Name="Get SLSC Switch Cap Version.vi" Type="VI" URL="../Properties/Get SLSC Switch Cap Version.vi"/>
+		<Item Name="Get SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Get SLSC Switch Capabilities.vi"/>
+		<Item Name="Get SLSC Switch Model.vi" Type="VI" URL="../Properties/Get SLSC Switch Model.vi"/>
+		<Item Name="Get SLSC Switch Resource.vi" Type="VI" URL="../Properties/Get SLSC Switch Resource.vi"/>
+		<Item Name="Get SLSC Switch Topology.vi" Type="VI" URL="../Properties/Get SLSC Switch Topology.vi"/>
+		<Item Name="Set All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Set All SLSC Switch Properties.vi"/>
+		<Item Name="Set SLSC Switch Cap Version.vi" Type="VI" URL="../Properties/Set SLSC Switch Cap Version.vi"/>
+		<Item Name="Set SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Set SLSC Switch Capabilities.vi"/>
+		<Item Name="Set SLSC Switch Model.vi" Type="VI" URL="../Properties/Set SLSC Switch Model.vi"/>
+		<Item Name="Set SLSC Switch Resource.vi" Type="VI" URL="../Properties/Set SLSC Switch Resource.vi"/>
+		<Item Name="Set SLSC Switch Topology.vi" Type="VI" URL="../Properties/Set SLSC Switch Topology.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Endpoint Configuration Cluster.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Cluster.ctl"/>
 		<Item Name="Endpoint Configuration Enum.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Enum.ctl"/>
-		<Item Name="SLSC Property Enum.ctl" Type="VI" URL="../SLSC Property Enum.ctl"/>
+		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder"/>
 </Library>

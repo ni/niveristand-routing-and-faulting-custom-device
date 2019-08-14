@@ -470,14 +470,9 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Add Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Add Alias.vi"/>
-			<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../../Scripting/SLSC Switch/Custom Device/Add Routing and Faulting Custom Device.vi"/>
-			<Item Name="Alias Mapping.ctl" Type="VI" URL="../../Scripting/SLSC Switch/Routing Channel/Alias Mapping.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Get Alias.vi"/>
-			<Item Name="Get All Aliases.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Get All Aliases.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -494,7 +489,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Remove Alias.vi" Type="VI" URL="../../Scripting/SLSC Switch/Aliases/Remove Alias.vi"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
