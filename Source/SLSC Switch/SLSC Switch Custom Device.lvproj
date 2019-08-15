@@ -38,10 +38,8 @@
 				</Item>
 				<Item Name="Unit" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base System Definition.nivssdf"/>
 						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
 						<Item Name="Base with Multiple SLSC Switch CDs.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base with Multiple SLSC Switch CDs.nivssdf"/>
-						<Item Name="SLSC Switch Scripted.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/SLSC Switch Scripted.nivssdf"/>
 					</Item>
 					<Item Name="SLSC Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../../Scripting/SLSC Switch/Tests/Unit/SLSC Switch Scripting Unit Tests.lvclass"/>
 				</Item>
