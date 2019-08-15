@@ -11,20 +11,23 @@
 		<Item Name="SLSC Scripting Constants.vi" Type="VI" URL="../SLSC Scripting Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
 		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
-		<Item Name="Get SLSC Switch CD Description.vi" Type="VI" URL="../Custom Device/Get SLSC Switch CD Description.vi"/>
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set SLSC Switch CD Description.vi" Type="VI" URL="../Custom Device/Set SLSC Switch CD Description.vi"/>
+		<Item Name="Get SLSC Switch CD Description.vi" Type="VI" URL="../Custom Device/Get SLSC Switch CD Description.vi"/>
 	</Item>
 	<Item Name="Endpoint Configuration" Type="Folder">
-		<Item Name="Add or Configure Endpoint.vi" Type="VI" URL="../Endpoint Configuration/Add or Configure Endpoint.vi"/>
-		<Item Name="Get All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Enpoint Configurations.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Set Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Set Endpoint Configuration.vi"/>
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
-		<Item Name="Remove All Endpoints.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoints.vi"/>
+		<Item Name="Set All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Enpoint Configurations.vi"/>
+		<Item Name="Get All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Enpoint Configurations.vi"/>
 		<Item Name="Remove Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Remove Endpoint Configuration.vi"/>
+		<Item Name="Remove All Endpoints.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoints.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -46,5 +49,4 @@
 		<Item Name="Endpoint Configuration Enum.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Enum.ctl"/>
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
 	</Item>
-	<Item Name="Utility" Type="Folder"/>
 </Library>
