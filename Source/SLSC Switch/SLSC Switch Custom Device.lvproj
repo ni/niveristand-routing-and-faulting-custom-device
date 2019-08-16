@@ -32,19 +32,19 @@
 			<Item Name="Tests" Type="Folder">
 				<Item Name="System" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/System/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
+						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../Scripting/Tests/System/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
 					</Item>
-					<Item Name="SLSC Switch Scripting System Tests.lvclass" Type="LVClass" URL="../../Scripting/SLSC Switch/Tests/System/SLSC Switch Scripting System Tests.lvclass"/>
+					<Item Name="SLSC Switch Scripting System Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/System/SLSC Switch Scripting System Tests.lvclass"/>
 				</Item>
 				<Item Name="Unit" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
-						<Item Name="Base with Multiple SLSC Switch CDs.nivssdf" Type="Document" URL="../../Scripting/SLSC Switch/Tests/Unit/Assets/Base with Multiple SLSC Switch CDs.nivssdf"/>
+						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
+						<Item Name="Base with Multiple SLSC Switch CDs.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Assets/Base with Multiple SLSC Switch CDs.nivssdf"/>
 					</Item>
-					<Item Name="SLSC Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../../Scripting/SLSC Switch/Tests/Unit/SLSC Switch Scripting Unit Tests.lvclass"/>
+					<Item Name="SLSC Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/SLSC Switch Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../../Scripting/SLSC Switch/SLSC Switch Scripting.lvlib"/>
+			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../Scripting/SLSC Switch Scripting.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
@@ -720,8 +720,9 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch/Windows/SLSC Switch Scripting API.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B81CE306-DCDF-4D4E-9175-E65843F20A57}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/SLSC Switch/Windows/SLSC Switch Scripting API.llb</Property>
@@ -729,7 +730,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3A45C83C-F682-49A3-A6E1-2504E2A49E1E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7ACAAD6B-932F-436E-81C3-0AA1F08E52C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
