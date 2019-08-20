@@ -21,4 +21,4 @@ Branch rebasing and other history modifications will be listed here, with severa
 
 ## License
 
-The Scan Engine Custom Device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
+The Routing and Faulting Custom Device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
