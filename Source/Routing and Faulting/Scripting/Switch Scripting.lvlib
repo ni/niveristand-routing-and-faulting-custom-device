@@ -17,7 +17,7 @@
 		<Item Name="Update Alias pin.vi" Type="VI" URL="../Aliases/Update Alias pin.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="Scripting Constants.vi" Type="VI" URL="../Scripting Constants.vi"/>
+		<Item Name="Scripting Constants.vi" Type="VI" URL="../Constants/Scripting Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
@@ -60,9 +60,9 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Alias Mapping.ctl" Type="VI" URL="../Routing Channel/Alias Mapping.ctl"/>
-		<Item Name="Channel States.ctl" Type="VI" URL="../Channel States.ctl"/>
+		<Item Name="Channel States.ctl" Type="VI" URL="../Routing Channel/Channel States.ctl"/>
 		<Item Name="Connection.ctl" Type="VI" URL="../Routing Channel/Connection.ctl"/>
-		<Item Name="Routing State.ctl" Type="VI" URL="../Routing State.ctl"/>
+		<Item Name="Routing State.ctl" Type="VI" URL="../Routing Channel/Routing State.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
