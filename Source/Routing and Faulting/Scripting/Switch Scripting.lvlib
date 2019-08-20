@@ -13,8 +13,8 @@
 		<Item Name="Get All Aliases.vi" Type="VI" URL="../Aliases/Get All Aliases.vi"/>
 		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
 		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Aliases/Remove All Aliases.vi"/>
-		<Item Name="Update Alias name.vi" Type="VI" URL="../Aliases/Update Alias name.vi"/>
-		<Item Name="Update Alias pin.vi" Type="VI" URL="../Aliases/Update Alias pin.vi"/>
+		<Item Name="Update Alias Name.vi" Type="VI" URL="../Aliases/Update Alias Name.vi"/>
+		<Item Name="Update Alias Pin.vi" Type="VI" URL="../Aliases/Update Alias Pin.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Scripting Constants.vi" Type="VI" URL="../Constants/Scripting Constants.vi"/>
