@@ -18,7 +18,3 @@
 
 # Output directory
 Built/
-
-# Overrides
-!CDMessaging.lvlibp
-!SLSCSwitchMessaging.lvlibp
