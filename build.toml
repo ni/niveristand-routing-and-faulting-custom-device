@@ -2,6 +2,10 @@
 build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
 
+[dependencies.niveristand-slsc-switch-message-library]
+libraries = ['CDMessaging.lvlibp', 'SLSCSwitchMessaging.lvlibp']
+copy_location = 'Includes'
+
 [projects.raf]
 path = 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
 
@@ -9,12 +13,97 @@ path = 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
 path = 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
 
 [[build.steps]]
-name = 'Build Routing and Faulting Custom Device'
-type = 'lvBuildAll'
+name = 'Routing and Faulting Configuration Library'
+type = 'lvBuildSpec'
 project = '{raf}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+dependency_target = 'Windows'
 
 [[build.steps]]
-name = 'Build SLSC Switch Custom Device'
-type = 'lvBuildAll'
-project = '{slsc}'
+name = 'Routing and Faulting Windows Engine Library'
+type = 'lvBuildSpec'
+project = '{raf}'
+target = 'My Computer'
+build_spec = 'Engine Release'
+dependency_target = 'Windows'
 
+[[build.steps]]
+name = 'Routing and Faulting Pharlap Engine Library'
+type = 'lvBuildSpec'
+project = '{raf}'
+target = 'RT PXI Target'
+build_spec = 'Engine Release'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Routing and Faulting Linux x64 Engine Library'
+type = 'lvBuildSpec'
+project = '{raf}'
+target = 'RT CompactRIO Target - Linux x64'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
+
+[[build.steps]]
+name = 'Routing and Faulting Linux x86 Engine Library'
+type = 'lvBuildSpec'
+project = '{raf}'
+target = 'RT CompactRIO Target - Linux ARM'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'Routing and Faulting Scripting API'
+type = 'lvBuildSpec'
+project = '{raf}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'SLSC Switch Configuration Library'
+type = 'lvBuildSpec'
+project = '{slsc}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'SLSC Switch Windows Engine Library'
+type = 'lvBuildSpec'
+project = '{slsc}'
+target = 'My Computer'
+build_spec = 'Engine Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'SLSC Switch Pharlap Engine Library'
+type = 'lvBuildSpec'
+project = '{slsc}'
+target = 'RT PXI Target'
+build_spec = 'Engine Release'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'SLSC Switch Linux x64 Engine Library'
+type = 'lvBuildSpec'
+project = '{slsc}'
+target = 'RT CompactRIO Target - Linux x64'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
+
+[[build.steps]]
+name = 'SLSC Switch Linux x86 Engine Library'
+type = 'lvBuildSpec'
+project = '{slsc}'
+target = 'RT CompactRIO Target - Linux ARM'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'SLSC Switch Scripting API'
+type = 'lvBuildSpec'
+project = '{slsc}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Windows'

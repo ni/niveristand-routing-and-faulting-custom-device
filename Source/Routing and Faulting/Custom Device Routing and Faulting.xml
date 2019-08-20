@@ -35,14 +35,6 @@
         <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
-        <SupportedTarget>VxWorks</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Routing and Faulting\VxWorks\Routing and Faulting Engine VxWorks.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
         <SupportedTarget>Linux_32_ARM</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
