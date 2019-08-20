@@ -45,8 +45,6 @@
 		<Item Name="Set SLSC Switch Topology.vi" Type="VI" URL="../Properties/Set SLSC Switch Topology.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Endpoint Configuration Cluster.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Cluster.ctl"/>
-		<Item Name="Endpoint Configuration Enum.ctl" Type="VI" URL="../Endpoint Configuration/Endpoint Configuration Enum.ctl"/>
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
 	</Item>
 </Library>

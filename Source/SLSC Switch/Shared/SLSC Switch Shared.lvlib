@@ -6,7 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
+			<Item Name="Communication Configuration.ctl" Type="VI" URL="../Communication Configuration.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
+			<Item Name="Driver Configuration.ctl" Type="VI" URL="../Driver Configuration.ctl"/>
+			<Item Name="Endpoint Configuration Cluster.ctl" Type="VI" URL="../Endpoint Configuration Cluster.ctl"/>
+			<Item Name="Endpoint Configuration Enum.ctl" Type="VI" URL="../Endpoint Configuration Enum.ctl"/>
+			<Item Name="FIFO Indices.ctl" Type="VI" URL="../FIFO Indices.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
