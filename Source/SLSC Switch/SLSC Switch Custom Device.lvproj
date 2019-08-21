@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -45,6 +45,11 @@
 				</Item>
 			</Item>
 			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../Scripting/SLSC Switch Scripting.lvlib"/>
+		</Item>
+		<Item Name="Shared" Type="Folder">
+			<Item Name="UI Common" Type="Folder">
+				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
