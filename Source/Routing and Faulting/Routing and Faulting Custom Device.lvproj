@@ -24,42 +24,8 @@
 		<Item Name="Help" Type="Folder" URL="../Help">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Messaging Library" Type="Folder">
-			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/CDMessaging.lvlibp">
-				<Item Name="Message Queue" Type="Folder">
-					<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-					<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
-				</Item>
-				<Item Name="Consumer" Type="Folder">
-					<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-				</Item>
-				<Item Name="Message" Type="Folder">
-					<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Message/Abstract Message.lvclass"/>
-					<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-					<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-					<Item Name="Shutdown Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Shutdown Message/Shutdown Message.lvclass"/>
-				</Item>
-				<Item Name="Parameters" Type="Folder">
-					<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Producer" Type="Folder">
-					<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-				</Item>
-				<Item Name="Switch" Type="Folder">
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Switch Connect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Connect Message/Switch Connect Message.lvclass"/>
-						<Item Name="Switch Disconnect All Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect All Message/Switch Disconnect All Message.lvclass"/>
-						<Item Name="Switch Disconnect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect Message/Switch Disconnect Message.lvclass"/>
-					</Item>
-					<Item Name="Abstract Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Consumer/Abstract Switch Consumer.lvclass"/>
-					<Item Name="Abstract Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Init Parameters/Abstract Switch Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Initialize Request Response Queues.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Initialize Request Response Queues.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			</Item>
-		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Scripting API" Type="Folder">
@@ -539,12 +505,14 @@
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Routing and Faulting</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows</Property>
 				<Property Name="Destination[2].destName" Type="Str">Routing and Faulting Configuration LLB</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Routing and Faulting/Windows/Routing and Faulting Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14E6B453-3329-464B-8C8D-AD9B8B7F6F0A}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
+				<Property Name="Source[0].itemID" Type="Str">{94F9B4A0-4DDE-4B6A-8676-1C4138850A1C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Routing and Faulting.xml</Property>
@@ -555,12 +523,7 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Routing and Faulting System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Messaging Library</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="Configuration Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{F7E936A1-C50B-4217-AC2B-A4DA3629CD4B}</Property>
@@ -578,12 +541,14 @@
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Routing and Faulting</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows</Property>
 				<Property Name="Destination[2].destName" Type="Str">Routing and Faulting Configuration LLB</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Routing and Faulting/Windows/Routing and Faulting Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{02FE0CE1-3AFF-42A4-AAE7-EA5854DF187F}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
+				<Property Name="Source[0].itemID" Type="Str">{94F9B4A0-4DDE-4B6A-8676-1C4138850A1C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Routing and Faulting.xml</Property>
@@ -656,7 +621,9 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2932243-E601-4EC2-9403-2DF88D6F1C73}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
+				<Property Name="Source[0].itemID" Type="Str">{94F9B4A0-4DDE-4B6A-8676-1C4138850A1C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Routing and Faulting Engine.lvlib/RT Driver VI.vi</Property>
@@ -714,15 +681,7 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Messaging Library/CDMessaging.lvlibp</Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Messaging Library</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -810,42 +769,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Messaging Library" Type="Folder">
-			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/CDMessaging.lvlibp">
-				<Item Name="Message Queue" Type="Folder">
-					<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-					<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
-				</Item>
-				<Item Name="Consumer" Type="Folder">
-					<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-				</Item>
-				<Item Name="Message" Type="Folder">
-					<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Message/Abstract Message.lvclass"/>
-					<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-					<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-					<Item Name="Shutdown Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Shutdown Message/Shutdown Message.lvclass"/>
-				</Item>
-				<Item Name="Parameters" Type="Folder">
-					<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Producer" Type="Folder">
-					<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-				</Item>
-				<Item Name="Switch" Type="Folder">
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Switch Connect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Connect Message/Switch Connect Message.lvclass"/>
-						<Item Name="Switch Disconnect All Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect All Message/Switch Disconnect All Message.lvclass"/>
-						<Item Name="Switch Disconnect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect Message/Switch Disconnect Message.lvclass"/>
-					</Item>
-					<Item Name="Abstract Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Consumer/Abstract Switch Consumer.lvclass"/>
-					<Item Name="Abstract Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Init Parameters/Abstract Switch Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Initialize Request Response Queues.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Initialize Request Response Queues.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			</Item>
-		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Routing and Faulting Engine.lvlib" Type="Library" URL="../Engine/Routing and Faulting Engine.lvlib"/>
@@ -887,9 +812,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -914,7 +836,9 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E0F3614-A1ED-4465-A5E5-A6661D689D80}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
+				<Property Name="Source[0].itemID" Type="Str">{176018EA-4602-48E5-AF5A-7CE740946836}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Routing and Faulting Engine.lvlib/RT Driver VI.vi</Property>
@@ -972,15 +896,7 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target/Messaging Library/CDMessaging.lvlibp</Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target/Messaging Library</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1034,42 +950,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Messaging Library" Type="Folder">
-			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/CDMessaging.lvlibp">
-				<Item Name="Consumer" Type="Folder">
-					<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-				</Item>
-				<Item Name="Message" Type="Folder">
-					<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Message/Abstract Message.lvclass"/>
-					<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-					<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-					<Item Name="Shutdown Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Shutdown Message/Shutdown Message.lvclass"/>
-				</Item>
-				<Item Name="Message Queue" Type="Folder">
-					<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-					<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
-				</Item>
-				<Item Name="Parameters" Type="Folder">
-					<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Producer" Type="Folder">
-					<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-				</Item>
-				<Item Name="Switch" Type="Folder">
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Switch Connect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Connect Message/Switch Connect Message.lvclass"/>
-						<Item Name="Switch Disconnect All Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect All Message/Switch Disconnect All Message.lvclass"/>
-						<Item Name="Switch Disconnect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect Message/Switch Disconnect Message.lvclass"/>
-					</Item>
-					<Item Name="Abstract Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Consumer/Abstract Switch Consumer.lvclass"/>
-					<Item Name="Abstract Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Init Parameters/Abstract Switch Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Initialize Request Response Queues.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Initialize Request Response Queues.vi"/>
-			</Item>
-		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Routing and Faulting Engine.lvlib" Type="Library" URL="../Engine/Routing and Faulting Engine.lvlib"/>
 		<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="../Shared/Routing and Faulting Shared.lvlib"/>
@@ -1111,9 +993,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1138,7 +1017,9 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F554E25F-F43F-43C2-A9F7-63833B28339C}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
+				<Property Name="Source[0].itemID" Type="Str">{16BCCFBC-C38D-430A-8CA5-F80989BE294C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Routing and Faulting Engine.lvlib/RT Driver VI.vi</Property>
@@ -1196,15 +1077,7 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Messaging Library/CDMessaging.lvlibp</Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Messaging Library</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1259,42 +1132,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Messaging Library" Type="Folder">
-			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/CDMessaging.lvlibp">
-				<Item Name="Consumer" Type="Folder">
-					<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-				</Item>
-				<Item Name="Message" Type="Folder">
-					<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Message/Abstract Message.lvclass"/>
-					<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-					<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-					<Item Name="Shutdown Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Shutdown Message/Shutdown Message.lvclass"/>
-				</Item>
-				<Item Name="Message Queue" Type="Folder">
-					<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-					<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
-				</Item>
-				<Item Name="Parameters" Type="Folder">
-					<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Producer" Type="Folder">
-					<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-				</Item>
-				<Item Name="Switch" Type="Folder">
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Switch Connect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Connect Message/Switch Connect Message.lvclass"/>
-						<Item Name="Switch Disconnect All Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect All Message/Switch Disconnect All Message.lvclass"/>
-						<Item Name="Switch Disconnect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect Message/Switch Disconnect Message.lvclass"/>
-					</Item>
-					<Item Name="Abstract Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Consumer/Abstract Switch Consumer.lvclass"/>
-					<Item Name="Abstract Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Init Parameters/Abstract Switch Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Initialize Request Response Queues.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Initialize Request Response Queues.vi"/>
-			</Item>
-		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Routing and Faulting Engine.lvlib" Type="Library" URL="../Engine/Routing and Faulting Engine.lvlib"/>
 		<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="../Shared/Routing and Faulting Shared.lvlib"/>
@@ -1336,9 +1175,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1363,7 +1199,9 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{378746FC-A31B-43E2-B8E0-A979667C7350}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6D389338-7BA7-4E83-BFF2-F50EFAA6A605}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Routing and Faulting Engine.lvlib/RT Driver VI.vi</Property>
@@ -1421,15 +1259,7 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Messaging Library/CDMessaging.lvlibp</Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Messaging Library</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
