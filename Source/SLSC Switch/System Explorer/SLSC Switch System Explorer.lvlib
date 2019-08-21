@@ -8,6 +8,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Extra Pages" Type="Folder"/>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			<Item Name="Endpoint Configuration Page.vi" Type="VI" URL="../Endpoint Configuration Page.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
