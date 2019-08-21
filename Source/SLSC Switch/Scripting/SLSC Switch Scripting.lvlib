@@ -13,12 +13,9 @@
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
-		<Item Name="Find SLSC Module Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find SLSC Module Custom Device by Name.vi"/>
+		<Item Name="Find SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device.vi"/>
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
-		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
-		<Item Name="Set SLSC Switch CD Description.vi" Type="VI" URL="../Custom Device/Set SLSC Switch CD Description.vi"/>
-		<Item Name="Get SLSC Switch CD Description.vi" Type="VI" URL="../Custom Device/Get SLSC Switch CD Description.vi"/>
 	</Item>
 	<Item Name="Endpoint Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -26,23 +23,21 @@
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
 		<Item Name="Set All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Enpoint Configurations.vi"/>
 		<Item Name="Get All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Enpoint Configurations.vi"/>
-		<Item Name="Remove Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Remove Endpoint Configuration.vi"/>
-		<Item Name="Remove All Endpoints.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoints.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Get All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Get All SLSC Switch Properties.vi"/>
-		<Item Name="Get SLSC Switch Capabilities Version.vi" Type="VI" URL="../Properties/Get SLSC Switch Capabilities Version.vi"/>
-		<Item Name="Get SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Get SLSC Switch Capabilities.vi"/>
-		<Item Name="Get SLSC Switch Model.vi" Type="VI" URL="../Properties/Get SLSC Switch Model.vi"/>
-		<Item Name="Get SLSC Switch Resource.vi" Type="VI" URL="../Properties/Get SLSC Switch Resource.vi"/>
-		<Item Name="Get SLSC Switch Topology.vi" Type="VI" URL="../Properties/Get SLSC Switch Topology.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Set All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Set All SLSC Switch Properties.vi"/>
-		<Item Name="Set SLSC Switch Capabilities Version.vi" Type="VI" URL="../Properties/Set SLSC Switch Capabilities Version.vi"/>
 		<Item Name="Set SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Set SLSC Switch Capabilities.vi"/>
+		<Item Name="Set SLSC Switch Description.vi" Type="VI" URL="../Properties/Set SLSC Switch Description.vi"/>
 		<Item Name="Set SLSC Switch Model.vi" Type="VI" URL="../Properties/Set SLSC Switch Model.vi"/>
 		<Item Name="Set SLSC Switch Resource.vi" Type="VI" URL="../Properties/Set SLSC Switch Resource.vi"/>
 		<Item Name="Set SLSC Switch Topology.vi" Type="VI" URL="../Properties/Set SLSC Switch Topology.vi"/>
+		<Item Name="Get All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Get All SLSC Switch Properties.vi"/>
+		<Item Name="Get SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Get SLSC Switch Capabilities.vi"/>
+		<Item Name="Get SLSC Switch Description.vi" Type="VI" URL="../Properties/Get SLSC Switch Description.vi"/>
+		<Item Name="Get SLSC Switch Model.vi" Type="VI" URL="../Properties/Get SLSC Switch Model.vi"/>
+		<Item Name="Get SLSC Switch Resource.vi" Type="VI" URL="../Properties/Get SLSC Switch Resource.vi"/>
+		<Item Name="Get SLSC Switch Topology.vi" Type="VI" URL="../Properties/Get SLSC Switch Topology.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
