@@ -68,8 +68,11 @@
         <Type>To Common Doc Dir</Type>
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
     </Page>
-    
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
