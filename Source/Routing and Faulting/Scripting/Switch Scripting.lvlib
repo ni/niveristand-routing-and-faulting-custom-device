@@ -58,12 +58,7 @@
 		<Item Name="Update State Name.vi" Type="VI" URL="../Routing Channel/Update State Name.vi"/>
 		<Item Name="Update State Value.vi" Type="VI" URL="../Routing Channel/Update State Value.vi"/>
 	</Item>
-	<Item Name="Types" Type="Folder">
-		<Item Name="Alias Mapping.ctl" Type="VI" URL="../Routing Channel/Alias Mapping.ctl"/>
-		<Item Name="Channel States.ctl" Type="VI" URL="../Routing Channel/Channel States.ctl"/>
-		<Item Name="Connection.ctl" Type="VI" URL="../Routing Channel/Connection.ctl"/>
-		<Item Name="Routing State.ctl" Type="VI" URL="../Routing Channel/Routing State.ctl"/>
-	</Item>
+	<Item Name="Types" Type="Folder"/>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
