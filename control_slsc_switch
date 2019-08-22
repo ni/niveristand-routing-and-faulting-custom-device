@@ -1,0 +1,14 @@
+Package: ni-slsc-switch-{veristand_version}-support
+Version: {nipkg_version}
+Architecture: windows_all
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides support for the SLSC Switch custom device for NI VeriStand {veristand_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: NI SLSC Switch for VeriStand {veristand_version}
