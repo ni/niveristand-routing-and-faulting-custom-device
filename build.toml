@@ -107,3 +107,17 @@ project = '{slsc}'
 target = 'My Computer'
 build_spec = 'Scripting API'
 dependency_target = 'Windows'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\Routing and Faulting'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
+control_file = 'control_routing_faulting'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\SLSC Switch'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\SLSC Plugins\Modules'
+control_file = 'control_slsc_switch'
+package_output_dir = 'Source\Built'
