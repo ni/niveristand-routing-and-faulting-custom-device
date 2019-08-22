@@ -8,6 +8,7 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias Mapping.ctl" Type="VI" URL="../Alias Mapping.ctl"/>
 			<Item Name="Channel States.ctl" Type="VI" URL="../Channel States.ctl"/>
+			<Item Name="Channel with Value-Connections Map.ctl" Type="VI" URL="../Channel with Value-Connections Map.ctl"/>
 			<Item Name="Communication Configuration.ctl" Type="VI" URL="../Communication Configuration.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
 			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
@@ -15,6 +16,7 @@
 			<Item Name="Routing and Faulting Configuration.ctl" Type="VI" URL="../Routing and Faulting Configuration.ctl"/>
 			<Item Name="Routing Channel Configuration.ctl" Type="VI" URL="../Routing Channel Configuration.ctl"/>
 			<Item Name="Routing State.ctl" Type="VI" URL="../Routing State.ctl"/>
+			<Item Name="Value-Connections Map.ctl" Type="VI" URL="../Value-Connections Map.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
