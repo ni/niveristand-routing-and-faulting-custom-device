@@ -17,12 +17,16 @@
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
 				<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
-				<Item Name="Channels.ctl" Type="VI" URL="../Channels.ctl"/>
 			</Item>
 			<Item Name="Compile Communication Config.vi" Type="VI" URL="../Compile Communication Config.vi"/>
 			<Item Name="Compile Driver Configuration.vi" Type="VI" URL="../Compile Driver Configuration.vi"/>
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
+			<Item Name="Convert Endpoint to UI Element.vi" Type="VI" URL="../Convert Endpoint to UI Element.vi"/>
+			<Item Name="Endpoint Configuration Page Controls.ctl" Type="VI" URL="../Endpoint Configuration Page Controls.ctl"/>
+			<Item Name="Get Array Control Size.vi" Type="VI" URL="../Get Array Control Size.vi"/>
+			<Item Name="Initialize Endpoint Configuration Page.vi" Type="VI" URL="../Initialize Endpoint Configuration Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Prevent Overscroll.vi" Type="VI" URL="../Prevent Overscroll.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Main Page Controls.ctl" Type="VI" URL="../Main Page Controls.ctl"/>
