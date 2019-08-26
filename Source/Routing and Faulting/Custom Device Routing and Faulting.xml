@@ -68,6 +68,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
     </Page>
     
 <Page>
@@ -87,8 +91,8 @@
     </Page>
 <Page>
       <Name>
-        <eng>Switching</eng>
-        <loc>Switching</loc>
+        <eng>Routing</eng>
+        <loc>Routing</loc>
       </Name>
       <GUID>ce8870b5-cb8e-4b52-ac34-5b792fdc2ead</GUID>
       <Glyph>
@@ -97,7 +101,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Switching.vi</Path>
+		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
