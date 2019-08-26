@@ -45,6 +45,11 @@
 			</Item>
 			<Item Name="Switch Scripting.lvlib" Type="Library" URL="../Scripting/Switch Scripting.lvlib"/>
 		</Item>
+		<Item Name="Shared" Type="Folder">
+			<Item Name="UI Common" Type="Folder">
+				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
