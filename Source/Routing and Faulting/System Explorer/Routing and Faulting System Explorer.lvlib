@@ -28,6 +28,12 @@
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
+		<Item Name="Controls" Type="Folder">
+				<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
+				<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
+				<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
+				<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
+		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>

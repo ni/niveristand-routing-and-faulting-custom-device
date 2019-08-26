@@ -13,10 +13,18 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
+				<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
+				<Item Name="Channels.ctl" Type="VI" URL="../Channels.ctl"/>
+			</Item>
 			<Item Name="Compile Communication Config.vi" Type="VI" URL="../Compile Communication Config.vi"/>
 			<Item Name="Compile Driver Configuration.vi" Type="VI" URL="../Compile Driver Configuration.vi"/>
+			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Main Page Controls.ctl" Type="VI" URL="../Main Page Controls.ctl"/>
+		</Item>
 	</Item>
 </Library>
