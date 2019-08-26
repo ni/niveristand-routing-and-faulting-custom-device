@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Add Array Rows.vi" Type="VI" URL="../Add Array Rows.vi"/>
 	<Item Name="Set Control Value.vi" Type="VI" URL="../Set Control Value.vi"/>
+	<Item Name="Sort Array by Key Array.vim" Type="VI" URL="../Sort Array by Key Array.vim"/>
 	<Item Name="Sort Array of Clusters.vim" Type="VI" URL="../Sort Array of Clusters.vim"/>
 	<Item Name="Try Remove Array Element.vim" Type="VI" URL="../Try Remove Array Element.vim"/>
 </Library>
