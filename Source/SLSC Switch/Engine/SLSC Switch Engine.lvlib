@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Item Name="Extract Endpoint Configuration.vi" Type="VI" URL="../Extract Endpoint Configuration.vi"/>
 			<Item Name="Initialize SLSC Switch Engine.vi" Type="VI" URL="../Initialize SLSC Switch Engine.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
