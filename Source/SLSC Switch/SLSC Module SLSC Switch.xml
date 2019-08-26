@@ -60,9 +60,9 @@
         <loc>SLSC Switch</loc>
       </Name>
       <GUID>5e47c8de-3ec6-490b-8897-5526d4aea756</GUID>
-         <Glyph>
-            <Type>To Common Doc Dir</Type>
-            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Module.png</Path>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Module.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -72,6 +72,23 @@
         <Type>To Common Doc Dir</Type>
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Endpoint Configuration</eng>
+        <loc>Endpoint Configuration</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>f35fa8c0-605e-4a68-bbe7-65ff21f249ff</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Endpoint Configuration Page.vi</Path>
+      </Item2Launch>
     </Page>
   </Pages>
   <CustomXML>

@@ -6,19 +6,34 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
-			<Item Name="Extra Pages" Type="Folder"/>
-			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+			<Item Name="Actions" Type="Folder">
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			</Item>
+			<Item Name="Pages" Type="Folder">
+				<Item Name="Endpoint Configuration Page.vi" Type="VI" URL="../Endpoint Configuration Page.vi"/>
+				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+			</Item>
+			<Item Name="RTM" Type="Folder">
+				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Communication Config.vi" Type="VI" URL="../Compile Communication Config.vi"/>
 			<Item Name="Compile Driver Configuration.vi" Type="VI" URL="../Compile Driver Configuration.vi"/>
+			<Item Name="Convert Endpoint to UI Element.vi" Type="VI" URL="../Convert Endpoint to UI Element.vi"/>
+			<Item Name="Get Array Control Size.vi" Type="VI" URL="../Get Array Control Size.vi"/>
+			<Item Name="Get Source and Configuration Channels.vi" Type="VI" URL="../Get Source and Configuration Channels.vi"/>
+			<Item Name="Initialize Endpoint Configuration Page.vi" Type="VI" URL="../Initialize Endpoint Configuration Page.vi"/>
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Move Sort Label.vi" Type="VI" URL="../Move Sort Label.vi"/>
+			<Item Name="Prevent Overscroll.vi" Type="VI" URL="../Prevent Overscroll.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
+			<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
+			<Item Name="Endpoint Configuration Page Controls.ctl" Type="VI" URL="../Endpoint Configuration Page Controls.ctl"/>
 			<Item Name="Main Page Controls.ctl" Type="VI" URL="../Main Page Controls.ctl"/>
 		</Item>
 	</Item>
