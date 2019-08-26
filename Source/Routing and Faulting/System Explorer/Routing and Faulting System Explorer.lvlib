@@ -23,12 +23,14 @@
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
+			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
+			<Item Name="Filter Aliases from Connection List.vi" Type="VI" URL="../Filter Aliases from Connection List.vi"/>
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Get Channel Data in By Names.vi" Type="VI" URL="../Get Channel Data in By Names.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Translate Aliased Endpoint.vi" Type="VI" URL="../Translate Aliased Endpoint.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
-	<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 </Library>

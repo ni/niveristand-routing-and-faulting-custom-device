@@ -16,10 +16,6 @@
       <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
-  <ActionVIOnCompile>
- <Type>To Common Doc Dir</Type>
-      <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
-  </ActionVIOnCompile>
   <CustomDeviceVI>
     <SourceDistribution>
       <Source>
@@ -72,6 +68,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
     </Page>
     
 <Page>
