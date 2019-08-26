@@ -78,6 +78,8 @@
         <eng>Endpoint Configuration</eng>
         <loc>Endpoint Configuration</loc>
       </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>f35fa8c0-605e-4a68-bbe7-65ff21f249ff</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
