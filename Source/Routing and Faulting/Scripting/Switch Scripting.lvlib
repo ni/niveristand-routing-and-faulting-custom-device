@@ -9,12 +9,12 @@
 </Property>
 	<Item Name="Alias" Type="Folder">
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
+		<Item Name="Get Alias Mappings.vi" Type="VI" URL="../Aliases/Get Alias Mappings.vi"/>
 		<Item Name="Get Alias.vi" Type="VI" URL="../Aliases/Get Alias.vi"/>
-		<Item Name="Get All Aliases.vi" Type="VI" URL="../Aliases/Get All Aliases.vi"/>
 		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
 		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Aliases/Remove All Aliases.vi"/>
+		<Item Name="Set Alias Endpoint.vi" Type="VI" URL="../Aliases/Set Alias Endpoint.vi"/>
 		<Item Name="Update Alias Name.vi" Type="VI" URL="../Aliases/Update Alias Name.vi"/>
-		<Item Name="Update Alias Pin.vi" Type="VI" URL="../Aliases/Update Alias Pin.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Scripting Constants.vi" Type="VI" URL="../Constants/Scripting Constants.vi"/>
@@ -22,9 +22,9 @@
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
 		<Item Name="Find Aliases and Routes.vi" Type="VI" URL="../Custom Device/Find Aliases and Routes.vi"/>
-		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
+		<Item Name="Find Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Find Routing and Faulting Custom Device.vi"/>
 		<Item Name="Initialize Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Routing and Faulting Custom Device.vi"/>
-		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
+		<Item Name="Remove Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Remove Routing and Faulting Custom Device.vi"/>
 	</Item>
 	<Item Name="Routing Channel" Type="Folder">
 		<Item Name="private" Type="Folder">
