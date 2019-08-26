@@ -12,11 +12,12 @@
 			<Item Name="Initialize SLSC Switch Engine.vi" Type="VI" URL="../Initialize SLSC Switch Engine.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="Outputs With Indices.ctl" Type="VI" URL="../Outputs With Indices.ctl"/>
 			<Item Name="Write Output Channels.vi" Type="VI" URL="../Write Output Channels.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Outputs With Indices.ctl" Type="VI" URL="../Outputs With Indices.ctl"/>
+	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
