@@ -21,6 +21,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Communication Config.vi" Type="VI" URL="../Compile Communication Config.vi"/>
 			<Item Name="Compile Driver Configuration.vi" Type="VI" URL="../Compile Driver Configuration.vi"/>
+			<Item Name="Compile Status FIFO Indices.vi" Type="VI" URL="../Compile Status FIFO Indices.vi"/>
 			<Item Name="Convert Endpoint to UI Element.vi" Type="VI" URL="../Convert Endpoint to UI Element.vi"/>
 			<Item Name="Get Array Control Size.vi" Type="VI" URL="../Get Array Control Size.vi"/>
 			<Item Name="Get Source and Configuration Channels.vi" Type="VI" URL="../Get Source and Configuration Channels.vi"/>
