@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -47,6 +47,11 @@
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="UI Common" Type="Folder">
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Unit" Type="Folder">
+						<Item Name="UI Common Unit Tests.lvclass" Type="LVClass" URL="../../Shared/UI Common/Tests/Unit/UI Common Unit Tests/UI Common Unit Tests.lvclass"/>
+					</Item>
+				</Item>
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
 		</Item>
