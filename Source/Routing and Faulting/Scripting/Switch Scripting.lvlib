@@ -20,10 +20,11 @@
 		<Item Name="Scripting Constants.vi" Type="VI" URL="../Constants/Scripting Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
-		<Item Name="Find Aliases and Routing Sections.vi" Type="VI" URL="../Custom Device/Find Aliases and Routing Sections.vi"/>
-		<Item Name="Find Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Find Routing and Faulting Custom Device.vi"/>
 		<Item Name="Initialize Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Routing and Faulting Custom Device.vi"/>
+		<Item Name="Find Aliases and Routing Channels Sections.vi" Type="VI" URL="../Custom Device/Find Aliases and Routing Channels Sections.vi"/>
+		<Item Name="Find Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Find Routing and Faulting Custom Device.vi"/>
 		<Item Name="Remove Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Remove Routing and Faulting Custom Device.vi"/>
 	</Item>
 	<Item Name="Routing Channel" Type="Folder">

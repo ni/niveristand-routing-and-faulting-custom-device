@@ -91,8 +91,8 @@
     </Page>
 <Page>
       <Name>
-        <eng>Routing</eng>
-        <loc>Routing</loc>
+        <eng>Routing Channels</eng>
+        <loc>Routing Channels</loc>
       </Name>
       <GUID>ce8870b5-cb8e-4b52-ac34-5b792fdc2ead</GUID>
       <Glyph>
@@ -101,7 +101,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing.vi</Path>
+		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channels.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
