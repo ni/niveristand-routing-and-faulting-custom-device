@@ -48,6 +48,11 @@
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="UI Common" Type="Folder">
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Unit" Type="Folder">
+						<Item Name="UI Common Unit Tests.lvclass" Type="LVClass" URL="../../Shared/UI Common/Tests/Unit/UI Common Unit Tests/UI Common Unit Tests.lvclass"/>
+					</Item>
+				</Item>
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
 		</Item>
