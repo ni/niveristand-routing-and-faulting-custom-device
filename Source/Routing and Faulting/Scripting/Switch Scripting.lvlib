@@ -9,34 +9,38 @@
 </Property>
 	<Item Name="Alias" Type="Folder">
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
+		<Item Name="Get Alias Mappings.vi" Type="VI" URL="../Aliases/Get Alias Mappings.vi"/>
 		<Item Name="Get Alias.vi" Type="VI" URL="../Aliases/Get Alias.vi"/>
-		<Item Name="Get All Aliases.vi" Type="VI" URL="../Aliases/Get All Aliases.vi"/>
 		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
 		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Aliases/Remove All Aliases.vi"/>
+		<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Aliases/Update Alias Endpoint.vi"/>
 		<Item Name="Update Alias Name.vi" Type="VI" URL="../Aliases/Update Alias Name.vi"/>
-		<Item Name="Update Alias Pin.vi" Type="VI" URL="../Aliases/Update Alias Pin.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Scripting Constants.vi" Type="VI" URL="../Constants/Scripting Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Add Routing and Faulting Custom Device.vi"/>
-		<Item Name="Find Aliases and Routes.vi" Type="VI" URL="../Custom Device/Find Aliases and Routes.vi"/>
-		<Item Name="Find Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Custom Device by Name.vi"/>
 		<Item Name="Initialize Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Routing and Faulting Custom Device.vi"/>
-		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
+		<Item Name="Find Aliases and Routing Channels Sections.vi" Type="VI" URL="../Custom Device/Find Aliases and Routing Channels Sections.vi"/>
+		<Item Name="Find Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Find Routing and Faulting Custom Device.vi"/>
+		<Item Name="Remove Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Remove Routing and Faulting Custom Device.vi"/>
 	</Item>
 	<Item Name="Routing Channel" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Routing Channel/Set Channel Value Table.vi"/>
+			<Item Name="Set Routing Channel State-Value Table.vi" Type="VI" URL="../Routing Channel/Set Routing Channel State-Value Table.vi"/>
 		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
-		<Item Name="Get Channel Value Table.vi" Type="VI" URL="../Routing Channel/Get Channel Value Table.vi"/>
-		<Item Name="Get Routing Channel.vi" Type="VI" URL="../Routing Channel/Get Routing Channel.vi"/>
+		<Item Name="Get Routing Channel Configuration.vi" Type="VI" URL="../Routing Channel/Get Routing Channel Configuration.vi"/>
+		<Item Name="Get Routing Channel State-Value Table.vi" Type="VI" URL="../Routing Channel/Get Routing Channel State-Value Table.vi"/>
 		<Item Name="Remove Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel.vi"/>
-		<Item Name="Set Channel Default State.vi" Type="VI" URL="../Routing Channel/Set Channel Default State.vi"/>
-		<Item Name="Set Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Channel States and Connections.vi"/>
+		<Item Name="Set Routing Channel Initial State.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Initial State.vi"/>
+		<Item Name="Get Routing Channel Initial State.vi" Type="VI" URL="../Routing Channel/Get Routing Channel Initial State.vi"/>
+		<Item Name="Set Routing Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Routing Channel States and Connections.vi"/>
+		<Item Name="Get Routing Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Routing Channel States and Connections.vi"/>
 		<Item Name="Update Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Description.vi"/>
 		<Item Name="Update Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Name.vi"/>
 	</Item>
@@ -49,10 +53,9 @@
 		</Item>
 		<Item Name="Add Connection to State.vi" Type="VI" URL="../Routing Channel/Add Connection to State.vi"/>
 		<Item Name="Add State to Routing Channel.vi" Type="VI" URL="../Routing Channel/Add State to Routing Channel.vi"/>
-		<Item Name="Get Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Channel States and Connections.vi"/>
 		<Item Name="Get State from Routing Channel.vi" Type="VI" URL="../Routing Channel/Get State from Routing Channel.vi"/>
-		<Item Name="Remove Connection from State.vi" Type="VI" URL="../Routing Channel/Remove Connection from State.vi"/>
-		<Item Name="Remove State from Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove State from Routing Channel.vi"/>
+		<Item Name="Remove Routing Channel State.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel State.vi"/>
+		<Item Name="Remove State Connection.vi" Type="VI" URL="../Routing Channel/Remove State Connection.vi"/>
 		<Item Name="Update State Connections.vi" Type="VI" URL="../Routing Channel/Update State Connections.vi"/>
 		<Item Name="Update State Description.vi" Type="VI" URL="../Routing Channel/Update State Description.vi"/>
 		<Item Name="Update State Name.vi" Type="VI" URL="../Routing Channel/Update State Name.vi"/>
@@ -60,6 +63,8 @@
 	</Item>
 	<Item Name="Types" Type="Folder"/>
 	<Item Name="Utility" Type="Folder">
+		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
+		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="Construct Connection.vi" Type="VI" URL="../Routing Channel/Construct Connection.vi"/>
