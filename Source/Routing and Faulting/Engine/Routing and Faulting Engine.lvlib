@@ -13,8 +13,17 @@
 			<Item Name="Initialize Producer.vi" Type="VI" URL="../Initialize Producer.vi"/>
 			<Item Name="Initialize Routing and Faulting Engine.vi" Type="VI" URL="../Initialize Routing and Faulting Engine.vi"/>
 		</Item>
-		<Item Name="Run" Type="Folder"/>
-		<Item Name="Shut Down" Type="Folder"/>
+		<Item Name="Run" Type="Folder">
+			<Item Name="Engine Main.vi" Type="VI" URL="../Engine Main.vi"/>
+			<Item Name="Read Inputs.vi" Type="VI" URL="../Read Inputs.vi"/>
+			<Item Name="Send State Updates.vi" Type="VI" URL="../Send State Updates.vi"/>
+			<Item Name="Update Status Channels.vi" Type="VI" URL="../Update Status Channels.vi"/>
+			<Item Name="Write Outputs.vi" Type="VI" URL="../Write Outputs.vi"/>
+		</Item>
+		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Send Shutdown All.vi" Type="VI" URL="../Send Shutdown All.vi"/>
+			<Item Name="Shutdown Producer.vi" Type="VI" URL="../Shutdown Producer.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Item Name="Engine VI Template.vit" Type="VI" URL="../Engine VI Template.vit"/>
