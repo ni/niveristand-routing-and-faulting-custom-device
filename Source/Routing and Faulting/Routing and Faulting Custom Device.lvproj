@@ -70,7 +70,6 @@
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Custom Device Routing and Faulting.xml" Type="Document" URL="../Custom Device Routing and Faulting.xml"/>
-		<Item Name="Main Page Controls.ctl" Type="VI" URL="../System Explorer/Main Page Controls.ctl"/>
 		<Item Name="Routing and Faulting Engine.lvlib" Type="Library" URL="../Engine/Routing and Faulting Engine.lvlib"/>
 		<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="../Shared/Routing and Faulting Shared.lvlib"/>
 		<Item Name="Routing and Faulting System Explorer.lvlib" Type="Library" URL="../System Explorer/Routing and Faulting System Explorer.lvlib"/>

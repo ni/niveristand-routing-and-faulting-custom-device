@@ -8,12 +8,6 @@
 
 </Property>
 	<Item Name="System Explorer" Type="Folder">
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
-			<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
-			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
-			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
-		</Item>
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
@@ -36,9 +30,18 @@
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
+			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
+			<Item Name="Aliases Page Controls.ctl" Type="VI" URL="../Aliases Page Controls.ctl"/>
+			<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
+			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
+			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
+			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
+			<Item Name="Main Page Controls.ctl" Type="VI" URL="../Main Page Controls.ctl"/>
+		</Item>
 	</Item>
 </Library>

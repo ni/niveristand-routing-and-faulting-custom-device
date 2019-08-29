@@ -71,4 +71,5 @@
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 	</Item>
+	<Item Name="Add N Aliases.vi" Type="VI" URL="../Aliases/Add N Aliases.vi"/>
 </Library>
