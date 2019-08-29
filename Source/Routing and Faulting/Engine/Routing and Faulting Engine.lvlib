@@ -14,6 +14,7 @@
 			<Item Name="Initialize Routing and Faulting Engine.vi" Type="VI" URL="../Initialize Routing and Faulting Engine.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
+			<Item Name="Create Disconnect Messages.vi" Type="VI" URL="../Create Disconnect Messages.vi"/>
 			<Item Name="Engine Main.vi" Type="VI" URL="../Engine Main.vi"/>
 			<Item Name="Read Inputs.vi" Type="VI" URL="../Read Inputs.vi"/>
 			<Item Name="Send State Updates.vi" Type="VI" URL="../Send State Updates.vi"/>
@@ -33,6 +34,8 @@
 		<Item Name="Device Inputs.ctl" Type="VI" URL="../Device Inputs.ctl"/>
 		<Item Name="Device Outputs.ctl" Type="VI" URL="../Device Outputs.ctl"/>
 		<Item Name="Engine Data.ctl" Type="VI" URL="../Engine Data.ctl"/>
+		<Item Name="Producer Message.ctl" Type="VI" URL="../Producer Message.ctl"/>
 	</Item>
+	<Item Name="Create Connect Messages.vi" Type="VI" URL="../Create Connect Messages.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
