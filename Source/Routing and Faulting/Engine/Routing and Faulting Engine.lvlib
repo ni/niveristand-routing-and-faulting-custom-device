@@ -12,6 +12,8 @@
 			<Item Name="Initialize Channel Data.vi" Type="VI" URL="../Initialize Channel Data.vi"/>
 			<Item Name="Initialize Producer.vi" Type="VI" URL="../Initialize Producer.vi"/>
 			<Item Name="Initialize Routing and Faulting Engine.vi" Type="VI" URL="../Initialize Routing and Faulting Engine.vi"/>
+			<Item Name="Initialize State Data.vi" Type="VI" URL="../Initialize State Data.vi"/>
+			<Item Name="Update Initial States.vi" Type="VI" URL="../Update Initial States.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Create Connect Messages.vi" Type="VI" URL="../Create Connect Messages.vi"/>
@@ -19,6 +21,7 @@
 			<Item Name="Create State Messages.vi" Type="VI" URL="../Create State Messages.vi"/>
 			<Item Name="Engine Main.vi" Type="VI" URL="../Engine Main.vi"/>
 			<Item Name="Read Inputs.vi" Type="VI" URL="../Read Inputs.vi"/>
+			<Item Name="Reset State Data.vi" Type="VI" URL="../Reset State Data.vi"/>
 			<Item Name="Send Connect Messages.vi" Type="VI" URL="../Send Connect Messages.vi"/>
 			<Item Name="Send Disconnect Messages.vi" Type="VI" URL="../Send Disconnect Messages.vi"/>
 			<Item Name="Send Message Array.vi" Type="VI" URL="../Send Message Array.vi"/>
