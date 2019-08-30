@@ -22,8 +22,8 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Set Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Set Endpoint Configuration.vi"/>
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
-		<Item Name="Set All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Enpoint Configurations.vi"/>
-		<Item Name="Get All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Enpoint Configurations.vi"/>
+		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
+		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

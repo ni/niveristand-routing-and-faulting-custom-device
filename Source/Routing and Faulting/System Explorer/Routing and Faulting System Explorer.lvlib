@@ -31,6 +31,7 @@
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
+			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
