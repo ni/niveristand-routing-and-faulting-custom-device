@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../SubVIs/Get Endpoints from Switches JSON.vi"/>
+		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
 		<Item Name="Read Module Configuration.vi" Type="VI" URL="../SubVIs/Read Module Configuration.vi"/>
 	</Item>
 	<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
