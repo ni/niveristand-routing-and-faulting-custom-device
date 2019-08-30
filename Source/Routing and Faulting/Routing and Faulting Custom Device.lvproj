@@ -495,9 +495,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../../SLSC Switch/Scripting/SLSC Switch Scripting.lvlib"/>
-			<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="../../SLSC Switch/Shared/SLSC Switch Shared.lvlib"/>
-			<Item Name="SLSC Switch System Explorer.lvlib" Type="Library" URL="../../SLSC Switch/System Explorer/SLSC Switch System Explorer.lvlib"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>

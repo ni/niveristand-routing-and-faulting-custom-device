@@ -73,7 +73,6 @@
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
-    
 <Page>
       <Name>
         <eng>Aliases</eng>
@@ -102,6 +101,21 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channels.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Routing Channel</eng>
+        <loc>Routing Channel</loc>
+      </Name>
+      <GUID>7ecc8b72-3e89-41fd-aa1c-b993e8fe884f</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channel Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
