@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -58,7 +58,8 @@
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests/Routing and Faulting Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Compile Unit Tests/Routing and Faulting Compile Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder"/>
@@ -479,6 +480,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Endpoint.ctl" Type="VI" URL="../System Explorer/Endpoint.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
