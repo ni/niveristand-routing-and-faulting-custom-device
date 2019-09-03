@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Alias" Type="Folder">
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
+		<Item Name="Add N Aliases.vi" Type="VI" URL="../Aliases/Add N Aliases.vi"/>
 		<Item Name="Get Alias Mappings.vi" Type="VI" URL="../Aliases/Get Alias Mappings.vi"/>
 		<Item Name="Get Alias.vi" Type="VI" URL="../Aliases/Get Alias.vi"/>
 		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
@@ -71,5 +72,4 @@
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 	</Item>
-	<Item Name="Add N Aliases.vi" Type="VI" URL="../Aliases/Add N Aliases.vi"/>
 </Library>
