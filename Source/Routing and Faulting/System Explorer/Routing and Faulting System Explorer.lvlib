@@ -13,7 +13,7 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
-				<Item Name="Aliases.vi" Type="VI" URL="../Aliases.vi"/>
+				<Item Name="Aliases Page.vi" Type="VI" URL="../Aliases Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 				<Item Name="Routing Channels.vi" Type="VI" URL="../Routing Channels.vi"/>
 			</Item>
