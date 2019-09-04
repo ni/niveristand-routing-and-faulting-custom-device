@@ -48,6 +48,9 @@
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
 			<Item Name="Routing Channels Page Controls.ctl" Type="VI" URL="../Routing Channels Page Controls.ctl"/>
+			<Item Name="State Control.ctl" Type="VI" URL="../State Control.ctl"/>
+			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 </Library>
