@@ -16,6 +16,6 @@
 		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../SubVIs/Read Module NVMEM.vi"/>
 		<Item Name="SLSC Switch Offline Configuration Information.ctl" Type="VI" URL="../SubVIs/SLSC Switch Offline Configuration Information.ctl"/>
 	</Item>
-	<Item Name="Configure Module from Switches JSON.vi" Type="VI" URL="../Configure Module from Switches JSON.vi"/>
 	<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
+	<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
 </Library>
