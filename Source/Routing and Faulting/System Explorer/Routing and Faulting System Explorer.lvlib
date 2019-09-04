@@ -13,11 +13,10 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
-				<Item Name="Aliases.vi" Type="VI" URL="../Aliases.vi"/>
-				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
-				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Aliases Page.vi" Type="VI" URL="../Aliases Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
 				<Item Name="Routing Channels.vi" Type="VI" URL="../Routing Channels.vi"/>
 			</Item>
 			<Item Name="RTM" Type="Folder">
