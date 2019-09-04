@@ -16,6 +16,8 @@
 				<Item Name="Aliases.vi" Type="VI" URL="../Aliases.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
+				<Item Name="Aliases Page.vi" Type="VI" URL="../Aliases Page.vi"/>
+				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 				<Item Name="Routing Channels.vi" Type="VI" URL="../Routing Channels.vi"/>
 			</Item>
 			<Item Name="RTM" Type="Folder">
@@ -30,9 +32,9 @@
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
+			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
-			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Initialize Routing Channels Page.vi" Type="VI" URL="../Initialize Routing Channels Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
@@ -44,7 +46,6 @@
 			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
 			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
-			<Item Name="Main Page Controls.ctl" Type="VI" URL="../Main Page Controls.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
 			<Item Name="Routing Channels Page Controls.ctl" Type="VI" URL="../Routing Channels Page Controls.ctl"/>

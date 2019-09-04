@@ -14,6 +14,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
 		<Item Name="Find SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device.vi"/>
+		<Item Name="Find SLSC Switch Custom Device by Slot Number.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device by Slot Number.vi"/>
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
 		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
@@ -22,8 +23,8 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Set Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Set Endpoint Configuration.vi"/>
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
-		<Item Name="Set All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Enpoint Configurations.vi"/>
-		<Item Name="Get All Enpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Enpoint Configurations.vi"/>
+		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
+		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
