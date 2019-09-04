@@ -8,21 +8,19 @@
 
 </Property>
 	<Item Name="System Explorer" Type="Folder">
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
-			<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
-			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
-			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
-		</Item>
 		<Item Name="Dynamically Called" Type="Folder">
-			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Aliases.vi" Type="VI" URL="../Aliases.vi"/>
+			<Item Name="Actions" Type="Folder">
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			</Item>
+			<Item Name="Pages" Type="Folder">
+				<Item Name="Aliases Page.vi" Type="VI" URL="../Aliases Page.vi"/>
+				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 				<Item Name="Routing Channels.vi" Type="VI" URL="../Routing Channels.vi"/>
 			</Item>
-			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+			<Item Name="RTM" Type="Folder">
+				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
@@ -33,8 +31,16 @@
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
+			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
+			<Item Name="Aliases Page Controls.ctl" Type="VI" URL="../Aliases Page Controls.ctl"/>
+			<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
+			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
+			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
+			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
+		</Item>
 	</Item>
 </Library>
