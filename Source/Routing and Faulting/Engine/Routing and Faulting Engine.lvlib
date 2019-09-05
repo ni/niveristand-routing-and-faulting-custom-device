@@ -19,6 +19,10 @@
 			<Item Name="Create Connect Messages.vi" Type="VI" URL="../Create Connect Messages.vi"/>
 			<Item Name="Create Disconnect Messages.vi" Type="VI" URL="../Create Disconnect Messages.vi"/>
 			<Item Name="Engine Main.vi" Type="VI" URL="../Engine Main.vi"/>
+			<Item Name="Get Connect Messages for Connection Lists.vi" Type="VI" URL="../Get Connect Messages for Connection Lists.vi"/>
+			<Item Name="Get Connections for Inputs.vi" Type="VI" URL="../Get Connections for Inputs.vi"/>
+			<Item Name="Get Connections per Resource.vi" Type="VI" URL="../Get Connections per Resource.vi"/>
+			<Item Name="Get Queue Index for Resource.vi" Type="VI" URL="../Get Queue Index for Resource.vi"/>
 			<Item Name="Read Inputs.vi" Type="VI" URL="../Read Inputs.vi"/>
 			<Item Name="Reset State Data.vi" Type="VI" URL="../Reset State Data.vi"/>
 			<Item Name="Send Connect Messages.vi" Type="VI" URL="../Send Connect Messages.vi"/>
