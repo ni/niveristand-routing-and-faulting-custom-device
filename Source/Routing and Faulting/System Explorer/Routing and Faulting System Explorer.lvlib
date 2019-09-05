@@ -36,6 +36,8 @@
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
+			<Item Name="Initialize Routing Channel Page (Route Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (Route Configuration).vi"/>
+			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Initialize Routing Channels Page.vi" Type="VI" URL="../Initialize Routing Channels Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
