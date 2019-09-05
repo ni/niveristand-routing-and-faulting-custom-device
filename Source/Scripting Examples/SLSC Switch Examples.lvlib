@@ -8,11 +8,15 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../SubVIs/Configure SLSC Switch Custom Device.vi"/>
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../SubVIs/Filter Binary To Text.vi"/>
 		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../SubVIs/Get Endpoints from Switches JSON.vi"/>
 		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
+		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../SubVIs/Read Module Configuration from Switches JSON.vi"/>
 		<Item Name="Read Module Configuration.vi" Type="VI" URL="../SubVIs/Read Module Configuration.vi"/>
 		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../SubVIs/Read Module NVMEM.vi"/>
+		<Item Name="SLSC Switch Offline Configuration Information.ctl" Type="VI" URL="../SubVIs/SLSC Switch Offline Configuration Information.ctl"/>
 	</Item>
 	<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
+	<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
 </Library>
