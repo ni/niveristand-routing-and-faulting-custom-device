@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../SubVIs/Configure SLSC Switch Custom Device.vi"/>
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../SubVIs/Filter Binary To Text.vi"/>
 		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../SubVIs/Get Endpoints from Switches JSON.vi"/>
 		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
