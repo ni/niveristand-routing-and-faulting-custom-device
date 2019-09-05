@@ -30,6 +30,7 @@
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
+			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
@@ -42,8 +43,7 @@
 			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
 			<Item Name="Aliases Page Controls.ctl" Type="VI" URL="../Aliases Page Controls.ctl"/>
 			<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
-			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
-			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
+			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
@@ -52,5 +52,4 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 </Library>

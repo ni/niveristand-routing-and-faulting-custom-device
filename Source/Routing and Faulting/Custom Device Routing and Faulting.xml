@@ -73,6 +73,7 @@
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
+    
 <Page>
       <Name>
         <eng>Aliases</eng>
@@ -105,8 +106,8 @@
     </Page>
 <Page>
       <Name>
-        <eng>Routing Channel</eng>
-        <loc>Routing Channel</loc>
+        <eng>Routing Channel Page</eng>
+        <loc>Routing Channel Page</loc>
       </Name>
       <GUID>7ecc8b72-3e89-41fd-aa1c-b993e8fe884f</GUID>
       <Glyph>
