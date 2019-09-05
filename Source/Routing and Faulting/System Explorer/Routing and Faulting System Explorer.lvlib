@@ -34,6 +34,7 @@
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
+			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Initialize Routing Channels Page.vi" Type="VI" URL="../Initialize Routing Channels Page.vi"/>
