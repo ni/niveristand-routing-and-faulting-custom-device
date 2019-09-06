@@ -40,7 +40,6 @@
 			<Item Name="Initialize Routing Channel Page (Route Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (Route Configuration).vi"/>
 			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
-			<Item Name="Initialize Routing Channels Page.vi" Type="VI" URL="../Initialize Routing Channels Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
