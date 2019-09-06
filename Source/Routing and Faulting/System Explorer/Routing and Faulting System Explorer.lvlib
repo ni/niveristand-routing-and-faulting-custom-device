@@ -17,7 +17,7 @@
 				<Item Name="Aliases Page.vi" Type="VI" URL="../Aliases Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
-				<Item Name="Routing Channels.vi" Type="VI" URL="../Routing Channels.vi"/>
+				<Item Name="Routing Channels Page.vi" Type="VI" URL="../Routing Channels Page.vi"/>
 			</Item>
 			<Item Name="RTM" Type="Folder">
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
@@ -50,9 +50,9 @@
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
-			<Item Name="Routing Channels Page Controls.ctl" Type="VI" URL="../Routing Channels Page Controls.ctl"/>
 			<Item Name="State Control.ctl" Type="VI" URL="../State Control.ctl"/>
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 </Library>
