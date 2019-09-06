@@ -48,6 +48,7 @@
 			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
+			<Item Name="Routing Channel Initial Tab.ctl" Type="VI" URL="../Routing Channel Initial Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
 			<Item Name="State Control.ctl" Type="VI" URL="../State Control.ctl"/>
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
