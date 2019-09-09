@@ -16,6 +16,7 @@
 			<Item Name="Update Initial States.vi" Type="VI" URL="../Update Initial States.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
+			<Item Name="Compute Array Set Difference.vim" Type="VI" URL="../Compute Array Set Difference.vim"/>
 			<Item Name="Create Connect Messages.vi" Type="VI" URL="../Create Connect Messages.vi"/>
 			<Item Name="Create Disconnect Messages.vi" Type="VI" URL="../Create Disconnect Messages.vi"/>
 			<Item Name="Engine Main.vi" Type="VI" URL="../Engine Main.vi"/>
