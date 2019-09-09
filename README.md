@@ -1,6 +1,6 @@
-# GitHub Repo Template
+# Routing and Faulting Custom Device
 
-**Routing and Faulting Custom Device** allows user to configure routes and inject faults using SLSC Switch modules.
+The **Routing and Faulting Custom Device** allows users to configure routes and inject faults using SLSC Switch modules.
 
 ## LabVIEW Version
 
