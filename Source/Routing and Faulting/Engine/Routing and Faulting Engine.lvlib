@@ -13,7 +13,6 @@
 			<Item Name="Initialize Producer.vi" Type="VI" URL="../Initialize Producer.vi"/>
 			<Item Name="Initialize Routing and Faulting Engine.vi" Type="VI" URL="../Initialize Routing and Faulting Engine.vi"/>
 			<Item Name="Initialize State Data.vi" Type="VI" URL="../Initialize State Data.vi"/>
-			<Item Name="Update Initial States.vi" Type="VI" URL="../Update Initial States.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Compute Array Set Difference.vim" Type="VI" URL="../Compute Array Set Difference.vim"/>
