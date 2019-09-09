@@ -1,4 +1,4 @@
-Package: ni-routing-and-faulting-{veristand_version}-support
+Package: ni-routing-and-faulting-veristand-{veristand_version}-support
 Version: {nipkg_version}
 Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
