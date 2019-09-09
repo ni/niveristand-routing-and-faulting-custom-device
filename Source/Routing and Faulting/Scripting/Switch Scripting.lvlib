@@ -27,6 +27,7 @@
 		<Item Name="Find Aliases and Routing Channels Sections.vi" Type="VI" URL="../Custom Device/Find Aliases and Routing Channels Sections.vi"/>
 		<Item Name="Find Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Find Routing and Faulting Custom Device.vi"/>
 		<Item Name="Remove Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Remove Routing and Faulting Custom Device.vi"/>
+		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
 	</Item>
 	<Item Name="Routing Channel" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
