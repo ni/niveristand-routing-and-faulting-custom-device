@@ -13,9 +13,11 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Aliases Page.vi" Type="VI" URL="../Aliases Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
-				<Item Name="Routing Channels.vi" Type="VI" URL="../Routing Channels.vi"/>
+				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
+				<Item Name="Routing Channels Page.vi" Type="VI" URL="../Routing Channels Page.vi"/>
 			</Item>
 			<Item Name="RTM" Type="Folder">
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
@@ -28,20 +30,29 @@
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
+			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
+			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
 			<Item Name="Find All Accessible SLSC Switch CDs.vi" Type="VI" URL="../Find All Accessible SLSC Switch CDs.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
+			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
+			<Item Name="Initialize Routing Channel Page (Route Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (Route Configuration).vi"/>
+			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
+			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
 			<Item Name="Aliases Page Controls.ctl" Type="VI" URL="../Aliases Page Controls.ctl"/>
-			<Item Name="Aliases.ctl" Type="VI" URL="../Aliases.ctl"/>
-			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
-			<Item Name="Connections.ctl" Type="VI" URL="../Connections.ctl"/>
+			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
+			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
+			<Item Name="Routing Channel Initial Tab.ctl" Type="VI" URL="../Routing Channel Initial Tab.ctl"/>
+			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
+			<Item Name="State Control.ctl" Type="VI" URL="../State Control.ctl"/>
+			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
 </Library>
