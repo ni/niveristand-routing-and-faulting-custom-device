@@ -73,8 +73,7 @@
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
-    
-<Page>
+    <Page>
       <Name>
         <eng>Aliases</eng>
         <loc>Aliases</loc>
@@ -89,7 +88,7 @@
 		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Aliases Page.vi</Path>
       </Item2Launch>
     </Page>
-<Page>
+    <Page>
       <Name>
         <eng>Routing Channels</eng>
         <loc>Routing Channels</loc>
@@ -104,7 +103,7 @@
 		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channels Page.vi</Path>
       </Item2Launch>
     </Page>
-<Page>
+    <Page>
       <Name>
         <eng>Routing Channel Page</eng>
         <loc>Routing Channel Page</loc>
@@ -118,6 +117,30 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channel Page.vi</Path>
       </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>fafe2633-52e8-4be6-bb95-b07e42834d60</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\system variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>Absolute</Type>
+          <Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
+      </Item2Launch>
+      <Help>
+        <Item2Launch>
+          <Type>To Base</Type>
+            <Path>Veristand.chm\Custom_Devices_SE.html</Path>
+        </Item2Launch>
+        <FileType>chm</FileType>
+      </Help>
     </Page>
   </Pages>
   <CustomXML>
