@@ -90,6 +90,30 @@
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Endpoint Configuration Page.vi</Path>
       </Item2Launch>
     </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+          <loc>Status</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>80DE2635-1DC5-B67A-CA46-E31C1EC1F9C0</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\system variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>Absolute</Type>
+          <Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
+      </Item2Launch>
+      <Help>
+        <Item2Launch>
+          <Type>To Base</Type>
+            <Path>Veristand.chm\Custom_Devices_SE.html</Path>
+        </Item2Launch>
+        <FileType>chm</FileType>
+      </Help>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
