@@ -93,11 +93,11 @@
     <Page>
       <Name>
         <eng>Status</eng>
-          <loc>Status</loc>
+        <loc>Status</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
-      <GUID>80DE2635-1DC5-B67A-CA46-E31C1EC1F9C0</GUID>
+      <GUID>fafe2633-52e8-4be6-bb95-b07e42834d60</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
         <Path>System Explorer\Glyphs\system variable.png</Path>
