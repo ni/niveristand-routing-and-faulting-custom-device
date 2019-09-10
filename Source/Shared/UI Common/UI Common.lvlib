@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Add Array Rows.vi" Type="VI" URL="../Add Array Rows.vi"/>
 	<Item Name="Get Array Control Size.vi" Type="VI" URL="../Get Array Control Size.vi"/>
+	<Item Name="Handle Mouse Wheel.vi" Type="VI" URL="../Handle Mouse Wheel.vi"/>
 	<Item Name="Move Sort Label.vi" Type="VI" URL="../Move Sort Label.vi"/>
 	<Item Name="Prevent Overscroll.vi" Type="VI" URL="../Prevent Overscroll.vi"/>
 	<Item Name="Set Control Value.vi" Type="VI" URL="../Set Control Value.vi"/>
