@@ -10,6 +10,7 @@
 			<Item Name="Channel States.ctl" Type="VI" URL="../Channel States.ctl"/>
 			<Item Name="Channel with Value-Connections Map.ctl" Type="VI" URL="../Channel with Value-Connections Map.ctl"/>
 			<Item Name="Communication Configuration.ctl" Type="VI" URL="../Communication Configuration.ctl"/>
+			<Item Name="Compiled Connection.ctl" Type="VI" URL="../Compiled Connection.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
 			<Item Name="Connection.ctl" Type="VI" URL="../Connection.ctl"/>
 			<Item Name="FIFO Indices.ctl" Type="VI" URL="../FIFO Indices.ctl"/>
