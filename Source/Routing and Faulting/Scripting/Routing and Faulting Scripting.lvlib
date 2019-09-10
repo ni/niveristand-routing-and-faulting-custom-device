@@ -8,14 +8,15 @@
 
 </Property>
 	<Item Name="Alias" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
 		<Item Name="Add N Aliases.vi" Type="VI" URL="../Aliases/Add N Aliases.vi"/>
 		<Item Name="Get Alias Mappings.vi" Type="VI" URL="../Aliases/Get Alias Mappings.vi"/>
 		<Item Name="Get Alias.vi" Type="VI" URL="../Aliases/Get Alias.vi"/>
+		<Item Name="Rename Alias.vi" Type="VI" URL="../Aliases/Rename Alias.vi"/>
+		<Item Name="Set Alias Endpoint.vi" Type="VI" URL="../Aliases/Set Alias Endpoint.vi"/>
 		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
 		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Aliases/Remove All Aliases.vi"/>
-		<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Aliases/Update Alias Endpoint.vi"/>
-		<Item Name="Update Alias Name.vi" Type="VI" URL="../Aliases/Update Alias Name.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Scripting Constants.vi" Type="VI" URL="../Constants/Scripting Constants.vi"/>
@@ -41,10 +42,10 @@
 		<Item Name="Remove Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel.vi"/>
 		<Item Name="Set Routing Channel Initial State.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Initial State.vi"/>
 		<Item Name="Get Routing Channel Initial State.vi" Type="VI" URL="../Routing Channel/Get Routing Channel Initial State.vi"/>
-		<Item Name="Set Routing Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Set Routing Channel States and Connections.vi"/>
-		<Item Name="Get Routing Channel States and Connections.vi" Type="VI" URL="../Routing Channel/Get Routing Channel States and Connections.vi"/>
-		<Item Name="Update Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Description.vi"/>
-		<Item Name="Update Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Update Routing Channel Name.vi"/>
+		<Item Name="Set Routing Channel State Configurations.vi" Type="VI" URL="../Routing Channel/Set Routing Channel State Configurations.vi"/>
+		<Item Name="Get Routing Channel State Configurations.vi" Type="VI" URL="../Routing Channel/Get Routing Channel State Configurations.vi"/>
+		<Item Name="Set Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Description.vi"/>
+		<Item Name="Set Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Name.vi"/>
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
 		<Item Name="private" Type="Folder">
@@ -58,10 +59,10 @@
 		<Item Name="Get State from Routing Channel.vi" Type="VI" URL="../Routing Channel/Get State from Routing Channel.vi"/>
 		<Item Name="Remove Routing Channel State.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel State.vi"/>
 		<Item Name="Remove State Connection.vi" Type="VI" URL="../Routing Channel/Remove State Connection.vi"/>
-		<Item Name="Update State Connections.vi" Type="VI" URL="../Routing Channel/Update State Connections.vi"/>
-		<Item Name="Update State Description.vi" Type="VI" URL="../Routing Channel/Update State Description.vi"/>
-		<Item Name="Update State Name.vi" Type="VI" URL="../Routing Channel/Update State Name.vi"/>
-		<Item Name="Update State Value.vi" Type="VI" URL="../Routing Channel/Update State Value.vi"/>
+		<Item Name="Rename State.vi" Type="VI" URL="../Routing Channel/Rename State.vi"/>
+		<Item Name="Set State Connections.vi" Type="VI" URL="../Routing Channel/Set State Connections.vi"/>
+		<Item Name="Set State Description.vi" Type="VI" URL="../Routing Channel/Set State Description.vi"/>
+		<Item Name="Set State Value.vi" Type="VI" URL="../Routing Channel/Set State Value.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder"/>
 	<Item Name="Utility" Type="Folder">
