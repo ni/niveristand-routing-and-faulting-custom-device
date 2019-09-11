@@ -28,6 +28,7 @@
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
+			<Item Name="Compile Connection.vi" Type="VI" URL="../Compile Connection.vi"/>
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
@@ -42,6 +43,7 @@
 			<Item Name="Initialize Routing Channel Page (State-Value Table).vi" Type="VI" URL="../Initialize Routing Channel Page (State-Value Table).vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Normalize Connection String.vi" Type="VI" URL="../Normalize Connection String.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
