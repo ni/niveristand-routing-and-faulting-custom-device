@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*M!!!*Q(C=\:5RDB."%%8`)!+ED8Q$Z*SI4L#3%S!BM52+5PG3/*X1!5*)E*4%"&gt;&lt;%2,Z#"13EPI+P-,TJ+8M(!8,##I,N&gt;IV\@H6608?XWF*L4[4('C[VKWL4=(T-R+O:@`J-8\`TFWO9;&lt;`%NY*`C'`_?PTML[$B.$KF/POH155/M`(6X9]K&gt;8).*]K\_&amp;HZ'=8F_B?;(NJ$_\?NPXB)\`X-&gt;BIP)CSRQ"QTD;7'2%`U2%`U2%`U1!`U1!`U1!^U2X&gt;U2X&gt;U2X&gt;U1T&gt;U1T&gt;U1T@UVN'&amp;,H3BAZ154QIF3:-%S721F$Q3HI1HY5FY?&amp;8#E`!E0!F0QM-5*4Q*4]+4]#1]B#HB38A3HI1HY3&amp;6)]H7U?&amp;*?%CPA#@A#8A#HI#(EAJY!I#A7*!Y3!+'!G=Q#(A#HI#(I1+?A#@A#8A#(NQ+?!+?A#@A#8A);;M3D7&lt;M[0#12A[0Q_0Q/$Q/$[HF]$A]$I`$Y`"14A[0Q_.!/!7&gt;Z#$)#8)G/#]/D]0$FRQ?B]@B=8A=(FRNB\SNT%AT&gt;H2Y$"[$R_!R?!Q?5MDA-8A-(I0(Y#'N$"[$R_!R?!Q?3MHA-8A-(A0%+%JZ'=G-1'/3)2A]@.JJM&lt;:,U5CM&gt;;E/L_J1KA[&lt;[B#J$I&gt;KUV7&lt;K&gt;IEV?+L&amp;F7V7+J&amp;50UY&amp;&lt;1+2F6%&amp;4R/V*(H!&gt;ND/WS,&lt;&lt;!VNM+7W')-`=M4D]?D$I?$^PO^&gt;LO&gt;NNON.JO.VOOV6KO6FMOF&amp;IP&amp;_2JY3D^@#./^V.^]\PLH(\L_\?OO@`GN[V_][NZ`P,X:@H^W`?\LFT@&lt;4\@8Y`M^`:@_"X?D(GG?FT8[!5A0G"-!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
@@ -21,6 +21,7 @@
 			<Item Name="Get Connections for Inputs.vi" Type="VI" URL="../Get Connections for Inputs.vi"/>
 			<Item Name="Get Connections per Resource.vi" Type="VI" URL="../Get Connections per Resource.vi"/>
 			<Item Name="Get Messages for Connection Lists.vi" Type="VI" URL="../Get Messages for Connection Lists.vi"/>
+			<Item Name="Get State Value Index.vi" Type="VI" URL="../Get State Value Index.vi"/>
 			<Item Name="Read Inputs.vi" Type="VI" URL="../Read Inputs.vi"/>
 			<Item Name="Reset State Data.vi" Type="VI" URL="../Reset State Data.vi"/>
 			<Item Name="Send Message Array.vi" Type="VI" URL="../Send Message Array.vi"/>
