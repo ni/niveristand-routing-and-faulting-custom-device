@@ -1223,6 +1223,232 @@
 					<Description />
 					<Properties />
 					<Errors />
+					<Section Name="Routing and Faulting Custom Device" TypeGUID="4e591626-626d-4903-9a6e-1f2a7b879f4d">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Loop type">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Use Dev Clk">
+								<Boolean>false</Boolean>
+							</Property>
+							<Property Name="Decimation">
+								<I32>1</I32>
+							</Property>
+							<Property Name="FIFO Source">
+								<U32>1</U32>
+							</Property>
+							<Property Name="FIFO Sink">
+								<U32>1</U32>
+							</Property>
+							<Property Name="TL Priority">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\PharLap\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Windows\Routing and Faulting Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Aliases" TypeGUID="58f3342d-82ee-4932-869a-6f49da3049e5">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="Routing Channels" TypeGUID="ce8870b5-cb8e-4b52-ac34-5b792fdc2ead">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Window Up" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>Window-Up Sensor State</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+											<Elem Key="Passthrough">
+												<Double>1</Double>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<Double>2</Double>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<Double>3</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+											<Elem Key="Passthrough">
+												<StringArray>
+													<Elem>SLSC-12001-0314B282-Mod2/DUT_Ch0,SLSC-12001-0314B282-Mod2/LOAD_Ch0</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<StringArray>
+													<Elem>SLSC-12001-0314B282-Mod2/DUT_Ch0,SLSC-12001-0314B282-Mod2/BusA</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<StringArray>
+													<Elem>SLSC-12001-0314B282-Mod2/DUT_Ch0,SLSC-12001-0314B282-Mod2/BusB</Elem>
+												</StringArray>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String>no connections</String>
+											</Elem>
+											<Elem Key="Passthrough">
+												<String>sensor connected</String>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<String>sensor faulted to ground</String>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<String>sensor faulted to power</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>-1</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Window Down" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>Window-Up Sensor State</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+											<Elem Key="Passthrough">
+												<Double>1</Double>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<Double>2</Double>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<Double>3</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+											<Elem Key="Passthrough">
+												<StringArray>
+													<Elem>SLSC-12001-0314B282-Mod2/DUT_Ch1,SLSC-12001-0314B282-Mod2/LOAD_Ch1</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<StringArray>
+													<Elem>SLSC-12001-0314B282-Mod2/DUT_Ch1,SLSC-12001-0314B282-Mod2/BusA</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<StringArray>
+													<Elem>SLSC-12001-0314B282-Mod2/DUT_Ch1,SLSC-12001-0314B282-Mod2/BusB</Elem>
+												</StringArray>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String>no connections</String>
+											</Elem>
+											<Elem Key="Passthrough">
+												<String>sensor connected</String>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<String>sensor faulted to ground</String>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<String>sensor faulted to power</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>-1</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Status Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+					</Section>
 				</Section>
 				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
 					<Description />
