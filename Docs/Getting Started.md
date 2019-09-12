@@ -1,8 +1,8 @@
 ## Overview
 
-Many HIL test systems require hardware fault injection to simulate faults between the ECU and the rest of the system. The **Routing and Faulting Custom Device** enables users to inject faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for the SLSC Switch routing modules.
+Many HIL test systems require hardware fault injection to simulate faults between the ECU and the rest of the system. The **Routing and Faulting Custom Device** injects faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for the SLSC Switch routing modules.
 
-The routing module acts as a gate between the ECU and the I/O. A common configuration in a fault injection application is a "fault bus topology" where you short each channel to one or more buses.
+The routing module acts as a gate between the ECU and the I/O. A common configuration in a fault injection application is a "fault bus topology" where endpoints are shorted to one or more buses.
 
 | States | Description | Diagram |
 |---|---|---|
@@ -19,7 +19,11 @@ The **SLSC Switch Custom Device** is a VeriStand add-on that supports SLSC routi
 * [SLSC-12252](https://www.ni.com/en-us/support/model.slsc-12252.html)
 * [SET-2010](https://www.smart-e-tech.de/en/products/signal-conditioning-with-slsc/set-slsc-cards/set-2010-routing-card/)
 
-The **SLSC Switch Custom Device** enumerates all available endpoints for a routing module. A user can set the configuration for each endpoint. The SLSC Switch driver uses the endpoint configuration to determine which connections are allowed.
+SLSC Switch routing modules are displayed in the VeriStand System Explorer under _Targets >> Controller >> Hardware >> SLSC >> SLSC Chassis >> Modules >> Slot (n)_.
+
+![SLSC Switch System Explorer](SLSC%20Switch%20System%20Explorer.png)
+
+The **SLSC Switch Custom Device** enumerates all available endpoints for a routing module. Set the configuration for each endpoint to inform the SLSC Switch driver which endpoints are valid to connect.
 
 | Configuration | Description |
 |---|---|
@@ -27,13 +31,25 @@ The **SLSC Switch Custom Device** enumerates all available endpoints for a routi
 | Source | A source endpoint is restricted and cannot be connected to another source endpoint. |
 | Configuration | A configuration endpoint is reserved for internal routing and cannot be used directly. |
 
-SLSC Switch routing modules are displayed in the VeriStand System Explorer under _Targets >> Controller >> Hardware >> SLSC >> SLSC Chassis >> Modules >> Slot (n)_
-
-![SLSC Switch System Explorer](SLSC%20Switch%20System%20Explorer.png)
+```NOTE: Configure the SLSC Switch Custom Device before configuring the Routing and Faulting Custom Device.```
 
 ## Routing and Faulting Custom Device
 
-The **Routing and Faulting Custom Device** is a VeriStand add-on that defines and controls routes.
+The **Routing and Faulting Custom Device** is a VeriStand add-on that configures aliases and routing channels. By default no routing channels are added. Add routing channels for each collection of connections to be controlled.
+
+Routing Channels are displayed in the VeriStand System Explorer under _Targets >> Controller >> Custom Devices >> Routing and Faulting >> Routing Channels_.
+
+![Routing and Faulting System Explorer](Routing%20and%20Faulting%20System%20Explorer.png)
+
+Each routing channel contains one or more states. Common states for a fault injection application include _Passthrough_, _Open Circuit_, _Short to Ground_, _Short to Power_, and _Pin-to-Pin Short_. By default the _Open Circuit_ state is added. Add additional states to match the requirements of the fault injection application.
+
+Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default no connections are added. Add connections to establish connections between the ECU and the I/O. 
+
+```NOTE: A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to chain a signal over multiple routing modules.```
+
+Bind a ring control on a VeriStand screen to a routing channel to set the current state. Set the current state to change the active connections between the ECU and the I/O. Existing connections from the previous state are disconnected before new connections from the current state are connected. Connections that remain unchanged from the previous state to the current state do not glitch.
+
+![UI Manager](UI%20Manager.png)
 
 ## Scripting API
 
@@ -41,19 +57,19 @@ The **Routing and Faulting Custom Device** is a VeriStand add-on that defines an
 
 ## Glossary
 
-**alias**   An alias defines an alternate name for an endpoint for improved readability. A user typically aliases endpoints to match their DUT pins or I/O.
+**alias**   An alias is an alternate name for an endpoint for improved readability. Alias endpoints to match application DUT pins or I/O.
 
-**connection**   A connection consists of a source and destination endpoint on a routing module. The routing module closes one or more switches to establish a connection. The routing module opens one or more switch to break a connection.
+**connection**   A connection consists of a source and destination endpoint on a routing module. The routing module closes one or more switches to establish a connection. The routing module opens one or more switches to break a connection.
 
 **ECU**   Electronic control unit.
 
-**endpoint**   An endpoint defines a source or destination pin on a routing module. A user typically connects their DUT pins or I/O to endpoints. In NI Switch or NI SLSC Switch this is also known as a channel.
+**endpoint**   An endpoint is a source or destination pin on a routing module. A typical application connects the DUT pins or I/O to endpoints. In NI Switch or NI SLSC Switch this is also known as a channel.
 
 **HIL**   Hardware in the loop.
 
-**routing channel**   A VeriStand routing channel consists of one or more potential states and a current state. The current state determines which connections are active. A user can set the current state by binding a ring control to a VeriStand routing channel.
+**routing channel**   A VeriStand routing channel consists of one or more potential states and a current state. The current state determines which connections are active. 
 
-**state**   Each state consists of zero or more connections. The Scripting API creates a single state with no connections for the initial state by default. A user can add additional states to a routing channel.
+**state**   Each state consists of zero or more connections. The Scripting API creates a single state with no connections for the initial state by default.
 
 ## References
 
