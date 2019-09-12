@@ -1,6 +1,6 @@
 ## Overview
 
-Many HIL test systems require hardware fault injection to simulate faults between the ECU and the rest of the system. The **Routing and Faulting Custom Device** injects faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for the SLSC Switch routing modules.
+Many HIL test systems require hardware fault injection to simulate faults between the ECU and the rest of the system. The **Routing and Faulting Custom Device** injects faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for SLSC Switch routing modules.
 
 The routing module acts as a gate between the ECU and the I/O. A common configuration in a fault injection application is a "fault bus topology" where endpoints are shorted to one or more buses.
 
@@ -43,9 +43,7 @@ Routing Channels are displayed in the VeriStand System Explorer under _Targets >
 
 Each routing channel contains one or more states. Common states for a fault injection application include _Passthrough_, _Open Circuit_, _Short to Ground_, _Short to Power_, and _Pin-to-Pin Short_. By default the _Open Circuit_ state is added. Add additional states to match the requirements of the fault injection application.
 
-Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default no connections are added. Add connections to establish connections between the ECU and the I/O. 
-
-```NOTE: A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to chain a signal over multiple routing modules.```
+Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default no connections are added. Add connections to establish connections between the ECU and the I/O. A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to connect a signal spanning multiple routing modules.
 
 Bind a ring control on a VeriStand screen to a routing channel to set the current state. Set the current state to change the active connections between the ECU and the I/O. Existing connections from the previous state are disconnected before new connections from the current state are connected. Connections that remain unchanged from the previous state to the current state do not glitch.
 
