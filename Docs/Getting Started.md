@@ -29,7 +29,7 @@ The **SLSC Switch Custom Device** enumerates all available endpoints for a routi
 
 SLSC Switch routing modules are displayed in the VeriStand System Explorer under _Targets >> Controller >> Hardware >> SLSC >> SLSC Chassis >> Modules >> Slot (n)_
 
-![SLSC Switch System Explorer](SLSC Switch System Explorer.png)
+![SLSC Switch System Explorer](SLSC%20Switch%20System%20Explorer.png)
 
 ## Routing and Faulting Custom Device
 
