@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,6 +14,7 @@
 		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
 		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
 		<Item Name="Configure Routing and Faulting Custom Device.vi" Type="VI" URL="../Configure Routing and Faulting Custom Device.vi"/>
+		<Item Name="Add States to Routing and Faulting Custom Device.vi" Type="VI" URL="../Add States to Routing and Faulting Custom Device.vi"/>
 		<Item Name="SLSC Switch Examples.lvlib" Type="Library" URL="../SLSC Switch Examples.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
