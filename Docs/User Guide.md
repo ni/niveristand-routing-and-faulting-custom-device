@@ -51,7 +51,19 @@ Bind a ring control on a VeriStand screen to a routing channel to set the curren
 
 ## Scripting API
 
-## (EAR) Workflow
+The **Scripting API** use LabVIEW VIs to configure modules, endpoints, aliases, and routing channels in a VeriStand system definition file.
+
+Note: The **SLSC Switch Custom Device** must be assigned to a slot in the **SLSC Chassis Custom Device** before running the example. The **SLSC Chassis Custom Device** is displayed in the VeriStand System Explorer under _Targets >> Controller >> Hardware >> SLSC >> SLSC Chassis_.
+
+Open the scripting examples on disk from `Source/Scripting Examples/Scripting Examples.lvproj`. Run `Configure Modules from Hardware.vi` to configure one or more SLSC Switch routing modules in the system definition file. 
+
+![Configure Modules from Hardware](Configure%20Modules%20From%20Hardware.png)
+
+Run `Configure Routing and Faulting Custom Device.vi` to add routing channels, states, and connections. The example adds two routing channels named _Window Up_ and _Window Down_. Both routing channels have possible states of _No Connections_, _Passthrough_, _Short to Ground_, _Short to Power_, and _Open Circuit_. The _Window Up_ routing channel connects the _DUT_Ch0_ endpoint to the fault buses. The _Window Down_ routing channel connects the _DUT_Ch1_ endpoint to the fault buses.
+
+![Configure Routing and Faulting Custom Device](Configure%20Routing%20and%20Faulting%20Custom%20Device.png)
+
+Open the scripted system definition file in VeriStand to review the configuration or deploy the project.
 
 ## Glossary
 
