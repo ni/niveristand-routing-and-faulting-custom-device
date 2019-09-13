@@ -10,13 +10,13 @@
 				<String>Base with SLSC Switch CD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.1</String>
+				<String>1.0.0.2</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3651161303.0329037</Double>
+				<Double>3651228421.5467181</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -198,7 +198,12 @@
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="Slot 1 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+								<Section Name="Slot 1 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 2 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
 										<Property Name="CD Status">
@@ -259,7 +264,7 @@
 											<String />
 										</Property>
 										<Property Name="user.CD.Slot #">
-											<I32>1</I32>
+											<I32>2</I32>
 										</Property>
 									</Properties>
 									<Errors />
@@ -268,7 +273,7 @@
 										<Properties />
 										<Errors />
 									</Section>
-									<Section Name="Status" TypeGUID="80DE2635-1DC5-B67A-CA46-E31C1EC1F9C0">
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
 										<Description />
 										<Properties />
 										<Errors />
@@ -289,11 +294,6 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-								</Section>
-								<Section Name="Slot 2 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
 								</Section>
 								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />
