@@ -68,6 +68,47 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>2a3edf58-aeb2-4789-ad55-6f00881aaea8</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Export Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Export</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\export.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>2a3edf58-aeb2-4789-ad55-6f00881aaea8</ReferencedGUID>
+          <ButtonText>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Export a configuration for this custom device.</eng>
+            <loc>Export a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>
