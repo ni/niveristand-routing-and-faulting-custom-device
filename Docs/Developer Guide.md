@@ -6,8 +6,33 @@ The **Routing and Faulting Custom Device** and **SLSC Switch Custom Device** use
 
 ![Switch Messages](Switch%20Messages.png)
 
-The producer/consumer design pattern is implemented in the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library). The **Custom Device Message Library** uses named message queues to send requests and receive responses. The **Custom Device Message Library** defines base classes for the producer, consumer, and messages. It also defines derived classes for switch consumer and switch messages. The [SLSC Switch Message Library](https://github.com/ni/niveristand-slsc-switch-message-library) overrides the switch consumer classes and calls into the **SLSC Switch API** to connect and disconnect endpoints.
+The producer/consumer design pattern is implemented in the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library). The **Custom Device Message Library** uses named message queues to send requests and receive responses. The **Custom Device Message Library** defines base classes for the producer, consumer, and messages. It also defines derived classes for switch consumer and switch messages. The [SLSC Switch Message Library](https://github.com/ni/niveristand-slsc-switch-message-library) overrides the switch consumer class and calls into the **SLSC Switch API** to connect and disconnect endpoints.
+
+![Class Diagram](Class%20Diagram.png)
 
 ## Adding New Hardware Support
+
+The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. The **Routing and Faulting Custom Device** is designed to support additional hardware with minimal effort. Override the abstract switch consumer class and implement the following hardware specific methods:
+
+| Method Name | Description |
+|---|---|
+| Initialize with Switch Parameters Core | Open a hardware session using the switch parameters. The switch parameters include the resource name and topology. |
+| Connect | Connect the specified endpoints. |
+| Disconnect | Disconnect the specified endpoints. |
+| Disconnect All | Disconnect all connected endpoints. |
+| Shutdown Core | Reset the hardware state and close the hardware session. |
+
+Create a hardware specific custom device based on the asynchronous template with the following properties in the system explorer:
+
+| Property Name | Type | Description |
+|---|---|---|
+| SwitchVersion | Integer | Gets the read-only switch version, e.g. 1. The version determines which properties are supported. |
+| Model | String | Gets the read-only model name, e.g. "SLSC-12251". |
+| Resource | String | Gets the read-only hardware specific resource name, e.g. "slsc-12001-0314b282-Mod2". The resource name is compiled during deployement and sent to the engine. |
+| Topology | String | Gets and sets the hardware specific topology, e.g. "NI12251_topology". The topology is compiled during deployment and sent to the engine. Assign an empty string if the hardware does not support multiple topologies.|
+
+Compile the required properties (and any hardware specific properties) during the OnCompile Action VI. Initialize the hardware specific switch consumer in the engine and execute all incoming messages. Shut down the consumer if an error occurs or if VeriStand sends the Shut Down message.
+
+![RT Driver VI](RT%20Driver%20VI.png)
 
 ## System Definition Compile
