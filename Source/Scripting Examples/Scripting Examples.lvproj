@@ -14,11 +14,11 @@
 		<Item Name="System Definition Files" Type="Folder">
 			<Item Name="Base with SLSC Switch CD.nivssdf" Type="Document" URL="../System Defintion Files/Base with SLSC Switch CD.nivssdf"/>
 		</Item>
-		<Item Name="SLSC Switch Examples.lvlib" Type="Library" URL="../SLSC Switch Examples.lvlib"/>
 		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
 		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
 		<Item Name="Configure Routing and Faulting Custom Device.vi" Type="VI" URL="../Configure Routing and Faulting Custom Device.vi"/>
 		<Item Name="Add States to Routing and Faulting Custom Device.vi" Type="VI" URL="../Add States to Routing and Faulting Custom Device.vi"/>
+		<Item Name="SLSC Switch Examples.lvlib" Type="Library" URL="../SLSC Switch Examples.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
