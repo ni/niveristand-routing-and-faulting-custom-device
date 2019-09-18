@@ -60,7 +60,7 @@
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests/Routing and Faulting Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Compile Unit Tests/Routing and Faulting Compile Unit Tests.lvclass"/>
-				<Item Name="Routing and Faulting Import Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Import Export Unit Tests/Routing and Faulting Import Export Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Import Unit Tests/Routing and Faulting Import Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder"/>
