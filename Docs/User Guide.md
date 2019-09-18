@@ -1,16 +1,16 @@
 ## Overview
 
-Many HIL test systems require hardware fault injection to simulate faults between the ECU and the rest of the system. The **Routing and Faulting Custom Device** injects faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for SLSC Switch routing modules.
+Many HIL test systems require hardware fault injection to simulate faults between the DUT and the rest of the system. The **Routing and Faulting Custom Device** injects faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for SLSC Switch routing modules.
 
-The routing module acts as a gate between the ECU and the I/O. A common configuration in a fault injection application is a "fault bus topology" where endpoints are shorted to one or more buses.
+The routing module acts as a gate between the DUT and the I/O. A common configuration in a fault injection application is a "fault bus topology" where endpoints are shorted to one or more buses.
 
 | States | Description | Diagram |
 |---|---|---|
-| Passthrough | The ECU and the I/O are connected without fault. This is the default mode of operation. | ![Passthrough](https://ni.scene7.com/is/image/ni/wraiiira5591242785034529104?scl=1) |
-| Open Circuit | The ECU and the I/O are not connected simulating an open circuit. | ![Open Circuit](https://ni.scene7.com/is/image/ni/lrknfeim3638940521012328059?scl=1)|
-| Short to Ground | The ECU and the system ground are connected simulating a short to ground. | ![Short to Ground](https://ni.scene7.com/is/image/ni/yijyimpy803861224648293470?scl=1) |
-| Short to Power | The ECU and the system power are connected simulating a short to power. | ![Short to Power](https://ni.scene7.com/is/image/ni/yijyimpy803861224648293470?scl=1) |
-| Pin-to-Pin Short | Two or more ECU pins are connected together simulating a pin-to-pin short. | ![Pin-to-pin short](https://ni.scene7.com/is/image/ni/bbkmcugz4974244261650505563?scl=1) |
+| Passthrough | The DUT and the I/O are connected without fault. This is the default mode of operation. | ![Passthrough](https://ni.scene7.com/is/image/ni/wraiiira5591242785034529104?scl=1) |
+| Open Circuit | The DUT and the I/O are not connected simulating an open circuit. | ![Open Circuit](https://ni.scene7.com/is/image/ni/lrknfeim3638940521012328059?scl=1)|
+| Short to Ground | The DUT and the system ground are connected simulating a short to ground. | ![Short to Ground](https://ni.scene7.com/is/image/ni/yijyimpy803861224648293470?scl=1) |
+| Short to Power | The DUT and the system power are connected simulating a short to power. | ![Short to Power](https://ni.scene7.com/is/image/ni/yijyimpy803861224648293470?scl=1) |
+| Pin-to-Pin Short | Two or more DUT pins are connected together simulating a pin-to-pin short. | ![Pin-to-pin short](https://ni.scene7.com/is/image/ni/bbkmcugz4974244261650505563?scl=1) |
 
 ## SLSC Switch Custom Device
 
@@ -31,7 +31,7 @@ The **SLSC Switch Custom Device** enumerates all available endpoints for a routi
 | Source | A source endpoint is restricted and cannot be connected to another source endpoint. |
 | Configuration | A configuration endpoint is reserved for internal routing and cannot be used directly. |
 
-```NOTE: Configure the SLSC Switch Custom Device before configuring the Routing and Faulting Custom Device.```
+_NOTE: Configure the SLSC Switch Custom Device before configuring the Routing and Faulting Custom Device._
 
 ## Routing and Faulting Custom Device
 
@@ -43,17 +43,17 @@ Routing Channels are displayed in the VeriStand System Explorer under _Targets >
 
 Each routing channel contains one or more states. Common states for a fault injection application include _Passthrough_, _Open Circuit_, _Short to Ground_, _Short to Power_, and _Pin-to-Pin Short_. By default the _Open Circuit_ state is added. Add additional states to match the requirements of the fault injection application.
 
-Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default no connections are added. Add connections to establish connections between the ECU and the I/O. A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to connect a signal spanning multiple routing modules.
+Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default no connections are added. Add connections to establish connections between the DUT and the I/O. A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to connect a signal spanning multiple routing modules.
 
-Bind a ring control on a VeriStand screen to a routing channel to set the current state. Set the current state to change the active connections between the ECU and the I/O. Existing connections from the previous state are disconnected before new connections from the current state are connected. Connections that remain unchanged from the previous state to the current state do not glitch.
+Bind a ring control on a VeriStand screen to a routing channel to set the current state. Set the current state to change the active connections between the DUT and the I/O. Existing connections from the previous state are disconnected before new connections from the current state are connected. Connections that remain unchanged from the previous state to the current state do not glitch.
 
 ![UI Manager](UI%20Manager.png)
 
 ## Scripting API
 
-The **Scripting API** use LabVIEW VIs to configure modules, endpoints, aliases, and routing channels in a VeriStand system definition file.
+The **Scripting API** uses LabVIEW VIs to configure modules, endpoints, aliases, and routing channels in a VeriStand system definition file.
 
-Note: The **SLSC Switch Custom Device** must be assigned to a slot in the **SLSC Chassis Custom Device** before running the example. The **SLSC Chassis Custom Device** is displayed in the VeriStand System Explorer under _Targets >> Controller >> Hardware >> SLSC >> SLSC Chassis_.
+_Note: The **SLSC Switch Custom Device** must be assigned to a slot in the **SLSC Chassis Custom Device** before running the example. The **SLSC Chassis Custom Device** is displayed in the VeriStand System Explorer under Targets >> Controller >> Hardware >> SLSC >> SLSC Chassis._
 
 Open the scripting examples on disk from `Source/Scripting Examples/Scripting Examples.lvproj`. Run `Configure Modules from Hardware.vi` to configure one or more SLSC Switch routing modules in the system definition file. 
 
@@ -71,7 +71,7 @@ Open the scripted system definition file in VeriStand to review the configuratio
 
 **connection**   A connection consists of a source and destination endpoint on a routing module. The routing module closes one or more switches to establish a connection. The routing module opens one or more switches to break a connection.
 
-**ECU**   Electronic control unit.
+**DUT**   The device under test (DUT) is the hardware being tested for faults. The DUT may be an electronic control unit (ECU) or a line-replaceable unit (LRU).
 
 **endpoint**   An endpoint is a source or destination pin on a routing module. A typical application connects the DUT pins or I/O to endpoints. In NI Switch or NI SLSC Switch this is also known as a channel.
 
