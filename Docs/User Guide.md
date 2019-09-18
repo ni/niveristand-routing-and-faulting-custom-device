@@ -1,6 +1,6 @@
 ## Overview
 
-Many HIL test systems require hardware fault injection to simulate faults between the DUT and the rest of the system. The **Routing and Faulting Custom Device** injects faults using routing modules. The **SLSC Switch Custom Device** provides hardware support for SLSC Switch routing modules.
+Many HIL test systems require hardware fault injection to simulate faults between the DUT and the rest of the system. The **Routing and Faulting Custom Device** injects faults using switching and fault insertion modules.. The **SLSC Switch Custom Device** provides hardware support for SLSC Switch routing modules.
 
 The routing module acts as a gate between the DUT and the I/O. A common configuration in a fault injection application is a "fault bus topology" where endpoints are shorted to one or more buses.
 
@@ -29,7 +29,7 @@ The **SLSC Switch Custom Device** enumerates all available endpoints for a routi
 |---|---|
 | Load | A load endpoint is unrestricted and can be connected to other load and source endpoints. This is the default configuration for an endpoint. |
 | Source | A source endpoint is restricted and cannot be connected to another source endpoint. |
-| Configuration | A configuration endpoint is reserved for internal routing and cannot be used directly. |
+| Configuration | A configuration endpoint is reserved by the hardware for internal routing and cannot be used directly. |
 
 _NOTE: Configure the SLSC Switch Custom Device before configuring the Routing and Faulting Custom Device._
 
@@ -41,7 +41,7 @@ Routing Channels are displayed in the VeriStand System Explorer under _Targets >
 
 ![Routing and Faulting System Explorer](Routing%20and%20Faulting%20System%20Explorer.png)
 
-Each routing channel contains one or more states. Common states for a fault injection application include _Passthrough_, _Open Circuit_, _Short to Ground_, _Short to Power_, and _Pin-to-Pin Short_. By default the _Open Circuit_ state is added. Add additional states to match the requirements of the fault injection application.
+Each routing channel contains one or more states that are user-defined. Common states for a fault injection application include _Passthrough_, _Open Circuit_, _Short to Ground_, _Short to Power_, and _Pin-to-Pin Short_. By default the _Open Circuit_ state is added. Add additional states to match the requirements of the fault injection application.
 
 Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default no connections are added. Add connections to establish connections between the DUT and the I/O. A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to connect a signal spanning multiple routing modules.
 
@@ -86,3 +86,5 @@ Open the scripted system definition file in VeriStand to review the configuratio
 [Using Fault Insertion Units (FIUs) for Electronic Testing](http://www.ni.com/en-us/innovations/white-papers/09/using-fault-insertion-units--fius--for-electronic-testing.html)
 
 [Save Time and Maximize Reuse in HIL Testing with the SLSC Extension for PXI and CompactRIO](https://www.ni.com/en-us/innovations/white-papers/18/save-time-and-maximize-reuse-in-hil-testing-with-the-slsc-extens.html)
+
+[Using the SLSC-12251/2 Fault Insertion and Current Sensing Unit](https://www.ni.com/en-us/innovations/white-papers/19/using-the-slsc-12251-2-fault-insertion-and-current-sensing-unit.html)
