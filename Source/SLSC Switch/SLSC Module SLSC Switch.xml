@@ -82,8 +82,8 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>f35fa8c0-605e-4a68-bbe7-65ff21f249ff</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Switch_Endpoint_Configuration.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
