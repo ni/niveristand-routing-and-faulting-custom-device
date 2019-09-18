@@ -59,7 +59,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Routing and Faulting Create Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Create Messages Unit Tests/Routing and Faulting Create Messages Unit Tests.lvclass"/>
-            <Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests/Routing and Faulting Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests/Routing and Faulting Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Compile Unit Tests/Routing and Faulting Compile Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Import Unit Tests/Routing and Faulting Import Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Export Unit Tests/Routing and Faulting Export Unit Tests.lvclass"/>
