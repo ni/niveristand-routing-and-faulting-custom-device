@@ -20,5 +20,7 @@
 			<Item Name="Value-Connections Map.ctl" Type="VI" URL="../Value-Connections Map.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="Convert State Value to Integer.vi" Type="VI" URL="../Convert State Value to Integer.vi"/>
+		<Item Name="Get State Value Index.vi" Type="VI" URL="../Get State Value Index.vi"/>
 	</Item>
 </Library>
