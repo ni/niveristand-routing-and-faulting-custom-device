@@ -117,7 +117,21 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
+payload_dir = 'Source\Built\Routing and Faulting Scripting API'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\NI VeriStand\Custom Device Scripting APIs\Routing and Faulting'
+control_file = 'control_routing_faulting_scripting'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
 payload_dir = 'Source\Built\SLSC Switch'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\SLSC Plugins\Modules\SLSC Switch'
 control_file = 'control_slsc_switch'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\SLSC Switch Scripting API'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\NI VeriStand\Custom Device Scripting APIs\SLSC Switch'
+control_file = 'control_slsc_switch_scripting'
 package_output_dir = 'Source\Built'
