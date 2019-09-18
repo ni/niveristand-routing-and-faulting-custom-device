@@ -36,3 +36,12 @@ Compile the required properties (and any hardware specific properties) during th
 ![RT Driver VI](RT%20Driver%20VI.png)
 
 ## System Definition Compile
+
+VeriStand compiles the system definition file before deploying the engine. The **Routing and Faulting Custom Device** compiles the routing channels into several lookup tables to optimize string manipulation in the engine. 
+
+![Compiled Routing and Faulting Configuration](Compiled%20Routing%20and%20Faulting.png)
+
+The list of connections consist of an array state values and compiled connection indices. Each compiled connection index refers to an entry in the compiled connections. Each compiled connection contains a communication configuration index and connection string. Each communication configuration index refers to an entry in the communication configuration. In the example below the producer will perform and index lookup and send connect message to consumer queue name "Path/To/Switch" with a connection list of "A->B,C-D".
+
+![Connection Lookup](Connection%20Lookup.png)
+
