@@ -22,7 +22,7 @@ The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. Th
 | Disconnect All | Disconnect all connected endpoints. |
 | Shutdown Core | Reset the hardware state and close the hardware session. |
 
-Create a hardware specific custom device based on the asynchronous template with the following properties in the system explorer:
+Create a hardware specific custom device based on the asynchronous or inline asynchronous template. Avoid the inline hardware template as it may adversely affect loop rates of the application. Add the following properties to the system definition:
 
 | Property Name | Type | Description |
 |---|---|---|
@@ -41,7 +41,7 @@ VeriStand compiles the system definition file before deploying the engine. The *
 
 ![Compiled Routing and Faulting Configuration](Compiled%20Routing%20and%20Faulting.png)
 
-The list of connections consist of an array state values and compiled connection indices. Each compiled connection index refers to an entry in the compiled connections. Each compiled connection contains a communication configuration index and connection string. Each communication configuration index refers to an entry in the communication configuration. In the example below the producer will perform and index lookup and send connect message to consumer queue name "Path/To/Switch" with a connection list of "A->B,C-D".
+The list of connections consists of an array state values and compiled connection indices. Each compiled connection index refers to an entry in the compiled connections. Each compiled connection contains a communication configuration index and connection string. Each communication configuration index refers to an entry in the communication configuration. In the example below, the producer will perform and index lookup and send connect message to consumer queue name "Path/To/Switch" with a connection list of "A->B,C-D".
 
 ![Connection Lookup](Connection%20Lookup.png)
 
