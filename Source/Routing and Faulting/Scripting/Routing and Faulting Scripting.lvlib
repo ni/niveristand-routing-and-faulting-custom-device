@@ -37,6 +37,8 @@
 			<Item Name="Set Routing Channel State-Value Table.vi" Type="VI" URL="../Routing Channel/Set Routing Channel State-Value Table.vi"/>
 		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
+		<Item Name="Get All Routing Channel Ref IDs.vi" Type="VI" URL="../Routing Channel/Get All Routing Channel Ref IDs.vi"/>
+		<Item Name="Get Routing Channel by Name.vi" Type="VI" URL="../Routing Channel/Get Routing Channel by Name.vi"/>
 		<Item Name="Get Routing Channel Configuration.vi" Type="VI" URL="../Routing Channel/Get Routing Channel Configuration.vi"/>
 		<Item Name="Get Routing Channel State-Value Table.vi" Type="VI" URL="../Routing Channel/Get Routing Channel State-Value Table.vi"/>
 		<Item Name="Remove Routing Channel.vi" Type="VI" URL="../Routing Channel/Remove Routing Channel.vi"/>
