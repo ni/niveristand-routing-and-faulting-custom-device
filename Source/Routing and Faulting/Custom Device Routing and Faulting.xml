@@ -121,8 +121,8 @@
       </Name>
       <GUID>58f3342d-82ee-4932-869a-6f49da3049e5</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\alias section.png</Path>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Glyphs\alias page.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
