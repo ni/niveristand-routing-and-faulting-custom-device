@@ -1,6 +1,6 @@
 # Routing and Faulting Custom Device
 
-The **Routing and Faulting Custom Device** allows users to configure routes and inject faults using SLSC Switch modules.
+The **Routing and Faulting Custom Device** allows users to configure routes and inject faults using SLSC Switch and Fault Insertion modules.
 
 ## LabVIEW Version
 
