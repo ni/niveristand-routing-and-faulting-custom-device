@@ -66,6 +66,8 @@
 				<Item Name="Routing and Faulting Create Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Create Messages Unit Tests/Routing and Faulting Create Messages Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Unit Tests/Routing and Faulting Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Compile Unit Tests/Routing and Faulting Compile Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Import Unit Tests/Routing and Faulting Import Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Export Unit Tests/Routing and Faulting Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder"/>
@@ -478,6 +480,7 @@
 				<Item Name="Type Descriptor__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
 				<Item Name="Variant to Header Info__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Variant to Header Info__ogtk__jki_vi_tester.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
