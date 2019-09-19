@@ -60,10 +60,10 @@
         <loc>Routing and Faulting</loc>
       </Name>
       <GUID>4e591626-626d-4903-9a6e-1f2a7b879f4d</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Routing and Faulting\Windows\Glyphs\routing and faulting page.png</Path>
-			</Glyph>
+            <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Routing and Faulting\Windows\Glyphs\routing and faulting page.png</Path>
+            </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Main Page.vi</Path>
@@ -163,7 +163,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Aliases Page.vi</Path>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Aliases Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -178,7 +178,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channels Page.vi</Path>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channels Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -193,7 +193,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channel Page.vi</Path>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channel Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
