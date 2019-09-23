@@ -70,7 +70,10 @@
 				<Item Name="Routing and Faulting Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Export Unit Tests/Routing and Faulting Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
-				<Item Name="Assets" Type="Folder"/>
+				<Item Name="Assets" Type="Folder">
+					<Item Name="Deploy_RaF_System.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System.nivssdf"/>
+					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
+				</Item>
 				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
 		</Item>
