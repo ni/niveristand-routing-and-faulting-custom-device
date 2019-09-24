@@ -10,7 +10,7 @@
 				<String>Export Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.4</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -634,10 +634,10 @@
 								<Property Name="user.CD.changedAlias">
 									<String>changedPin</String>
 								</Property>
-                        <Property Name="user.CD.newAlias">
+								<Property Name="user.CD.newAlias">
 									<String>newPin</String>
 								</Property>
-                        <Property Name="user.CD.importedAlias">
+								<Property Name="user.CD.importedAlias">
 									<String>importedPin</String>
 								</Property>
 							</Properties>
