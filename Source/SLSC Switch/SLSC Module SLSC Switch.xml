@@ -68,6 +68,84 @@
         <Type>To Common Doc Dir</Type>
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Import Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>0c13aec2-2566-4502-b1d9-3350c1bc585f</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Export Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Import</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\import.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</ReferencedGUID>
+          <ButtonText>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import a configuration for this custom device.</eng>
+            <loc>Import a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>Export</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\export.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>0c13aec2-2566-4502-b1d9-3350c1bc585f</ReferencedGUID>
+          <ButtonText>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Export a configuration for this custom device.</eng>
+            <loc>Export a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\ActionVIOnCompile.vi</Path>

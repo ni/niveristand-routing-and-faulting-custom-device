@@ -13,11 +13,27 @@
 		<Item Name="Sort Button.ctl" Type="VI" URL="../Sort Button.ctl"/>
 	</Item>
 	<Item Name="Add Array Rows.vi" Type="VI" URL="../Add Array Rows.vi"/>
+	<Item Name="Finish Array Merge.vi" Type="VI" URL="../Finish Array Merge.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Get Array Control Size.vi" Type="VI" URL="../Get Array Control Size.vi"/>
 	<Item Name="Handle Mouse Wheel.vi" Type="VI" URL="../Handle Mouse Wheel.vi"/>
+	<Item Name="Is Numeric.vi" Type="VI" URL="../Is Numeric.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Merge.vi" Type="VI" URL="../Merge.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Move Sort Label.vi" Type="VI" URL="../Move Sort Label.vi"/>
+	<Item Name="Natural String Comparison.vi" Type="VI" URL="../Natural String Comparison.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Natural String Merge Sort.vi" Type="VI" URL="../Natural String Merge Sort.vi"/>
 	<Item Name="Set Control Value.vi" Type="VI" URL="../Set Control Value.vi"/>
 	<Item Name="Sort Array by Key Array.vim" Type="VI" URL="../Sort Array by Key Array.vim"/>
 	<Item Name="Sort Array of Clusters.vim" Type="VI" URL="../Sort Array of Clusters.vim"/>
+	<Item Name="Split String by Numbers.vi" Type="VI" URL="../Split String by Numbers.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Try Remove Array Element.vim" Type="VI" URL="../Try Remove Array Element.vim"/>
 </Library>
