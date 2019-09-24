@@ -14,6 +14,14 @@
 		<Item Name="System Definition Files" Type="Folder">
 			<Item Name="Base with SLSC Switch CD.nivssdf" Type="Document" URL="../System Defintion Files/Base with SLSC Switch CD.nivssdf"/>
 		</Item>
+		<Item Name="vi.lib" Type="Folder">
+			<Item Name="Routing and Faulting" Type="Folder" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SLSC Switch" Type="Folder" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
 		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
 		<Item Name="Configure Routing and Faulting Custom Device.vi" Type="VI" URL="../Configure Routing and Faulting Custom Device.vi"/>
@@ -71,10 +79,6 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Routing and Faulting Scripting.lvlib" Type="Library" URL="../../Routing and Faulting/Scripting/Routing and Faulting Scripting.lvlib"/>
-			<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="../../Routing and Faulting/Shared/Routing and Faulting Shared.lvlib"/>
-			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../../SLSC Switch/Scripting/SLSC Switch Scripting.lvlib"/>
-			<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="../../SLSC Switch/Shared/SLSC Switch Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
