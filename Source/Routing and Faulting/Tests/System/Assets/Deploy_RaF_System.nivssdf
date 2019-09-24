@@ -10,7 +10,7 @@
 				<String>Deploy_RaF_System</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.4</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -191,9 +191,6 @@
 								</Property>
 								<Property Name="Password">
 									<String />
-								</Property>
-								<Property Name="Chassis ID Type">
-									<I32>1</I32>
 								</Property>
 							</Properties>
 							<Errors />
