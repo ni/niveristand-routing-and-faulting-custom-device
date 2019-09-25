@@ -27,6 +27,11 @@
 		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
 		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
 	</Item>
+	<Item Name="Palettes" Type="Folder">
+		<Item Name="_CustomDevice.mnu" Type="Document" URL="../Palettes/_CustomDevice.mnu"/>
+		<Item Name="_Endpoints.mnu" Type="Document" URL="../Palettes/_Endpoints.mnu"/>
+		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
+	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Set All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Set All SLSC Switch Properties.vi"/>

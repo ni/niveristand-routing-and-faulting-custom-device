@@ -767,8 +767,10 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{75D12AC9-7BC0-425E-AD96-E54D2019CF94}</Property>
+				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Routing and Faulting Scripting API</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F5FA2773-9A4E-419D-82B0-8230E36E322B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib</Property>
@@ -783,7 +785,29 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Routing and Faulting Engine.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/_Aliases.mnu</Property>
+				<Property Name="Source[5].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/_CustomDevice.mnu</Property>
+				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/_RoutingChannels.mnu</Property>
+				<Property Name="Source[7].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/_States.mnu</Property>
+				<Property Name="Source[8].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/dir.mnu</Property>
+				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
