@@ -53,7 +53,7 @@ Each routing channel contains one or more user-defined states. Common states for
 
 Each state contains a collection of connections. Each connection consists of a source and destination endpoint on a routing module. By default, no connections are added. Add connections to establish connections between the DUT and the I/O. A single connection cannot span multiple routing modules. Define multiple connections, one for each routing module, to connect a signal spanning multiple routing modules.
 
-Map a ring control on a VeriStand screen to a routing channel to set the current state. Set the current state to change the active connections between the DUT and the I/O. Existing connections from the previous state are disconnected before new connections from the current state are connected. Connections that remain unchanged from the previous state to the current state do not create an error.
+Map a ring control on a VeriStand screen to a routing channel to set the current state. Set the current state to change the active connections between the DUT and the I/O. Existing connections from the previous state are disconnected before new connections from the current state are connected. Connections that remain unchanged from the previous state to the current state do not glitch.
 
 The following image displays how to configure a ring control on the VeriStand Editor.
 

@@ -6,13 +6,13 @@ The **Routing and Faulting Custom Device** and **SLSC Switch Custom Device** use
 
 The **Routing and Faulting Custom Device** is the producer, which monitors changes to VeriStand routing channels and sends disconnect/connect messages to the corresponding consumers.
 
-Multiple **SLSC Switch Custom Devices** act as the consumers, which receive the messages and call into underlying hardware to disconnect/connect endpoints. Existing endpoints are disconnected before new endpoints are connected. Connections that remain unchanged do not create an error.
+Multiple **SLSC Switch Custom Devices** act as the consumers, which receive the messages and call into underlying hardware to disconnect/connect endpoints. Existing endpoints are disconnected before new endpoints are connected. Connections that remain unchanged do not glitch.
 
 The following diagram illustrates the pattern for these devices.
 
 ![Switch Messages](Switch%20Messages.png)
 
-The producer/consumer design pattern is also implemented in the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library). The **Custom Device Message Library** uses named message queues to send requests and receive responses. The library defines base classes for the producer, consumer, and messages. It also defines derived classes for switch consumer and switch messages.
+The producer/consumer design pattern is implemented in the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library). The **Custom Device Message Library** uses named message queues to send requests and receive responses. The library defines base classes for the producer, consumer, and messages. It also defines derived classes for switch consumer and switch messages.
 
 The [SLSC Switch Message Library](https://github.com/ni/niveristand-slsc-switch-message-library) overrides the switch consumer class and calls into the **SLSC Switch API** to connect and disconnect endpoints.
 
@@ -22,7 +22,7 @@ The following diagram illustrates the pattern for these libraries.
 
 ## Adding New Hardware Support
 
-The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. The device is designed to support additional hardware with minimal effort.
+The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. The Custom Device is designed to support additional hardware with minimal effort.
 
 1. Override the abstract switch consumer class and implement the following hardware specific methods:
 
