@@ -11,8 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="System Definition Files" Type="Folder">
-			<Item Name="Base with SLSC Switch CD.nivssdf" Type="Document" URL="../System Defintion Files/Base with SLSC Switch CD.nivssdf"/>
+		<Item Name="System Definition Files" Type="Folder" URL="../System Definition Files">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="vi.lib" Type="Folder">
 			<Item Name="Routing and Faulting" Type="Folder" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting">
