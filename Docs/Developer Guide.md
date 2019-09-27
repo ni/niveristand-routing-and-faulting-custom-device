@@ -10,7 +10,7 @@ Multiple **SLSC Switch Custom Devices** act as the consumers, which receive the 
 
 The following diagram illustrates the pattern for these devices.
 
-![Switch Messages](Support\Switch%20Messages.png)
+![Switch Messages](Support/Switch%20Messages.png)
 
 The producer/consumer design pattern is implemented in the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library). The **Custom Device Message Library** uses named message queues to send requests and receive responses. The library defines base classes for the producer, consumer, and messages. It also defines derived classes for switch consumer and switch messages.
 
@@ -18,7 +18,7 @@ The [SLSC Switch Message Library](https://github.com/ni/niveristand-slsc-switch-
 
 The following diagram illustrates the pattern for these libraries.
 
-![Class Diagram](Support\Class%20Diagram.png)
+![Class Diagram](Support/Class%20Diagram.png)
 
 ## Adding New Hardware Support
 
@@ -55,7 +55,7 @@ The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. Th
 
   The following image displays how the VI processes the message.
 
-  ![RT Driver VI](Support\RT%20Driver%20VI.png)
+  ![RT Driver VI](Support/RT%20Driver%20VI.png)
 
 ## System Definition Compile
 
@@ -63,7 +63,7 @@ VeriStand compiles the system definition file before deploying the engine. The *
 
 The following diagram illustrates how these lookup tables are arranged.
 
-![Compiled Routing and Faulting Configuration](Support\Compiled%20Routing%20and%20Faulting.png)
+![Compiled Routing and Faulting Configuration](Support/Compiled%20Routing%20and%20Faulting.png)
 
 The list of connections consists of an array of state values and compiled connection indices:
 * Each compiled connection index refers to an entry in the compiled connections.
@@ -72,4 +72,4 @@ The list of connections consists of an array of state values and compiled connec
 
 In the example below, the producer will perform and index lookup and send connect message to consumer queue name "Path/To/Switch" with a connection list of "A->B, C-D".
 
-![Connection Lookup](Support\Connection%20Lookup.png)
+![Connection Lookup](Support/Connection%20Lookup.png)
