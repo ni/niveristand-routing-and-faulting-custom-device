@@ -2300,11 +2300,11 @@
 								</Properties>
 								<Errors />
 								<DefaultValue>
-									<Elem>1</Elem>
+									<Elem>-1</Elem>
 								</DefaultValue>
 							</Channel>
 							<Channel Name="Window Down" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Window-Down Sensor State</Description>
+								<Description>Window-Up Sensor State</Description>
 								<Properties>
 									<Property Name="Value Table">
 										<Dictionary>
@@ -2372,7 +2372,7 @@
 								</Properties>
 								<Errors />
 								<DefaultValue>
-									<Elem>3</Elem>
+									<Elem>-1</Elem>
 								</DefaultValue>
 							</Channel>
 						</Section>

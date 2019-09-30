@@ -76,6 +76,7 @@
 					<Item Name="Deploy_RaF_System_NO_RAF.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_NO_RAF.nivssdf"/>
 					<Item Name="Deploy_SLSC_Switch_RaF_System.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_SLSC_Switch_RaF_System.nivssdf"/>
 					<Item Name="Deploy_RaF_System_Initial_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_Initial_States.nivssdf"/>
+					<Item Name="Deploy_RaF_System_States_Rich.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_States_Rich.nivssdf"/>
 				</Item>
 				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
