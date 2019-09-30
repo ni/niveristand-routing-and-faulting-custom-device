@@ -153,9 +153,11 @@
     </Page>
     <Page>
       <Name>
-        <eng>Aliases</eng>
-        <loc>Aliases</loc>
+        <eng>Endpoint Aliases</eng>
+        <loc>Endpoint Aliases</loc>
       </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>58f3342d-82ee-4932-869a-6f49da3049e5</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
@@ -171,6 +173,8 @@
         <eng>Routing Channels</eng>
         <loc>Routing Channels</loc>
       </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>ce8870b5-cb8e-4b52-ac34-5b792fdc2ead</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>

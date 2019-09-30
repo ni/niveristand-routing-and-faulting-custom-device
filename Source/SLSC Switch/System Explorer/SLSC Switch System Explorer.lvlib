@@ -15,6 +15,7 @@
 			</Item>
 			<Item Name="RTM" Type="Folder">
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
@@ -27,6 +28,7 @@
 			<Item Name="Initialize Endpoint Configuration Page.vi" Type="VI" URL="../Initialize Endpoint Configuration Page.vi"/>
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Redraw Event FGV.vi" Type="VI" URL="../Redraw Event FGV.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>

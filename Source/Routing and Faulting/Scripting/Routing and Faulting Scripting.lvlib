@@ -30,6 +30,13 @@
 		<Item Name="Remove Alias.vi" Type="VI" URL="../Aliases/Remove Alias.vi"/>
 		<Item Name="Remove All Aliases.vi" Type="VI" URL="../Aliases/Remove All Aliases.vi"/>
 	</Item>
+	<Item Name="Palettes" Type="Folder">
+		<Item Name="_Aliases.mnu" Type="Document" URL="../Palettes/_Aliases.mnu"/>
+		<Item Name="_CustomDevice.mnu" Type="Document" URL="../Palettes/_CustomDevice.mnu"/>
+		<Item Name="_RoutingChannels.mnu" Type="Document" URL="../Palettes/_RoutingChannels.mnu"/>
+		<Item Name="_States.mnu" Type="Document" URL="../Palettes/_States.mnu"/>
+		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
+	</Item>
 	<Item Name="Routing Channel" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="private" Type="Folder">

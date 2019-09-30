@@ -10,7 +10,7 @@
 				<String>Export Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.4</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -628,16 +628,16 @@
 							</Property>
 						</Properties>
 						<Errors />
-						<Section Name="Aliases" TypeGUID="58f3342d-82ee-4932-869a-6f49da3049e5">
+						<Section Name="Endpoint Aliases" TypeGUID="58f3342d-82ee-4932-869a-6f49da3049e5">
 							<Description />
 							<Properties>
 								<Property Name="user.CD.changedAlias">
 									<String>changedPin</String>
 								</Property>
-                        <Property Name="user.CD.newAlias">
+								<Property Name="user.CD.newAlias">
 									<String>newPin</String>
 								</Property>
-                        <Property Name="user.CD.importedAlias">
+								<Property Name="user.CD.importedAlias">
 									<String>importedPin</String>
 								</Property>
 							</Properties>
