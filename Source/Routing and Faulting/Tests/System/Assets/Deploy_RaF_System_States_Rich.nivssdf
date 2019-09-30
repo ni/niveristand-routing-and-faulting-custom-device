@@ -3,20 +3,20 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Deploy_RaF_System_States" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Two SLSC ATS" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Deploy_RaF_System_States</String>
+				<String>Two SLSC ATS</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.8</String>
+				<String>1.0.0.1</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3651228421.5467181</Double>
+				<Double>3652702062.5795445</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -31,7 +31,7 @@
 						<String>Windows</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String />
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -55,7 +55,7 @@
 						<Boolean>false</Boolean>
 					</Property>
 					<Property Name="Engine Rate">
-						<Double>101</Double>
+						<Double>100</Double>
 					</Property>
 					<Property Name="TL timeout">
 						<Double>120</Double>
@@ -97,9 +97,6 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
-						<U16>0</U16>
-					</Property>
-					<Property Name="Timing Source Settings">
 						<U16>0</U16>
 					</Property>
 				</Properties>
@@ -181,7 +178,7 @@
 						<Properties />
 						<Errors />
 						<Section Name="SLSC Chassis" TypeGUID="2d230194-1f79-4241-ad00-e5b0a0d634cb">
-							<Description />
+							<Description>SLSC Chassis - Eco System ATS</Description>
 							<Properties>
 								<Property Name="Chassis Type">
 									<String>SLSC-12001</String>
@@ -1973,10 +1970,952 @@
 										</Channel>
 									</Section>
 								</Section>
-								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+								<Section Name="Slot 3 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
-									<Properties />
+									<Properties>
+										<Property Name="CD Status">
+											<U32>1</U32>
+										</Property>
+										<Property Name="Driver VI Exec Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="Driver VI Path_0">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Windows</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Version">
+											<String>1.0.0</String>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String>SLSC-12252</String>
+										</Property>
+										<Property Name="user.CD.Resource">
+											<String>SLSC-12001-0317E1AA-Mod3</String>
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String>NI12252_topology</String>
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String>{
+   "switchesSpecVersion": 1,
+   "switchesSpecOldestCompatibleVersion": 1,
+   "relays": [
+      {
+            "name": "Ch0",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_0",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch1",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_1",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch2",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_2",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch3",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_3",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch4",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_4",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch5",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_5",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch6",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_6",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch7",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "Channel_7",
+                  "value": "NI.FIU.Preset.Load"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch0_Ch1",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "ChannelPair_0",
+                  "value": "NI.FIU.Preset.InterChannel"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch2_Ch3",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "ChannelPair_1",
+                  "value": "NI.FIU.Preset.InterChannel"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch4_Ch5",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "ChannelPair_2",
+                  "value": "NI.FIU.Preset.InterChannel"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      },
+      {
+            "name": "Ch6_Ch7",
+            "actions": [
+               {
+                  "type": "property",
+                  "resource": "ChannelPair_3",
+                  "value": "NI.FIU.Preset.InterChannel"
+               },
+               {
+                  "type": "command",
+                  "resource": "",
+                  "value": "NI.FIU.Update"
+               }
+            ]
+      }
+   ],
+   "multiStateRelays": [
+      {
+            "name": "Ch0_Bus",
+            "relays": [
+               {
+                  "name": "Ch0_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_0",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch0_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_0",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch1_Bus",
+            "relays": [
+               {
+                  "name": "Ch1_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_1",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch1_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_1",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch2_Bus",
+            "relays": [
+               {
+                  "name": "Ch2_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_2",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch2_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_2",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch3_Bus",
+            "relays": [
+               {
+                  "name": "Ch3_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_3",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch3_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_3",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch4_Bus",
+            "relays": [
+               {
+                  "name": "Ch4_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_4",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch4_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_4",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch5_Bus",
+            "relays": [
+               {
+                  "name": "Ch5_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_5",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch5_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_5",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch6_Bus",
+            "relays": [
+               {
+                  "name": "Ch6_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_6",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch6_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_6",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      },
+      {
+            "name": "Ch7_Bus",
+            "relays": [
+               {
+                  "name": "Ch7_BusA",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_7",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 1
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               },
+               {
+                  "name": "Ch7_BusB",
+                  "actions": [
+                        {
+                           "type": "property",
+                           "resource": "Channel_7",
+                           "value": "NI.FIU.Preset.BusSource",
+                           "close": 2
+                        },
+                        {
+                           "type": "command",
+                           "resource": "",
+                           "value": "NI.FIU.Update"
+                        }
+                  ]
+               }
+            ]
+      }
+   ],
+   "topologies": [
+      {
+         "name": "NI12252_topology",
+         "initialState": {
+            "open": [
+               "Ch0",
+               "Ch0_BusA",
+               "Ch0_BusB",
+               "Ch1",
+               "Ch1_BusA",
+               "Ch1_BusB",
+               "Ch2",
+               "Ch2_BusA",
+               "Ch2_BusB",
+               "Ch3",
+               "Ch3_BusA",
+               "Ch3_BusB",
+               "Ch4",
+               "Ch4_BusA",
+               "Ch4_BusB",
+               "Ch5",
+               "Ch5_BusA",
+               "Ch5_BusB",
+               "Ch6",
+               "Ch6_BusA",
+               "Ch6_BusB",
+               "Ch7",
+               "Ch7_BusA",
+               "Ch7_BusB",
+               "Ch0_Ch1",
+               "Ch2_Ch3",
+               "Ch4_Ch5",
+               "Ch6_Ch7"
+            ],
+            "close": [
+            ]
+         },
+         "channelList": {
+            "names": [
+               "DUT_Ch0",
+               "LOAD_Ch0",
+               "DUT_Ch1",
+               "LOAD_Ch1",
+               "DUT_Ch2",
+               "LOAD_Ch2",
+               "DUT_Ch3",
+               "LOAD_Ch3",
+               "DUT_Ch4",
+               "LOAD_Ch4",
+               "DUT_Ch5",
+               "LOAD_Ch5",
+               "DUT_Ch6",
+               "LOAD_Ch6",
+               "DUT_Ch7",
+               "LOAD_Ch7",
+               "BusA",
+               "BusB"
+            ]
+         },
+         "connectionList": [
+            {
+               "src": "DUT_Ch0",
+               "dest": "LOAD_Ch0",
+               "relays": [
+                     "Ch0"
+               ]
+            },
+            {
+               "src": "DUT_Ch0",
+               "dest": "BusA",
+               "relays": [
+                     "Ch0_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch0",
+               "dest": "BusB",
+               "relays": [
+                     "Ch0_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch1",
+               "dest": "LOAD_Ch1",
+               "relays": [
+                     "Ch1"
+               ]
+            },
+            {
+               "src": "DUT_Ch1",
+               "dest": "BusA",
+               "relays": [
+                     "Ch1_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch1",
+               "dest": "BusB",
+               "relays": [
+                     "Ch1_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch2",
+               "dest": "LOAD_Ch2",
+               "relays": [
+                     "Ch2"
+               ]
+            },
+            {
+               "src": "DUT_Ch2",
+               "dest": "BusA",
+               "relays": [
+                     "Ch2_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch2",
+               "dest": "BusB",
+               "relays": [
+                     "Ch2_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch3",
+               "dest": "LOAD_Ch3",
+               "relays": [
+                     "Ch3"
+               ]
+            },
+            {
+               "src": "DUT_Ch3",
+               "dest": "BusA",
+               "relays": [
+                     "Ch3_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch3",
+               "dest": "BusB",
+               "relays": [
+                     "Ch3_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch4",
+               "dest": "LOAD_Ch4",
+               "relays": [
+                     "Ch4"
+               ]
+            },
+            {
+               "src": "DUT_Ch4",
+               "dest": "BusA",
+               "relays": [
+                     "Ch4_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch4",
+               "dest": "BusB",
+               "relays": [
+                     "Ch4_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch5",
+               "dest": "LOAD_Ch5",
+               "relays": [
+                     "Ch5"
+               ]
+            },
+            {
+               "src": "DUT_Ch5",
+               "dest": "BusA",
+               "relays": [
+                     "Ch5_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch5",
+               "dest": "BusB",
+               "relays": [
+                     "Ch5_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch6",
+               "dest": "LOAD_Ch6",
+               "relays": [
+                     "Ch6"
+               ]
+            },
+            {
+               "src": "DUT_Ch6",
+               "dest": "BusA",
+               "relays": [
+                     "Ch6_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch6",
+               "dest": "BusB",
+               "relays": [
+                     "Ch6_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch7",
+               "dest": "LOAD_Ch7",
+               "relays": [
+                     "Ch7"
+               ]
+            },
+            {
+               "src": "DUT_Ch7",
+               "dest": "BusA",
+               "relays": [
+                     "Ch7_BusA"
+               ]
+            },
+            {
+               "src": "DUT_Ch7",
+               "dest": "BusB",
+               "relays": [
+                     "Ch7_BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch0",
+               "dest": "DUT_Ch1",
+               "relays": [
+                     "Ch0_Ch1"
+               ]
+            },
+            {
+               "src": "DUT_Ch2",
+               "dest": "DUT_Ch3",
+               "relays": [
+                     "Ch2_Ch3"
+               ]
+            },
+            {
+               "src": "DUT_Ch4",
+               "dest": "DUT_Ch5",
+               "relays": [
+                     "Ch4_Ch5"
+               ]
+            },
+            {
+               "src": "DUT_Ch6",
+               "dest": "DUT_Ch7",
+               "relays": [
+                     "Ch6_Ch7"
+               ]
+            }
+         ],
+         "muxList": [
+            {
+               "src": "DUT_Ch0",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch1",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch2",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch3",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch4",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch5",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch6",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            },
+            {
+               "src": "DUT_Ch7",
+               "dest": [
+                     "BusA",
+                     "BusB"
+               ]
+            }
+         ]
+      }
+   ]
+}</String>
+										</Property>
+										<Property Name="user.CD.Slot #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
 									<Errors />
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.DUT_Ch0">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch0">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch1">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch1">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch2">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch2">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch3">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch3">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch4">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch4">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch5">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch5">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch6">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch6">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch7">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch7">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.BusA">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.BusB">
+												<String>Load</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
 								</Section>
 								<Section Name="Slot 4 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />
@@ -2185,7 +3124,7 @@
 								<U32>0</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="backups\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
@@ -2194,7 +3133,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="backups\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
@@ -2366,6 +3305,72 @@
 											</Elem>
 											<Elem Key="Open Circuit">
 												<String>open circuit - not connected</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>-1</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Two Switches" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>Channel controlling both switch modules</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+											<Elem Key="Passthrough">
+												<Double>1</Double>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<Double>2</Double>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<Double>3</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+											<Elem Key="Passthrough">
+												<StringArray>
+													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/LOAD_Ch0</Elem>
+													<Elem>SLSC-12001-0317E1AA-Mod3/DUT_Ch0,SLSC-12001-0317E1AA-Mod3/LOAD_Ch0</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<StringArray>
+													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusA</Elem>
+													<Elem>SLSC-12001-0317E1AA-Mod3/DUT_Ch0,SLSC-12001-0317E1AA-Mod3/BusA</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<StringArray>
+													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusB</Elem>
+													<Elem>SLSC-12001-0317E1AA-Mod3/DUT_Ch0,SLSC-12001-0317E1AA-Mod3/BusB</Elem>
+												</StringArray>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String />
+											</Elem>
+											<Elem Key="Passthrough">
+												<String>passthrough (2 switches)</String>
+											</Elem>
+											<Elem Key="Fault to Ground">
+												<String>ground (2 switches)</String>
+											</Elem>
+											<Elem Key="Fault to 12V">
+												<String>12V (2 switches)</String>
 											</Elem>
 										</Dictionary>
 									</Property>
