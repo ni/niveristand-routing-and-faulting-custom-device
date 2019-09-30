@@ -25,7 +25,7 @@ SLSC Switch routing modules are displayed in the VeriStand System Explorer under
 
 The following image displays this location.
 
-![SLSC Switch System Explorer](SLSC%20Switch%20System%20Explorer.png)
+![SLSC Switch System Explorer](Support/SLSC%20Switch%20System%20Explorer.png)
 
 The **SLSC Switch Custom Device** enumerates all available endpoints for a routing module. Set the configuration for each endpoint to inform the SLSC Switch driver of valid endpoints to connect to.
 
@@ -47,7 +47,7 @@ Routing Channels are displayed in the VeriStand System Explorer under _Targets >
 
 The following image displays this location.
 
-![Routing and Faulting System Explorer](Routing%20and%20Faulting%20System%20Explorer.png)
+![Routing and Faulting System Explorer](Support/Routing%20and%20Faulting%20System%20Explorer.png)
 
 Each routing channel contains one or more user-defined states. Common states for a fault injection application include _Passthrough_, _Open Circuit_, _Short to Ground_, _Short to Power_, and _Pin-to-Pin Short_. By default, the _Open Circuit_ state is added. Add additional states to match the requirements of the fault injection application.
 
@@ -57,7 +57,7 @@ Map a ring control on a VeriStand screen to a routing channel to set the current
 
 The following image displays how to configure a ring control on the VeriStand Editor.
 
-![UI Manager](UI%20Manager.png)
+![UI Manager](Support/UI%20Manager.png)
 
 ## Scripting API
 
@@ -69,13 +69,13 @@ Open the scripting examples on disk from `Source/Scripting Examples/Scripting Ex
 
 The following image displays the `Configure Modules from Hardware.vi`.
 
-![Configure Modules from Hardware](Configure%20Modules%20From%20Hardware.png)
+![Configure Modules from Hardware](Support/Configure%20Modules%20From%20Hardware.png)
 
 Run `Configure Routing and Faulting Custom Device.vi` to add routing channels, states, and connections. The example adds two routing channels named _Window Up_ and _Window Down_. Both routing channels have possible states of _No Connections_, _Passthrough_, _Short to Ground_, _Short to Power_, and _Open Circuit_. The _Window Up_ routing channel connects the _DUT_Ch0_ endpoint to the fault buses. The _Window Down_ routing channel connects the _DUT_Ch1_ endpoint to the fault buses.
 
 The following image displays the `Configure Routing and Faulting Custom Device.vi`.
 
-![Configure Routing and Faulting Custom Device](Configure%20Routing%20and%20Faulting%20Custom%20Device.png)
+![Configure Routing and Faulting Custom Device](Support/Configure%20Routing%20and%20Faulting%20Custom%20Device.png)
 
 Open the scripted system definition file in VeriStand to review the configuration or deploy the project.
 
