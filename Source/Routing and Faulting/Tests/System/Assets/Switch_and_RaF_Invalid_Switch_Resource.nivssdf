@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Deploy_RaF_System_States" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Switch_and_RaF_Invalid_Switch_Resource" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Deploy_RaF_System_States</String>
+				<String>Switch_and_RaF_Invalid_Switch_Resource</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.8</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -201,12 +201,7 @@
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="Slot 1 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 2 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+								<Section Name="Slot 1 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
 										<Property Name="CD Status">
@@ -258,7 +253,7 @@
 											<String>SLSC-12251</String>
 										</Property>
 										<Property Name="user.CD.Resource">
-											<String>SLSC-12001-0317E1AA-Mod2</String>
+											<String>SLSC-12001-0317E1AA-Mod1</String>
 										</Property>
 										<Property Name="user.CD.Topology">
 											<String>NI12251_topology</String>
@@ -1839,7 +1834,7 @@
 }</String>
 										</Property>
 										<Property Name="user.CD.Slot #">
-											<I32>2</I32>
+											<I32>1</I32>
 										</Property>
 									</Properties>
 									<Errors />
@@ -2023,6 +2018,11 @@
 									<Properties />
 									<Errors />
 								</Section>
+								<Section Name="Empty Slot" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
 							</Section>
 							<Section Name="Channels" TypeGUID="fa98037a-a524-4a77-b7d2-13997631fa25">
 								<Description />
@@ -2185,7 +2185,7 @@
 								<U32>0</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="backups\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
@@ -2194,7 +2194,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="backups\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
@@ -2231,8 +2231,8 @@
 							<Description />
 							<Properties />
 							<Errors />
-							<Channel Name="Window Up" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Window-Up Sensor State</Description>
+							<Channel Name="Channel 1" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description />
 								<Properties>
 									<Property Name="Value Table">
 										<Dictionary>
@@ -2242,14 +2242,11 @@
 											<Elem Key="Passthrough">
 												<Double>1</Double>
 											</Elem>
-											<Elem Key="Short to Ground">
+											<Elem Key="Fault to Ground">
 												<Double>2</Double>
 											</Elem>
-											<Elem Key="Short to Power">
+											<Elem Key="Fault to 12V">
 												<Double>3</Double>
-											</Elem>
-											<Elem Key="Open Circuit">
-												<Double>4</Double>
 											</Elem>
 										</Dictionary>
 									</Property>
@@ -2260,112 +2257,34 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/LOAD_Ch0</Elem>
+													<Elem>SLSC-12001-0317E1AA-Mod1/DUT_Ch0,SLSC-12001-0317E1AA-Mod1/LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
-											<Elem Key="Short to Ground">
+											<Elem Key="Fault to Ground">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusA</Elem>
+													<Elem>SLSC-12001-0317E1AA-Mod1/DUT_Ch0,SLSC-12001-0317E1AA-Mod1/BusA</Elem>
 												</StringArray>
 											</Elem>
-											<Elem Key="Short to Power">
+											<Elem Key="Fault to 12V">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusB</Elem>
+													<Elem>SLSC-12001-0317E1AA-Mod1/DUT_Ch0,SLSC-12001-0317E1AA-Mod1/BusB</Elem>
 												</StringArray>
-											</Elem>
-											<Elem Key="Open Circuit">
-												<StringArray />
 											</Elem>
 										</Dictionary>
 									</Property>
 									<Property Name="user.CD.Descriptions">
 										<Dictionary>
 											<Elem Key="No Connections">
-												<String>no connections</String>
+												<String />
 											</Elem>
 											<Elem Key="Passthrough">
-												<String>sensor connected</String>
+												<String />
 											</Elem>
-											<Elem Key="Short to Ground">
-												<String>sensor faulted to ground</String>
+											<Elem Key="Fault to Ground">
+												<String />
 											</Elem>
-											<Elem Key="Short to Power">
-												<String>sensor faulted to power</String>
-											</Elem>
-											<Elem Key="Open Circuit">
-												<String>open circuit - not connected</String>
-											</Elem>
-										</Dictionary>
-									</Property>
-								</Properties>
-								<Errors />
-								<DefaultValue>
-									<Elem>-1</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Window Down" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Window-Up Sensor State</Description>
-								<Properties>
-									<Property Name="Value Table">
-										<Dictionary>
-											<Elem Key="No Connections">
-												<Double>-1</Double>
-											</Elem>
-											<Elem Key="Passthrough">
-												<Double>1</Double>
-											</Elem>
-											<Elem Key="Short to Ground">
-												<Double>2</Double>
-											</Elem>
-											<Elem Key="Short to Power">
-												<Double>3</Double>
-											</Elem>
-											<Elem Key="Open Circuit">
-												<Double>4</Double>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Connections">
-										<Dictionary>
-											<Elem Key="No Connections">
-												<StringArray />
-											</Elem>
-											<Elem Key="Passthrough">
-												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch1,SLSC-12001-0317E1AA-Mod2/LOAD_Ch1</Elem>
-												</StringArray>
-											</Elem>
-											<Elem Key="Short to Ground">
-												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch1,SLSC-12001-0317E1AA-Mod2/BusA</Elem>
-												</StringArray>
-											</Elem>
-											<Elem Key="Short to Power">
-												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch1,SLSC-12001-0317E1AA-Mod2/BusB</Elem>
-												</StringArray>
-											</Elem>
-											<Elem Key="Open Circuit">
-												<StringArray />
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Descriptions">
-										<Dictionary>
-											<Elem Key="No Connections">
-												<String>no connections</String>
-											</Elem>
-											<Elem Key="Passthrough">
-												<String>sensor connected</String>
-											</Elem>
-											<Elem Key="Short to Ground">
-												<String>sensor faulted to ground</String>
-											</Elem>
-											<Elem Key="Short to Power">
-												<String>sensor faulted to power</String>
-											</Elem>
-											<Elem Key="Open Circuit">
-												<String>open circuit - not connected</String>
+											<Elem Key="Fault to 12V">
+												<String />
 											</Elem>
 										</Dictionary>
 									</Property>

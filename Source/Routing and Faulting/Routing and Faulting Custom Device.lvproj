@@ -72,11 +72,13 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder">
 					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
-					<Item Name="Deploy_RaF_System_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_States.nivssdf"/>
-					<Item Name="Deploy_RaF_System_NO_RAF.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_NO_RAF.nivssdf"/>
-					<Item Name="Deploy_SLSC_Switch_RaF_System.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_SLSC_Switch_RaF_System.nivssdf"/>
-					<Item Name="Deploy_RaF_System_Initial_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_Initial_States.nivssdf"/>
-					<Item Name="Deploy_RaF_System_States_Rich.nivssdf" Type="Document" URL="../Tests/System/Assets/Deploy_RaF_System_States_Rich.nivssdf"/>
+					<Item Name="Switch_and_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF.nivssdf"/>
+					<Item Name="Switch_and_RaF_Diff_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Diff_Resource.nivssdf"/>
+					<Item Name="Switch_and_RaF_Initial_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Initial_States.nivssdf"/>
+					<Item Name="Switch_and_RaF_No_Routing_Channels.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_No_Routing_Channels.nivssdf"/>
+					<Item Name="Switch_and_RaF_Rich_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Rich_States.nivssdf"/>
+					<Item Name="Switch_No_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_No_RaF.nivssdf"/>
+					<Item Name="Switch_and_RaF_Invalid_Switch_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Invalid_Switch_Resource.nivssdf"/>
 				</Item>
 				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
