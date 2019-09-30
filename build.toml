@@ -149,7 +149,7 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\Examples'
+payload_dir = 'Source\Built\Scripting Examples'
 install_destination = 'ni-paths-LV{veristand_version}DIR\examples\VeriStand Custom Devices\Routing and Faulting'
 control_file = 'control_examples'
 package_output_dir = 'Source\Built'
