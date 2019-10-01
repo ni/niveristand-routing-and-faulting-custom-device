@@ -255,6 +255,21 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Resource">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
+										</Property>
 										<Property Name="user.CD.Slot #">
 											<I32>1</I32>
 										</Property>
@@ -322,6 +337,21 @@
 										</Property>
 										<Property Name="Version">
 											<String>1.0.0</String>
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Resource">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
 										</Property>
 										<Property Name="user.CD.Slot #">
 											<I32>2</I32>
@@ -415,6 +445,21 @@
 										</Property>
 										<Property Name="Version">
 											<String>1.0.0</String>
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Resource">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
 										</Property>
 										<Property Name="user.CD.Slot #">
 											<I32>8</I32>
