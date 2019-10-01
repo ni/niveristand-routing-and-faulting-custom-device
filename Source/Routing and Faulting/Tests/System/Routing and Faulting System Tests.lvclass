@@ -39,7 +39,7 @@
 	<Item Name="Routing and Faulting System Tests.ctl" Type="Class Private Data" URL="Routing and Faulting System Tests.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Tools" Type="Folder">
+	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Get Channel Properties (SET 2010).vi" Type="VI" URL="../Tools/Get Channel Properties (SET 2010).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'6!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%&lt;G&amp;N:1!!#U!$!!6W97RV:1!+!&amp;!!!A!&amp;!!9!)%"!!!(`````!!=45U65)%.I?'YA5(*P='6S&gt;'FF=Q!A1%!!!@````]!"R.4261A1WBY=#"1=G^Q:8*U;76T!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%U!$!!V#98.F)%.I97ZO:7RT!#I!.`````]!"2=!A!!!!!!"!!1!!!!"!!!!!!!!#H.M=W.%:8:J9W5!!$B!=!!6#H.M=W.%:8:J9W5!!!%!$!2T&lt;(.D!"=!A!!!!!!"!!1!!!!"!!!!!!!!"G2F&gt;GFD:1!!6!$Q!!Q!!Q!%!!A!#1!%!!1!"!!%!!I!"!!,!!U$!!"Y!!!.#!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#A!!!!A!!!!!!1!/!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -58,14 +58,14 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
-		<Item Name="loop deploy test.vi" Type="VI" URL="../Tools/loop deploy test.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Item Name="Cleanup Temp Sysdef Files.vi" Type="VI" URL="../Cleanup Temp Sysdef Files.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$&gt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!)1ZC?8"B=X-A9WRF97ZV=!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!":!-P````].5G6M982J&gt;G5A='&amp;U;!"5!0!!$!!$!!1!"!!%!!1!"!!&amp;!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#A!!!!!!!!!!!!!!#!!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074278931</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710289</Property>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
