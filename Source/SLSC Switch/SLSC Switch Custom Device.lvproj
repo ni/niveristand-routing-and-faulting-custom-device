@@ -53,9 +53,9 @@
 						<Item Name="UI Common Unit Tests.lvclass" Type="LVClass" URL="../../Shared/UI Common/Tests/Unit/UI Common Unit Tests/UI Common Unit Tests.lvclass"/>
 					</Item>
 				</Item>
-				<Item Name="Routing and Faulting Consumer System Definition API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Consumer System Definition API/Routing and Faulting Consumer System Definition API.lvlib"/>
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
+			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Consumer System Definition API/Routing and Faulting Hardware API.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
