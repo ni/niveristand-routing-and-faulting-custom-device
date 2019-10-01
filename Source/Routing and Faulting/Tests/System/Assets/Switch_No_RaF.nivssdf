@@ -3,11 +3,11 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Test machine setup" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Switch_No_RaF" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Test machine setup</String>
+				<String>Switch_No_RaF</String>
 			</Property>
 			<Property Name="Version">
 				<String>1.0.0.1</String>

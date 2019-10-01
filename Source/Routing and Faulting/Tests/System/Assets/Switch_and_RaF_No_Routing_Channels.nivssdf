@@ -3,11 +3,11 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Deploy_RaF_System_States" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Switch_and_RaF_No_Routing_Channels" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Deploy_RaF_System_States</String>
+				<String>Switch_and_RaF_No_Routing_Channels</String>
 			</Property>
 			<Property Name="Version">
 				<String>1.0.0.8</String>
