@@ -12,4 +12,4 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: NI SLSC Switch LabVIEW Support for VeriStand {veristand_version}
-Recommends: ni-slsc-switch-veristand-{veristand_version}-support (>= {display_version})
+Recommends: ni-slsc-switch-veristand-{veristand_version}-support (>= {display_version}), ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (>= {display_version})

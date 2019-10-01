@@ -12,4 +12,4 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: NI Routing and Faulting LabVIEW Support for VeriStand {veristand_version}
-Recommends: ni-routing-and-faulting-veristand-{veristand_version}-support (>= {display_version})
+Recommends: ni-routing-and-faulting-veristand-{veristand_version}-support (>= {display_version}), ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (>= {display_version})
