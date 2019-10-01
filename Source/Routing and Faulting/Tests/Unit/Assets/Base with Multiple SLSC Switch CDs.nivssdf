@@ -261,7 +261,7 @@
 										<Property Name="user.CD.Model">
 											<String />
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String />
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -344,7 +344,7 @@
 										<Property Name="user.CD.Model">
 											<String />
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String />
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -452,7 +452,7 @@
 										<Property Name="user.CD.Model">
 											<String />
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String />
 										</Property>
 										<Property Name="user.CD.Topology">
