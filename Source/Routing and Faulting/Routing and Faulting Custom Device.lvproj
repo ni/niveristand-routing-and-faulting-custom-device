@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -85,6 +85,7 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Utility/Copy Scripting API to Installed Location.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Custom Device Routing and Faulting.xml" Type="Document" URL="../Custom Device Routing and Faulting.xml"/>
@@ -758,7 +759,6 @@
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EF19F769-47CB-41F3-87BF-5EF90505DD37}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Scripting API</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
@@ -774,8 +774,8 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Routing and Faulting Scripting API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Scripting API to Installed Location.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DD6684D-3970-4A6D-A0E8-84ECE828ED70}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Routing and Faulting Scripting API</Property>
@@ -785,7 +785,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Routing and Faulting Scripting API</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F5FA2773-9A4E-419D-82B0-8230E36E322B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41AA6D96-891A-4F08-A4A6-403775A92DF8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib</Property>

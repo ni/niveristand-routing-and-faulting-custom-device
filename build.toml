@@ -12,6 +12,9 @@ path = 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
 [projects.slsc]
 path = 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
 
+[projects.examples]
+path = 'Source\Scripting Examples\Scripting Examples.lvproj'
+
 [[build.steps]]
 name = 'Routing and Faulting Configuration Library'
 type = 'lvBuildSpec'
@@ -108,6 +111,14 @@ target = 'My Computer'
 build_spec = 'Scripting API'
 dependency_target = 'Windows'
 
+[[build.steps]]
+name = 'Examples'
+type = 'lvBuildSpec'
+project = '{examples}'
+target = 'My Computer'
+build_spec = 'Examples'
+dependency_target = 'Windows'
+
 [[package]]
 type = 'nipkg'
 payload_dir = 'Source\Built\Routing and Faulting'
@@ -134,4 +145,11 @@ type = 'nipkg'
 payload_dir = 'Source\Built\SLSC Switch Scripting API'
 install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
 control_file = 'control_slsc_switch_scripting'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\Scripting Examples'
+install_destination = 'ni-paths-LV{veristand_version}DIR\examples\VeriStand Custom Devices\Routing and Faulting'
+control_file = 'control_examples'
 package_output_dir = 'Source\Built'

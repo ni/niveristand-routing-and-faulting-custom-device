@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -76,6 +76,7 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Utility/Copy Scripting API to Installed Location.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="SLSC Module SLSC Switch.xml" Type="Document" URL="../SLSC Module SLSC Switch.xml"/>
@@ -762,7 +763,6 @@
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{ACDDBF94-6188-449B-9AB5-7E3265AA79CE}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Scripting API</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
@@ -778,9 +778,8 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch Scripting API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Scripting API to Installed Location.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B81CE306-DCDF-4D4E-9175-E65843F20A57}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/SLSC Switch Scripting API</Property>
@@ -790,7 +789,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/SLSC Switch Scripting API</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BF2F678C-FAE6-4550-922D-7C2699DDD7DF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B518A889-874F-49E6-BD2F-57A1B6CE3340}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
