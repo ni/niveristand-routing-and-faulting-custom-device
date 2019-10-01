@@ -18,4 +18,5 @@
 		<Item Name="Set API Version.vi" Type="VI" URL="../Properties/Set API Version.vi"/>
 		<Item Name="Set Resource.vi" Type="VI" URL="../Properties/Set Resource.vi"/>
 	</Item>
+	<Item Name="Routing and Faulting Hardware API Constants.vi" Type="VI" URL="../Routing and Faulting Hardware API Constants.vi"/>
 </Library>
