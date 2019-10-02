@@ -75,11 +75,13 @@
 	</Item>
 	<Item Name="Types" Type="Folder"/>
 	<Item Name="Utility" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
+		<Item Name="Is Correct Section Type.vi" Type="VI" URL="../Utility/Is Correct Section Type.vi"/>
 	</Item>
 </Library>
