@@ -82,6 +82,6 @@
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
-		<Item Name="Is Correct Section Type.vi" Type="VI" URL="../Utility/Is Correct Section Type.vi"/>
+		<Item Name="Validate Section ID.vi" Type="VI" URL="../Utility/Validate Section ID.vi"/>
 	</Item>
 </Library>
