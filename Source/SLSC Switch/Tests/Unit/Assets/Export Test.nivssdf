@@ -254,10 +254,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SLSC-12251</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>slsc-12001-0314b282-Mod2</String>
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -454,10 +457,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SLSC-12252</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>slsc-12001-0314b282-Mod4</String>
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -601,10 +607,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SLSC-12252</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>slsc-12001-0314b282-Mod4</String>
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -763,10 +772,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SET-2010: 64 CH Routing Base SLSC Card</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>SLSC-12001-0314B282-Mod9</String>
 										</Property>
 										<Property Name="user.CD.Topology">

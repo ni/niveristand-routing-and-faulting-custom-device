@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -55,6 +55,7 @@
 				</Item>
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
+			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
@@ -64,6 +65,14 @@
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
+				<Item Name="Assets" Type="Folder">
+					<Item Name="Export Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Export Test.nivssdf"/>
+					<Item Name="Import Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Import Test.nivssdf"/>
+					<Item Name="set-2010_export.dat" Type="Document" URL="../Tests/Unit/Assets/set-2010_export.dat"/>
+					<Item Name="slsc-12251_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12251_export.dat"/>
+					<Item Name="slsc-12252_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12252_export.dat"/>
+					<Item Name="slsc-12252-endpoint_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12252-endpoint_export.dat"/>
+				</Item>
 				<Item Name="SLSC Switch Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Compile Unit Tests/SLSC Switch Compile Unit Tests.lvclass"/>
 				<Item Name="SLSC Switch Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Unit Tests/SLSC Switch Unit Tests.lvclass"/>
 				<Item Name="SLSC Switch Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Unit Tests/SLSC Switch Import Unit Tests.lvclass"/>
@@ -767,14 +776,14 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Scripting API</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
-				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
-				<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch Scripting API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
@@ -788,8 +797,11 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/SLSC Switch Scripting API</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B518A889-874F-49E6-BD2F-57A1B6CE3340}</Property>
+				<Property Name="Destination[3].destName" Type="Str">Routing and Faulting Hardware API</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Routing and Faulting Hardware API</Property>
+				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF2B3FAF-3270-4911-AC02-D1B04A32A679}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
@@ -803,7 +815,25 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib/Palettes</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Navigation</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Properties</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Routing and Faulting Hardware API Constants.vi</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
