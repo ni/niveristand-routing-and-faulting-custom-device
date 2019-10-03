@@ -20,7 +20,6 @@
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Missing Property Error.vi" Type="VI" URL="../Utility/Missing Property Error.vi"/>
-		<Item Name="Unsupported API Version Error.vi" Type="VI" URL="../Utility/Unsupported API Version Error.vi"/>
 		<Item Name="Validate Hardware Custom Device API Version 1.vi" Type="VI" URL="../Utility/Validate Hardware Custom Device API Version 1.vi"/>
 		<Item Name="Validate Resource.vi" Type="VI" URL="../Utility/Validate Resource.vi"/>
 	</Item>
