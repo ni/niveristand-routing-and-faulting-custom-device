@@ -15,15 +15,11 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="vi.lib" Type="Folder">
-			<Item Name="Routing and Faulting" Type="Folder" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Routing and Faulting Hardware API" Type="Folder" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
-			<Item Name="SLSC Switch" Type="Folder" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Routing and Faulting Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Scripting/Routing and Faulting Scripting.lvlib"/>
+			<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Shared/Routing and Faulting Shared.lvlib"/>
+			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
+			<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/SLSC Switch Shared.lvlib"/>
+			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/SLSC Switch Scripting.lvlib"/>
 		</Item>
 		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
 		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
