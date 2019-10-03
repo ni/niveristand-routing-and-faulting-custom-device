@@ -65,6 +65,14 @@
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
+				<Item Name="Assets" Type="Folder">
+					<Item Name="Export Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Export Test.nivssdf"/>
+					<Item Name="Import Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Import Test.nivssdf"/>
+					<Item Name="set-2010_export.dat" Type="Document" URL="../Tests/Unit/Assets/set-2010_export.dat"/>
+					<Item Name="slsc-12251_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12251_export.dat"/>
+					<Item Name="slsc-12252_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12252_export.dat"/>
+					<Item Name="slsc-12252-endpoint_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12252-endpoint_export.dat"/>
+				</Item>
 				<Item Name="SLSC Switch Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Compile Unit Tests/SLSC Switch Compile Unit Tests.lvclass"/>
 				<Item Name="SLSC Switch Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Unit Tests/SLSC Switch Unit Tests.lvclass"/>
 				<Item Name="SLSC Switch Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Unit Tests/SLSC Switch Import Unit Tests.lvclass"/>
