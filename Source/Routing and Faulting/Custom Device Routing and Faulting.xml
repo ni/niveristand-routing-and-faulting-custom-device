@@ -202,8 +202,8 @@
         <Button>
           <ID>Add Routing Channel</ID>
           <Glyph>
-            <Type>To Application Data Dir</Type>
-            <Path>System Explorer\Glyphs\NewProj.png</Path>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Routing and Faulting\Windows\Glyphs\add routing channel.png</Path>
           </Glyph>
           <Type>Action</Type>
           <ReferencedGUID>9d78a3ce-be46-43e5-8ab4-80cbc52ef760</ReferencedGUID>
