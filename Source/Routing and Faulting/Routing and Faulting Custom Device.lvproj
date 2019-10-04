@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -54,6 +54,7 @@
 				</Item>
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
+			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
@@ -70,7 +71,16 @@
 				<Item Name="Routing and Faulting Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Export Unit Tests/Routing and Faulting Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
-				<Item Name="Assets" Type="Folder"/>
+				<Item Name="Assets" Type="Folder">
+					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
+					<Item Name="Switch_and_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF.nivssdf"/>
+					<Item Name="Switch_and_RaF_Diff_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Diff_Resource.nivssdf"/>
+					<Item Name="Switch_and_RaF_Initial_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Initial_States.nivssdf"/>
+					<Item Name="Switch_and_RaF_No_Routing_Channels.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_No_Routing_Channels.nivssdf"/>
+					<Item Name="Switch_and_RaF_Rich_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Rich_States.nivssdf"/>
+					<Item Name="Switch_No_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_No_RaF.nivssdf"/>
+					<Item Name="Switch_and_RaF_Invalid_Switch_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Invalid_Switch_Resource.nivssdf"/>
+				</Item>
 				<Item Name="Routing and Faulting System Tests.lvclass" Type="LVClass" URL="../Tests/System/Routing and Faulting System Tests.lvclass"/>
 			</Item>
 		</Item>
@@ -98,6 +108,7 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
 				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
@@ -286,6 +297,7 @@
 				<Item Name="Get Array Element TDEnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Array Element TDEnum__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get Header from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Header from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Last PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Last PString__ogtk__jki_vi_tester.vi"/>
@@ -420,6 +432,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="SLSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLSC/SLSC.lvlib"/>
 				<Item Name="Sort 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 1D Array (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CSG)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 1D Array (CXT)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CXT)__ogtk__jki_vi_tester.vi"/>
@@ -535,6 +548,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nislsclvapi.dll" Type="Document" URL="nislsclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
@@ -769,14 +785,35 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Routing and Faulting/Windows/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Routing and Faulting Scripting API</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{41AA6D96-891A-4F08-A4A6-403775A92DF8}</Property>
+				<Property Name="Destination[3].destName" Type="Str">Routing and Faulting Hardware API</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Routing and Faulting Hardware API</Property>
+				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B286F70-7139-4EE5-AA9B-2413316A7112}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Navigation</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Properties</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Routing and Faulting Hardware API Constants.vi</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Routing and Faulting System Explorer.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -807,7 +844,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 		</Item>
 	</Item>

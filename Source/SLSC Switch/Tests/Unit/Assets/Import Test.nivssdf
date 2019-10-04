@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
@@ -254,17 +254,20 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
-										<Property Name="user.CD.Model">
-											<String></String>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
 										</Property>
-										<Property Name="user.CD.Resource">
-											<String></String>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Resource">
+											<String />
 										</Property>
 										<Property Name="user.CD.Topology">
-											<String></String>
+											<String />
 										</Property>
 										<Property Name="user.CD.Capabilities">
-											<String></String>
+											<String />
                               </Property>
 										<Property Name="user.CD.Slot #">
 											<I32>2</I32>
@@ -346,17 +349,20 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
-										<Property Name="user.CD.Model">
-											<String></String>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
 										</Property>
-										<Property Name="user.CD.Resource">
-											<String></String>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Resource">
+											<String />
 										</Property>
 										<Property Name="user.CD.Topology">
-											<String></String>
+											<String />
 										</Property>
 										<Property Name="user.CD.Capabilities">
-											<String></String>
+											<String />
                               </Property>
 										<Property Name="user.CD.Slot #">
 											<I32>3</I32>
@@ -406,7 +412,8 @@
 												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_x64</SupportedTarget>
 												<MD5 />
-											</DependentFile>									</Property>
+											</DependentFile>
+										</Property>
 										<Property Name="Driver VI Path_1">
 											<DependentFile Type="Relative" Path="Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
@@ -437,10 +444,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SLSC-12252</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>slsc-12001-0314b282-Mod4</String>
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -604,10 +614,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SET-2010: 64 CH Routing Base SLSC Card</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>SLSC-12001-0314B282-Mod9</String>
 										</Property>
 										<Property Name="user.CD.Topology">
