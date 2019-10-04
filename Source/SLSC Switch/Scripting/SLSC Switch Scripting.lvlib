@@ -27,6 +27,32 @@
 		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
 		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
 	</Item>
+	<Item Name="High Level" Type="Folder">
+		<Item Name="Autodetect SLSC Module Name.vi" Type="VI" URL="../High Level/Autodetect SLSC Module Name.vi"/>
+		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../High Level/Compute Possible Connections.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Configure SLSC Switch Custom Device from Module.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device from Module.vi"/>
+		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../High Level/Filter Binary To Text.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get SLSC Chassis Address.vi" Type="VI" URL="../High Level/Get SLSC Chassis Address.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../High Level/Read Module Configuration from Switches JSON.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Read Module Configuration.vi" Type="VI" URL="../High Level/Read Module Configuration.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../High Level/Read Module NVMEM.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refresh Possible Connections.vi" Type="VI" URL="../High Level/Refresh Possible Connections.vi"/>
+	</Item>
 	<Item Name="Palettes" Type="Folder">
 		<Item Name="_CustomDevice.mnu" Type="Document" URL="../Palettes/_CustomDevice.mnu"/>
 		<Item Name="_Endpoints.mnu" Type="Document" URL="../Palettes/_Endpoints.mnu"/>
