@@ -55,6 +55,9 @@
 		<Item Name="Get Routing Channel State Configurations.vi" Type="VI" URL="../Routing Channel/Get Routing Channel State Configurations.vi"/>
 		<Item Name="Set Routing Channel Description.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Description.vi"/>
 		<Item Name="Set Routing Channel Name.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Name.vi"/>
+		<Item Name="Validate Routing Channel Parameters.vi" Type="VI" URL="../Routing Channel/Validate Routing Channel Parameters.vi"/>
+		<Item Name="Validate Channel Name.vi" Type="VI" URL="../Routing Channel/Validate Channel Name.vi"/>
+		<Item Name="Validate Initial State.vi" Type="VI" URL="../Routing Channel/Validate Initial State.vi"/>
 	</Item>
 	<Item Name="States and Connections" Type="Folder">
 		<Item Name="private" Type="Folder">
