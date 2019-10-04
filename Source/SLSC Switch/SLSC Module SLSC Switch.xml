@@ -111,7 +111,7 @@
           <ID>Autodetect</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
-            <Path>System Explorer\Glyphs\import.png</Path>
+            <Path>System Explorer\Glyphs\NI-XNET DropFrames.png</Path>
           </Glyph>
           <Type>Action</Type>
           <ReferencedGUID>bd36668c-3a01-46a6-8369-02ac95618231</ReferencedGUID>
