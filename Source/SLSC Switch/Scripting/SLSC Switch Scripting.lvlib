@@ -12,13 +12,15 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Add SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Add SLSC Switch Custom Device.vi"/>
+		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
 		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
 		<Item Name="Find SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device.vi"/>
 		<Item Name="Find SLSC Switch Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device by Name.vi"/>
 		<Item Name="Find SLSC Switch Custom Device by Slot Number.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device by Slot Number.vi"/>
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
-		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
+		<Item Name="Remove SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Remove SLSC Switch Custom Device.vi"/>
 	</Item>
 	<Item Name="Endpoint Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

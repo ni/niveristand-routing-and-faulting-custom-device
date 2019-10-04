@@ -20,6 +20,7 @@
 			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
 			<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/SLSC Switch Shared.lvlib"/>
 			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/SLSC Switch Scripting.lvlib"/>
+			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/VeriStand SLSC Scripting/VeriStand SLSC Scripting.lvlib"/>
 		</Item>
 		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
 		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
@@ -79,6 +80,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
