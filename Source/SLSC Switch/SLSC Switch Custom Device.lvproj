@@ -45,6 +45,7 @@
 				</Item>
 			</Item>
 			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../Scripting/SLSC Switch Scripting.lvlib"/>
+			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="../Scripting/VeriStand SLSC Scripting/VeriStand SLSC Scripting.lvlib"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="UI Common" Type="Folder">
@@ -543,6 +544,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
