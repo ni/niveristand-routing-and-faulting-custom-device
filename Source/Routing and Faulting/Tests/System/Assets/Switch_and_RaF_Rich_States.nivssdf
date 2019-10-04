@@ -251,10 +251,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SLSC-12251</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>SLSC-12001-0317E1AA-Mod2</String>
 										</Property>
 										<Property Name="user.CD.Topology">
@@ -2018,10 +2021,13 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
 										<Property Name="user.CD.Model">
 											<String>SLSC-12252</String>
 										</Property>
-										<Property Name="user.CD.Resource">
+										<Property Name="user.CD.Routing and Faulting.Resource">
 											<String>SLSC-12001-0317E1AA-Mod3</String>
 										</Property>
 										<Property Name="user.CD.Topology">
