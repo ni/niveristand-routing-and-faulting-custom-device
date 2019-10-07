@@ -559,6 +559,9 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
