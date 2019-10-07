@@ -52,4 +52,8 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
 	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Validate ID by GUID.vi" Type="VI" URL="../Utility/Validate ID by GUID.vi"/>
+		<Item Name="Validate Section ID.vi" Type="VI" URL="../Utility/Validate Section ID.vi"/>
+	</Item>
 </Library>
