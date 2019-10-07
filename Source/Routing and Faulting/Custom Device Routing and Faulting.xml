@@ -245,8 +245,8 @@
           <GUID>52206594-4993-4e1b-b54c-152b18302012</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Duplicate Routing Channel</eng>
-            <loc>Duplicate Routing Channel</loc>
+            <eng>Duplicate</eng>
+            <loc>Duplicate</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -276,8 +276,8 @@
           <Type>Action</Type>
           <ReferencedGUID>52206594-4993-4e1b-b54c-152b18302012</ReferencedGUID>
           <ButtonText>
-            <eng>Duplicate Routing Channel</eng>
-            <loc>Duplicate Routing Channel</loc>
+            <eng>Duplicate</eng>
+            <loc>Duplicate</loc>
           </ButtonText>
           <Caption>
             <eng>Duplicate Routing Channel</eng>
