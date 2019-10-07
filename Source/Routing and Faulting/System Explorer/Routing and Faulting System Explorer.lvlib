@@ -21,6 +21,7 @@
 			</Item>
 			<Item Name="RTM" Type="Folder">
 				<Item Name="Add Routing Channel RTM.vi" Type="VI" URL="../Add Routing Channel RTM.vi"/>
+				<Item Name="Duplicate Routing Channel RTM.vi" Type="VI" URL="../Duplicate Routing Channel RTM.vi"/>
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			</Item>
