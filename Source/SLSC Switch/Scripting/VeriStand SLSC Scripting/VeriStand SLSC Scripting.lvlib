@@ -9,7 +9,7 @@
 </Property>
 	<Item Name="Chassis" Type="Folder">
 		<Item Name="Add SLSC Chassis.vi" Type="VI" URL="../Chassis/Add SLSC Chassis.vi"/>
-		<Item Name="Get SLSC Chassis ID.vi" Type="VI" URL="../../High Level/Get SLSC Chassis ID.vi"/>
+		<Item Name="Get SLSC Chassis ID.vi" Type="VI" URL="../Chassis/Get SLSC Chassis ID.vi"/>
 		<Item Name="Get SLSC Chassis.vi" Type="VI" URL="../Chassis/Get SLSC Chassis.vi"/>
 		<Item Name="Remove SLSC Chassis.vi" Type="VI" URL="../Chassis/Remove SLSC Chassis.vi"/>
 	</Item>
@@ -34,6 +34,7 @@
 		<Item Name="Get SLSC Module By Name.vi" Type="VI" URL="../Module/Get SLSC Module By Name.vi"/>
 		<Item Name="Get SLSC Module By Slot.vi" Type="VI" URL="../Module/Get SLSC Module By Slot.vi"/>
 		<Item Name="Get SLSC Module GUID.vi" Type="VI" URL="../Module/Get SLSC Module GUID.vi"/>
+		<Item Name="Get SLSC Module Resource.vi" Type="VI" URL="../Module/Get SLSC Module Resource.vi"/>
 		<Item Name="Get SLSC Modules By GUID.vi" Type="VI" URL="../Module/Get SLSC Modules By GUID.vi"/>
 		<Item Name="Remove SLSC Module.vi" Type="VI" URL="../Module/Remove SLSC Module.vi"/>
 	</Item>

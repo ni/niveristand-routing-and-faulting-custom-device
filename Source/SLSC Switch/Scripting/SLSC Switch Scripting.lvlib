@@ -30,7 +30,6 @@
 		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="High Level" Type="Folder">
-		<Item Name="Autodetect SLSC Module Name.vi" Type="VI" URL="../High Level/Autodetect SLSC Module Name.vi"/>
 		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../High Level/Compute Possible Connections.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
