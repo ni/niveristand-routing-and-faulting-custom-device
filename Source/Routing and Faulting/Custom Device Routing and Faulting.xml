@@ -276,8 +276,8 @@
           <Type>Action</Type>
           <ReferencedGUID>52206594-4993-4e1b-b54c-152b18302012</ReferencedGUID>
           <ButtonText>
-            <eng>Duplicate</eng>
-            <loc>Duplicate</loc>
+            <eng>Duplicate Routing Channel</eng>
+            <loc>Duplicate Routing Channel</loc>
           </ButtonText>
           <Caption>
             <eng>Duplicate Routing Channel</eng>
