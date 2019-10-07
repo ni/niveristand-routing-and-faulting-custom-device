@@ -41,9 +41,6 @@
 		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Get SLSC Chassis Address.vi" Type="VI" URL="../High Level/Get SLSC Chassis Address.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../High Level/Read Module Configuration from Switches JSON.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>

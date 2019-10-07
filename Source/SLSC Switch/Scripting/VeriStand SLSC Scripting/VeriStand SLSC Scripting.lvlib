@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Chassis" Type="Folder">
 		<Item Name="Add SLSC Chassis.vi" Type="VI" URL="../Chassis/Add SLSC Chassis.vi"/>
+		<Item Name="Get SLSC Chassis ID.vi" Type="VI" URL="../../High Level/Get SLSC Chassis ID.vi"/>
 		<Item Name="Get SLSC Chassis.vi" Type="VI" URL="../Chassis/Get SLSC Chassis.vi"/>
 		<Item Name="Remove SLSC Chassis.vi" Type="VI" URL="../Chassis/Remove SLSC Chassis.vi"/>
 	</Item>
