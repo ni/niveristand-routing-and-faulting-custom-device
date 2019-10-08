@@ -31,6 +31,12 @@
 		<Item Name="Remove All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="High Level" Type="Folder">
+		<Item Name="Apply Endpoint Configuration.vi" Type="VI" URL="../High Level/Apply Endpoint Configuration.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Compute Destination Endpoints.vi" Type="VI" URL="../High Level/Compute Destination Endpoints.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../High Level/Compute Possible Connections.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
