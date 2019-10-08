@@ -29,6 +29,7 @@
 			<Item Name="Get Possible Connections for Topology.vi" Type="VI" URL="../Get Possible Connections for Topology.vi"/>
 			<Item Name="Get Source and Configuration Channels.vi" Type="VI" URL="../Get Source and Configuration Channels.vi"/>
 			<Item Name="Handle Endpoint Configuration Change.vi" Type="VI" URL="../Handle Endpoint Configuration Change.vi"/>
+			<Item Name="Handle Topology Change.vi" Type="VI" URL="../Handle Topology Change.vi"/>
 			<Item Name="Initialize Endpoint Configuration Page.vi" Type="VI" URL="../Initialize Endpoint Configuration Page.vi"/>
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>

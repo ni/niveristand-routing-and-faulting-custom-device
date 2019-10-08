@@ -28,18 +28,18 @@
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
 		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
 		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
+		<Item Name="Remove All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="High Level" Type="Folder">
 		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../High Level/Compute Possible Connections.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Configure SLSC Switch Custom Device from Module.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device from Module.vi"/>
+		<Item Name="Create All Endpoints as Load.vi" Type="VI" URL="../High Level/Create All Endpoints as Load.vi"/>
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../High Level/Filter Binary To Text.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi"/>
 		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../High Level/Read Module Configuration from Switches JSON.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
