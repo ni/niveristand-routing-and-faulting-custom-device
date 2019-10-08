@@ -13,10 +13,20 @@
 		<Item Name="Validate Hardware Custom Device.vi" Type="VI" URL="../Navigation/Validate Hardware Custom Device.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
+		<Item Name="Get Addressable Endpoints.vi" Type="VI" URL="../Properties/Get Addressable Endpoints.vi"/>
+		<Item Name="Get All Possible Connections.vi" Type="VI" URL="../Properties/Get All Possible Connections.vi"/>
 		<Item Name="Get API Version.vi" Type="VI" URL="../Properties/Get API Version.vi"/>
+		<Item Name="Get Possible Connections for Endpoint.vi" Type="VI" URL="../Properties/Get Possible Connections for Endpoint.vi"/>
 		<Item Name="Get Resource.vi" Type="VI" URL="../Properties/Get Resource.vi"/>
+		<Item Name="Set Addressable Endpoints.vi" Type="VI" URL="../Properties/Set Addressable Endpoints.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Set All Possible Connections.vi" Type="VI" URL="../Properties/Set All Possible Connections.vi"/>
 		<Item Name="Set API Version.vi" Type="VI" URL="../Properties/Set API Version.vi"/>
 		<Item Name="Set Resource.vi" Type="VI" URL="../Properties/Set Resource.vi"/>
+	</Item>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Possible Connections for Endpoint.ctl" Type="VI" URL="../Types/Possible Connections for Endpoint.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Missing Property Error.vi" Type="VI" URL="../Utility/Missing Property Error.vi"/>

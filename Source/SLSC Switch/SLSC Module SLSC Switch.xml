@@ -70,6 +70,18 @@
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
+          <GUID>bd36668c-3a01-46a6-8369-02ac95618231</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Autodetect RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
           <GUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</GUID>
           <Type>Action</Type>
           <Name>
@@ -95,6 +107,31 @@
         </MenuItem>
       </RunTimeMenu>
       <ButtonList>
+        <Button>
+          <ID>Autodetect</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET DropFrames.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>bd36668c-3a01-46a6-8369-02ac95618231</ReferencedGUID>
+          <ButtonText>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Automatically detect the configuration for this custom device from the module.</eng>
+            <loc>Automatically detect the configuration for this custom device from the module.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </Documentation>
+        </Button>
         <Button>
           <ID>Import</ID>
           <Glyph>
