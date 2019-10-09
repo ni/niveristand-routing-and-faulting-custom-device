@@ -34,14 +34,13 @@
 		<Item Name="Apply Endpoint Configuration.vi" Type="VI" URL="../High Level/Apply Endpoint Configuration.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Autodetect SLSC Switch Module Configuration.vi" Type="VI" URL="../Custom Device/Autodetect SLSC Switch Module Configuration.vi"/>
 		<Item Name="Compute Destination Endpoints.vi" Type="VI" URL="../High Level/Compute Destination Endpoints.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../High Level/Compute Possible Connections.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Configure SLSC Switch Custom Device from Module.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device from Module.vi"/>
-		<Item Name="Configure SLSC Switch Custom Device from Switches JSON.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device from Switches JSON.vi"/>
 		<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -52,6 +51,7 @@
 		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Load SLSC Switch Module Configuration.vi" Type="VI" URL="../Custom Device/Load SLSC Switch Module Configuration.vi"/>
 		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../High Level/Read Module Configuration from Switches JSON.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
