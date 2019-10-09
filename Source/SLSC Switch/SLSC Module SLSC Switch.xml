@@ -82,6 +82,18 @@
           </Item2Launch>
         </MenuItem>
         <MenuItem>
+          <GUID>c10a0b37-fd4a-4657-9c43-a8df7a6d5cc5</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Load from JSON RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
           <GUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</GUID>
           <Type>Action</Type>
           <Name>
@@ -130,6 +142,31 @@
           <Documentation>
             <eng>Autodetect</eng>
             <loc>Autodetect</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>Load from JSON</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET File(Replay).png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>c10a0b37-fd4a-4657-9c43-a8df7a6d5cc5</ReferencedGUID>
+          <ButtonText>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Load the configuration for this custom device from the Switches JSON.</eng>
+            <loc>Load the configuration for this custom device from the Switches JSON.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
           </Documentation>
         </Button>
         <Button>
