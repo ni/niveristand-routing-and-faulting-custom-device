@@ -49,7 +49,9 @@
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../High Level/Filter Binary To Text.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi"/>
+		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../High Level/Get Endpoints from Switches JSON.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../High Level/Read Module Configuration from Switches JSON.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
