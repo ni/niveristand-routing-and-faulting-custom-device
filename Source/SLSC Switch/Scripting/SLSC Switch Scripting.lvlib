@@ -80,4 +80,14 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
 	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Validate SLSC CD Reference.vi" Type="VI" URL="../Utility/Validate SLSC CD Reference.vi"/>
+			<Item Name="Validate Endpoint Configuration Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Configuration Reference.vi"/>
+			<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
+			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
+		</Item>
+	</Item>
 </Library>
