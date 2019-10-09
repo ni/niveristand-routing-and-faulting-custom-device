@@ -49,6 +49,7 @@
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Normalize Connection String.vi" Type="VI" URL="../Normalize Connection String.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
+			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
