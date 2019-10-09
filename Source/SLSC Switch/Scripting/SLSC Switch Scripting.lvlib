@@ -41,6 +41,10 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Configure SLSC Switch Custom Device from Module.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device from Module.vi"/>
+		<Item Name="Configure SLSC Switch Custom Device from Switches JSON.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device from Switches JSON.vi"/>
+		<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../High Level/Configure SLSC Switch Custom Device.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Create All Endpoints as Load.vi" Type="VI" URL="../High Level/Create All Endpoints as Load.vi"/>
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../High Level/Filter Binary To Text.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -76,6 +80,7 @@
 		<Item Name="Get SLSC Switch Model.vi" Type="VI" URL="../Properties/Get SLSC Switch Model.vi"/>
 		<Item Name="Get SLSC Switch Resource.vi" Type="VI" URL="../Properties/Get SLSC Switch Resource.vi"/>
 		<Item Name="Get SLSC Switch Topology.vi" Type="VI" URL="../Properties/Get SLSC Switch Topology.vi"/>
+		<Item Name="Get SLSC Switch Slot Number.vi" Type="VI" URL="../Properties/Get SLSC Switch Slot Number.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>

@@ -17,6 +17,7 @@
 				<Item Name="Autodetect RTM.vi" Type="VI" URL="../Autodetect RTM.vi"/>
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
+				<Item Name="Load from JSON RTM.vi" Type="VI" URL="../Load from JSON RTM.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
@@ -26,6 +27,7 @@
 			<Item Name="Compile Status FIFO Indices.vi" Type="VI" URL="../Compile Status FIFO Indices.vi"/>
 			<Item Name="Convert Endpoint to UI Element.vi" Type="VI" URL="../Convert Endpoint to UI Element.vi"/>
 			<Item Name="Convert UI Element to Endpoint.vi" Type="VI" URL="../Convert UI Element to Endpoint.vi"/>
+			<Item Name="Generate Resource Name.vi" Type="VI" URL="../Generate Resource Name.vi"/>
 			<Item Name="Get Possible Connections for Topology.vi" Type="VI" URL="../Get Possible Connections for Topology.vi"/>
 			<Item Name="Get Source and Configuration Channels.vi" Type="VI" URL="../Get Source and Configuration Channels.vi"/>
 			<Item Name="Handle Endpoint Configuration Change.vi" Type="VI" URL="../Handle Endpoint Configuration Change.vi"/>
@@ -33,6 +35,7 @@
 			<Item Name="Initialize Endpoint Configuration Page.vi" Type="VI" URL="../Initialize Endpoint Configuration Page.vi"/>
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Prompt for Switches JSON Path.vi" Type="VI" URL="../Prompt for Switches JSON Path.vi"/>
 			<Item Name="Redraw Event FGV.vi" Type="VI" URL="../Redraw Event FGV.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
