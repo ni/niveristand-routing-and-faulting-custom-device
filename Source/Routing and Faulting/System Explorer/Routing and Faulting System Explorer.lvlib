@@ -41,6 +41,9 @@
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
+			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
+			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
+			<Item Name="Handle Duplicate State Change.vi" Type="VI" URL="../Handle Duplicate State Change.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
 			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
