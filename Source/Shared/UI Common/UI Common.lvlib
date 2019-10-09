@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Add Button.ctl" Type="VI" URL="../Add Button.ctl"/>
+		<Item Name="Duplicate Button.ctl" Type="VI" URL="../Duplicate Button.ctl"/>
 		<Item Name="Remove Button.ctl" Type="VI" URL="../Remove Button.ctl"/>
 		<Item Name="Sort Button.ctl" Type="VI" URL="../Sort Button.ctl"/>
 	</Item>
