@@ -37,6 +37,7 @@
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
+			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
