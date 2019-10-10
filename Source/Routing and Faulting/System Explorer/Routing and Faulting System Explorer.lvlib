@@ -35,6 +35,7 @@
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
+			<Item Name="Configure Connection Dialog.vi" Type="VI" URL="../Configure Connection Dialog.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
@@ -43,6 +44,7 @@
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
+			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
 			<Item Name="Handle Duplicate State Change.vi" Type="VI" URL="../Handle Duplicate State Change.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
