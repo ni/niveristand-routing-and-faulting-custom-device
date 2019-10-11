@@ -70,4 +70,5 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Configure Connection Dialog - Resource Field.vi" Type="VI" URL="../Configure Connection Dialog - Resource Field.vi"/>
 </Library>
