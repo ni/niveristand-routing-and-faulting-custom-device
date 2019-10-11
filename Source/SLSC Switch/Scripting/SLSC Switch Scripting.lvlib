@@ -30,7 +30,6 @@
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
 		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
 		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
-		<Item Name="Remove All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Remove All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="Palettes" Type="Folder">
 		<Item Name="_CustomDevice.mnu" Type="Document" URL="../Palettes/_CustomDevice.mnu"/>
@@ -57,27 +56,25 @@
 		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="private" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Apply Endpoint Configuration.vi" Type="VI" URL="../Utility/Apply Endpoint Configuration.vi"/>
-			<Item Name="Compute Destination Endpoints.vi" Type="VI" URL="../Utility/Compute Destination Endpoints.vi"/>
-			<Item Name="Compute Possible Connections.vi" Type="VI" URL="../Utility/Compute Possible Connections.vi"/>
-			<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../Utility/Configure SLSC Switch Custom Device.vi"/>
-			<Item Name="Filter Binary To Text.vi" Type="VI" URL="../Utility/Filter Binary To Text.vi"/>
-			<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../Utility/Get Endpoints from Switches JSON.vi"/>
-			<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../Utility/Read Module Configuration from Switches JSON.vi"/>
-			<Item Name="Read Module Configuration.vi" Type="VI" URL="../Utility/Read Module Configuration.vi"/>
-			<Item Name="Read Module NVMEM.vi" Type="VI" URL="../Utility/Read Module NVMEM.vi"/>
-			<Item Name="Set Endpoint Configuration Property.vi" Type="VI" URL="../Utility/Set Endpoint Configuration Property.vi"/>
-			<Item Name="Set Topology Property.vi" Type="VI" URL="../Utility/Set Topology Property.vi"/>
-			<Item Name="Validate Endpoint Configuration Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Configuration Reference.vi"/>
-			<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
-			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
-			<Item Name="Validate SLSC CD Reference.vi" Type="VI" URL="../Utility/Validate SLSC CD Reference.vi"/>
-		</Item>
+		<Item Name="Apply Endpoint Configuration.vi" Type="VI" URL="../Utility/Apply Endpoint Configuration.vi"/>
+		<Item Name="Compute Destination Endpoints.vi" Type="VI" URL="../Utility/Compute Destination Endpoints.vi"/>
+		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../Utility/Compute Possible Connections.vi"/>
+		<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../Utility/Configure SLSC Switch Custom Device.vi"/>
 		<Item Name="Create All Endpoints as Load.vi" Type="VI" URL="../Utility/Create All Endpoints as Load.vi"/>
+		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../Utility/Filter Binary To Text.vi"/>
+		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../Utility/Get Endpoints from Switches JSON.vi"/>
+		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../Utility/Read Module Configuration from Switches JSON.vi"/>
+		<Item Name="Read Module Configuration.vi" Type="VI" URL="../Utility/Read Module Configuration.vi"/>
+		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../Utility/Read Module NVMEM.vi"/>
 		<Item Name="Refresh Possible Connections.vi" Type="VI" URL="../Utility/Refresh Possible Connections.vi"/>
+		<Item Name="Remove All Endpoint Configurations.vi" Type="VI" URL="../Utility/Remove All Endpoint Configurations.vi"/>
+		<Item Name="Set Endpoint Configuration Property.vi" Type="VI" URL="../Utility/Set Endpoint Configuration Property.vi"/>
+		<Item Name="Set Topology Property.vi" Type="VI" URL="../Utility/Set Topology Property.vi"/>
+		<Item Name="Validate Endpoint Configuration Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Configuration Reference.vi"/>
+		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
+		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
+		<Item Name="Validate SLSC CD Reference.vi" Type="VI" URL="../Utility/Validate SLSC CD Reference.vi"/>
 	</Item>
 </Library>
