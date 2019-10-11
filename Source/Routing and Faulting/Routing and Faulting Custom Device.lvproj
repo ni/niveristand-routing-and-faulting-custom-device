@@ -889,7 +889,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Routing and Faulting Hardware API</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1B286F70-7139-4EE5-AA9B-2413316A7112}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E3892DF6-2C6D-44AF-985B-A40D85FC398F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib</Property>
@@ -914,6 +914,16 @@
 				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Routing and Faulting Hardware API Constants.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Types</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Utility</Property>
+				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Routing and Faulting System Explorer.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -944,7 +954,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Routing and Faulting Scripting.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
 			</Item>
 		</Item>
 	</Item>
