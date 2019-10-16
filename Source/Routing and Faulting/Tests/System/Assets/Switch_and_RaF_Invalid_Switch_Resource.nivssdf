@@ -195,6 +195,9 @@
 								<Property Name="Password">
 									<String />
 								</Property>
+								<Property Name="Chassis ID Type">
+									<I32>1</I32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="Modules" TypeGUID="96319964-d29d-4af0-9c60-b1a785679b5f">
