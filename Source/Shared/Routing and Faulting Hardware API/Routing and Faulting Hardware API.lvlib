@@ -23,7 +23,6 @@
 		</Item>
 		<Item Name="Set All Possible Connections.vi" Type="VI" URL="../Properties/Set All Possible Connections.vi"/>
 		<Item Name="Set API Version.vi" Type="VI" URL="../Properties/Set API Version.vi"/>
-		<Item Name="Set Resource.vi" Type="VI" URL="../Properties/Set Resource.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Possible Connections for Endpoint.ctl" Type="VI" URL="../Types/Possible Connections for Endpoint.ctl"/>
