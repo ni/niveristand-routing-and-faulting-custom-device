@@ -1842,6 +1842,296 @@
 										<Property Name="user.CD.Slot #">
 											<I32>1</I32>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.Possible Connections">
+											<Dictionary>
+												<Elem Key="DUT_Ch0">
+													<StringArray>
+														<Elem>LOAD_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch0">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch1">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>LOAD_Ch1</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch1">
+													<StringArray>
+														<Elem>DUT_Ch1</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch2">
+													<StringArray>
+														<Elem>LOAD_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch2">
+													<StringArray>
+														<Elem>DUT_Ch2</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch3">
+													<StringArray>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>LOAD_Ch3</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch3">
+													<StringArray>
+														<Elem>DUT_Ch3</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch4">
+													<StringArray>
+														<Elem>LOAD_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch4">
+													<StringArray>
+														<Elem>DUT_Ch4</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch5">
+													<StringArray>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>LOAD_Ch5</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch5">
+													<StringArray>
+														<Elem>DUT_Ch5</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch6">
+													<StringArray>
+														<Elem>LOAD_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch6">
+													<StringArray>
+														<Elem>DUT_Ch6</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch7">
+													<StringArray>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>LOAD_Ch7</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch7">
+													<StringArray>
+														<Elem>DUT_Ch7</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch8">
+													<StringArray>
+														<Elem>LOAD_Ch8</Elem>
+														<Elem>DUT_Ch9</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch8">
+													<StringArray>
+														<Elem>DUT_Ch8</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch9">
+													<StringArray>
+														<Elem>DUT_Ch8</Elem>
+														<Elem>LOAD_Ch9</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch9">
+													<StringArray>
+														<Elem>DUT_Ch9</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch10">
+													<StringArray>
+														<Elem>LOAD_Ch10</Elem>
+														<Elem>DUT_Ch11</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch10">
+													<StringArray>
+														<Elem>DUT_Ch10</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch11">
+													<StringArray>
+														<Elem>DUT_Ch10</Elem>
+														<Elem>LOAD_Ch11</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch11">
+													<StringArray>
+														<Elem>DUT_Ch11</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch12">
+													<StringArray>
+														<Elem>LOAD_Ch12</Elem>
+														<Elem>DUT_Ch13</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch12">
+													<StringArray>
+														<Elem>DUT_Ch12</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch13">
+													<StringArray>
+														<Elem>DUT_Ch12</Elem>
+														<Elem>LOAD_Ch13</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch13">
+													<StringArray>
+														<Elem>DUT_Ch13</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch14">
+													<StringArray>
+														<Elem>LOAD_Ch14</Elem>
+														<Elem>DUT_Ch15</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch14">
+													<StringArray>
+														<Elem>DUT_Ch14</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch15">
+													<StringArray>
+														<Elem>DUT_Ch14</Elem>
+														<Elem>LOAD_Ch15</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch15">
+													<StringArray>
+														<Elem>DUT_Ch15</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="BusA">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>DUT_Ch8</Elem>
+														<Elem>DUT_Ch9</Elem>
+														<Elem>DUT_Ch10</Elem>
+														<Elem>DUT_Ch11</Elem>
+														<Elem>DUT_Ch12</Elem>
+														<Elem>DUT_Ch13</Elem>
+														<Elem>DUT_Ch14</Elem>
+														<Elem>DUT_Ch15</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="BusB">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>DUT_Ch8</Elem>
+														<Elem>DUT_Ch9</Elem>
+														<Elem>DUT_Ch10</Elem>
+														<Elem>DUT_Ch11</Elem>
+														<Elem>DUT_Ch12</Elem>
+														<Elem>DUT_Ch13</Elem>
+														<Elem>DUT_Ch14</Elem>
+														<Elem>DUT_Ch15</Elem>
+													</StringArray>
+												</Elem>
+											</Dictionary>
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+											<StringArray>
+												<Elem>DUT_Ch0</Elem>
+												<Elem>LOAD_Ch0</Elem>
+												<Elem>DUT_Ch1</Elem>
+												<Elem>LOAD_Ch1</Elem>
+												<Elem>DUT_Ch2</Elem>
+												<Elem>LOAD_Ch2</Elem>
+												<Elem>DUT_Ch3</Elem>
+												<Elem>LOAD_Ch3</Elem>
+												<Elem>DUT_Ch4</Elem>
+												<Elem>LOAD_Ch4</Elem>
+												<Elem>DUT_Ch5</Elem>
+												<Elem>LOAD_Ch5</Elem>
+												<Elem>DUT_Ch6</Elem>
+												<Elem>LOAD_Ch6</Elem>
+												<Elem>DUT_Ch7</Elem>
+												<Elem>LOAD_Ch7</Elem>
+												<Elem>DUT_Ch8</Elem>
+												<Elem>LOAD_Ch8</Elem>
+												<Elem>DUT_Ch9</Elem>
+												<Elem>LOAD_Ch9</Elem>
+												<Elem>DUT_Ch10</Elem>
+												<Elem>LOAD_Ch10</Elem>
+												<Elem>DUT_Ch11</Elem>
+												<Elem>LOAD_Ch11</Elem>
+												<Elem>DUT_Ch12</Elem>
+												<Elem>LOAD_Ch12</Elem>
+												<Elem>DUT_Ch13</Elem>
+												<Elem>LOAD_Ch13</Elem>
+												<Elem>DUT_Ch14</Elem>
+												<Elem>LOAD_Ch14</Elem>
+												<Elem>DUT_Ch15</Elem>
+												<Elem>LOAD_Ch15</Elem>
+												<Elem>BusA</Elem>
+												<Elem>BusB</Elem>
+											</StringArray>
+										</Property>
 									</Properties>
 									<Errors />
 									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
