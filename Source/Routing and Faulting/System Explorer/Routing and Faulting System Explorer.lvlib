@@ -22,6 +22,7 @@
 			<Item Name="RTM" Type="Folder">
 				<Item Name="Add Routing Channel RTM.vi" Type="VI" URL="../Add Routing Channel RTM.vi"/>
 				<Item Name="Duplicate Routing Channel RTM.vi" Type="VI" URL="../Duplicate Routing Channel RTM.vi"/>
+				<Item Name="Enable Disable Routing Channel RTM.vi" Type="VI" URL="../Enable Disable Routing Channel RTM.vi"/>
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			</Item>
@@ -37,12 +38,14 @@
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
+			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
 			<Item Name="Find Changed Array Element.vi" Type="VI" URL="../Find Changed Array Element.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
 			<Item Name="Get All Endpoints.vi" Type="VI" URL="../Get All Endpoints.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
+			<Item Name="Get Enabled Routing Channels.vi" Type="VI" URL="../Get Enabled Routing Channels.vi"/>
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
