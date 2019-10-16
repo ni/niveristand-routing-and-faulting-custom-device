@@ -261,7 +261,7 @@
 											<String>SLSC-12251</String>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String>SLSC-12001-0317E1AA-Mod2</String>
+											<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)</String>
 										</Property>
 										<Property Name="user.CD.Topology">
 											<String>NI12251_topology</String>
@@ -2321,7 +2321,7 @@
 											<String>SLSC-12252</String>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String>SLSC-12001-0317E1AA-Mod3</String>
+											<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)</String>
 										</Property>
 										<Property Name="user.CD.Topology">
 											<String>NI12252_topology</String>
@@ -3618,16 +3618,16 @@
 							<Description />
 							<Properties>
 								<Property Name="user.CD.mod2_DUT_Chan0">
-									<String>SLSC-12001-0317E1AA-Mod2/DUT_Ch0</String>
+									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0</String>
 								</Property>
 								<Property Name="user.CD.mod2_Ground">
-									<String>SLSC-12001-0317E1AA-Mod2/BusA</String>
+									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</String>
 								</Property>
 								<Property Name="user.CD.mod3_DUT_Chan0">
-									<String>SLSC-12001-0317E1AA-Mod3/DUT_Ch0</String>
+									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0</String>
 								</Property>
 								<Property Name="user.CD.mod3_Ground">
-									<String>SLSC-12001-0317E1AA-Mod3/BusA</String>
+									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/BusA</String>
 								</Property>
 							</Properties>
 							<Errors />
@@ -3665,17 +3665,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/LOAD_Ch0</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Ground">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusA</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Power">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusB</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusB</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Open Circuit">
@@ -3737,17 +3737,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch1,SLSC-12001-0317E1AA-Mod2/LOAD_Ch1</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch1,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch1</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Ground">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch1,SLSC-12001-0317E1AA-Mod2/BusA</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch1,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Power">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch1,SLSC-12001-0317E1AA-Mod2/BusB</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch1,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusB</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Open Circuit">
@@ -3806,20 +3806,20 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/LOAD_Ch0</Elem>
-													<Elem>SLSC-12001-0317E1AA-Mod3/DUT_Ch0,SLSC-12001-0317E1AA-Mod3/LOAD_Ch0</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch0</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Fault to Ground">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusA</Elem>
-													<Elem>SLSC-12001-0317E1AA-Mod3/DUT_Ch0,SLSC-12001-0317E1AA-Mod3/BusA</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Fault to 12V">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod2/DUT_Ch0,SLSC-12001-0317E1AA-Mod2/BusB</Elem>
-													<Elem>SLSC-12001-0317E1AA-Mod3/DUT_Ch0,SLSC-12001-0317E1AA-Mod3/BusB</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusB</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/BusB</Elem>
 												</StringArray>
 											</Elem>
 										</Dictionary>

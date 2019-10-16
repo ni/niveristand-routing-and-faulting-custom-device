@@ -259,7 +259,7 @@
 											<String>SLSC-12251</String>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String>SLSC-12001-0317E1AA-Mod1</String>
+											<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)</String>
 										</Property>
 										<Property Name="user.CD.Topology">
 											<String>NI12251_topology</String>
@@ -2553,17 +2553,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod1/DUT_Ch0,SLSC-12001-0317E1AA-Mod1/LOAD_Ch0</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)/LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Fault to Ground">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod1/DUT_Ch0,SLSC-12001-0317E1AA-Mod1/BusA</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)/BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Fault to 12V">
 												<StringArray>
-													<Elem>SLSC-12001-0317E1AA-Mod1/DUT_Ch0,SLSC-12001-0317E1AA-Mod1/BusB</Elem>
+													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 1 (SLSC Switch)/BusB</Elem>
 												</StringArray>
 											</Elem>
 										</Dictionary>

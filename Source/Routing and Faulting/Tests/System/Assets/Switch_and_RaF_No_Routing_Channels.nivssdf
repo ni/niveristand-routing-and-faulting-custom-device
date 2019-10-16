@@ -264,7 +264,7 @@
 											<String>SLSC-12251</String>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String>SLSC-12001-0317E1AA-Mod2</String>
+											<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)</String>
 										</Property>
 										<Property Name="user.CD.Topology">
 											<String>NI12251_topology</String>
