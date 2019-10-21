@@ -42,12 +42,16 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Apply Mask to Routing Channel.vi" Type="VI" URL="../Routing Channel/Apply Mask to Routing Channel.vi"/>
+			<Item Name="Apply Read Write BitField Mask.vi" Type="VI" URL="../Routing Channel/Apply Read Write BitField Mask.vi"/>
 			<Item Name="Set Routing Channel State-Value Table.vi" Type="VI" URL="../Routing Channel/Set Routing Channel State-Value Table.vi"/>
 			<Item Name="Validate Routing Channel Parameters.vi" Type="VI" URL="../Routing Channel/Validate Routing Channel Parameters.vi"/>
 			<Item Name="Validate Channel Name.vi" Type="VI" URL="../Routing Channel/Validate Channel Name.vi"/>
 			<Item Name="Validate Initial State.vi" Type="VI" URL="../Routing Channel/Validate Initial State.vi"/>
 		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
+		<Item Name="Disable Routing Channel.vi" Type="VI" URL="../Routing Channel/Disable Routing Channel.vi"/>
+		<Item Name="Enable Routing Channel.vi" Type="VI" URL="../Routing Channel/Enable Routing Channel.vi"/>
 		<Item Name="Get All Routing Channel Ref IDs.vi" Type="VI" URL="../Routing Channel/Get All Routing Channel Ref IDs.vi"/>
 		<Item Name="Get Routing Channel by Name.vi" Type="VI" URL="../Routing Channel/Get Routing Channel by Name.vi"/>
 		<Item Name="Get Routing Channel Configuration.vi" Type="VI" URL="../Routing Channel/Get Routing Channel Configuration.vi"/>

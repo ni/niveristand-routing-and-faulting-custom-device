@@ -258,12 +258,51 @@
 										<Property Name="user.CD.Slot #">
 											<I32>1</I32>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Possible Connections">
+											<Dictionary />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+											<StringArray />
+										</Property>
 									</Properties>
 									<Errors />
 									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
 										<Description />
 										<Properties />
 										<Errors />
+									</Section>
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
 									</Section>
 								</Section>
 								<Section Name="SLSC Module 2" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
@@ -326,12 +365,51 @@
 										<Property Name="user.CD.Slot #">
 											<I32>2</I32>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Possible Connections">
+											<Dictionary />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+											<StringArray />
+										</Property>
 									</Properties>
 									<Errors />
 									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
 										<Description />
 										<Properties />
 										<Errors />
+									</Section>
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
 									</Section>
 								</Section>
 								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
@@ -419,12 +497,51 @@
 										<Property Name="user.CD.Slot #">
 											<I32>8</I32>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Possible Connections">
+											<Dictionary />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+											<StringArray />
+										</Property>
 									</Properties>
 									<Errors />
 									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
 										<Description />
 										<Properties />
 										<Errors />
+									</Section>
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
 									</Section>
 								</Section>
 								<Section Name="Slot 9 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
@@ -578,7 +695,7 @@
 					<Description />
 					<Properties />
 					<Errors />
-               <Section Name="Routing and Faulting" TypeGUID="4e591626-626d-4903-9a6e-1f2a7b879f4d">
+					<Section Name="Routing and Faulting" TypeGUID="4e591626-626d-4903-9a6e-1f2a7b879f4d">
 						<Description />
 						<Properties>
 							<Property Name="CD Status">
@@ -631,16 +748,16 @@
 						<Section Name="Endpoint Aliases" TypeGUID="58f3342d-82ee-4932-869a-6f49da3049e5">
 							<Description />
 							<Properties>
-                        <Property Name="user.CD.changedAlias">
+								<Property Name="user.CD.changedAlias">
 									<String>staticPin</String>
 								</Property>
-                        <Property Name="user.CD.configuredAlias">
+								<Property Name="user.CD.configuredAlias">
 									<String>configuredPin</String>
 								</Property>
-                        <Property Name="user.CD.newAlias">
+								<Property Name="user.CD.newAlias">
 									<String>newPin</String>
 								</Property>
-                     </Properties>
+							</Properties>
 							<Errors />
 						</Section>
 						<Section Name="Routing Channels" TypeGUID="ce8870b5-cb8e-4b52-ac34-5b792fdc2ead">
@@ -699,7 +816,7 @@
 									<Elem>23</Elem>
 								</DefaultValue>
 							</Channel>
-                     <Channel Name="StateChangeChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+							<Channel Name="StateChangeChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
 								<Description>Should have a single state called passThrough after import</Description>
 								<Properties>
 									<Property Name="Value Table">
@@ -743,7 +860,7 @@
 									<Elem>23</Elem>
 								</DefaultValue>
 							</Channel>
-                     <Channel Name="StaticChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+							<Channel Name="StaticChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
 								<Description>Should remain the same after import. Does not exist in imported sysdef.</Description>
 								<Properties>
 									<Property Name="Value Table">

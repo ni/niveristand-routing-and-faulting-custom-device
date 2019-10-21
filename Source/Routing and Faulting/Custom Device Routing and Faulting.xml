@@ -265,6 +265,30 @@
             <Path>Actions\Delete.vi</Path>
           </Item2Launch>
         </MenuItem>
+        <MenuItem>
+          <GUID>00e42cae-1847-4da4-b5df-f5afe8e05df6</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>e2260547-c427-4583-a6f5-ad52ae12da6a</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Disable</eng>
+            <loc>Disable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Enable Disable Routing Channel RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
       </RunTimeMenu>
       <ButtonList>
         <Button>
@@ -292,7 +316,85 @@
             <loc>Duplicate Routing Channel</loc>
           </Documentation>
         </Button>
+        <Button>
+          <ID>Disable Routing Channel</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Routing and Faulting\Windows\Glyphs\disabled routing channel.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>e2260547-c427-4583-a6f5-ad52ae12da6a</ReferencedGUID>
+          <ButtonText>
+            <eng>Disable Routing Channel</eng>
+            <loc>Disable Routing Channel</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Disable Routing Channel</eng>
+            <loc>Disable Routing Channel</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Disable this routing channel for the custom device.</eng>
+            <loc>Disable this routing channel for the custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Disable Routing Channel</eng>
+            <loc>Disable Routing Channel</loc>
+          </Documentation>
+        </Button>
       </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Routing Channel Page (disabled)</eng>
+        <loc>Routing Channel Page (disabled)</loc>
+      </Name>
+      <GUID>d53b9e39-8c97-48d0-a889-a3e6598ed856</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Glyphs\disabled routing channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Routing Channel Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>c9380bf5-50bb-4a52-bab6-f0de324be6cc</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>00e42cae-1847-4da4-b5df-f5afe8e05df6</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>e2260547-c427-4583-a6f5-ad52ae12da6a</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Enable</eng>
+            <loc>Enable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Enable Disable Routing Channel RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
     </Page>
     <Page>
       <Name>

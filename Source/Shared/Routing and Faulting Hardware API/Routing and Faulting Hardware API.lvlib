@@ -23,7 +23,6 @@
 		</Item>
 		<Item Name="Set All Possible Connections.vi" Type="VI" URL="../Properties/Set All Possible Connections.vi"/>
 		<Item Name="Set API Version.vi" Type="VI" URL="../Properties/Set API Version.vi"/>
-		<Item Name="Set Resource.vi" Type="VI" URL="../Properties/Set Resource.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Possible Connections for Endpoint.ctl" Type="VI" URL="../Types/Possible Connections for Endpoint.ctl"/>
@@ -31,7 +30,7 @@
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Missing Property Error.vi" Type="VI" URL="../Utility/Missing Property Error.vi"/>
 		<Item Name="Validate Hardware Custom Device API Version 1.vi" Type="VI" URL="../Utility/Validate Hardware Custom Device API Version 1.vi"/>
-		<Item Name="Validate Resource.vi" Type="VI" URL="../Utility/Validate Resource.vi"/>
+		<Item Name="Validate Possible Connections.vi" Type="VI" URL="../Utility/Validate Possible Connections.vi"/>
 	</Item>
 	<Item Name="Routing and Faulting Hardware API Constants.vi" Type="VI" URL="../Routing and Faulting Hardware API Constants.vi"/>
 </Library>
