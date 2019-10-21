@@ -40,7 +40,9 @@
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 			<Item Name="Convert UI Connection to Connection (R,S,D).vi.vi" Type="VI" URL="../Convert UI Connection to Connection (R,S,D).vi.vi"/>
+			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Find Changed Array Element.vi" Type="VI" URL="../Find Changed Array Element.vi"/>
+			<Item Name="Find Changed Connections Array Element.vi" Type="VI" URL="../Find Changed Connections Array Element.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
@@ -50,7 +52,9 @@
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
+			<Item Name="Get Mouse Location (Connections).vi" Type="VI" URL="../Get Mouse Location (Connections).vi"/>
 			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
+			<Item Name="Get Resource from Connection UI Element.vi" Type="VI" URL="../Get Resource from Connection UI Element.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
 			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
 			<Item Name="Handle Duplicate State Change.vi" Type="VI" URL="../Handle Duplicate State Change.vi"/>
@@ -85,5 +89,4 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Find Changed Connections Array Element.vi" Type="VI" URL="../Find Changed Connections Array Element.vi"/>
 </Library>
