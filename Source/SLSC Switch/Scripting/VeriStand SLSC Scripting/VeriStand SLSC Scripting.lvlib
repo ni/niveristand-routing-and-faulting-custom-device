@@ -41,6 +41,7 @@
 	<Item Name="Utility" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Find Target.vi" Type="VI" URL="../Utility/Find Target.vi"/>
+		<Item Name="Get SLSC Module Resource from Chassis IP.vi" Type="VI" URL="../Module/Get SLSC Module Resource from Chassis IP.vi"/>
 		<Item Name="Parse CD XML.vi" Type="VI" URL="../Utility/Parse CD XML.vi"/>
 		<Item Name="Set Custom Device Driver VIs.vi" Type="VI" URL="../Utility/Set Custom Device Driver VIs.vi"/>
 		<Item Name="SLSC CD Schema Path.vi" Type="VI" URL="../Utility/SLSC CD Schema Path.vi"/>

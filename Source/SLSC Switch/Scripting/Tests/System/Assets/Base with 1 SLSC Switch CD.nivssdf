@@ -10,7 +10,7 @@
 				<String>Base with 1 SLSC Switch CD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.4</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -184,7 +184,7 @@
 									<String>SLSC-12001</String>
 								</Property>
 								<Property Name="Chassis ID">
-									<String>mySLSCChassis</String>
+									<String>VS-Eco-SLSC-12001</String>
 								</Property>
 								<Property Name="Username">
 									<String>anonymous</String>
@@ -192,13 +192,21 @@
 								<Property Name="Password">
 									<String />
 								</Property>
+								<Property Name="Chassis ID Type">
+									<I32>1</I32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="Modules" TypeGUID="96319964-d29d-4af0-9c60-b1a785679b5f">
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="Slot 1 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+								<Section Name="Slot 1 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 2 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
 										<Property Name="CD Status">
@@ -226,15 +234,6 @@
 											</DependentFile>
 										</Property>
 										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
@@ -243,7 +242,7 @@
 												<MD5 />
 											</DependentFile>
 										</Property>
-										<Property Name="Driver VI Path_4">
+										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
@@ -255,21 +254,58 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Resource">
+											<String />
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Possible Connections">
+											<Dictionary />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+											<StringArray />
+										</Property>
 										<Property Name="user.CD.Slot #">
-											<I32>1</I32>
+											<I32>2</I32>
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
 										<Description />
 										<Properties />
 										<Errors />
 									</Section>
-								</Section>
-								<Section Name="Slot 2 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
 								</Section>
 								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />
