@@ -71,6 +71,8 @@
 			<Item Name="Normalize Connection String.vi" Type="VI" URL="../Normalize Connection String.vi"/>
 			<Item Name="Organize Aliases by Module.vi" Type="VI" URL="../Organize Aliases by Module.vi"/>
 			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
+			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
+			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
