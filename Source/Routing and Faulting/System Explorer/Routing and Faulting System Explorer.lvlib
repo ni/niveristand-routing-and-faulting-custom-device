@@ -28,6 +28,9 @@
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
+		<Item Name="Malleable" Type="Folder">
+			<Item Name="Find Changed Array Element.vim" Type="VI" URL="../Find Changed Array Element.vim"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
@@ -36,10 +39,13 @@
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
+			<Item Name="Configure Connection Dialog.vi" Type="VI" URL="../Configure Connection Dialog.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
+			<Item Name="Convert UI Connection to Connection (R,S,D).vi.vi" Type="VI" URL="../Convert UI Connection to Connection (R,S,D).vi.vi"/>
+			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
-			<Item Name="Find Changed Array Element.vi" Type="VI" URL="../Find Changed Array Element.vi"/>
+			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
 			<Item Name="Get All Endpoints.vi" Type="VI" URL="../Get All Endpoints.vi"/>
@@ -49,7 +55,10 @@
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
+			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
+			<Item Name="Get Resource from Connection UI Element.vi" Type="VI" URL="../Get Resource from Connection UI Element.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
+			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
 			<Item Name="Handle Duplicate State Change.vi" Type="VI" URL="../Handle Duplicate State Change.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Identify Duplicate Alias Entries.vi" Type="VI" URL="../Identify Duplicate Alias Entries.vi"/>
@@ -60,7 +69,12 @@
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Normalize Connection String.vi" Type="VI" URL="../Normalize Connection String.vi"/>
+			<Item Name="Organize Aliases by Module.vi" Type="VI" URL="../Organize Aliases by Module.vi"/>
+			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
+			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
+			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
+			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
 			<Item Name="Set Alias.vi" Type="VI" URL="../Set Alias.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
