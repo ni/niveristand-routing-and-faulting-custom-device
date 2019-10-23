@@ -28,6 +28,9 @@
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
+		<Item Name="Malleable" Type="Folder">
+			<Item Name="Find Changed Array Element.vim" Type="VI" URL="../Find Changed Array Element.vim"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
@@ -42,8 +45,6 @@
 			<Item Name="Convert UI Connection to Connection (R,S,D).vi.vi" Type="VI" URL="../Convert UI Connection to Connection (R,S,D).vi.vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
-			<Item Name="Find Changed Array Element.vi" Type="VI" URL="../Find Changed Array Element.vi"/>
-			<Item Name="Find Changed Connections Array Element.vi" Type="VI" URL="../Find Changed Connections Array Element.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
