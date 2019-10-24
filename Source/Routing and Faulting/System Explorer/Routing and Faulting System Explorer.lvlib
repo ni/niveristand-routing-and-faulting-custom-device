@@ -47,6 +47,9 @@
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
+			<Item Name="Format Endpoint Name.vi" Type="VI" URL="../Format Endpoint Name.vi"/>
+			<Item Name="Format Full Endpoint Name.vi" Type="VI" URL="../Format Full Endpoint Name.vi"/>
+			<Item Name="Format Module Name.vi" Type="VI" URL="../Format Module Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
 			<Item Name="Get All Endpoints.vi" Type="VI" URL="../Get All Endpoints.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>

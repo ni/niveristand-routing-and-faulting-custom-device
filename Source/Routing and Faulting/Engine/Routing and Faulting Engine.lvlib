@@ -19,7 +19,7 @@
 			<Item Name="Create Messages.vi" Type="VI" URL="../Create Messages.vi"/>
 			<Item Name="Engine Main.vi" Type="VI" URL="../Engine Main.vi"/>
 			<Item Name="Get Connections for Inputs.vi" Type="VI" URL="../Get Connections for Inputs.vi"/>
-			<Item Name="Get Connections per Resource.vi" Type="VI" URL="../Get Connections per Resource.vi"/>
+			<Item Name="Get Connections per Module.vi" Type="VI" URL="../Get Connections per Module.vi"/>
 			<Item Name="Get Messages for Connection Lists.vi" Type="VI" URL="../Get Messages for Connection Lists.vi"/>
 			<Item Name="Read Inputs.vi" Type="VI" URL="../Read Inputs.vi"/>
 			<Item Name="Reset State Data.vi" Type="VI" URL="../Reset State Data.vi"/>
