@@ -62,6 +62,7 @@
 			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
 			<Item Name="Handle Remove State Change.vi" Type="VI" URL="../Handle Remove State Change.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
+			<Item Name="Handle State Name Change.vi" Type="VI" URL="../Handle State Name Change.vi"/>
 			<Item Name="Identify Duplicate Alias Entries.vi" Type="VI" URL="../Identify Duplicate Alias Entries.vi"/>
 			<Item Name="Initialize Alias Endpoint Strings.vi" Type="VI" URL="../Initialize Alias Endpoint Strings.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
