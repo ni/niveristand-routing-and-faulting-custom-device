@@ -22,12 +22,14 @@
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Autodetect Fallback to JSON on Disk.vi" Type="VI" URL="../Autodetect Fallback to JSON on Disk.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
 			<Item Name="Compile Driver Configuration.vi" Type="VI" URL="../Compile Driver Configuration.vi"/>
 			<Item Name="Compile Status FIFO Indices.vi" Type="VI" URL="../Compile Status FIFO Indices.vi"/>
 			<Item Name="Convert Endpoint to UI Element.vi" Type="VI" URL="../Convert Endpoint to UI Element.vi"/>
 			<Item Name="Convert UI Element to Endpoint.vi" Type="VI" URL="../Convert UI Element to Endpoint.vi"/>
 			<Item Name="Generate Resource Name.vi" Type="VI" URL="../Generate Resource Name.vi"/>
+			<Item Name="Get SLSC Product Name.vi" Type="VI" URL="../Get SLSC Product Name.vi"/>
 			<Item Name="Get Source and Configuration Channels.vi" Type="VI" URL="../Get Source and Configuration Channels.vi"/>
 			<Item Name="Handle Endpoint Configuration Change.vi" Type="VI" URL="../Handle Endpoint Configuration Change.vi"/>
 			<Item Name="Initialize Endpoint Configuration Page.vi" Type="VI" URL="../Initialize Endpoint Configuration Page.vi"/>
