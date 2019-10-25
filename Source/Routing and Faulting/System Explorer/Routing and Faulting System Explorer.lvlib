@@ -46,6 +46,7 @@
 			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
+			<Item Name="Fix Outdated Modules.vi" Type="VI" URL="../Fix Outdated Modules.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Format Endpoint Name.vi" Type="VI" URL="../Format Endpoint Name.vi"/>
@@ -59,6 +60,8 @@
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
+			<Item Name="Get Nested Property Name.vi" Type="VI" URL="../Get Nested Property Name.vi"/>
+			<Item Name="Get Outdated Dependent Modules.vi" Type="VI" URL="../Get Outdated Dependent Modules.vi"/>
 			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
 			<Item Name="Get Resource from Connection UI Element.vi" Type="VI" URL="../Get Resource from Connection UI Element.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
@@ -79,6 +82,7 @@
 			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
 			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
 			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
+			<Item Name="Refresh Dependent Modules.vi" Type="VI" URL="../Refresh Dependent Modules.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
@@ -99,4 +103,6 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Fix Outdated Aliases.vi" Type="VI" URL="../Fix Outdated Aliases.vi"/>
+	<Item Name="Fix Outdated Connections.vi" Type="VI" URL="../Fix Outdated Connections.vi"/>
 </Library>
