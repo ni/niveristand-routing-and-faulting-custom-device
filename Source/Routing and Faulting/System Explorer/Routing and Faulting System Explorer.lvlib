@@ -46,6 +46,8 @@
 			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
+			<Item Name="Fix Outdated Aliases.vi" Type="VI" URL="../Fix Outdated Aliases.vi"/>
+			<Item Name="Fix Outdated Connections.vi" Type="VI" URL="../Fix Outdated Connections.vi"/>
 			<Item Name="Fix Outdated Modules.vi" Type="VI" URL="../Fix Outdated Modules.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
@@ -103,6 +105,4 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Fix Outdated Aliases.vi" Type="VI" URL="../Fix Outdated Aliases.vi"/>
-	<Item Name="Fix Outdated Connections.vi" Type="VI" URL="../Fix Outdated Connections.vi"/>
 </Library>
