@@ -55,7 +55,6 @@
 			<Item Name="Get All Endpoints.vi" Type="VI" URL="../Get All Endpoints.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
-			<Item Name="Get Dependent Modules.vi" Type="VI" URL="../Get Dependent Modules.vi"/>
 			<Item Name="Get Enabled Routing Channels.vi" Type="VI" URL="../Get Enabled Routing Channels.vi"/>
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
@@ -85,7 +84,6 @@
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
 			<Item Name="Set Alias.vi" Type="VI" URL="../Set Alias.vi"/>
-			<Item Name="Set Dependent Modules.vi" Type="VI" URL="../Set Dependent Modules.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
