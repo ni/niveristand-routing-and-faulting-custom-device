@@ -47,6 +47,7 @@
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
+			<Item Name="Format Connection UI to Connection.vi" Type="VI" URL="../Format Connection UI to Connection.vi"/>
 			<Item Name="Format Endpoint Name.vi" Type="VI" URL="../Format Endpoint Name.vi"/>
 			<Item Name="Format Full Endpoint Name.vi" Type="VI" URL="../Format Full Endpoint Name.vi"/>
 			<Item Name="Format Module Name.vi" Type="VI" URL="../Format Module Name.vi"/>
@@ -74,10 +75,10 @@
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Normalize Connection String.vi" Type="VI" URL="../Normalize Connection String.vi"/>
-			<Item Name="Organize Aliases by Module.vi" Type="VI" URL="../Organize Aliases by Module.vi"/>
 			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
 			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
 			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
+			<Item Name="Prepare Aliases for UI.vi" Type="VI" URL="../Prepare Aliases for UI.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
