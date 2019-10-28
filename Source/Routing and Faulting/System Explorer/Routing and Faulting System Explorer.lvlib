@@ -46,9 +46,9 @@
 			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
-			<Item Name="Fix Outdated Aliases.vi" Type="VI" URL="../Fix Outdated Aliases.vi"/>
-			<Item Name="Fix Outdated Connections.vi" Type="VI" URL="../Fix Outdated Connections.vi"/>
-			<Item Name="Fix Outdated Modules.vi" Type="VI" URL="../Fix Outdated Modules.vi"/>
+			<Item Name="Fix Relocated Aliases.vi" Type="VI" URL="../Fix Relocated Aliases.vi"/>
+			<Item Name="Fix Relocated Connections.vi" Type="VI" URL="../Fix Relocated Connections.vi"/>
+			<Item Name="Fix Relocated Modules.vi" Type="VI" URL="../Fix Relocated Modules.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Format Endpoint Name.vi" Type="VI" URL="../Format Endpoint Name.vi"/>
@@ -64,8 +64,8 @@
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
 			<Item Name="Get Nested Property Name.vi" Type="VI" URL="../Get Nested Property Name.vi"/>
-			<Item Name="Get Outdated Dependent Modules.vi" Type="VI" URL="../Get Outdated Dependent Modules.vi"/>
 			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
+			<Item Name="Get Relocated Dependent Modules.vi" Type="VI" URL="../Get Relocated Dependent Modules.vi"/>
 			<Item Name="Get Resource from Connection UI Element.vi" Type="VI" URL="../Get Resource from Connection UI Element.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
