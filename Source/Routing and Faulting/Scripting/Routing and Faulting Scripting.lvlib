@@ -99,5 +99,10 @@
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
+		<Item Name="Fix Relocated Aliases.vi" Type="VI" URL="../Utility/Fix Relocated Aliases.vi"/>
+		<Item Name="Fix Relocated Connections.vi" Type="VI" URL="../Utility/Fix Relocated Connections.vi"/>
+		<Item Name="Fix Relocated Modules.vi" Type="VI" URL="../Utility/Fix Relocated Modules.vi"/>
+		<Item Name="Get Relocated Dependent Modules.vi" Type="VI" URL="../Utility/Get Relocated Dependent Modules.vi"/>
+		<Item Name="Refresh Dependent Modules.vi" Type="VI" URL="../Utility/Refresh Dependent Modules.vi"/>
 	</Item>
 </Library>
