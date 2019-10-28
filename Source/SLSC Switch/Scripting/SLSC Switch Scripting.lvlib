@@ -70,6 +70,7 @@
 		<Item Name="Remove All Endpoint Configurations.vi" Type="VI" URL="../Utility/Remove All Endpoint Configurations.vi"/>
 		<Item Name="Set Endpoint Configuration Property.vi" Type="VI" URL="../Utility/Set Endpoint Configuration Property.vi"/>
 		<Item Name="Set Topology Property.vi" Type="VI" URL="../Utility/Set Topology Property.vi"/>
+		<Item Name="SLSC Switch Close.vi" Type="VI" URL="../Utility/SLSC Switch Close.vi"/>
 		<Item Name="Validate Endpoint Configuration Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Configuration Reference.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
