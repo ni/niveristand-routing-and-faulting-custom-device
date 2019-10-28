@@ -101,6 +101,7 @@
 		<Item Name="Fix Relocated Connections.vi" Type="VI" URL="../Utility/Fix Relocated Connections.vi"/>
 		<Item Name="Fix Relocated Modules.vi" Type="VI" URL="../Utility/Fix Relocated Modules.vi"/>
 		<Item Name="Get Dependent Modules.vi" Type="VI" URL="../Utility/Get Dependent Modules.vi"/>
+		<Item Name="Get Nested Property Name.vi" Type="VI" URL="../Utility/Get Nested Property Name.vi"/>
 		<Item Name="Get Relocated Dependent Modules.vi" Type="VI" URL="../Utility/Get Relocated Dependent Modules.vi"/>
 		<Item Name="Refresh Dependent Modules.vi" Type="VI" URL="../Utility/Refresh Dependent Modules.vi"/>
 		<Item Name="Set Dependent Modules.vi" Type="VI" URL="../Utility/Set Dependent Modules.vi"/>
