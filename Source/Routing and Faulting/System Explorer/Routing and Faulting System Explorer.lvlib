@@ -11,6 +11,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
