@@ -42,7 +42,7 @@
 			<Item Name="Configure Connection Dialog.vi" Type="VI" URL="../Configure Connection Dialog.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
-			<Item Name="Convert UI Connection to Connection (R,S,D).vi.vi" Type="VI" URL="../Convert UI Connection to Connection (R,S,D).vi.vi"/>
+			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
