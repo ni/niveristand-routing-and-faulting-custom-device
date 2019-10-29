@@ -70,6 +70,7 @@
 			<Item Name="Identify Duplicate Alias Entries.vi" Type="VI" URL="../Identify Duplicate Alias Entries.vi"/>
 			<Item Name="Initialize Alias Endpoint Strings.vi" Type="VI" URL="../Initialize Alias Endpoint Strings.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
+			<Item Name="Initialize Channel Editor State.vi" Type="VI" URL="../Initialize Channel Editor State.vi"/>
 			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
 			<Item Name="Initialize Routing Channel Page (State-Value Table).vi" Type="VI" URL="../Initialize Routing Channel Page (State-Value Table).vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
