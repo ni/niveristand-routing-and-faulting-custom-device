@@ -40,6 +40,10 @@
 					<Item Name="Assets" Type="Folder">
 						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Assets/Base System Definition.nivssdf"/>
 					</Item>
+					<Item Name="Fake Hardware Custom Device" Type="Folder">
+						<Item Name="Fake Hardware Custom Device.lvlib" Type="Library" URL="../Scripting/Tests/Unit/Fake Hardware Custom Device/Fake Hardware Custom Device.lvlib"/>
+						<Item Name="SLSC Module Fake Hardware.xml" Type="Document" URL="../Scripting/Tests/Unit/Fake Hardware Custom Device/SLSC Module Fake Hardware.xml"/>
+					</Item>
 					<Item Name="Routing and Faulting Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/Routing and Faulting Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>

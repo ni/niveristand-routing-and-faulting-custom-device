@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>SLSC Plug-ins::Fake Hardware</eng>
+		<loc>SLSC Plug-ins::Fake Hardware</loc>
+	</AddMenu>
+	<Version>1.0.0</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>9b6d297c-b220-4892-9baa-6638f007e33f</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>SLSC Plugins\Modules\Fake Hardware\Windows\Fake Hardware Configuration.llb\Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>SLSC Plugins\Modules\Fake Hardware\Windows\Fake Hardware Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fake Hardware\Fake Hardware Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>Fake Hardware</eng>
+				<loc>Fake Hardware</loc>
+			</Name>
+			<GUID>9b6d297c-b220-4892-9baa-6638f007e33f</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+</CustomDevice>
