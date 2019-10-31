@@ -83,8 +83,10 @@
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
 			<Item Name="Set Alias.vi" Type="VI" URL="../Set Alias.vi"/>
+			<Item Name="Show Relocated Dependent Modules Dialog.vi" Type="VI" URL="../Show Relocated Dependent Modules Dialog.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
+			<Item Name="Update Internal State.vi" Type="VI" URL="../Update Internal State.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">

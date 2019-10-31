@@ -86,6 +86,8 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Fix Relocated Aliases.vi" Type="VI" URL="../Utility/Fix Relocated Aliases.vi"/>
+			<Item Name="Fix Relocated Connections.vi" Type="VI" URL="../Utility/Fix Relocated Connections.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
 			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
 			<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
@@ -97,8 +99,6 @@
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
-		<Item Name="Fix Relocated Aliases.vi" Type="VI" URL="../Utility/Fix Relocated Aliases.vi"/>
-		<Item Name="Fix Relocated Connections.vi" Type="VI" URL="../Utility/Fix Relocated Connections.vi"/>
 		<Item Name="Fix Relocated Modules.vi" Type="VI" URL="../Utility/Fix Relocated Modules.vi"/>
 		<Item Name="Get Dependent Modules.vi" Type="VI" URL="../Utility/Get Dependent Modules.vi"/>
 		<Item Name="Get Nested Property Name.vi" Type="VI" URL="../Utility/Get Nested Property Name.vi"/>
