@@ -95,6 +95,7 @@
 			<Item Name="Channel Editor State.ctl" Type="VI" URL="../Channel Editor State.ctl"/>
 			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
+			<Item Name="Possible Connections.ctl" Type="VI" URL="../Possible Connections.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Initial Tab.ctl" Type="VI" URL="../Routing Channel Initial Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
