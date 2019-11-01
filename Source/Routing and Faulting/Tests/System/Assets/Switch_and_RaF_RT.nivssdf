@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
@@ -31,7 +31,7 @@
 						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.64.4</String>
+						<String>10.2.64.6</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
