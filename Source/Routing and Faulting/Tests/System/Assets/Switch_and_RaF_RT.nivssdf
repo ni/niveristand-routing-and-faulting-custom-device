@@ -31,7 +31,7 @@
 						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.64.6</String>
+						<String>VS-Eco-Slave-8880</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -187,16 +187,13 @@
 									<String>SLSC-12001</String>
 								</Property>
 								<Property Name="Chassis ID">
-									<String>10.2.64.15</String>
+									<String>VS-Eco-SLSC-12001</String>
 								</Property>
 								<Property Name="Username">
 									<String>anonymous</String>
 								</Property>
 								<Property Name="Password">
 									<String />
-								</Property>
-								<Property Name="Chassis ID Type">
-									<I32>1</I32>
 								</Property>
 							</Properties>
 							<Errors />
