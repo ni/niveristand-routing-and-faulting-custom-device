@@ -48,6 +48,7 @@
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
+			<Item Name="Format Connection UI to Connection.vi" Type="VI" URL="../Format Connection UI to Connection.vi"/>
 			<Item Name="Format Endpoint Name.vi" Type="VI" URL="../Format Endpoint Name.vi"/>
 			<Item Name="Format Full Endpoint Name.vi" Type="VI" URL="../Format Full Endpoint Name.vi"/>
 			<Item Name="Format Module Name.vi" Type="VI" URL="../Format Module Name.vi"/>
@@ -56,11 +57,11 @@
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
 			<Item Name="Get Enabled Routing Channels.vi" Type="VI" URL="../Get Enabled Routing Channels.vi"/>
+			<Item Name="Get Module from Connection UI Element.vi" Type="VI" URL="../Get Module from Connection UI Element.vi"/>
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
 			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
-			<Item Name="Get Resource from Connection UI Element.vi" Type="VI" URL="../Get Resource from Connection UI Element.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
 			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
@@ -70,15 +71,16 @@
 			<Item Name="Identify Duplicate Alias Entries.vi" Type="VI" URL="../Identify Duplicate Alias Entries.vi"/>
 			<Item Name="Initialize Alias Endpoint Strings.vi" Type="VI" URL="../Initialize Alias Endpoint Strings.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
+			<Item Name="Initialize Channel Editor State.vi" Type="VI" URL="../Initialize Channel Editor State.vi"/>
 			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
 			<Item Name="Initialize Routing Channel Page (State-Value Table).vi" Type="VI" URL="../Initialize Routing Channel Page (State-Value Table).vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Normalize Connection String.vi" Type="VI" URL="../Normalize Connection String.vi"/>
-			<Item Name="Organize Aliases by Module.vi" Type="VI" URL="../Organize Aliases by Module.vi"/>
 			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
 			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
 			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
+			<Item Name="Prepare Aliases for UI.vi" Type="VI" URL="../Prepare Aliases for UI.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
@@ -88,10 +90,13 @@
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="Alias Map by Module.ctl" Type="VI" URL="../Alias Map by Module.ctl"/>
 			<Item Name="Alias.ctl" Type="VI" URL="../Alias.ctl"/>
 			<Item Name="Aliases Page Controls.ctl" Type="VI" URL="../Aliases Page Controls.ctl"/>
+			<Item Name="Channel Editor State.ctl" Type="VI" URL="../Channel Editor State.ctl"/>
 			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
+			<Item Name="Possible Connections.ctl" Type="VI" URL="../Possible Connections.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Initial Tab.ctl" Type="VI" URL="../Routing Channel Initial Tab.ctl"/>
 			<Item Name="Routing Channel Page Controls.ctl" Type="VI" URL="../Routing Channel Page Controls.ctl"/>
