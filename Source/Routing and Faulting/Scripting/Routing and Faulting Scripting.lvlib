@@ -94,7 +94,11 @@
 			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
-			<Item Name="Get Unique Module Identifier.vi" Type="VI" URL="../Utility/Get Unique Module Identifier.vi"/>
+			<Item Name="Create Unique Module Identifier.vi" Type="VI" URL="../Utility/Create Unique Module Identifier.vi"/>
+			<Item Name="Get Module Identifiers.vi" Type="VI" URL="../Utility/Get Module Identifiers.vi"/>
+			<Item Name="Get Module Identifier.vi" Type="VI" URL="../Utility/Get Module Identifier.vi"/>
+			<Item Name="Add Module.vi" Type="VI" URL="../Utility/Add Module.vi"/>
+			<Item Name="Get Module Path.vi" Type="VI" URL="../Utility/Get Module Path.vi"/>
 		</Item>
 		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
