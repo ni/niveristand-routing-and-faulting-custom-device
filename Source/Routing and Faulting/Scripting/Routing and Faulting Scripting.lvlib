@@ -99,6 +99,7 @@
 			<Item Name="Get Module Identifier.vi" Type="VI" URL="../Utility/Get Module Identifier.vi"/>
 			<Item Name="Add Module.vi" Type="VI" URL="../Utility/Add Module.vi"/>
 			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
+			<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
 		</Item>
 		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>

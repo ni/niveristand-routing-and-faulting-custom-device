@@ -42,6 +42,8 @@
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
 			<Item Name="Configure Connection Dialog.vi" Type="VI" URL="../Configure Connection Dialog.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
+			<Item Name="Convert Endpoint String to Endpoint.vi" Type="VI" URL="../Convert Endpoint String to Endpoint.vi"/>
+			<Item Name="Convert Endpoint to Endpoint String.vi" Type="VI" URL="../Convert Endpoint to Endpoint String.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
