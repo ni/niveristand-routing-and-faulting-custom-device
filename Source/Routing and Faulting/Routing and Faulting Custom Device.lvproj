@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -76,7 +76,6 @@
 				<Item Name="Assets" Type="Folder">
 					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
 					<Item Name="Switch_and_RaF.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF.nivssdf"/>
-					<Item Name="Switch_and_RaF_Diff_Resource.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Diff_Resource.nivssdf"/>
 					<Item Name="Switch_and_RaF_Initial_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Initial_States.nivssdf"/>
 					<Item Name="Switch_and_RaF_No_Routing_Channels.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_No_Routing_Channels.nivssdf"/>
 					<Item Name="Switch_and_RaF_Rich_States.nivssdf" Type="Document" URL="../Tests/System/Assets/Switch_and_RaF_Rich_States.nivssdf"/>
