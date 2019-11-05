@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
@@ -10,7 +10,7 @@
 				<String>Switch_and_RaF_RT</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.3</String>
+				<String>1.0.0.5</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -980,7 +980,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
 									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5>04a4da38ed43d94b5f48d63cf6128064</MD5>
+									<MD5>bd30a9ceb08dc366ccc7cbf39f9eb083</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_2">
@@ -989,7 +989,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5>9b5d293494565d239cdfb64a3dac7f28</MD5>
+									<MD5 />
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_3">
@@ -998,8 +998,16 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5>17fd0ebd3b1e86af7ae1a8768ea5ebf1</MD5>
+									<MD5 />
 								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Modules">
+								<StringArray>
+									<Elem>0</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="user.CD.Modules.0">
+								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)" />
 							</Property>
 						</Properties>
 						<Errors />
@@ -1007,10 +1015,10 @@
 							<Description />
 							<Properties>
 								<Property Name="user.CD.DUT0">
-									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0</String>
+									<String>0,DUT_Ch0</String>
 								</Property>
 								<Property Name="user.CD.LOAD0">
-									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch0</String>
+									<String>0,LOAD_Ch0</String>
 								</Property>
 							</Properties>
 							<Errors />
@@ -1039,7 +1047,7 @@
 											</Elem>
 											<Elem Key="DUT0">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch0</Elem>
+													<Elem>0,DUT_Ch0,LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
 										</Dictionary>
@@ -1050,7 +1058,7 @@
 												<String>State with no connections</String>
 											</Elem>
 											<Elem Key="DUT0">
-												<String>State with no connections</String>
+												<String />
 											</Elem>
 										</Dictionary>
 									</Property>

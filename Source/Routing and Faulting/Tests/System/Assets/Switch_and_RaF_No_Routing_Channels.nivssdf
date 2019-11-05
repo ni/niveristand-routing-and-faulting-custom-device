@@ -10,7 +10,7 @@
 				<String>Switch_and_RaF_No_Routing_Channels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.8</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -2459,32 +2459,11 @@
 							<Property Name="Driver VI Exec Mode">
 								<U32>0</U32>
 							</Property>
-							<Property Name="Version">
-								<String>1.0.0</String>
-							</Property>
-							<Property Name="Loop type">
-								<U32>0</U32>
-							</Property>
-							<Property Name="Use Dev Clk">
-								<Boolean>false</Boolean>
-							</Property>
-							<Property Name="Decimation">
-								<I32>1</I32>
-							</Property>
-							<Property Name="FIFO Source">
-								<U32>1</U32>
-							</Property>
-							<Property Name="FIFO Sink">
-								<U32>1</U32>
-							</Property>
-							<Property Name="TL Priority">
-								<U32>0</U32>
-							</Property>
 							<Property Name="Driver VI Path_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -2493,7 +2472,7 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -2502,8 +2481,8 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\PharLap\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Pharlap</SupportedTarget>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
@@ -2511,8 +2490,38 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Windows\Routing and Faulting Engine Windows.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Pharlap\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5>bd30a9ceb08dc366ccc7cbf39f9eb083</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
