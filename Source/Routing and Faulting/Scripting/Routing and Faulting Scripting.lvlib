@@ -91,6 +91,7 @@
 			<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
 			<Item Name="Get Module Identifier.vi" Type="VI" URL="../Utility/Get Module Identifier.vi"/>
 			<Item Name="Get Module Identifiers.vi" Type="VI" URL="../Utility/Get Module Identifiers.vi"/>
+			<Item Name="Get Module Node from Identifier.vi" Type="VI" URL="../Utility/Get Module Node from Identifier.vi"/>
 			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
@@ -100,6 +101,7 @@
 			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 			<Item Name="Validate Routing Channel Reference.vi" Type="VI" URL="../Utility/Validate Routing Channel Reference.vi"/>
 			<Item Name="Validate Routing Channels Reference.vi" Type="VI" URL="../Utility/Validate Routing Channels Reference.vi"/>
+			<Item Name="Verify Hardware Custom Devices Exist.vi" Type="VI" URL="../Utility/Verify Hardware Custom Devices Exist.vi"/>
 		</Item>
 		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
@@ -107,5 +109,6 @@
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
+		<Item Name="Validate RaF Custom Device Configuration.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Configuration.vi"/>
 	</Item>
 </Library>
