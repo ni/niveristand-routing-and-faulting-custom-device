@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Switch_and_RaF_Rich_States" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Switch_and_RaF_Rich_States_Aliases" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Switch_and_RaF_Rich_States</String>
+				<String>Switch_and_RaF_Rich_States_Aliases</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.1</String>
+				<String>1.0.0.2</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -3555,32 +3555,11 @@
 							<Property Name="Driver VI Exec Mode">
 								<U32>0</U32>
 							</Property>
-							<Property Name="Version">
-								<String>1.0.0</String>
-							</Property>
-							<Property Name="Loop type">
-								<U32>0</U32>
-							</Property>
-							<Property Name="Use Dev Clk">
-								<Boolean>false</Boolean>
-							</Property>
-							<Property Name="Decimation">
-								<I32>1</I32>
-							</Property>
-							<Property Name="FIFO Source">
-								<U32>1</U32>
-							</Property>
-							<Property Name="FIFO Sink">
-								<U32>1</U32>
-							</Property>
-							<Property Name="TL Priority">
-								<U32>0</U32>
-							</Property>
 							<Property Name="Driver VI Path_0">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -3589,7 +3568,7 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -3598,8 +3577,8 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\PharLap\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Pharlap</SupportedTarget>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
@@ -3607,10 +3586,52 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Windows\Routing and Faulting Engine Windows.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Windows</SupportedTarget>
 									<MD5 />
 								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Pharlap\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5>bd30a9ceb08dc366ccc7cbf39f9eb083</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Modules">
+								<StringArray>
+									<Elem>0</Elem>
+									<Elem>1</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="user.CD.Modules.0">
+								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)" />
+							</Property>
+							<Property Name="user.CD.Modules.1">
+								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)" />
 							</Property>
 						</Properties>
 						<Errors />
@@ -3618,16 +3639,16 @@
 							<Description />
 							<Properties>
 								<Property Name="user.CD.mod2_DUT_Chan0">
-									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0</String>
+									<String>0,DUT_Ch0</String>
 								</Property>
 								<Property Name="user.CD.mod2_Ground">
-									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</String>
+									<String>0,BusA</String>
 								</Property>
 								<Property Name="user.CD.mod3_DUT_Chan0">
-									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0</String>
+									<String>1,DUT_Ch0</String>
 								</Property>
 								<Property Name="user.CD.mod3_Ground">
-									<String>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/BusA</String>
+									<String>1,BusA</String>
 								</Property>
 							</Properties>
 							<Errors />
@@ -3665,17 +3686,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch0</Elem>
+													<Elem>0,DUT_Ch0,LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Ground">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</Elem>
+													<Elem>0,DUT_Ch0,BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Power">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusB</Elem>
+													<Elem>0,DUT_Ch0,BusB</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Open Circuit">
@@ -3709,7 +3730,7 @@
 								</DefaultValue>
 							</Channel>
 							<Channel Name="Window Down" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Window-Up Sensor State</Description>
+								<Description>Window-Down Sensor State</Description>
 								<Properties>
 									<Property Name="Value Table">
 										<Dictionary>
@@ -3737,17 +3758,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch1,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch1</Elem>
+													<Elem>0,DUT_Ch1,LOAD_Ch1</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Ground">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch1,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</Elem>
+													<Elem>0,DUT_Ch1,BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Power">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch1,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusB</Elem>
+													<Elem>0,DUT_Ch1,BusB</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Open Circuit">
@@ -3806,20 +3827,20 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/LOAD_Ch0</Elem>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/LOAD_Ch0</Elem>
+													<Elem>0,DUT_Ch0,LOAD_Ch0</Elem>
+													<Elem>1,DUT_Ch0,LOAD_Ch0</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Fault to Ground">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusA</Elem>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/BusA</Elem>
+													<Elem>0,DUT_Ch0,BusA</Elem>
+													<Elem>1,DUT_Ch0,BusA</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Fault to 12V">
 												<StringArray>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)/BusB</Elem>
-													<Elem>Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/DUT_Ch0,Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 3 (SLSC Switch)/BusB</Elem>
+													<Elem>0,DUT_Ch0,BusB</Elem>
+													<Elem>1,DUT_Ch0,BusB</Elem>
 												</StringArray>
 											</Elem>
 										</Dictionary>

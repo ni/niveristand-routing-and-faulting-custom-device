@@ -10,7 +10,7 @@
 				<String>Export Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.4</String>
+				<String>1.0.0.8</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -184,7 +184,7 @@
 									<String>SLSC-12001</String>
 								</Property>
 								<Property Name="Chassis ID">
-									<String>mySLSC Chassis</String>
+									<String>10.2.64.15</String>
 								</Property>
 								<Property Name="Username">
 									<String>anonymous</String>
@@ -192,13 +192,21 @@
 								<Property Name="Password">
 									<String />
 								</Property>
+								<Property Name="Chassis ID Type">
+									<I32>1</I32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="Modules" TypeGUID="96319964-d29d-4af0-9c60-b1a785679b5f">
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="SLSC Module 1" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+								<Section Name="Slot 1 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 2 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
 										<Property Name="CD Status">
@@ -226,15 +234,6 @@
 											</DependentFile>
 										</Property>
 										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
@@ -243,7 +242,7 @@
 												<MD5 />
 											</DependentFile>
 										</Property>
-										<Property Name="Driver VI Path_4">
+										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
@@ -254,140 +253,420 @@
 										</Property>
 										<Property Name="Version">
 											<String>1.0.0</String>
-										</Property>
-										<Property Name="user.CD.Slot #">
-											<I32>1</I32>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.API Version">
 											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Model">
-											<String />
+											<String>SLSC-12251</String>
 										</Property>
 										<Property Name="user.CD.Capabilities">
-											<String />
+											<String>{"switchesSpecVersion":1,"switchesSpecOldestCompatibleVersion":1,"relays":[{"name":"Ch0","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch1","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch3","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch5","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch7","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch8","actions":[{"type":"property","resource":"Channel_8","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch9","actions":[{"type":"property","resource":"Channel_9","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch10","actions":[{"type":"property","resource":"Channel_10","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch11","actions":[{"type":"property","resource":"Channel_11","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch12","actions":[{"type":"property","resource":"Channel_12","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch13","actions":[{"type":"property","resource":"Channel_13","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch14","actions":[{"type":"property","resource":"Channel_14","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch15","actions":[{"type":"property","resource":"Channel_15","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch0_Ch1","actions":[{"type":"property","resource":"ChannelPair_0","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2_Ch3","actions":[{"type":"property","resource":"ChannelPair_1","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4_Ch5","actions":[{"type":"property","resource":"ChannelPair_2","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6_Ch7","actions":[{"type":"property","resource":"ChannelPair_3","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch8_Ch9","actions":[{"type":"property","resource":"ChannelPair_4","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch10_Ch11","actions":[{"type":"property","resource":"ChannelPair_5","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch12_Ch13","actions":[{"type":"property","resource":"ChannelPair_6","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch14_Ch15","actions":[{"type":"property","resource":"ChannelPair_7","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]}],"multiStateRelays":[{"name":"Ch0_Bus","relays":[{"name":"Ch0_BusA","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch0_BusB","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch1_Bus","relays":[{"name":"Ch1_BusA","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch1_BusB","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch2_Bus","relays":[{"name":"Ch2_BusA","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2_BusB","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch3_Bus","relays":[{"name":"Ch3_BusA","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch3_BusB","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch4_Bus","relays":[{"name":"Ch4_BusA","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4_BusB","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch5_Bus","relays":[{"name":"Ch5_BusA","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch5_BusB","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch6_Bus","relays":[{"name":"Ch6_BusA","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6_BusB","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch7_Bus","relays":[{"name":"Ch7_BusA","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch7_BusB","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch8_Bus","relays":[{"name":"Ch8_BusA","actions":[{"type":"property","resource":"Channel_8","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch8_BusB","actions":[{"type":"property","resource":"Channel_8","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch9_Bus","relays":[{"name":"Ch9_BusA","actions":[{"type":"property","resource":"Channel_9","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch9_BusB","actions":[{"type":"property","resource":"Channel_9","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch10_Bus","relays":[{"name":"Ch10_BusA","actions":[{"type":"property","resource":"Channel_10","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch10_BusB","actions":[{"type":"property","resource":"Channel_10","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch11_Bus","relays":[{"name":"Ch11_BusA","actions":[{"type":"property","resource":"Channel_11","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch11_BusB","actions":[{"type":"property","resource":"Channel_11","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch12_Bus","relays":[{"name":"Ch12_BusA","actions":[{"type":"property","resource":"Channel_12","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch12_BusB","actions":[{"type":"property","resource":"Channel_12","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch13_Bus","relays":[{"name":"Ch13_BusA","actions":[{"type":"property","resource":"Channel_13","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch13_BusB","actions":[{"type":"property","resource":"Channel_13","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch14_Bus","relays":[{"name":"Ch14_BusA","actions":[{"type":"property","resource":"Channel_14","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch14_BusB","actions":[{"type":"property","resource":"Channel_14","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch15_Bus","relays":[{"name":"Ch15_BusA","actions":[{"type":"property","resource":"Channel_15","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch15_BusB","actions":[{"type":"property","resource":"Channel_15","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]}],"topologies":[{"name":"NI12251_topology","initialState":{"open":["Ch0","Ch0_BusA","Ch0_BusB","Ch1","Ch1_BusA","Ch1_BusB","Ch2","Ch2_BusA","Ch2_BusB","Ch3","Ch3_BusA","Ch3_BusB","Ch4","Ch4_BusA","Ch4_BusB","Ch5","Ch5_BusA","Ch5_BusB","Ch6","Ch6_BusA","Ch6_BusB","Ch7","Ch7_BusA","Ch7_BusB","Ch8","Ch8_BusA","Ch8_BusB","Ch9","Ch9_BusA","Ch9_BusB","Ch10","Ch10_BusA","Ch10_BusB","Ch11","Ch11_BusA","Ch11_BusB","Ch12","Ch12_BusA","Ch12_BusB","Ch13","Ch13_BusA","Ch13_BusB","Ch14","Ch14_BusA","Ch14_BusB","Ch15","Ch15_BusA","Ch15_BusB","Ch0_Ch1","Ch2_Ch3","Ch4_Ch5","Ch6_Ch7","Ch8_Ch9","Ch10_Ch11","Ch12_Ch13","Ch14_Ch15"],"close":[]},"channelList":{"names":["DUT_Ch0","LOAD_Ch0","DUT_Ch1","LOAD_Ch1","DUT_Ch2","LOAD_Ch2","DUT_Ch3","LOAD_Ch3","DUT_Ch4","LOAD_Ch4","DUT_Ch5","LOAD_Ch5","DUT_Ch6","LOAD_Ch6","DUT_Ch7","LOAD_Ch7","DUT_Ch8","LOAD_Ch8","DUT_Ch9","LOAD_Ch9","DUT_Ch10","LOAD_Ch10","DUT_Ch11","LOAD_Ch11","DUT_Ch12","LOAD_Ch12","DUT_Ch13","LOAD_Ch13","DUT_Ch14","LOAD_Ch14","DUT_Ch15","LOAD_Ch15","BusA","BusB"]},"connectionList":[{"src":"DUT_Ch0","dest":"LOAD_Ch0","relays":["Ch0"]},{"src":"DUT_Ch0","dest":"BusA","relays":["Ch0_BusA"]},{"src":"DUT_Ch0","dest":"BusB","relays":["Ch0_BusB"]},{"src":"DUT_Ch1","dest":"LOAD_Ch1","relays":["Ch1"]},{"src":"DUT_Ch1","dest":"BusA","relays":["Ch1_BusA"]},{"src":"DUT_Ch1","dest":"BusB","relays":["Ch1_BusB"]},{"src":"DUT_Ch2","dest":"LOAD_Ch2","relays":["Ch2"]},{"src":"DUT_Ch2","dest":"BusA","relays":["Ch2_BusA"]},{"src":"DUT_Ch2","dest":"BusB","relays":["Ch2_BusB"]},{"src":"DUT_Ch3","dest":"LOAD_Ch3","relays":["Ch3"]},{"src":"DUT_Ch3","dest":"BusA","relays":["Ch3_BusA"]},{"src":"DUT_Ch3","dest":"BusB","relays":["Ch3_BusB"]},{"src":"DUT_Ch4","dest":"LOAD_Ch4","relays":["Ch4"]},{"src":"DUT_Ch4","dest":"BusA","relays":["Ch4_BusA"]},{"src":"DUT_Ch4","dest":"BusB","relays":["Ch4_BusB"]},{"src":"DUT_Ch5","dest":"LOAD_Ch5","relays":["Ch5"]},{"src":"DUT_Ch5","dest":"BusA","relays":["Ch5_BusA"]},{"src":"DUT_Ch5","dest":"BusB","relays":["Ch5_BusB"]},{"src":"DUT_Ch6","dest":"LOAD_Ch6","relays":["Ch6"]},{"src":"DUT_Ch6","dest":"BusA","relays":["Ch6_BusA"]},{"src":"DUT_Ch6","dest":"BusB","relays":["Ch6_BusB"]},{"src":"DUT_Ch7","dest":"LOAD_Ch7","relays":["Ch7"]},{"src":"DUT_Ch7","dest":"BusA","relays":["Ch7_BusA"]},{"src":"DUT_Ch7","dest":"BusB","relays":["Ch7_BusB"]},{"src":"DUT_Ch8","dest":"LOAD_Ch8","relays":["Ch8"]},{"src":"DUT_Ch8","dest":"BusA","relays":["Ch8_BusA"]},{"src":"DUT_Ch8","dest":"BusB","relays":["Ch8_BusB"]},{"src":"DUT_Ch9","dest":"LOAD_Ch9","relays":["Ch9"]},{"src":"DUT_Ch9","dest":"BusA","relays":["Ch9_BusA"]},{"src":"DUT_Ch9","dest":"BusB","relays":["Ch9_BusB"]},{"src":"DUT_Ch10","dest":"LOAD_Ch10","relays":["Ch10"]},{"src":"DUT_Ch10","dest":"BusA","relays":["Ch10_BusA"]},{"src":"DUT_Ch10","dest":"BusB","relays":["Ch10_BusB"]},{"src":"DUT_Ch11","dest":"LOAD_Ch11","relays":["Ch11"]},{"src":"DUT_Ch11","dest":"BusA","relays":["Ch11_BusA"]},{"src":"DUT_Ch11","dest":"BusB","relays":["Ch11_BusB"]},{"src":"DUT_Ch12","dest":"LOAD_Ch12","relays":["Ch12"]},{"src":"DUT_Ch12","dest":"BusA","relays":["Ch12_BusA"]},{"src":"DUT_Ch12","dest":"BusB","relays":["Ch12_BusB"]},{"src":"DUT_Ch13","dest":"LOAD_Ch13","relays":["Ch13"]},{"src":"DUT_Ch13","dest":"BusA","relays":["Ch13_BusA"]},{"src":"DUT_Ch13","dest":"BusB","relays":["Ch13_BusB"]},{"src":"DUT_Ch14","dest":"LOAD_Ch14","relays":["Ch14"]},{"src":"DUT_Ch14","dest":"BusA","relays":["Ch14_BusA"]},{"src":"DUT_Ch14","dest":"BusB","relays":["Ch14_BusB"]},{"src":"DUT_Ch15","dest":"LOAD_Ch15","relays":["Ch15"]},{"src":"DUT_Ch15","dest":"BusA","relays":["Ch15_BusA"]},{"src":"DUT_Ch15","dest":"BusB","relays":["Ch15_BusB"]},{"src":"DUT_Ch0","dest":"DUT_Ch1","relays":["Ch0_Ch1"]},{"src":"DUT_Ch2","dest":"DUT_Ch3","relays":["Ch2_Ch3"]},{"src":"DUT_Ch4","dest":"DUT_Ch5","relays":["Ch4_Ch5"]},{"src":"DUT_Ch6","dest":"DUT_Ch7","relays":["Ch6_Ch7"]},{"src":"DUT_Ch8","dest":"DUT_Ch9","relays":["Ch8_Ch9"]},{"src":"DUT_Ch10","dest":"DUT_Ch11","relays":["Ch10_Ch11"]},{"src":"DUT_Ch12","dest":"DUT_Ch13","relays":["Ch12_Ch13"]},{"src":"DUT_Ch14","dest":"DUT_Ch15","relays":["Ch14_Ch15"]}],"muxList":[{"src":"DUT_Ch0","dest":["BusA","BusB"]},{"src":"DUT_Ch1","dest":["BusA","BusB"]},{"src":"DUT_Ch2","dest":["BusA","BusB"]},{"src":"DUT_Ch3","dest":["BusA","BusB"]},{"src":"DUT_Ch4","dest":["BusA","BusB"]},{"src":"DUT_Ch5","dest":["BusA","BusB"]},{"src":"DUT_Ch6","dest":["BusA","BusB"]},{"src":"DUT_Ch7","dest":["BusA","BusB"]},{"src":"DUT_Ch8","dest":["BusA","BusB"]},{"src":"DUT_Ch9","dest":["BusA","BusB"]},{"src":"DUT_Ch10","dest":["BusA","BusB"]},{"src":"DUT_Ch11","dest":["BusA","BusB"]},{"src":"DUT_Ch12","dest":["BusA","BusB"]},{"src":"DUT_Ch13","dest":["BusA","BusB"]},{"src":"DUT_Ch14","dest":["BusA","BusB"]},{"src":"DUT_Ch15","dest":["BusA","BusB"]}]}]}</String>
 										</Property>
 										<Property Name="user.CD.Topology">
-											<String />
+											<String>NI12251_topology</String>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Possible Connections">
-											<Dictionary />
+											<Dictionary>
+												<Elem Key="DUT_Ch0">
+													<StringArray>
+														<Elem>LOAD_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch0">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch1">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>LOAD_Ch1</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch1">
+													<StringArray>
+														<Elem>DUT_Ch1</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch2">
+													<StringArray>
+														<Elem>LOAD_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch2">
+													<StringArray>
+														<Elem>DUT_Ch2</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch3">
+													<StringArray>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>LOAD_Ch3</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch3">
+													<StringArray>
+														<Elem>DUT_Ch3</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch4">
+													<StringArray>
+														<Elem>LOAD_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch4">
+													<StringArray>
+														<Elem>DUT_Ch4</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch5">
+													<StringArray>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>LOAD_Ch5</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch5">
+													<StringArray>
+														<Elem>DUT_Ch5</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch6">
+													<StringArray>
+														<Elem>LOAD_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch6">
+													<StringArray>
+														<Elem>DUT_Ch6</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch7">
+													<StringArray>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>LOAD_Ch7</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch7">
+													<StringArray>
+														<Elem>DUT_Ch7</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch8">
+													<StringArray>
+														<Elem>LOAD_Ch8</Elem>
+														<Elem>DUT_Ch9</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch8">
+													<StringArray>
+														<Elem>DUT_Ch8</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch9">
+													<StringArray>
+														<Elem>DUT_Ch8</Elem>
+														<Elem>LOAD_Ch9</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch9">
+													<StringArray>
+														<Elem>DUT_Ch9</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch10">
+													<StringArray>
+														<Elem>LOAD_Ch10</Elem>
+														<Elem>DUT_Ch11</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch10">
+													<StringArray>
+														<Elem>DUT_Ch10</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch11">
+													<StringArray>
+														<Elem>DUT_Ch10</Elem>
+														<Elem>LOAD_Ch11</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch11">
+													<StringArray>
+														<Elem>DUT_Ch11</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch12">
+													<StringArray>
+														<Elem>LOAD_Ch12</Elem>
+														<Elem>DUT_Ch13</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch12">
+													<StringArray>
+														<Elem>DUT_Ch12</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch13">
+													<StringArray>
+														<Elem>DUT_Ch12</Elem>
+														<Elem>LOAD_Ch13</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch13">
+													<StringArray>
+														<Elem>DUT_Ch13</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch14">
+													<StringArray>
+														<Elem>LOAD_Ch14</Elem>
+														<Elem>DUT_Ch15</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch14">
+													<StringArray>
+														<Elem>DUT_Ch14</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch15">
+													<StringArray>
+														<Elem>DUT_Ch14</Elem>
+														<Elem>LOAD_Ch15</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch15">
+													<StringArray>
+														<Elem>DUT_Ch15</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="BusA">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>DUT_Ch8</Elem>
+														<Elem>DUT_Ch9</Elem>
+														<Elem>DUT_Ch10</Elem>
+														<Elem>DUT_Ch11</Elem>
+														<Elem>DUT_Ch12</Elem>
+														<Elem>DUT_Ch13</Elem>
+														<Elem>DUT_Ch14</Elem>
+														<Elem>DUT_Ch15</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="BusB">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>DUT_Ch8</Elem>
+														<Elem>DUT_Ch9</Elem>
+														<Elem>DUT_Ch10</Elem>
+														<Elem>DUT_Ch11</Elem>
+														<Elem>DUT_Ch12</Elem>
+														<Elem>DUT_Ch13</Elem>
+														<Elem>DUT_Ch14</Elem>
+														<Elem>DUT_Ch15</Elem>
+													</StringArray>
+												</Elem>
+											</Dictionary>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
-											<StringArray />
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
-										<Description />
-										<Properties />
-										<Errors />
-									</Section>
-									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
-										<Description />
-										<Properties />
-										<Errors />
-										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-								<Section Name="SLSC Module 2" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
-									<Description />
-									<Properties>
-										<Property Name="CD Status">
-											<U32>1</U32>
-										</Property>
-										<Property Name="Driver VI Exec Mode">
-											<U32>0</U32>
-										</Property>
-										<Property Name="Driver VI Path_0">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Linux_x64</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_1">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Linux_32_ARM</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>PharLap</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_4">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Windows</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Version">
-											<String>1.0.0</String>
+											<StringArray>
+												<Elem>DUT_Ch0</Elem>
+												<Elem>LOAD_Ch0</Elem>
+												<Elem>DUT_Ch1</Elem>
+												<Elem>LOAD_Ch1</Elem>
+												<Elem>DUT_Ch2</Elem>
+												<Elem>LOAD_Ch2</Elem>
+												<Elem>DUT_Ch3</Elem>
+												<Elem>LOAD_Ch3</Elem>
+												<Elem>DUT_Ch4</Elem>
+												<Elem>LOAD_Ch4</Elem>
+												<Elem>DUT_Ch5</Elem>
+												<Elem>LOAD_Ch5</Elem>
+												<Elem>DUT_Ch6</Elem>
+												<Elem>LOAD_Ch6</Elem>
+												<Elem>DUT_Ch7</Elem>
+												<Elem>LOAD_Ch7</Elem>
+												<Elem>DUT_Ch8</Elem>
+												<Elem>LOAD_Ch8</Elem>
+												<Elem>DUT_Ch9</Elem>
+												<Elem>LOAD_Ch9</Elem>
+												<Elem>DUT_Ch10</Elem>
+												<Elem>LOAD_Ch10</Elem>
+												<Elem>DUT_Ch11</Elem>
+												<Elem>LOAD_Ch11</Elem>
+												<Elem>DUT_Ch12</Elem>
+												<Elem>LOAD_Ch12</Elem>
+												<Elem>DUT_Ch13</Elem>
+												<Elem>LOAD_Ch13</Elem>
+												<Elem>DUT_Ch14</Elem>
+												<Elem>LOAD_Ch14</Elem>
+												<Elem>DUT_Ch15</Elem>
+												<Elem>LOAD_Ch15</Elem>
+												<Elem>BusA</Elem>
+												<Elem>BusB</Elem>
+											</StringArray>
 										</Property>
 										<Property Name="user.CD.Slot #">
 											<I32>2</I32>
 										</Property>
-										<Property Name="user.CD.Routing and Faulting.API Version">
-											<U32>1</U32>
-										</Property>
-										<Property Name="user.CD.Model">
-											<String />
-										</Property>
-										<Property Name="user.CD.Capabilities">
-											<String />
-										</Property>
-										<Property Name="user.CD.Topology">
-											<String />
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Possible Connections">
-											<Dictionary />
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
-											<StringArray />
-										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
 										<Description />
-										<Properties />
+										<Properties>
+											<Property Name="user.CD.DUT_Ch0">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch0">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch1">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch1">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch2">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch2">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch3">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch3">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch4">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch4">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch5">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch5">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch6">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch6">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch7">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch7">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch8">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch8">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch9">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch9">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch10">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch10">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch11">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch11">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch12">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch12">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch13">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch13">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch14">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch14">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch15">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch15">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.BusA">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.BusB">
+												<String>Load</String>
+											</Property>
+										</Properties>
 										<Errors />
 									</Section>
 									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
@@ -417,27 +696,7 @@
 									<Properties />
 									<Errors />
 								</Section>
-								<Section Name="Slot 4 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="SLSC Module 3" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+								<Section Name="Slot 4 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
 										<Property Name="CD Status">
@@ -465,15 +724,6 @@
 											</DependentFile>
 										</Property>
 										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
@@ -482,7 +732,7 @@
 												<MD5 />
 											</DependentFile>
 										</Property>
-										<Property Name="Driver VI Path_4">
+										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
@@ -494,32 +744,235 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
-										<Property Name="user.CD.Slot #">
-											<I32>8</I32>
-										</Property>
 										<Property Name="user.CD.Routing and Faulting.API Version">
 											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Model">
-											<String />
+											<String>SLSC-12252</String>
 										</Property>
 										<Property Name="user.CD.Capabilities">
-											<String />
+											<String>{"switchesSpecVersion":1,"switchesSpecOldestCompatibleVersion":1,"relays":[{"name":"Ch0","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch1","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch3","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch5","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch7","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch0_Ch1","actions":[{"type":"property","resource":"ChannelPair_0","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2_Ch3","actions":[{"type":"property","resource":"ChannelPair_1","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4_Ch5","actions":[{"type":"property","resource":"ChannelPair_2","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6_Ch7","actions":[{"type":"property","resource":"ChannelPair_3","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]}],"multiStateRelays":[{"name":"Ch0_Bus","relays":[{"name":"Ch0_BusA","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch0_BusB","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch1_Bus","relays":[{"name":"Ch1_BusA","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch1_BusB","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch2_Bus","relays":[{"name":"Ch2_BusA","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2_BusB","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch3_Bus","relays":[{"name":"Ch3_BusA","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch3_BusB","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch4_Bus","relays":[{"name":"Ch4_BusA","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4_BusB","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch5_Bus","relays":[{"name":"Ch5_BusA","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch5_BusB","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch6_Bus","relays":[{"name":"Ch6_BusA","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6_BusB","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch7_Bus","relays":[{"name":"Ch7_BusA","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch7_BusB","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]}],"topologies":[{"name":"NI12252_topology","initialState":{"open":["Ch0","Ch0_BusA","Ch0_BusB","Ch1","Ch1_BusA","Ch1_BusB","Ch2","Ch2_BusA","Ch2_BusB","Ch3","Ch3_BusA","Ch3_BusB","Ch4","Ch4_BusA","Ch4_BusB","Ch5","Ch5_BusA","Ch5_BusB","Ch6","Ch6_BusA","Ch6_BusB","Ch7","Ch7_BusA","Ch7_BusB","Ch0_Ch1","Ch2_Ch3","Ch4_Ch5","Ch6_Ch7"],"close":[]},"channelList":{"names":["DUT_Ch0","LOAD_Ch0","DUT_Ch1","LOAD_Ch1","DUT_Ch2","LOAD_Ch2","DUT_Ch3","LOAD_Ch3","DUT_Ch4","LOAD_Ch4","DUT_Ch5","LOAD_Ch5","DUT_Ch6","LOAD_Ch6","DUT_Ch7","LOAD_Ch7","BusA","BusB"]},"connectionList":[{"src":"DUT_Ch0","dest":"LOAD_Ch0","relays":["Ch0"]},{"src":"DUT_Ch0","dest":"BusA","relays":["Ch0_BusA"]},{"src":"DUT_Ch0","dest":"BusB","relays":["Ch0_BusB"]},{"src":"DUT_Ch1","dest":"LOAD_Ch1","relays":["Ch1"]},{"src":"DUT_Ch1","dest":"BusA","relays":["Ch1_BusA"]},{"src":"DUT_Ch1","dest":"BusB","relays":["Ch1_BusB"]},{"src":"DUT_Ch2","dest":"LOAD_Ch2","relays":["Ch2"]},{"src":"DUT_Ch2","dest":"BusA","relays":["Ch2_BusA"]},{"src":"DUT_Ch2","dest":"BusB","relays":["Ch2_BusB"]},{"src":"DUT_Ch3","dest":"LOAD_Ch3","relays":["Ch3"]},{"src":"DUT_Ch3","dest":"BusA","relays":["Ch3_BusA"]},{"src":"DUT_Ch3","dest":"BusB","relays":["Ch3_BusB"]},{"src":"DUT_Ch4","dest":"LOAD_Ch4","relays":["Ch4"]},{"src":"DUT_Ch4","dest":"BusA","relays":["Ch4_BusA"]},{"src":"DUT_Ch4","dest":"BusB","relays":["Ch4_BusB"]},{"src":"DUT_Ch5","dest":"LOAD_Ch5","relays":["Ch5"]},{"src":"DUT_Ch5","dest":"BusA","relays":["Ch5_BusA"]},{"src":"DUT_Ch5","dest":"BusB","relays":["Ch5_BusB"]},{"src":"DUT_Ch6","dest":"LOAD_Ch6","relays":["Ch6"]},{"src":"DUT_Ch6","dest":"BusA","relays":["Ch6_BusA"]},{"src":"DUT_Ch6","dest":"BusB","relays":["Ch6_BusB"]},{"src":"DUT_Ch7","dest":"LOAD_Ch7","relays":["Ch7"]},{"src":"DUT_Ch7","dest":"BusA","relays":["Ch7_BusA"]},{"src":"DUT_Ch7","dest":"BusB","relays":["Ch7_BusB"]},{"src":"DUT_Ch0","dest":"DUT_Ch1","relays":["Ch0_Ch1"]},{"src":"DUT_Ch2","dest":"DUT_Ch3","relays":["Ch2_Ch3"]},{"src":"DUT_Ch4","dest":"DUT_Ch5","relays":["Ch4_Ch5"]},{"src":"DUT_Ch6","dest":"DUT_Ch7","relays":["Ch6_Ch7"]}],"muxList":[{"src":"DUT_Ch0","dest":["BusA","BusB"]},{"src":"DUT_Ch1","dest":["BusA","BusB"]},{"src":"DUT_Ch2","dest":["BusA","BusB"]},{"src":"DUT_Ch3","dest":["BusA","BusB"]},{"src":"DUT_Ch4","dest":["BusA","BusB"]},{"src":"DUT_Ch5","dest":["BusA","BusB"]},{"src":"DUT_Ch6","dest":["BusA","BusB"]},{"src":"DUT_Ch7","dest":["BusA","BusB"]}]}]}</String>
 										</Property>
 										<Property Name="user.CD.Topology">
-											<String />
+											<String>NI12252_topology</String>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Possible Connections">
-											<Dictionary />
+											<Dictionary>
+												<Elem Key="DUT_Ch0">
+													<StringArray>
+														<Elem>LOAD_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch0">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch1">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>LOAD_Ch1</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch1">
+													<StringArray>
+														<Elem>DUT_Ch1</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch2">
+													<StringArray>
+														<Elem>LOAD_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch2">
+													<StringArray>
+														<Elem>DUT_Ch2</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch3">
+													<StringArray>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>LOAD_Ch3</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch3">
+													<StringArray>
+														<Elem>DUT_Ch3</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch4">
+													<StringArray>
+														<Elem>LOAD_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch4">
+													<StringArray>
+														<Elem>DUT_Ch4</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch5">
+													<StringArray>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>LOAD_Ch5</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch5">
+													<StringArray>
+														<Elem>DUT_Ch5</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch6">
+													<StringArray>
+														<Elem>LOAD_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch6">
+													<StringArray>
+														<Elem>DUT_Ch6</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="DUT_Ch7">
+													<StringArray>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>LOAD_Ch7</Elem>
+														<Elem>BusA</Elem>
+														<Elem>BusB</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="LOAD_Ch7">
+													<StringArray>
+														<Elem>DUT_Ch7</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="BusA">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+													</StringArray>
+												</Elem>
+												<Elem Key="BusB">
+													<StringArray>
+														<Elem>DUT_Ch0</Elem>
+														<Elem>DUT_Ch1</Elem>
+														<Elem>DUT_Ch2</Elem>
+														<Elem>DUT_Ch3</Elem>
+														<Elem>DUT_Ch4</Elem>
+														<Elem>DUT_Ch5</Elem>
+														<Elem>DUT_Ch6</Elem>
+														<Elem>DUT_Ch7</Elem>
+													</StringArray>
+												</Elem>
+											</Dictionary>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
-											<StringArray />
+											<StringArray>
+												<Elem>DUT_Ch0</Elem>
+												<Elem>LOAD_Ch0</Elem>
+												<Elem>DUT_Ch1</Elem>
+												<Elem>LOAD_Ch1</Elem>
+												<Elem>DUT_Ch2</Elem>
+												<Elem>LOAD_Ch2</Elem>
+												<Elem>DUT_Ch3</Elem>
+												<Elem>LOAD_Ch3</Elem>
+												<Elem>DUT_Ch4</Elem>
+												<Elem>LOAD_Ch4</Elem>
+												<Elem>DUT_Ch5</Elem>
+												<Elem>LOAD_Ch5</Elem>
+												<Elem>DUT_Ch6</Elem>
+												<Elem>LOAD_Ch6</Elem>
+												<Elem>DUT_Ch7</Elem>
+												<Elem>LOAD_Ch7</Elem>
+												<Elem>BusA</Elem>
+												<Elem>BusB</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Slot #">
+											<I32>4</I32>
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
 										<Description />
-										<Properties />
+										<Properties>
+											<Property Name="user.CD.DUT_Ch0">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch0">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch1">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch1">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch2">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch2">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch3">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch3">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch4">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch4">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch5">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch5">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch6">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch6">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.DUT_Ch7">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.LOAD_Ch7">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.BusA">
+												<String>Load</String>
+											</Property>
+											<Property Name="user.CD.BusB">
+												<String>Load</String>
+											</Property>
+										</Properties>
 										<Errors />
 									</Section>
 									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
@@ -543,6 +996,26 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
+								</Section>
+								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 8 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
 								</Section>
 								<Section Name="Slot 9 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />
@@ -708,7 +1181,7 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -717,7 +1190,7 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -726,7 +1199,7 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\PharLap\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>PharLap</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -735,7 +1208,7 @@
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Windows\Routing and Faulting Engine Windows.llb\RT Driver VI.vi">
 									<Version>1.0.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Windows</SupportedTarget>
 									<MD5 />
 								</DependentFile>
@@ -743,19 +1216,61 @@
 							<Property Name="Version">
 								<String>1.0.0</String>
 							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Pharlap\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5>bd30a9ceb08dc366ccc7cbf39f9eb083</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Modules">
+								<StringArray>
+									<Elem>0</Elem>
+									<Elem>1</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="user.CD.Modules.0">
+								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)" />
+							</Property>
+							<Property Name="user.CD.Modules.1">
+								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 4 (SLSC Switch)" />
+							</Property>
 						</Properties>
 						<Errors />
 						<Section Name="Endpoint Aliases" TypeGUID="58f3342d-82ee-4932-869a-6f49da3049e5">
 							<Description />
 							<Properties>
-								<Property Name="user.CD.changedAlias">
-									<String>changedPin</String>
+								<Property Name="user.CD.Slot 2 Alias 0">
+									<String>0,DUT_Ch0</String>
 								</Property>
-								<Property Name="user.CD.newAlias">
-									<String>newPin</String>
+								<Property Name="user.CD.Slot 2 Alias 1">
+									<String>0,LOAD_Ch0</String>
 								</Property>
-								<Property Name="user.CD.importedAlias">
-									<String>importedPin</String>
+								<Property Name="user.CD.Slot 4 Alias 0">
+									<String>1,DUT_Ch0</String>
+								</Property>
+								<Property Name="user.CD.Slot 4 Alias 1">
+									<String>1,LOAD_Ch0</String>
 								</Property>
 							</Properties>
 							<Errors />
@@ -764,132 +1279,87 @@
 							<Description />
 							<Properties />
 							<Errors />
-							<Channel Name="DefaultValueChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Should have default value changed to 0 after import</Description>
-								<Properties />
+							<Channel Name="Empty Channel" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>Empty Channel</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String>State with no connections</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>-1</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Routing Channel" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>This channel has some trivial states in it.</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+											<Elem Key="One Connection">
+												<Double>0</Double>
+											</Elem>
+											<Elem Key="Two Connections">
+												<Double>10</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+											<Elem Key="One Connection">
+												<StringArray>
+													<Elem>0,DUT_Ch0,LOAD_Ch0</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Two Connections">
+												<StringArray>
+													<Elem>1,DUT_Ch0,LOAD_Ch0</Elem>
+													<Elem>0,DUT_Ch0,LOAD_Ch0</Elem>
+												</StringArray>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String>State with no connections</String>
+											</Elem>
+											<Elem Key="One Connection">
+												<String>One connection in this state</String>
+											</Elem>
+											<Elem Key="Two Connections">
+												<String>Two connections in this state</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
 								<Errors />
 								<DefaultValue>
 									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="UnchangedChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Should remain the same after import</Description>
-								<Properties>
-									<Property Name="Value Table">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<Double>23</Double>
-											</Elem>
-											<Elem Key="addOne">
-												<Double>24</Double>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Connections">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<StringArray>
-													<Elem>2010A/J1Ch0p,2010A/J2Ch16p</Elem>
-												</StringArray>
-											</Elem>
-											<Elem Key="addOne">
-												<StringArray>
-													<Elem>2010A/J1Ch0p,2010A/J2Ch0p</Elem>
-													<Elem>2010B/J1Ch0p,2010B/J2Ch0p</Elem>
-												</StringArray>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Descriptions">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<String>passthrough description</String>
-											</Elem>
-											<Elem Key="addOne">
-												<String>addOne description</String>
-											</Elem>
-										</Dictionary>
-									</Property>
-								</Properties>
-								<Errors />
-								<DefaultValue>
-									<Elem>23</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="StateChangeChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Should have a single state called passThrough after import</Description>
-								<Properties>
-									<Property Name="Value Table">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<Double>23</Double>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Connections">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<StringArray>
-													<Elem>2010A/J1Ch0p,2010A/J2Ch16p</Elem>
-												</StringArray>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Descriptions">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<String>passthrough description</String>
-											</Elem>
-										</Dictionary>
-									</Property>
-								</Properties>
-								<Errors />
-								<DefaultValue>
-									<Elem>23</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="ImportedChan" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description>Should be added to sysdef after import</Description>
-								<Properties>
-									<Property Name="Value Table">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<Double>23</Double>
-											</Elem>
-											<Elem Key="addOne">
-												<Double>24</Double>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Connections">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<StringArray>
-													<Elem>2010A/J1Ch0p,2010A/J2Ch16p</Elem>
-												</StringArray>
-											</Elem>
-											<Elem Key="addOne">
-												<StringArray>
-													<Elem>2010A/J1Ch0p,2010A/J2Ch0p</Elem>
-													<Elem>2010B/J1Ch0p,2010B/J2Ch0p</Elem>
-												</StringArray>
-											</Elem>
-										</Dictionary>
-									</Property>
-									<Property Name="user.CD.Descriptions">
-										<Dictionary>
-											<Elem Key="passThrough">
-												<String>passthrough description</String>
-											</Elem>
-											<Elem Key="addOne">
-												<String>addOne description</String>
-											</Elem>
-										</Dictionary>
-									</Property>
-								</Properties>
-								<Errors />
-								<DefaultValue>
-									<Elem>23</Elem>
 								</DefaultValue>
 							</Channel>
 						</Section>
@@ -898,7 +1368,7 @@
 							<Properties />
 							<Errors />
 							<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
+								<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
 								<Properties />
 								<Errors />
 								<DefaultValue>
@@ -906,7 +1376,7 @@
 								</DefaultValue>
 							</Channel>
 							<Channel Name="Status Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-								<Description />
+								<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
 								<Properties />
 								<Errors />
 								<DefaultValue>

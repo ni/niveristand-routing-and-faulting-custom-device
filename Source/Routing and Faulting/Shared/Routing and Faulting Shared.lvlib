@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
+			<Item Name="Alias Endpoint.ctl" Type="VI" URL="../Alias Endpoint.ctl"/>
 			<Item Name="Alias Mapping.ctl" Type="VI" URL="../Alias Mapping.ctl"/>
 			<Item Name="Channel States.ctl" Type="VI" URL="../Channel States.ctl"/>
 			<Item Name="Channel with Value-Connections Map.ctl" Type="VI" URL="../Channel with Value-Connections Map.ctl"/>
