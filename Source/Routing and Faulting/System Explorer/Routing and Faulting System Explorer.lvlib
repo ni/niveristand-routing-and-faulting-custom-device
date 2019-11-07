@@ -66,6 +66,7 @@
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
 			<Item Name="Get Mouse Location (Connections).vi" Type="VI" URL="../Get Mouse Location (Connections).vi"/>
 			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
+			<Item Name="Get Temporary String Property.vi" Type="VI" URL="../Get Temporary String Property.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
 			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
@@ -89,6 +90,7 @@
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
 			<Item Name="Set Alias.vi" Type="VI" URL="../Set Alias.vi"/>
+			<Item Name="Set Temporary String Property.vi" Type="VI" URL="../Set Temporary String Property.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
