@@ -81,7 +81,9 @@
 		<Item Name="Set State Description.vi" Type="VI" URL="../Routing Channel/Set State Description.vi"/>
 		<Item Name="Set State Value.vi" Type="VI" URL="../Routing Channel/Set State Value.vi"/>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Identifier Path Pair.ctl" Type="VI" URL="../Utility/Identifier Path Pair.ctl"/>
+	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="private" Type="Folder">
@@ -95,7 +97,10 @@
 			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
+			<Item Name="Report Invalid Aliases.vi" Type="VI" URL="../Utility/Report Invalid Aliases.vi"/>
+			<Item Name="Set VeriStand Error.vi" Type="VI" URL="../Utility/Set VeriStand Error.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
+			<Item Name="Validate Existing Connections.vi" Type="VI" URL="../Utility/Validate Existing Connections.vi"/>
 			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
 			<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
@@ -107,6 +112,7 @@
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
+		<Item Name="Find Missing Hardware Identifiers.vi" Type="VI" URL="../Utility/Find Missing Hardware Identifiers.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 		<Item Name="Validate RaF Custom Device Configuration.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Configuration.vi"/>
