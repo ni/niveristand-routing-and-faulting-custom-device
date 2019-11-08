@@ -55,6 +55,7 @@
 			<Item Name="Format Full Endpoint Name.vi" Type="VI" URL="../Format Full Endpoint Name.vi"/>
 			<Item Name="Format Module Name.vi" Type="VI" URL="../Format Module Name.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
+			<Item Name="Get Alias-Free Connection Endpoint.vi" Type="VI" URL="../Get Alias-Free Connection Endpoint.vi"/>
 			<Item Name="Get All Endpoints.vi" Type="VI" URL="../Get All Endpoints.vi"/>
 			<Item Name="Get Channel Data in By Channel ID (offline).vi" Type="VI" URL="../Get Channel Data in By Channel ID (offline).vi"/>
 			<Item Name="Get Channel Data in By Channel ID.vi" Type="VI" URL="../Get Channel Data in By Channel ID.vi"/>
@@ -63,7 +64,9 @@
 			<Item Name="Get Monotonically Increasing Item Name.vi" Type="VI" URL="../Get Monotonically Increasing Item Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
+			<Item Name="Get Mouse Location (Connections).vi" Type="VI" URL="../Get Mouse Location (Connections).vi"/>
 			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
+			<Item Name="Get Temporary String Property.vi" Type="VI" URL="../Get Temporary String Property.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
 			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
@@ -82,12 +85,14 @@
 			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
 			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
 			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
+			<Item Name="Pre-Import Action.vi" Type="VI" URL="../Pre-Import Action.vi"/>
 			<Item Name="Prepare Aliases for UI.vi" Type="VI" URL="../Prepare Aliases for UI.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
 			<Item Name="Set Alias.vi" Type="VI" URL="../Set Alias.vi"/>
 			<Item Name="Set Configuration Error.vi" Type="VI" URL="../Set Configuration Error.vi"/>
+			<Item Name="Set Temporary String Property.vi" Type="VI" URL="../Set Temporary String Property.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>

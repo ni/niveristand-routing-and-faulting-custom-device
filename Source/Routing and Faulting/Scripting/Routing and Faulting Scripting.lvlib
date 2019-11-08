@@ -90,7 +90,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Add Module.vi" Type="VI" URL="../Utility/Add Module.vi"/>
 			<Item Name="Create Unique Module Identifier.vi" Type="VI" URL="../Utility/Create Unique Module Identifier.vi"/>
-			<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
 			<Item Name="Get Module Identifier.vi" Type="VI" URL="../Utility/Get Module Identifier.vi"/>
 			<Item Name="Get Module Identifiers.vi" Type="VI" URL="../Utility/Get Module Identifiers.vi"/>
 			<Item Name="Get Module Node from Identifier.vi" Type="VI" URL="../Utility/Get Module Node from Identifier.vi"/>
@@ -113,6 +112,7 @@
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="Find Missing Hardware Identifiers.vi" Type="VI" URL="../Utility/Find Missing Hardware Identifiers.vi"/>
+		<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 		<Item Name="Validate RaF Custom Device Configuration.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Configuration.vi"/>
