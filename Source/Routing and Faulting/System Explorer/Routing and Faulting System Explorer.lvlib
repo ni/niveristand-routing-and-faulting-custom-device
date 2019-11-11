@@ -42,6 +42,7 @@
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
 			<Item Name="Configure Connection Dialog.vi" Type="VI" URL="../Configure Connection Dialog.vi"/>
+			<Item Name="Configure Module Dialog.vi" Type="VI" URL="../Configure Module Dialog.vi"/>
 			<Item Name="Convert Connections to UI Connections.vi" Type="VI" URL="../Convert Connections to UI Connections.vi"/>
 			<Item Name="Convert Endpoint String to Endpoint.vi" Type="VI" URL="../Convert Endpoint String to Endpoint.vi"/>
 			<Item Name="Convert Endpoint to Endpoint String.vi" Type="VI" URL="../Convert Endpoint to Endpoint String.vi"/>
@@ -73,6 +74,7 @@
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
 			<Item Name="Handle Connections Value Change.vi" Type="VI" URL="../Handle Connections Value Change.vi"/>
+			<Item Name="Handle Modules Change.vi" Type="VI" URL="../Handle Modules Change.vi"/>
 			<Item Name="Handle Remove State Change.vi" Type="VI" URL="../Handle Remove State Change.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Handle State Name Change.vi" Type="VI" URL="../Handle State Name Change.vi"/>
@@ -80,6 +82,7 @@
 			<Item Name="Initialize Alias Endpoint Strings.vi" Type="VI" URL="../Initialize Alias Endpoint Strings.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
 			<Item Name="Initialize Channel Editor State.vi" Type="VI" URL="../Initialize Channel Editor State.vi"/>
+			<Item Name="Initialize Modules Page.vi" Type="VI" URL="../Initialize Modules Page.vi"/>
 			<Item Name="Initialize Routing Channel Page (State Configuration).vi" Type="VI" URL="../Initialize Routing Channel Page (State Configuration).vi"/>
 			<Item Name="Initialize Routing Channel Page (State-Value Table).vi" Type="VI" URL="../Initialize Routing Channel Page (State-Value Table).vi"/>
 			<Item Name="Initialize Routing Channel Page.vi" Type="VI" URL="../Initialize Routing Channel Page.vi"/>
@@ -107,6 +110,7 @@
 			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
 			<Item Name="Module Row.ctl" Type="VI" URL="../Module Row.ctl"/>
+			<Item Name="Modules Page Controls.ctl" Type="VI" URL="../Modules Page Controls.ctl"/>
 			<Item Name="Possible Connections.ctl" Type="VI" URL="../Possible Connections.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Initial Tab.ctl" Type="VI" URL="../Routing Channel Initial Tab.ctl"/>
@@ -115,7 +119,4 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Configure Module Dialog.vi" Type="VI" URL="../Configure Module Dialog.vi"/>
-	<Item Name="Handle Modules Change.vi" Type="VI" URL="../Handle Modules Change.vi"/>
-	<Item Name="Initialize Modules Page.vi" Type="VI" URL="../Initialize Modules Page.vi"/>
 </Library>
