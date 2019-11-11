@@ -449,6 +449,21 @@
         <FileType>chm</FileType>
       </Help>
     </Page>
+    <Page>
+      <Name>
+        <eng>Modules Page</eng>
+        <loc>Modules Page</loc>
+      </Name>
+      <GUID>2830fb25-2a01-4ff3-8fc6-4b2e584fa7f8</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\SLSC Chassis.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\Modules Page.vi</Path>
+      </Item2Launch>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>

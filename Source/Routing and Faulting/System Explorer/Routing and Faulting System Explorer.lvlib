@@ -17,6 +17,7 @@
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Endpoint Aliases Page.vi" Type="VI" URL="../Endpoint Aliases Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+				<Item Name="Modules Page.vi" Type="VI" URL="../Modules Page.vi"/>
 				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
 				<Item Name="Routing Channels Page.vi" Type="VI" URL="../Routing Channels Page.vi"/>
 			</Item>
@@ -46,6 +47,8 @@
 			<Item Name="Convert Endpoint to Endpoint String.vi" Type="VI" URL="../Convert Endpoint to Endpoint String.vi"/>
 			<Item Name="Convert State Arrays to UI State-Value Pairs.vi" Type="VI" URL="../Convert State Arrays to UI State-Value Pairs.vi"/>
 			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
+			<Item Name="Count Module Usage in Aliases.vi" Type="VI" URL="../Count Module Usage in Aliases.vi"/>
+			<Item Name="Count Module Usage in Connections.vi" Type="VI" URL="../Count Module Usage in Connections.vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
@@ -103,6 +106,7 @@
 			<Item Name="Channel Editor State.ctl" Type="VI" URL="../Channel Editor State.ctl"/>
 			<Item Name="Connection Row.ctl" Type="VI" URL="../Connection Row.ctl"/>
 			<Item Name="Endpoint.ctl" Type="VI" URL="../Endpoint.ctl"/>
+			<Item Name="Module Row.ctl" Type="VI" URL="../Module Row.ctl"/>
 			<Item Name="Possible Connections.ctl" Type="VI" URL="../Possible Connections.ctl"/>
 			<Item Name="Routing Channel Configuration Tab.ctl" Type="VI" URL="../Routing Channel Configuration Tab.ctl"/>
 			<Item Name="Routing Channel Initial Tab.ctl" Type="VI" URL="../Routing Channel Initial Tab.ctl"/>
@@ -111,4 +115,7 @@
 			<Item Name="State-Value Row.ctl" Type="VI" URL="../State-Value Row.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Configure Module Dialog.vi" Type="VI" URL="../Configure Module Dialog.vi"/>
+	<Item Name="Handle Modules Change.vi" Type="VI" URL="../Handle Modules Change.vi"/>
+	<Item Name="Initialize Modules Page.vi" Type="VI" URL="../Initialize Modules Page.vi"/>
 </Library>
