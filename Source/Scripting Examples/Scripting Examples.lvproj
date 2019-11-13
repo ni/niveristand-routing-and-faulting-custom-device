@@ -69,20 +69,11 @@
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Get SLSC Modules By GUID.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/VeriStand SLSC Scripting API/Module/Get SLSC Modules By GUID.vi"/>
-				<Item Name="Get SLSC Module By Name.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/VeriStand SLSC Scripting API/Module/Get SLSC Module By Name.vi"/>
-				<Item Name="Get SLSC Module GUID.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/VeriStand SLSC Scripting API/Module/Get SLSC Module GUID.vi"/>
-				<Item Name="Get SLSC Module By Slot.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/VeriStand SLSC Scripting API/Module/Get SLSC Module By Slot.vi"/>
-				<Item Name="Remove SLSC Module.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/VeriStand SLSC Scripting API/Module/Remove SLSC Module.vi"/>
 				<Item Name="Get SLSC Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/VeriStand SLSC Scripting/Chassis/Get SLSC Chassis.vi"/>
 				<Item Name="Add SLSC Switch Custom Device.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/SLSC Switch/Scripting/Custom Device/Add SLSC Switch Custom Device.vi"/>
 				<Item Name="Load SLSC Switch Module Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/SLSC Switch/Scripting/Custom Device/Load SLSC Switch Module Configuration.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="Possible Connections for Endpoint.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API/Types/Possible Connections for Endpoint.ctl"/>
-				<Item Name="Set All Possible Connections.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API/Properties/Set All Possible Connections.vi"/>
-				<Item Name="Add SLSC Module To Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/VeriStand SLSC Scripting API/Module/Add SLSC Module To Chassis.vi"/>
-				<Item Name="Set API Version.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API/Properties/Set API Version.vi"/>
 				<Item Name="Get SLSC Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/VeriStand SLSC Scripting/Chassis/Get SLSC Chassis.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
