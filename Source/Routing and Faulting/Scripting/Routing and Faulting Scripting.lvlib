@@ -106,6 +106,7 @@
 			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
+			<Item Name="Remove Module.vi" Type="VI" URL="../Utility/Remove Module.vi"/>
 			<Item Name="Set VeriStand Error.vi" Type="VI" URL="../Utility/Set VeriStand Error.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
 			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
@@ -132,6 +133,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 			<Item Name="Get Validation Information From Module Connections.vi" Type="VI" URL="../Validation/Get Validation Information From Module Connections.vi"/>
 			<Item Name="Validation Information.ctl" Type="VI" URL="../Validation/Validation Information.ctl"/>
+			<Item Name="Finalize Validation.vi" Type="VI" URL="../Validation/Finalize Validation.vi"/>
 		</Item>
 		<Item Name="Find Missing Hardware Identifiers.vi" Type="VI" URL="../Validation/Find Missing Hardware Identifiers.vi"/>
 		<Item Name="Validate Aliases.vi" Type="VI" URL="../Validation/Validate Aliases.vi"/>

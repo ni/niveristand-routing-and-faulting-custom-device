@@ -5644,6 +5644,7 @@
 									<Elem>2</Elem>
 									<Elem>3</Elem>
 									<Elem>4</Elem>
+                           <Elem>5</Elem>
 								</StringArray>
 							</Property>
 							<Property Name="user.CD.Modules.0">
