@@ -22,6 +22,10 @@
 	</Item>
 	<Item Name="Endpoint Aliases" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Set Alias Error.vi" Type="VI" URL="../Aliases/Set Alias Error.vi"/>
+		</Item>
 		<Item Name="Add Alias.vi" Type="VI" URL="../Aliases/Add Alias.vi"/>
 		<Item Name="Add N Aliases.vi" Type="VI" URL="../Aliases/Add N Aliases.vi"/>
 		<Item Name="Get Alias Mappings.vi" Type="VI" URL="../Aliases/Get Alias Mappings.vi"/>
@@ -48,6 +52,8 @@
 			<Item Name="Validate Routing Channel Parameters.vi" Type="VI" URL="../Routing Channel/Validate Routing Channel Parameters.vi"/>
 			<Item Name="Validate Channel Name.vi" Type="VI" URL="../Routing Channel/Validate Channel Name.vi"/>
 			<Item Name="Validate Initial State.vi" Type="VI" URL="../Routing Channel/Validate Initial State.vi"/>
+			<Item Name="Set Routing Channel Error.vi" Type="VI" URL="../Routing Channel/Set Routing Channel Error.vi"/>
+			<Item Name="Routing Channel Error Information.ctl" Type="VI" URL="../Routing Channel/Routing Channel Error Information.ctl"/>
 		</Item>
 		<Item Name="Add Routing Channel.vi" Type="VI" URL="../Routing Channel/Add Routing Channel.vi"/>
 		<Item Name="Disable Routing Channel.vi" Type="VI" URL="../Routing Channel/Disable Routing Channel.vi"/>
@@ -82,7 +88,7 @@
 		<Item Name="Set State Value.vi" Type="VI" URL="../Routing Channel/Set State Value.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Identifier Path Pair.ctl" Type="VI" URL="../Utility/Identifier Path Pair.ctl"/>
+		<Item Name="Module Connection Information.ctl" Type="VI" URL="../Types/Module Connection Information.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -96,25 +102,38 @@
 			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
-			<Item Name="Report Invalid Aliases.vi" Type="VI" URL="../Utility/Report Invalid Aliases.vi"/>
 			<Item Name="Set VeriStand Error.vi" Type="VI" URL="../Utility/Set VeriStand Error.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
-			<Item Name="Validate Existing Connections.vi" Type="VI" URL="../Utility/Validate Existing Connections.vi"/>
 			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
 			<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 			<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
 			<Item Name="Validate Routing Channel Reference.vi" Type="VI" URL="../Utility/Validate Routing Channel Reference.vi"/>
 			<Item Name="Validate Routing Channels Reference.vi" Type="VI" URL="../Utility/Validate Routing Channels Reference.vi"/>
-			<Item Name="Verify Hardware Custom Devices Exist.vi" Type="VI" URL="../Utility/Verify Hardware Custom Devices Exist.vi"/>
 		</Item>
 		<Item Name="Check State Name and Value Uniqueness.vi" Type="VI" URL="../Routing Channel/Check State Name and Value Uniqueness.vi"/>
 		<Item Name="Check State-Value Table.vi" Type="VI" URL="../Routing Channel/Check State-Value Table.vi"/>
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
-		<Item Name="Find Missing Hardware Identifiers.vi" Type="VI" URL="../Utility/Find Missing Hardware Identifiers.vi"/>
 		<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
+		<Item Name="Get Module Connection Information.vi" Type="VI" URL="../Utility/Get Module Connection Information.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
-		<Item Name="Validate RaF Custom Device Configuration.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Configuration.vi"/>
+	</Item>
+	<Item Name="Validation" Type="Folder">
+		<Item Name="private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Use Module.vi" Type="VI" URL="../Validation/Use Module.vi"/>
+		</Item>
+		<Item Name="community" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+			<Item Name="Get Validation Information From Module Connections.vi" Type="VI" URL="../Validation/Get Validation Information From Module Connections.vi"/>
+			<Item Name="Validation Information.ctl" Type="VI" URL="../Validation/Validation Information.ctl"/>
+		</Item>
+		<Item Name="Find Missing Hardware Identifiers.vi" Type="VI" URL="../Validation/Find Missing Hardware Identifiers.vi"/>
+		<Item Name="Validate Aliases.vi" Type="VI" URL="../Validation/Validate Aliases.vi"/>
+		<Item Name="Validate Connection.vi" Type="VI" URL="../Validation/Validate Connection.vi"/>
+		<Item Name="Validate Existing Connections.vi" Type="VI" URL="../Validation/Validate Existing Connections.vi"/>
+		<Item Name="Validate From Module Connection Information.vi" Type="VI" URL="../Validation/Validate From Module Connection Information.vi"/>
+		<Item Name="Validate RaF Custom Device Configuration.vi" Type="VI" URL="../Validation/Validate RaF Custom Device Configuration.vi"/>
 	</Item>
 </Library>
