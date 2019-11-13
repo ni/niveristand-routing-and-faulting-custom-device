@@ -133,7 +133,7 @@ package_output_dir = 'Source\Built'
 
 [package.payload_map]
 'Source\Built\Routing and Faulting Scripting API' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
-'Source\Built\Routing and Faulting Hardware API' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting Hardware API'
+'Source\Built\Routing and Faulting Hardware API' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting\Routing and Faulting Hardware API'
 
 [[package]]
 type = 'nipkg'
