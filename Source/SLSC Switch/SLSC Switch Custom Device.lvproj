@@ -559,6 +559,9 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
@@ -812,26 +815,26 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch Scripting API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting/SLSC Switch</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Scripting API to Installed Location.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B81CE306-DCDF-4D4E-9175-E65843F20A57}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/SLSC Switch Scripting API</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Scripting/SLSC Switch</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/SLSC Switch Scripting API</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Scripting/SLSC Switch</Property>
 				<Property Name="Destination[3].destName" Type="Str">Routing and Faulting Hardware API</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Routing and Faulting Hardware API</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/Routing and Faulting/Routing and Faulting Hardware API</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">VeriStand SLSC Scripting</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/VeriStand SLSC Scripting API</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/SLSC Switch/VeriStand SLSC Scripting API</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F931E450-3D74-4008-B1D4-B2EFAE62850B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B5DA5024-D1A7-4007-8091-4A9E9529B09C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
