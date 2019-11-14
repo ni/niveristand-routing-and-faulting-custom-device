@@ -23,6 +23,8 @@
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
 		<Item Name="Remove SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Remove SLSC Switch Custom Device.vi"/>
 		<Item Name="Load SLSC Switch Module Configuration.vi" Type="VI" URL="../Custom Device/Load SLSC Switch Module Configuration.vi"/>
+		<Item Name="Export SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Export SLSC Switch Custom Device.vi"/>
+		<Item Name="Import SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Import SLSC Switch Custom Device.vi"/>
 	</Item>
 	<Item Name="Endpoint Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
