@@ -128,12 +128,10 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
+payload_dir = 'Source\Built\Scripting\Routing and Faulting'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
 control_file = 'control_routing_faulting_scripting'
 package_output_dir = 'Source\Built'
-
-[package.payload_map]
-'Source\Built\Routing and Faulting Scripting API' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
-'Source\Built\Routing and Faulting Hardware API' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting Hardware API'
 
 [[package]]
 type = 'nipkg'
@@ -144,7 +142,7 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\SLSC Switch Scripting API'
+payload_dir = 'Source\Built\Scripting\SLSC Switch'
 install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
 control_file = 'control_slsc_switch_scripting'
 package_output_dir = 'Source\Built'

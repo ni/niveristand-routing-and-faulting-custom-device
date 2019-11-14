@@ -17,10 +17,10 @@
 		<Item Name="vi.lib" Type="Folder">
 			<Item Name="Routing and Faulting Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Scripting/Routing and Faulting Scripting.lvlib"/>
 			<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Shared/Routing and Faulting Shared.lvlib"/>
-			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
+			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
 			<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/SLSC Switch Shared.lvlib"/>
 			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/SLSC Switch Scripting.lvlib"/>
-			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/VeriStand SLSC Scripting/VeriStand SLSC Scripting.lvlib"/>
+			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/VeriStand SLSC Scripting API/VeriStand SLSC Scripting.lvlib"/>
 		</Item>
 		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
 		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
@@ -69,7 +69,12 @@
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Get SLSC Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/VeriStand SLSC Scripting/Chassis/Get SLSC Chassis.vi"/>
+				<Item Name="Add SLSC Switch Custom Device.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/SLSC Switch/Scripting/Custom Device/Add SLSC Switch Custom Device.vi"/>
+				<Item Name="Load SLSC Switch Module Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/SLSC Switch/Scripting/Custom Device/Load SLSC Switch Module Configuration.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="Get SLSC Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/VeriStand SLSC Scripting/Chassis/Get SLSC Chassis.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -83,13 +88,13 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
