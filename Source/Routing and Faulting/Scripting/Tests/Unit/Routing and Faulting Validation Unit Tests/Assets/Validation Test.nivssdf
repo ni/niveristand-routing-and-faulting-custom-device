@@ -5850,7 +5850,7 @@
 								</DefaultValue>
 							</Channel>
 							<Channel Name="Configuration Changed" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
-								<Description />
+								<Description>Tests what happens when endpoints have been changed to source and/or configuration channels.</Description>
 								<Properties>
 									<Property Name="Value Table">
 										<Dictionary>
