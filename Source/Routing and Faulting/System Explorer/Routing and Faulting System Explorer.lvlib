@@ -28,11 +28,13 @@
 				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
+			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
 		</Item>
 		<Item Name="Malleable" Type="Folder">
 			<Item Name="Find Changed Array Element.vim" Type="VI" URL="../Find Changed Array Element.vim"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Clear VeriStand Errors.vi" Type="VI" URL="../Clear VeriStand Errors.vi"/>
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
