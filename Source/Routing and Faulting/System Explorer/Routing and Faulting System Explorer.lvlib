@@ -65,7 +65,6 @@
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
 			<Item Name="Get Mouse Location (Connections).vi" Type="VI" URL="../Get Mouse Location (Connections).vi"/>
-			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
 			<Item Name="Get Temporary String Property.vi" Type="VI" URL="../Get Temporary String Property.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
