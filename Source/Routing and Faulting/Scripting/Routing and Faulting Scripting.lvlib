@@ -127,7 +127,7 @@
 	<Item Name="Validation" Type="Folder">
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Use Module.vi" Type="VI" URL="../Validation/Use Module.vi"/>
+			<Item Name="Mark Module Used.vi" Type="VI" URL="../Validation/Mark Module Used.vi"/>
 		</Item>
 		<Item Name="community" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
