@@ -33,6 +33,7 @@
 			<Item Name="Find Changed Array Element.vim" Type="VI" URL="../Find Changed Array Element.vim"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Check If Validation Needed.vi" Type="VI" URL="../Check If Validation Needed.vi"/>
 			<Item Name="Clear VeriStand Errors.vi" Type="VI" URL="../Clear VeriStand Errors.vi"/>
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
