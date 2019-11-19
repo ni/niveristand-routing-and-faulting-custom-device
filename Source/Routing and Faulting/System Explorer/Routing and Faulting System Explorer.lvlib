@@ -28,7 +28,6 @@
 				<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
 		</Item>
 		<Item Name="Malleable" Type="Folder">
 			<Item Name="Find Changed Array Element.vim" Type="VI" URL="../Find Changed Array Element.vim"/>
@@ -96,6 +95,7 @@
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
+			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias Map by Module.ctl" Type="VI" URL="../Alias Map by Module.ctl"/>
