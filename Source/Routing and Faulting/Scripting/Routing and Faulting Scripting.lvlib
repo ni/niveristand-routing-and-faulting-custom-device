@@ -109,8 +109,8 @@
 			<Item Name="Get Revisions Property Name.vi" Type="VI" URL="../Utility/Get Revisions Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
 			<Item Name="Remove Module.vi" Type="VI" URL="../Utility/Remove Module.vi"/>
+			<Item Name="Set Module Configuration Revision from Identifier.vi" Type="VI" URL="../Utility/Set Module Configuration Revision from Identifier.vi"/>
 			<Item Name="Set Revision From Module Information.vi" Type="VI" URL="../Utility/Set Revision From Module Information.vi"/>
-			<Item Name="Set Validated Revision.vi" Type="VI" URL="../Utility/Set Validated Revision.vi"/>
 			<Item Name="Set VeriStand Error.vi" Type="VI" URL="../Utility/Set VeriStand Error.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
 			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
