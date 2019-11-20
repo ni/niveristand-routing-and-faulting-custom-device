@@ -314,7 +314,7 @@
 										<Property Name="user.CD.Model">
 											<String>SLSC-12251</String>
 										</Property>
-                              <Property Name="user.CD.Routing and Faulting.Configuration Revision">
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
 											<U32>6</U32>
 										</Property>
 										<Property Name="user.CD.Capabilities">
@@ -866,7 +866,7 @@
 										<Property Name="user.CD.Model">
 											<String>SLSC-12252-switches.json</String>
 										</Property>
-                              <Property Name="user.CD.Routing and Faulting.Configuration Revision">
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
 											<U32>11</U32>
 										</Property>
 										<Property Name="user.CD.Capabilities">
@@ -2024,7 +2024,7 @@
 										<Property Name="user.CD.Model">
 											<String>SLSC-12251-switches.json</String>
 										</Property>
-                              <Property Name="user.CD.Routing and Faulting.Configuration Revision">
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
 											<U32>7</U32>
 										</Property>
 										<Property Name="user.CD.Capabilities">
@@ -4132,7 +4132,7 @@
 										<Property Name="user.CD.Model">
 											<String>SET-2010: 64 CH Routing Base SLSC Card</String>
 										</Property>
-                              <Property Name="user.CD.Routing and Faulting.Configuration Revision">
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
 											<U32>6</U32>
 										</Property>
 										<Property Name="user.CD.Capabilities">
@@ -5677,22 +5677,22 @@
                      <Property Name="user.CD.Modules.5">
 								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Unused" />
 							</Property>
-                     <Property Name="user.CD.Revisions.0">
+							<Property Name="user.CD.Revisions.0">
 								<U32>6</U32>
 							</Property>
-                     <Property Name="user.CD.Revisions.1">
+							<Property Name="user.CD.Revisions.1">
 								<U32>6</U32>
 							</Property>
-                     <Property Name="user.CD.Revisions.2">
+							<Property Name="user.CD.Revisions.2">
 								<U32>6</U32>
 							</Property>
-                     <Property Name="user.CD.Revisions.3">
+							<Property Name="user.CD.Revisions.3">
 								<U32>6</U32>
 							</Property>
-                     <Property Name="user.CD.Revisions.4">
+							<Property Name="user.CD.Revisions.4">
 								<U32>6</U32>
 							</Property>
-                     <Property Name="user.CD.Revisions.5">
+							<Property Name="user.CD.Revisions.5">
 								<U32>1</U32>
 							</Property>
 						</Properties>
