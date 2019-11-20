@@ -92,7 +92,7 @@
 		<Item Name="Set State Value.vi" Type="VI" URL="../Routing Channel/Set State Value.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Module Connection Information.ctl" Type="VI" URL="../Types/Module Connection Information.ctl"/>
+		<Item Name="Module Information.ctl" Type="VI" URL="../Types/Module Information.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -100,13 +100,17 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Add Module.vi" Type="VI" URL="../Utility/Add Module.vi"/>
 			<Item Name="Create Unique Module Identifier.vi" Type="VI" URL="../Utility/Create Unique Module Identifier.vi"/>
+			<Item Name="Get Module Configuration Revision from Identifier.vi" Type="VI" URL="../Utility/Get Module Configuration Revision from Identifier.vi"/>
 			<Item Name="Get Module Identifier.vi" Type="VI" URL="../Utility/Get Module Identifier.vi"/>
 			<Item Name="Get Module Identifiers.vi" Type="VI" URL="../Utility/Get Module Identifiers.vi"/>
 			<Item Name="Get Module Node from Identifier.vi" Type="VI" URL="../Utility/Get Module Node from Identifier.vi"/>
 			<Item Name="Get Module Path from Identifier.vi" Type="VI" URL="../Utility/Get Module Path from Identifier.vi"/>
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
+			<Item Name="Get Revisions Property Name.vi" Type="VI" URL="../Utility/Get Revisions Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
 			<Item Name="Remove Module.vi" Type="VI" URL="../Utility/Remove Module.vi"/>
+			<Item Name="Set Module Configuration Revision from Identifier.vi" Type="VI" URL="../Utility/Set Module Configuration Revision from Identifier.vi"/>
+			<Item Name="Set Revision From Module Information.vi" Type="VI" URL="../Utility/Set Revision From Module Information.vi"/>
 			<Item Name="Set VeriStand Error.vi" Type="VI" URL="../Utility/Set VeriStand Error.vi"/>
 			<Item Name="Validate Endpoint Aliases Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Aliases Reference.vi"/>
 			<Item Name="Validate RaF Custom Device Reference.vi" Type="VI" URL="../Utility/Validate RaF Custom Device Reference.vi"/>
@@ -120,7 +124,7 @@
 		<Item Name="Connection to String.vi" Type="VI" URL="../Utility/Connection to String.vi"/>
 		<Item Name="Connections to Strings.vi" Type="VI" URL="../Utility/Connections to Strings.vi"/>
 		<Item Name="Get BaseNodeType.vi" Type="VI" URL="../Utility/Get BaseNodeType.vi"/>
-		<Item Name="Get Module Connection Information.vi" Type="VI" URL="../Utility/Get Module Connection Information.vi"/>
+		<Item Name="Get Module Information.vi" Type="VI" URL="../Utility/Get Module Information.vi"/>
 		<Item Name="String to Connection.vi" Type="VI" URL="../Utility/String to Connection.vi"/>
 		<Item Name="Strings to Connections.vi" Type="VI" URL="../Utility/Strings to Connections.vi"/>
 	</Item>
