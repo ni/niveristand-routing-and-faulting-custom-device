@@ -33,6 +33,8 @@
 			<Item Name="Find Changed Array Element.vim" Type="VI" URL="../Find Changed Array Element.vim"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Check If Validation Needed.vi" Type="VI" URL="../Check If Validation Needed.vi"/>
+			<Item Name="Clear VeriStand Errors.vi" Type="VI" URL="../Clear VeriStand Errors.vi"/>
 			<Item Name="Compile Aliases.vi" Type="VI" URL="../Compile Aliases.vi"/>
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
@@ -65,7 +67,6 @@
 			<Item Name="Get Monotonically Increasing State Name.vi" Type="VI" URL="../Get Monotonically Increasing State Name.vi"/>
 			<Item Name="Get Monotonically Increasing State Value.vi" Type="VI" URL="../Get Monotonically Increasing State Value.vi"/>
 			<Item Name="Get Mouse Location (Connections).vi" Type="VI" URL="../Get Mouse Location (Connections).vi"/>
-			<Item Name="Get Possible Connections (HW).vi" Type="VI" URL="../Get Possible Connections (HW).vi"/>
 			<Item Name="Get Temporary String Property.vi" Type="VI" URL="../Get Temporary String Property.vi"/>
 			<Item Name="Handle Add State Change.vi" Type="VI" URL="../Handle Add State Change.vi"/>
 			<Item Name="Handle Aliases Value Change.vi" Type="VI" URL="../Handle Aliases Value Change.vi"/>
@@ -94,6 +95,7 @@
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
+			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias Map by Module.ctl" Type="VI" URL="../Alias Map by Module.ctl"/>

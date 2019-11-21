@@ -10,7 +10,7 @@
 				<String>Base with Multiple SLSC Switch CDs</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.1</String>
+				<String>1.0.0.2</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -198,6 +198,11 @@
 								<Description />
 								<Properties />
 								<Errors />
+								<Section Name="Slot 1 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
 								<Section Name="SLSC Module 1" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
@@ -211,7 +216,7 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_x64</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -220,34 +225,25 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_32_ARM</SupportedTarget>
 												<MD5 />
 											</DependentFile>
 										</Property>
 										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>PharLap</SupportedTarget>
 												<MD5 />
 											</DependentFile>
 										</Property>
-										<Property Name="Driver VI Path_4">
+										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Windows</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -255,143 +251,87 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="Dependency_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>f357db59d7a8c0bc55db269b047dacb3</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>8c217ad608c59c3861788f78bbc1308e</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>9e0c0e30cd4e300e3f1f290f01fad5a8</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_4">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>ce2107aec51fc380aad77747e76187f5</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_5">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>b2874a73f562c0b3e6dd3e5afb7cbd2e</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_6">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>779936987de40327a227da508a50ad86</MD5>
+											</DependentFile>
+										</Property>
 										<Property Name="user.CD.Routing and Faulting.API Version">
 											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Model">
 											<String />
 										</Property>
-										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String />
-										</Property>
-										<Property Name="user.CD.Topology">
-											<String />
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
+											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Capabilities">
 											<String />
 										</Property>
-										<Property Name="user.CD.Slot #">
-											<I32>1</I32>
+										<Property Name="user.CD.Topology">
+											<String />
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Possible Connections">
 											<Dictionary />
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
 											<StringArray />
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
-										<Description />
-										<Properties />
-										<Errors />
-									</Section>
-									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
-										<Description />
-										<Properties />
-										<Errors />
-										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-								<Section Name="SLSC Module 2" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
-									<Description />
-									<Properties>
-										<Property Name="CD Status">
-											<U32>1</U32>
-										</Property>
-										<Property Name="Driver VI Exec Mode">
-											<U32>0</U32>
-										</Property>
-										<Property Name="Driver VI Path_0">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Linux_x64</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_1">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Linux_32_ARM</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>PharLap</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_4">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Windows</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Version">
-											<String>1.0.0</String>
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.API Version">
-											<U32>1</U32>
-										</Property>
-										<Property Name="user.CD.Model">
-											<String />
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String />
-										</Property>
-										<Property Name="user.CD.Topology">
-											<String />
-										</Property>
-										<Property Name="user.CD.Capabilities">
-											<String />
 										</Property>
 										<Property Name="user.CD.Slot #">
 											<I32>2</I32>
 										</Property>
-										<Property Name="user.CD.Routing and Faulting.Possible Connections">
-											<Dictionary />
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
-											<StringArray />
-										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
 										<Description />
 										<Properties />
 										<Errors />
@@ -423,27 +363,7 @@
 									<Properties />
 									<Errors />
 								</Section>
-								<Section Name="Slot 4 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="SLSC Module 3" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+								<Section Name="SLSC Module 2" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
 									<Description />
 									<Properties>
 										<Property Name="CD Status">
@@ -456,7 +376,7 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_x64</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -465,34 +385,25 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_32_ARM</SupportedTarget>
 												<MD5 />
 											</DependentFile>
 										</Property>
 										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\VxWorks\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>VxWorks</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>PharLap</SupportedTarget>
 												<MD5 />
 											</DependentFile>
 										</Property>
-										<Property Name="Driver VI Path_4">
+										<Property Name="Driver VI Path_3">
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Windows</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -500,23 +411,74 @@
 										<Property Name="Version">
 											<String>1.0.0</String>
 										</Property>
+										<Property Name="Dependency_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>f357db59d7a8c0bc55db269b047dacb3</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>8c217ad608c59c3861788f78bbc1308e</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>9e0c0e30cd4e300e3f1f290f01fad5a8</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_4">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>ce2107aec51fc380aad77747e76187f5</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_5">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>b2874a73f562c0b3e6dd3e5afb7cbd2e</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_6">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>779936987de40327a227da508a50ad86</MD5>
+											</DependentFile>
+										</Property>
 										<Property Name="user.CD.Routing and Faulting.API Version">
 											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Model">
 											<String />
 										</Property>
-										<Property Name="user.CD.Routing and Faulting.Resource">
-											<String />
-										</Property>
-										<Property Name="user.CD.Topology">
-											<String />
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
+											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Capabilities">
 											<String />
 										</Property>
-										<Property Name="user.CD.Slot #">
-											<I32>8</I32>
+										<Property Name="user.CD.Topology">
+											<String />
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.Possible Connections">
 											<Dictionary />
@@ -524,9 +486,12 @@
 										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
 											<StringArray />
 										</Property>
+										<Property Name="user.CD.Slot #">
+											<I32>4</I32>
+										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
 										<Description />
 										<Properties />
 										<Errors />
@@ -553,10 +518,180 @@
 										</Channel>
 									</Section>
 								</Section>
-								<Section Name="Slot 9 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />
 									<Properties />
 									<Errors />
+								</Section>
+								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="Slot 8 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
+									<Description />
+									<Properties />
+									<Errors />
+								</Section>
+								<Section Name="SLSC Module 3" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
+									<Description />
+									<Properties>
+										<Property Name="CD Status">
+											<U32>1</U32>
+										</Property>
+										<Property Name="Driver VI Exec Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="Driver VI Path_0">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Driver VI Path_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
+												<Version>1.0.0</Version>
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<SupportedTarget>Windows</SupportedTarget>
+												<MD5 />
+											</DependentFile>
+										</Property>
+										<Property Name="Version">
+											<String>1.0.0</String>
+										</Property>
+										<Property Name="Dependency_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>f357db59d7a8c0bc55db269b047dacb3</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>8c217ad608c59c3861788f78bbc1308e</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>9e0c0e30cd4e300e3f1f290f01fad5a8</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_4">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>ce2107aec51fc380aad77747e76187f5</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_5">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>b2874a73f562c0b3e6dd3e5afb7cbd2e</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_6">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>779936987de40327a227da508a50ad86</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.API Version">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Model">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.Capabilities">
+											<String />
+										</Property>
+										<Property Name="user.CD.Topology">
+											<String />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Possible Connections">
+											<Dictionary />
+										</Property>
+										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Slot #">
+											<I32>9</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
+										<Description />
+										<Properties />
+										<Errors />
+									</Section>
+									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
 								</Section>
 								<Section Name="Slot 10 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
 									<Description />

@@ -16,6 +16,7 @@
 		<Item Name="Get Addressable Endpoints.vi" Type="VI" URL="../Properties/Get Addressable Endpoints.vi"/>
 		<Item Name="Get All Possible Connections.vi" Type="VI" URL="../Properties/Get All Possible Connections.vi"/>
 		<Item Name="Get API Version.vi" Type="VI" URL="../Properties/Get API Version.vi"/>
+		<Item Name="Get Configuration Revision.vi" Type="VI" URL="../Properties/Get Configuration Revision.vi"/>
 		<Item Name="Get Model.vi" Type="VI" URL="../Properties/Get Model.vi"/>
 		<Item Name="Get Module Path.vi" Type="VI" URL="../Properties/Get Module Path.vi"/>
 		<Item Name="Get Possible Connections for Endpoint.vi" Type="VI" URL="../Properties/Get Possible Connections for Endpoint.vi"/>
@@ -24,6 +25,12 @@
 		</Item>
 		<Item Name="Set All Possible Connections.vi" Type="VI" URL="../Properties/Set All Possible Connections.vi"/>
 		<Item Name="Set API Version.vi" Type="VI" URL="../Properties/Set API Version.vi"/>
+		<Item Name="Set Configuration Revision.vi" Type="VI" URL="../Properties/Set Configuration Revision.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Configuration Revision.vi" Type="VI" URL="../Properties/Update Configuration Revision.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Possible Connections for Endpoint.ctl" Type="VI" URL="../Types/Possible Connections for Endpoint.ctl"/>
