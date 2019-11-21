@@ -23,6 +23,8 @@
 		<Item Name="Find Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Find Routing and Faulting Custom Device.vi"/>
 		<Item Name="Remove Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Remove Routing and Faulting Custom Device.vi"/>
 		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
+		<Item Name="Import Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Import Routing and Faulting Custom Device.vi"/>
+		<Item Name="Export Routing and Faulting Custom Device.vi" Type="VI" URL="../Custom Device/Export Routing and Faulting Custom Device.vi"/>
 	</Item>
 	<Item Name="Endpoint Aliases" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -108,6 +110,7 @@
 			<Item Name="Get Module Property Name.vi" Type="VI" URL="../Utility/Get Module Property Name.vi"/>
 			<Item Name="Get Revisions Property Name.vi" Type="VI" URL="../Utility/Get Revisions Property Name.vi"/>
 			<Item Name="Get Routing and Faulting Parent Ref.vi" Type="VI" URL="../Utility/Get Routing and Faulting Parent Ref.vi"/>
+			<Item Name="RaF Pre-Import Action.vi" Type="VI" URL="../Utility/RaF Pre-Import Action.vi"/>
 			<Item Name="Remove Module.vi" Type="VI" URL="../Utility/Remove Module.vi"/>
 			<Item Name="Set Module Configuration Revision from Identifier.vi" Type="VI" URL="../Utility/Set Module Configuration Revision from Identifier.vi"/>
 			<Item Name="Set Revision From Module Information.vi" Type="VI" URL="../Utility/Set Revision From Module Information.vi"/>

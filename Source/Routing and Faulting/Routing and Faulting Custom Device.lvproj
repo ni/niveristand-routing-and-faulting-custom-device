@@ -40,7 +40,7 @@
 					<Item Name="Assets" Type="Folder">
 						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Assets/Base System Definition.nivssdf"/>
 					</Item>
-					<Item Name="Routing and Faulting Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/Routing and Faulting Scripting Unit Tests.lvclass"/>
+					<Item Name="Routing and Faulting Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/Routing and Faulting Scripting Unit Tests/Routing and Faulting Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Routing and Faulting Scripting.lvlib" Type="Library" URL="../Scripting/Routing and Faulting Scripting.lvlib"/>
