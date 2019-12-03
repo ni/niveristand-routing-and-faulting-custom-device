@@ -86,7 +86,6 @@
 			<Item Name="Parse Endpoint.vi" Type="VI" URL="../Parse Endpoint.vi"/>
 			<Item Name="Populate Connection Destination List.vi" Type="VI" URL="../Populate Connection Destination List.vi"/>
 			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
-			<Item Name="Pre-Import Action.vi" Type="VI" URL="../Pre-Import Action.vi"/>
 			<Item Name="Prepare Aliases for UI.vi" Type="VI" URL="../Prepare Aliases for UI.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
