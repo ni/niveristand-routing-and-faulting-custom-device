@@ -10,7 +10,7 @@
 				<String>Switch_and_RaF_No_Routing_Channels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.9</String>
+				<String>1.0.0.10</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -55,7 +55,7 @@
 						<Boolean>false</Boolean>
 					</Property>
 					<Property Name="Engine Rate">
-						<Double>101</Double>
+						<Double>100</Double>
 					</Property>
 					<Property Name="TL timeout">
 						<Double>120</Double>
@@ -222,7 +222,7 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_x64</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -231,7 +231,7 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Linux_32_ARM</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -240,7 +240,7 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>PharLap</SupportedTarget>
 												<MD5 />
 											</DependentFile>
@@ -249,13 +249,67 @@
 											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
 												<Version>1.0.0</Version>
 												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
 												<SupportedTarget>Windows</SupportedTarget>
 												<MD5 />
 											</DependentFile>
 										</Property>
 										<Property Name="Version">
 											<String>1.0.0</String>
+										</Property>
+										<Property Name="Dependency_1">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>2958bc2f6356144efa7826238d93c96b</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_2">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>PharLap</SupportedTarget>
+												<MD5>381532697f5ea1783a4812f206c70055</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_3">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>95e63cc839fdf5ce920aecae7bbf7da6</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_4">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_32_ARM</SupportedTarget>
+												<MD5>a09c1facc5a8847f9aad31b51344418f</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_5">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>ce6baf8c111ceeefddc1aa5ac5591f28</MD5>
+											</DependentFile>
+										</Property>
+										<Property Name="Dependency_6">
+											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp">
+												<Version />
+												<ForceDownload>false</ForceDownload>
+												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
+												<SupportedTarget>Linux_x64</SupportedTarget>
+												<MD5>dc89702f1db2635991ebbaa6bafad814</MD5>
+											</DependentFile>
 										</Property>
 										<Property Name="user.CD.Routing and Faulting.API Version">
 											<U32>1</U32>
