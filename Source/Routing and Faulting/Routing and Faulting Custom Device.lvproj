@@ -48,7 +48,9 @@
 					<Item Name="Routing and Faulting Scripting System Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/System/Routing and Faulting Scripting System Tests.lvclass"/>
 				</Item>
 				<Item Name="Unit" Type="Folder">
-					<Item Name="Assets" Type="Folder"/>
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Base System Definition.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Routing and Faulting Scripting Unit Tests/Assets/Base System Definition.nivssdf"/>
+					</Item>
 					<Item Name="Routing and Faulting Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/Routing and Faulting Scripting Unit Tests/Routing and Faulting Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>
@@ -569,6 +571,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nislsclvapi.dll" Type="Document" URL="nislsclvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
