@@ -30,20 +30,20 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Set Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Set Endpoint Configuration.vi"/>
 		<Item Name="Get Endpoint Configuration.vi" Type="VI" URL="../Endpoint Configuration/Get Endpoint Configuration.vi"/>
-		<Item Name="Set All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set All Endpoint Configurations.vi"/>
+		<Item Name="Set Multiple Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Set Multiple Endpoint Configurations.vi"/>
 		<Item Name="Get All Endpoint Configurations.vi" Type="VI" URL="../Endpoint Configuration/Get All Endpoint Configurations.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Set All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Set All SLSC Switch Properties.vi"/>
-		<Item Name="Set SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Set SLSC Switch Capabilities.vi"/>
+		<Item Name="Set SLSC Switch Switches JSON.vi" Type="VI" URL="../Properties/Set SLSC Switch Switches JSON.vi"/>
 		<Item Name="Set SLSC Switch Description.vi" Type="VI" URL="../Properties/Set SLSC Switch Description.vi"/>
-		<Item Name="Set SLSC Switch Model.vi" Type="VI" URL="../Properties/Set SLSC Switch Model.vi"/>
+		<Item Name="Set SLSC Switch Product Name.vi" Type="VI" URL="../Properties/Set SLSC Switch Product Name.vi"/>
 		<Item Name="Set SLSC Switch Topology.vi" Type="VI" URL="../Properties/Set SLSC Switch Topology.vi"/>
 		<Item Name="Get All SLSC Switch Properties.vi" Type="VI" URL="../Properties/Get All SLSC Switch Properties.vi"/>
-		<Item Name="Get SLSC Switch Capabilities.vi" Type="VI" URL="../Properties/Get SLSC Switch Capabilities.vi"/>
+		<Item Name="Get SLSC Switch Switches JSON.vi" Type="VI" URL="../Properties/Get SLSC Switch Switches JSON.vi"/>
 		<Item Name="Get SLSC Switch Description.vi" Type="VI" URL="../Properties/Get SLSC Switch Description.vi"/>
-		<Item Name="Get SLSC Switch Model.vi" Type="VI" URL="../Properties/Get SLSC Switch Model.vi"/>
+		<Item Name="Get SLSC Switch Product Name.vi" Type="VI" URL="../Properties/Get SLSC Switch Product Name.vi"/>
 		<Item Name="Get SLSC Switch Topology.vi" Type="VI" URL="../Properties/Get SLSC Switch Topology.vi"/>
 		<Item Name="Get SLSC Switch Slot Number.vi" Type="VI" URL="../Properties/Get SLSC Switch Slot Number.vi"/>
 	</Item>
