@@ -65,6 +65,7 @@
 				</Item>
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
+			<Item Name="Import Export.lvlib" Type="Library" URL="../../Shared/Import Export/Import Export.lvlib"/>
 			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
 			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="../../Shared/VeriStand SLSC Scripting/VeriStand SLSC Scripting.lvlib"/>
 		</Item>
