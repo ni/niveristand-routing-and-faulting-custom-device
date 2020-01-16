@@ -45,5 +45,6 @@
 		<Item Name="Parse CD XML.vi" Type="VI" URL="../Utility/Parse CD XML.vi"/>
 		<Item Name="Set Custom Device Driver VIs.vi" Type="VI" URL="../Utility/Set Custom Device Driver VIs.vi"/>
 		<Item Name="SLSC CD Schema Path.vi" Type="VI" URL="../Utility/SLSC CD Schema Path.vi"/>
+		<Item Name="XMLReader Target to CustomDevice Target.vi" Type="VI" URL="../Utility/XMLReader Target to CustomDevice Target.vi"/>
 	</Item>
 </Library>
