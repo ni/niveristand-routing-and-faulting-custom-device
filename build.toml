@@ -153,3 +153,10 @@ payload_dir = 'Source\Built\Scripting Examples'
 install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Routing and Faulting'
 control_file = 'control_examples'
 package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Shared\Custom Device LabVIEW Common'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs'
+control_file = 'control_custom_device_labview_support_common'
+package_output_dir = 'Source\Built'
