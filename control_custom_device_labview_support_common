@@ -8,7 +8,7 @@ XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
 XB-LanguageSupport: en
-XB-UserVisible: yes
+XB-UserVisible: no
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: VeriStand Custom Device Common Files for LabVIEW {veristand_version}
