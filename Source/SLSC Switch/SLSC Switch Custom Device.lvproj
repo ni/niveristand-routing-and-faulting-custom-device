@@ -822,6 +822,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Scripting API to Installed Location.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B81CE306-DCDF-4D4E-9175-E65843F20A57}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Scripting/SLSC Switch</Property>
@@ -840,7 +841,7 @@
 				<Property Name="Destination[5].path" Type="Path">../Built/Scripting/SLSC Switch/Dependencies.llb</Property>
 				<Property Name="Destination[5].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{46FF85AD-8B53-4842-838E-DD17CFCA504D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7D62EFBE-A44E-4580-AE2A-C795DC342489}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
