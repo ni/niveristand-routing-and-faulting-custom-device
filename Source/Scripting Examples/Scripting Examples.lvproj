@@ -69,12 +69,8 @@
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Get SLSC Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/VeriStand SLSC Scripting/Chassis/Get SLSC Chassis.vi"/>
-				<Item Name="Add SLSC Switch Custom Device.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/SLSC Switch/Scripting/Custom Device/Add SLSC Switch Custom Device.vi"/>
-				<Item Name="Load SLSC Switch Module Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/SLSC Switch/Scripting/Custom Device/Load SLSC Switch Module Configuration.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="Get SLSC Chassis.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/VeriStand SLSC Scripting/Chassis/Get SLSC Chassis.vi"/>
 				<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Dependencies.llb/Routing and Faulting Shared.lvlib"/>
 				<Item Name="Routing_and_Faulting_Scripting_Dependencies_Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Dependencies.llb/Routing_and_Faulting_Scripting_Dependencies_Advanced System Definition.lvlib"/>
 				<Item Name="Routing_and_Faulting_Scripting_Dependencies_ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Dependencies.llb/Routing_and_Faulting_Scripting_Dependencies_ImportExport.lvlib"/>
