@@ -17,10 +17,12 @@
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Endpoint Aliases Page.vi" Type="VI" URL="../Endpoint Aliases Page.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+				<Item Name="Routing Channel Folder Page.vi" Type="VI" URL="../Routing Channel Folder Page.vi"/>
 				<Item Name="Routing Channel Page.vi" Type="VI" URL="../Routing Channel Page.vi"/>
 				<Item Name="Routing Channels Page.vi" Type="VI" URL="../Routing Channels Page.vi"/>
 			</Item>
 			<Item Name="RTM" Type="Folder">
+				<Item Name="Add Routing Channel Folder RTM.vi" Type="VI" URL="../Add Routing Channel Folder RTM.vi"/>
 				<Item Name="Add Routing Channel RTM.vi" Type="VI" URL="../Add Routing Channel RTM.vi"/>
 				<Item Name="Duplicate Routing Channel RTM.vi" Type="VI" URL="../Duplicate Routing Channel RTM.vi"/>
 				<Item Name="Enable Disable Routing Channel RTM.vi" Type="VI" URL="../Enable Disable Routing Channel RTM.vi"/>
