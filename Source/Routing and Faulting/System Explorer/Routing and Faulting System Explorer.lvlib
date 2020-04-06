@@ -96,6 +96,7 @@
 			<Item Name="Set Temporary String Property.vi" Type="VI" URL="../Set Temporary String Property.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
+			<Item Name="Update State Value Table Change Controls.vi" Type="VI" URL="../Update State Value Table Change Controls.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
 			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
 		</Item>
