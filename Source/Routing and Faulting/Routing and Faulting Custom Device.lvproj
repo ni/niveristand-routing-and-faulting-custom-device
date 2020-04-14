@@ -82,6 +82,7 @@
 				<Item Name="Routing and Faulting Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Import Unit Tests/Routing and Faulting Import Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Export Unit Tests/Routing and Faulting Export Unit Tests.lvclass"/>
 				<Item Name="Routing and Faulting Aliases Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting Aliases Unit Tests/Routing and Faulting Aliases Unit Tests.lvclass"/>
+				<Item Name="Routing and Faulting State Value Table Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Routing and Faulting State Value Table Unit Tests/Routing and Faulting State Value Table Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder">
