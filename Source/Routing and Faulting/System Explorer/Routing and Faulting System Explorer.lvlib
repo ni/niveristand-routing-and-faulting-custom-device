@@ -56,6 +56,7 @@
 			<Item Name="Format Endpoint Name.vi" Type="VI" URL="../Format Endpoint Name.vi"/>
 			<Item Name="Format Full Endpoint Name.vi" Type="VI" URL="../Format Full Endpoint Name.vi"/>
 			<Item Name="Format Module Name.vi" Type="VI" URL="../Format Module Name.vi"/>
+			<Item Name="Get Adjacent State.vi" Type="VI" URL="../Get Adjacent State.vi"/>
 			<Item Name="Get Alias Mappings from Channel ID.vi" Type="VI" URL="../Get Alias Mappings from Channel ID.vi"/>
 			<Item Name="Get Alias-Free Connection Endpoint.vi" Type="VI" URL="../Get Alias-Free Connection Endpoint.vi"/>
 			<Item Name="Get All Endpoints.vi" Type="VI" URL="../Get All Endpoints.vi"/>
@@ -74,6 +75,7 @@
 			<Item Name="Handle Remove State Change.vi" Type="VI" URL="../Handle Remove State Change.vi"/>
 			<Item Name="Handle Routing Channel State Change.vi" Type="VI" URL="../Handle Routing Channel State Change.vi"/>
 			<Item Name="Handle State Name Change.vi" Type="VI" URL="../Handle State Name Change.vi"/>
+			<Item Name="Handle State Value Table Change.vi" Type="VI" URL="../Handle State Value Table Change.vi"/>
 			<Item Name="Identify Duplicate Alias Entries.vi" Type="VI" URL="../Identify Duplicate Alias Entries.vi"/>
 			<Item Name="Initialize Alias Endpoint Strings.vi" Type="VI" URL="../Initialize Alias Endpoint Strings.vi"/>
 			<Item Name="Initialize Aliases Page.vi" Type="VI" URL="../Initialize Aliases Page.vi"/>
@@ -94,6 +96,7 @@
 			<Item Name="Set Temporary String Property.vi" Type="VI" URL="../Set Temporary String Property.vi"/>
 			<Item Name="Sort Aliases.vi" Type="VI" URL="../Sort Aliases.vi"/>
 			<Item Name="Update Alias Endpoint.vi" Type="VI" URL="../Update Alias Endpoint.vi"/>
+			<Item Name="Update State Value Table Change Controls.vi" Type="VI" URL="../Update State Value Table Change Controls.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
 			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
 		</Item>
