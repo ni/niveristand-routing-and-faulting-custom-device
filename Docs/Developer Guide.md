@@ -41,7 +41,7 @@ The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. Th
 3. Use the contents of `Routing and Faulting Hardware API.lvlib` to opt in to being discovered by the Routing and Faulting Custom Device.
 
   | VI Name | Description |
-  |---|---|---|
+  |---|---|
   | `Set API Version.vi` | Determines which properties are supported; currently only version `1` is supported. |
   | `Set All Possible Connections.vi` | Enumerates the possible direct connections for each endpoint. |
 
