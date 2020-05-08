@@ -38,14 +38,12 @@ The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. Th
 
   _NOTE: Avoid the inline hardware template as it may adversely affect loop rates of the application._
 
-3. Add the following properties to the system definition:
+3. Use the contents of `Routing and Faulting Hardware API.lvlib` to opt in to being discovered by the Routing and Faulting Custom Device.
 
-  | Property Name | Type | Description |
-  |---|---|---|
-  | SwitchVersion | Integer | Gets the read-only switch version, e.g. 1. The version determines which properties are supported. |
-  | Model | String | Gets the read-only model name, e.g. "SLSC-12251". |
-  | Resource | String | Gets the read-only hardware specific resource name, e.g. "slsc-12001-0314b282-Mod2". The resource name is compiled during deployment and sent to the engine. |
-  | Topology | String | Gets and sets the hardware specific topology, e.g. "NI12251_topology". The topology is compiled during deployment and sent to the engine. Assign an empty string if the hardware does not support multiple topologies.|
+  | VI Name | Description |
+  |---|---|
+  | `Set API Version.vi` | Determines which properties are supported; currently only version `1` is supported. |
+  | `Set All Possible Connections.vi` | Enumerates the possible direct connections for each endpoint. |
 
 4. Compile the required properties (and any hardware specific properties) during the OnCompile Action VI.
 
