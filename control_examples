@@ -1,6 +1,6 @@
 Package: ni-routing-and-faulting-veristand-{veristand_version}-labview-examples
 Version: {nipkg_version}
-Architecture: windows_all
+Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
 Description: Provides LabVIEW examples for the Routing and Faulting custom device for NI VeriStand {veristand_version}.

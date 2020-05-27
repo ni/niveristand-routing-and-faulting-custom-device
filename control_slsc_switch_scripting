@@ -1,6 +1,6 @@
 Package: ni-slsc-switch-veristand-{veristand_version}-labview-support
 Version: {nipkg_version}
-Architecture: windows_all
+Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
 Description: Provides LabVIEW support for the SLSC Switch custom device for NI VeriStand {veristand_version}.
