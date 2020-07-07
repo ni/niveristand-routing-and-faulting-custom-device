@@ -89,7 +89,10 @@
 				<Item Name="SLSC Switch Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Export Unit Tests/SLSC Switch Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
-				<Item Name="Assets" Type="Folder"/>
+				<Item Name="Assets" Type="Folder">
+					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
+					<Item Name="Custom_Reservation_Group.nivssdf" Type="Document" URL="../Tests/System/Assets/Custom_Reservation_Group.nivssdf"/>
+				</Item>
 				<Item Name="SLSC Switch System Tests.lvclass" Type="LVClass" URL="../Tests/System/SLSC Switch System Tests.lvclass"/>
 			</Item>
 		</Item>
