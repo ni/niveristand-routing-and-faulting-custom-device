@@ -39,6 +39,14 @@ The following table describes the available endpoint configurations.
 
 _NOTE: Configure the SLSC Switch Custom Device before configuring the Routing and Faulting Custom Device._
 
+### Reservation Group
+
+The SLSC Switch Custom Device initializes the SLSC Switch session with a custom _reservation group_. This allows other SLSC sessions to concurrently reserve the device, provided they share the same reservation group. The user must avoid modifying properties used by the SLSC Switch session through these external SLSC sessions, as this will corrupt the switching state and may lead unintended connections being established.
+
+By default the reservation group for the SLSC Switch Custom Device is the path to the module in the system definition. This value may be changed using the scripting API.
+
+SLSC Switch 20.0 or newer must be used for the reservation group to be applied. If using SLSC Switch 19.x, the reservation group will be silently ignored.
+
 ## Routing and Faulting Custom Device
 
 The **Routing and Faulting Custom Device** is a VeriStand add-on that configures aliases and routing channels. By default, routing channels are not added. Add routing channels for each controllable collection of connections.
