@@ -17,7 +17,7 @@
 		<Item Name="Private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Custom Device Information.ctl" Type="VI" URL="../Controls/Custom Device Information.ctl"/>
-			<Item Name="Driver VI Information.ctl" Type="VI" URL="../Controls/Driver VI Information.ctl"/>
+			<Item Name="Dependent File Information.ctl" Type="VI" URL="../Controls/Dependent File Information.ctl"/>
 			<Item Name="SLSC Custom Device Information.ctl" Type="VI" URL="../Controls/SLSC Custom Device Information.ctl"/>
 		</Item>
 		<Item Name="SLSC Chassis ID.ctl" Type="VI" URL="../Controls/SLSC Chassis ID.ctl"/>
@@ -43,7 +43,9 @@
 		<Item Name="Find Target.vi" Type="VI" URL="../Utility/Find Target.vi"/>
 		<Item Name="Get SLSC Module Resource from Chassis IP.vi" Type="VI" URL="../Module/Get SLSC Module Resource from Chassis IP.vi"/>
 		<Item Name="Parse CD XML.vi" Type="VI" URL="../Utility/Parse CD XML.vi"/>
-		<Item Name="Set Custom Device Driver VIs.vi" Type="VI" URL="../Utility/Set Custom Device Driver VIs.vi"/>
+		<Item Name="Parse Dependency Information.vi" Type="VI" URL="../Utility/Parse Dependency Information.vi"/>
+		<Item Name="Parse Driver VI Information.vi" Type="VI" URL="../Utility/Parse Driver VI Information.vi"/>
+		<Item Name="Set Custom Device Dependent File Properties.vi" Type="VI" URL="../Utility/Set Custom Device Dependent File Properties.vi"/>
 		<Item Name="SLSC CD Schema Path.vi" Type="VI" URL="../Utility/SLSC CD Schema Path.vi"/>
 		<Item Name="XMLReader Target to CustomDevice Target.vi" Type="VI" URL="../Utility/XMLReader Target to CustomDevice Target.vi"/>
 	</Item>
