@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -85,7 +85,7 @@
 				</Item>
 				<Item Name="SLSC Switch Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Compile Unit Tests/SLSC Switch Compile Unit Tests.lvclass"/>
 				<Item Name="SLSC Switch Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Unit Tests/SLSC Switch Unit Tests.lvclass"/>
-				<Item Name="SLSC Switch Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Unit Tests/SLSC Switch Import Unit Tests.lvclass"/>
+				<Item Name="SLSC Switch Import Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Export Unit Tests/SLSC Switch Import Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder">
