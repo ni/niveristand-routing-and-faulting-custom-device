@@ -25,7 +25,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Scripting API" Type="Folder">
@@ -66,6 +66,7 @@
 			</Item>
 			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
 			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="../../Shared/VeriStand SLSC Scripting/VeriStand SLSC Scripting.lvlib"/>
+			<Item Name="VeriStand System Definition Test Utilities.lvlib" Type="Library" URL="../../Shared/VeriStand System Definition Test Utilities/VeriStand System Definition Test Utilities.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
@@ -76,17 +77,11 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Assets" Type="Folder">
-					<Item Name="Export Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Export Test.nivssdf"/>
 					<Item Name="Import Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Import Test.nivssdf"/>
-					<Item Name="set-2010_export.dat" Type="Document" URL="../Tests/Unit/Assets/set-2010_export.dat"/>
-					<Item Name="slsc-12251_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12251_export.dat"/>
-					<Item Name="slsc-12252_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12252_export.dat"/>
-					<Item Name="slsc-12252-endpoint_export.dat" Type="Document" URL="../Tests/Unit/Assets/slsc-12252-endpoint_export.dat"/>
 				</Item>
 				<Item Name="SLSC Switch Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Compile Unit Tests/SLSC Switch Compile Unit Tests.lvclass"/>
 				<Item Name="SLSC Switch Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Unit Tests/SLSC Switch Unit Tests.lvclass"/>
-				<Item Name="SLSC Switch Import Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Unit Tests/SLSC Switch Import Unit Tests.lvclass"/>
-				<Item Name="SLSC Switch Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Export Unit Tests/SLSC Switch Export Unit Tests.lvclass"/>
+				<Item Name="SLSC Switch Import Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Export Unit Tests/SLSC Switch Import Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder">
@@ -568,6 +563,9 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
@@ -979,7 +977,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="SLSC Switch Engine.lvlib" Type="Library" URL="../Engine/SLSC Switch Engine.lvlib"/>
@@ -1201,7 +1199,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="SLSC Switch Engine.lvlib" Type="Library" URL="../Engine/SLSC Switch Engine.lvlib"/>
 		<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="../Shared/SLSC Switch Shared.lvlib"/>
@@ -1424,7 +1422,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="SLSC Switch Engine.lvlib" Type="Library" URL="../Engine/SLSC Switch Engine.lvlib"/>
 		<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="../Shared/SLSC Switch Shared.lvlib"/>
