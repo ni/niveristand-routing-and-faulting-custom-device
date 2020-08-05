@@ -160,3 +160,6 @@ payload_dir = 'Source\Shared\Custom Device LabVIEW Common'
 install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs'
 control_file = 'control_custom_device_labview_support_common'
 package_output_dir = 'Source\Built'
+
+[notification]
+type = 'teams'
