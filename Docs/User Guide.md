@@ -43,7 +43,7 @@ _NOTE: Configure the SLSC Switch Custom Device before configuring the Routing an
 
 The SLSC Switch Custom Device initializes its SLSC Switch session with a custom _reservation group_. This initialization allows SLSC sessions with the same group to concurrently reserve the device. Avoid modifying SLSC properties used by SLSC Switch through these external sessions, as this will corrupt the switching state and establish unintended connections.
 
-Use SLSC Switch 20.0 or newer to apply the reservation group. If you use SLSC Switch 19.x, the custom device will silently ignore the reservation group.
+Use SLSC Switch 20.0.1 or newer to apply the reservation group. If you use SLSC Switch 19.x or 20.0.0, the custom device will silently ignore the reservation group.
 
 By default the reservation group for the SLSC Switch Custom Device is the path to the module in the system definition file. Use the scripting API to update this value.
 
