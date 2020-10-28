@@ -184,7 +184,7 @@
 									<String>SLSC-12001</String>
 								</Property>
 								<Property Name="Chassis ID">
-									<String>VS-Eco-SLSC-12001</String>
+									<String>10.2.207.133</String>
 								</Property>
 								<Property Name="Username">
 									<String>anonymous</String>
