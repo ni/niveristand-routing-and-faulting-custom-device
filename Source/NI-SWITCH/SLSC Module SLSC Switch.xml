@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>SLSC Plug-ins::SLSC Switch</eng>
+    <loc>SLSC Plug-ins::SLSC Switch</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>5e47c8de-3ec6-490b-8897-5526d4aea756</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Pharlap</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies>
+    <Dependency>
+      <SupportedTarget>Pharlap</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Pharlap</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+  </Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>SLSC Switch</eng>
+        <loc>SLSC Switch</loc>
+      </Name>
+      <GUID>5e47c8de-3ec6-490b-8897-5526d4aea756</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Module.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>bd36668c-3a01-46a6-8369-02ac95618231</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Autodetect RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>c10a0b37-fd4a-4657-9c43-a8df7a6d5cc5</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Load from JSON RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Import Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>0c13aec2-2566-4502-b1d9-3350c1bc585f</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Export Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Autodetect</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET DropFrames.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>bd36668c-3a01-46a6-8369-02ac95618231</ReferencedGUID>
+          <ButtonText>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Automatically detect the configuration for this custom device from the module.</eng>
+            <loc>Automatically detect the configuration for this custom device from the module.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Autodetect</eng>
+            <loc>Autodetect</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>Load from JSON</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET File(Replay).png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>c10a0b37-fd4a-4657-9c43-a8df7a6d5cc5</ReferencedGUID>
+          <ButtonText>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Load the configuration for this custom device from the Switches JSON.</eng>
+            <loc>Load the configuration for this custom device from the Switches JSON.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Load from JSON</eng>
+            <loc>Load from JSON</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>Import</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\import.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</ReferencedGUID>
+          <ButtonText>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import a configuration for this custom device.</eng>
+            <loc>Import a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>Export</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\export.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>0c13aec2-2566-4502-b1d9-3350c1bc585f</ReferencedGUID>
+          <ButtonText>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Export a configuration for this custom device.</eng>
+            <loc>Export a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Endpoint Configuration</eng>
+        <loc>Endpoint Configuration</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>f35fa8c0-605e-4a68-bbe7-65ff21f249ff</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Switch_Endpoint_Configuration.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Endpoint Configuration Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>fafe2633-52e8-4be6-bb95-b07e42834d60</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\system variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>Absolute</Type>
+          <Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
+      </Item2Launch>
+      <Help>
+        <Item2Launch>
+          <Type>To Base</Type>
+            <Path>Veristand.chm\Custom_Devices_SE.html</Path>
+        </Item2Launch>
+        <FileType>chm</FileType>
+      </Help>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
