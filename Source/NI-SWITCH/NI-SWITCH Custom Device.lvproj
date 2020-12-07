@@ -589,7 +589,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI-SWITCH</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
@@ -597,19 +597,19 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B4AAEE08-9C92-453E-A855-21552B554DAD}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/SLSC Switch</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI-SWITCH</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows</Property>
-				<Property Name="Destination[2].destName" Type="Str">SLSC Switch Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/SLSC Switch/Windows/SLSC Switch Configuration.llb</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI-SWITCH/Windows</Property>
+				<Property Name="Destination[2].destName" Type="Str">NI-SWITCH Configuration LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI-SWITCH/Windows/NI-SWITCH Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/SLSC Switch/Windows/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/NI-SWITCH/Windows/Glyphs</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B54E756B-47FC-482B-98A3-BB1CD3D8BF6D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{92C83488-8877-4522-B717-8D5521DA9296}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -643,7 +643,7 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI-SWITCH</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
@@ -651,19 +651,19 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/SLSC Switch</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI-SWITCH</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows</Property>
-				<Property Name="Destination[2].destName" Type="Str">SLSC Switch Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/SLSC Switch/Windows/SLSC Switch Configuration.llb</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI-SWITCH/Windows</Property>
+				<Property Name="Destination[2].destName" Type="Str">NI-SWITCH Configuration LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI-SWITCH/Windows/NI-SWITCH Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/SLSC Switch/Windows/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/NI-SWITCH/Windows/Glyphs</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B54E756B-47FC-482B-98A3-BB1CD3D8BF6D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{92C83488-8877-4522-B717-8D5521DA9296}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -739,21 +739,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch/Windows/SLSC Switch Engine Windows.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI-SWITCH/Windows/NI-SWITCH Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/SLSC Switch/Windows/SLSC Switch Engine Windows.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI-SWITCH/Windows/NI-SWITCH Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI-SWITCH/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{39B938E5-6058-4AD9-B222-C28E774C009C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{92C83488-8877-4522-B717-8D5521DA9296}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI-SWITCH Engine.lvlib/RT Driver VI.vi</Property>
@@ -827,30 +827,30 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting/SLSC Switch</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting/NI-SWITCH</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Scripting API to Installed Location.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B81CE306-DCDF-4D4E-9175-E65843F20A57}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Scripting/SLSC Switch</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Scripting/NI-SWITCH</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/SLSC Switch/Windows/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI-SWITCH/Windows/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory (Top Level)</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Scripting/SLSC Switch</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Scripting/NI-SWITCH</Property>
 				<Property Name="Destination[3].destName" Type="Str">Routing and Faulting Hardware API</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/Routing and Faulting/Routing and Faulting Hardware API</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">VeriStand SLSC Scripting</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/SLSC Switch/VeriStand SLSC Scripting API</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/NI-SWITCH/VeriStand SLSC Scripting API</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[5].destName" Type="Str">Bundled Dependencies</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built/Scripting/SLSC Switch/Dependencies.llb</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/Scripting/NI-SWITCH/Dependencies.llb</Property>
 				<Property Name="Destination[5].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7D62EFBE-A44E-4580-AE2A-C795DC342489}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{92C83488-8877-4522-B717-8D5521DA9296}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
@@ -1091,10 +1091,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/SLSC Switch Engine Pharlap.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/NI-SWITCH Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/SLSC Switch Engine Pharlap.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Pharlap/NI-SWITCH Engine Pharlap.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -1103,7 +1103,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C9223E6-8468-4D40-8190-88B80643694C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F574565-C3F3-4B02-9E51-4EBA08329568}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/NI-SWITCH Engine.lvlib/RT Driver VI.vi</Property>
@@ -1318,14 +1318,14 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI-SWITCH</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7A753CB-5AA6-49B3-83A7-C0336FA31893}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">Linux_32_ARM/SLSC Switch Engine LinuxARM.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">Linux_32_ARM/NI-SWITCH Engine LinuxARM.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">Linux_32_ARM/SLSC Switch Engine LinuxARM.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">Linux_32_ARM/NI-SWITCH Engine LinuxARM.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -1334,7 +1334,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{70D10CF9-900F-4241-8FE8-870CB36E582C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0C971A3-B802-45F9-98F3-53DFE4F4F9DB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/NI-SWITCH Engine.lvlib/RT Driver VI.vi</Property>
@@ -1550,14 +1550,14 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI-SWITCH</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E24CF77A-EDD5-435E-91DE-CAC6522BEA2A}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">Linux_x64/SLSC Switch Engine Linux64.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">Linux_x64/NI-SWITCH Engine Linux64.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">Linux_x64/SLSC Switch Engine Linux64.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">Linux_x64/NI-SWITCH Engine Linux64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -1566,7 +1566,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E468625-691D-4331-A9E4-9BBE6FB0A233}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6ED41628-06E4-4B1E-902D-A3F3226C0DD9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/NI-SWITCH Engine.lvlib/RT Driver VI.vi</Property>
