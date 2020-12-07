@@ -43,14 +43,14 @@
 					<Item Name="Assets" Type="Folder">
 						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../Scripting/Tests/System/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
 					</Item>
-					<Item Name="SLSC Switch Scripting System Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/System/SLSC Switch Scripting System Tests.lvclass"/>
+					<Item Name="NI-SWITCH Scripting System Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/System/NI-SWITCH Scripting System Tests.lvclass"/>
 				</Item>
 				<Item Name="Unit" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="Base with 1 SLSC Switch CD.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Assets/Base with 1 SLSC Switch CD.nivssdf"/>
 						<Item Name="Base with Multiple SLSC Switch CDs.nivssdf" Type="Document" URL="../Scripting/Tests/Unit/Assets/Base with Multiple SLSC Switch CDs.nivssdf"/>
 					</Item>
-					<Item Name="SLSC Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/SLSC Switch Scripting Unit Tests.lvclass"/>
+					<Item Name="NI-SWITCH Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/NI-SWITCH Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="NI-SWITCH Scripting.lvlib" Type="Library" URL="../Scripting/NI-SWITCH Scripting.lvlib"/>
@@ -79,16 +79,16 @@
 				<Item Name="Assets" Type="Folder">
 					<Item Name="Import Test.nivssdf" Type="Document" URL="../Tests/Unit/Assets/Import Test.nivssdf"/>
 				</Item>
-				<Item Name="SLSC Switch Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Compile Unit Tests/SLSC Switch Compile Unit Tests.lvclass"/>
-				<Item Name="SLSC Switch Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Unit Tests/SLSC Switch Unit Tests.lvclass"/>
-				<Item Name="SLSC Switch Import Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/SLSC Switch Import Export Unit Tests/SLSC Switch Import Export Unit Tests.lvclass"/>
+				<Item Name="NI-SWITCH Compile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/NI-SWITCH Compile Unit Tests/NI-SWITCH Compile Unit Tests.lvclass"/>
+				<Item Name="NI-SWITCH Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/NI-SWITCH Unit Tests/NI-SWITCH Unit Tests.lvclass"/>
+				<Item Name="NI-SWITCH Import Export Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/NI-SWITCH Import Export Unit Tests/NI-SWITCH Import Export Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder">
 					<Item Name="config.ini" Type="Document" URL="../Tests/System/Assets/config.ini"/>
 					<Item Name="Custom_Reservation_Group.nivssdf" Type="Document" URL="../Tests/System/Assets/Custom_Reservation_Group.nivssdf"/>
 				</Item>
-				<Item Name="SLSC Switch System Tests.lvclass" Type="LVClass" URL="../Tests/System/SLSC Switch System Tests.lvclass"/>
+				<Item Name="NI-SWITCH System Tests.lvclass" Type="LVClass" URL="../Tests/System/NI-SWITCH System Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
