@@ -2,18 +2,18 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
   <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>SLSC Plug-ins::SLSC Switch</eng>
-    <loc>SLSC Plug-ins::SLSC Switch</loc>
+    <eng>National Instruments::NI-SWITCH</eng>
+    <loc>National Instruments::NI-SWITCH</loc>
   </AddMenu>
   <Version>1.0.0</Version>
   <Type>Asynchronous</Type>
   <MaxOccurrence>2474</MaxOccurrence>
-  <MainPageGUID>5e47c8de-3ec6-490b-8897-5526d4aea756</MainPageGUID>
+  <MainPageGUID>4ed8d91a-594e-4e06-bfbe-33c7275857dc</MainPageGUID>
   <InitializationVI>
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-      <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Initialization VI.vi</Path>
+      <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -22,33 +22,33 @@
         <SupportedTarget>Windows</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Engine Windows.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Pharlap</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\NI-SWITCH\PharLap\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Linux_32_ARM</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\NI-SWITCH\Linux_32_ARM\NI-SWITCH Engine LinuxARM.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\NI-SWITCH\Linux_x64\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
     </SourceDistribution>
   </CustomDeviceVI>
@@ -57,69 +57,69 @@
       <SupportedTarget>Pharlap</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp</Path>
+        <Path>Custom Devices\NI-SWITCH\Pharlap\CDMessaging.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Pharlap</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp</Path>
+        <Path>Custom Devices\NI-SWITCH\Pharlap\NISWITCHMessaging.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_32_ARM</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp</Path>
+        <Path>Custom Devices\NI-SWITCH\Linux_32_ARM\CDMessaging.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_32_ARM</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp</Path>
+        <Path>Custom Devices\NI-SWITCH\Linux_32_ARM\NISWITCHMessaging.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp</Path>
+        <Path>Custom Devices\NI-SWITCH\Linux_x64\CDMessaging.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp</Path>
+        <Path>Custom Devices\NI-SWITCH\Linux_x64\NISWITCHMessaging.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
   </Dependencies>
   <Pages>
     <Page>
       <Name>
-        <eng>SLSC Switch</eng>
-        <loc>SLSC Switch</loc>
+        <eng>NI-SWITCH</eng>
+        <loc>NI-SWITCH</loc>
       </Name>
-      <GUID>5e47c8de-3ec6-490b-8897-5526d4aea756</GUID>
+      <GUID>4ed8d91a-594e-4e06-bfbe-33c7275857dc</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Module.png</Path>
+        <Path>Custom Devices\NI-SWITCH\Windows\Glyphs\SLSC_Module.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
-          <GUID>bd36668c-3a01-46a6-8369-02ac95618231</GUID>
+          <GUID>7ebfe6d9-c855-4a7f-86db-ab51da5a705a</GUID>
           <Type>Action</Type>
           <Name>
             <eng>Autodetect</eng>
@@ -127,11 +127,11 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Autodetect RTM.vi</Path>
+            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Autodetect RTM.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
-          <GUID>c10a0b37-fd4a-4657-9c43-a8df7a6d5cc5</GUID>
+          <GUID>843899df-70a6-452c-9a75-64b7908b83a1</GUID>
           <Type>Action</Type>
           <Name>
             <eng>Load from JSON</eng>
@@ -139,11 +139,11 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Load from JSON RTM.vi</Path>
+            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Load from JSON RTM.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
-          <GUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</GUID>
+          <GUID>52b63a4f-c1ae-47e9-afa7-66a9dc432aee</GUID>
           <Type>Action</Type>
           <Name>
             <eng>Import</eng>
@@ -151,11 +151,11 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Import Configuration RTM.vi</Path>
+            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Import Configuration RTM.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
-          <GUID>0c13aec2-2566-4502-b1d9-3350c1bc585f</GUID>
+          <GUID>ea33fe05-c684-4dff-9a7f-5d1f9fbe047b</GUID>
           <Type>Action</Type>
           <Name>
             <eng>Export</eng>
@@ -163,7 +163,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Export Configuration RTM.vi</Path>
+            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Export Configuration RTM.vi</Path>
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
@@ -175,7 +175,7 @@
             <Path>System Explorer\Glyphs\NI-XNET DropFrames.png</Path>
           </Glyph>
           <Type>Action</Type>
-          <ReferencedGUID>bd36668c-3a01-46a6-8369-02ac95618231</ReferencedGUID>
+          <ReferencedGUID>7ebfe6d9-c855-4a7f-86db-ab51da5a705a</ReferencedGUID>
           <ButtonText>
             <eng>Autodetect</eng>
             <loc>Autodetect</loc>
@@ -200,7 +200,7 @@
             <Path>System Explorer\Glyphs\NI-XNET File(Replay).png</Path>
           </Glyph>
           <Type>Action</Type>
-          <ReferencedGUID>c10a0b37-fd4a-4657-9c43-a8df7a6d5cc5</ReferencedGUID>
+          <ReferencedGUID>843899df-70a6-452c-9a75-64b7908b83a1</ReferencedGUID>
           <ButtonText>
             <eng>Load from JSON</eng>
             <loc>Load from JSON</loc>
@@ -225,7 +225,7 @@
             <Path>System Explorer\Glyphs\import.png</Path>
           </Glyph>
           <Type>Action</Type>
-          <ReferencedGUID>13c9562c-aca6-4c2d-aa2f-e9e221aafc29</ReferencedGUID>
+          <ReferencedGUID>52b63a4f-c1ae-47e9-afa7-66a9dc432aee</ReferencedGUID>
           <ButtonText>
             <eng>Import</eng>
             <loc>Import</loc>
@@ -250,7 +250,7 @@
             <Path>System Explorer\Glyphs\export.png</Path>
           </Glyph>
           <Type>Action</Type>
-          <ReferencedGUID>0c13aec2-2566-4502-b1d9-3350c1bc585f</ReferencedGUID>
+          <ReferencedGUID>ea33fe05-c684-4dff-9a7f-5d1f9fbe047b</ReferencedGUID>
           <ButtonText>
             <eng>Export</eng>
             <loc>Export</loc>
@@ -271,7 +271,7 @@
       </ButtonList>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
     <Page>
@@ -281,14 +281,14 @@
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
-      <GUID>f35fa8c0-605e-4a68-bbe7-65ff21f249ff</GUID>
+      <GUID>c99cfbe4-32a5-4370-896f-695dafdfbaf2</GUID>
       <Glyph>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\Glyphs\SLSC_Switch_Endpoint_Configuration.png</Path>
+        <Path>Custom Devices\NI-SWITCH\Windows\Glyphs\SLSC_Switch_Endpoint_Configuration.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Configuration.llb\Endpoint Configuration Page.vi</Path>
+        <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Endpoint Configuration Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -298,7 +298,7 @@
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
-      <GUID>fafe2633-52e8-4be6-bb95-b07e42834d60</GUID>
+      <GUID>0dd570cf-8e67-4405-88e2-bb04896cc7a6</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
         <Path>System Explorer\Glyphs\system variable.png</Path>

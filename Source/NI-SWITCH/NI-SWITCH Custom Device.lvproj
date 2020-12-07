@@ -99,7 +99,7 @@
 		<Item Name="NI-SWITCH Engine.lvlib" Type="Library" URL="../Engine/NI-SWITCH Engine.lvlib"/>
 		<Item Name="NI-SWITCH Shared.lvlib" Type="Library" URL="../Shared/NI-SWITCH Shared.lvlib"/>
 		<Item Name="NI-SWITCH System Explorer.lvlib" Type="Library" URL="../System Explorer/NI-SWITCH System Explorer.lvlib"/>
-		<Item Name="SLSC Module SLSC Switch.xml" Type="Document" URL="../SLSC Module SLSC Switch.xml"/>
+		<Item Name="Custom Device NI-SWITCH.xml" Type="Document" URL="../Custom Device NI-SWITCH.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
@@ -618,7 +618,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SLSC Module SLSC Switch.xml</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Custom Device NI-SWITCH.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
@@ -715,7 +715,7 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SLSC Module SLSC Switch.xml</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Custom Device NI-SWITCH.xml</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
