@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Call Import With Path.vi" Type="VI" URL="../Call Import With Path.vi"/>
 	<Item Name="Check .NET Objects Equal.vi" Type="VI" URL="../Check .NET Objects Equal.vi"/>
 	<Item Name="Check BaseNodeTypes Deep Equal.vi" Type="VI" URL="../Check BaseNodeTypes Deep Equal.vi"/>
 	<Item Name="Check Properties Equal.vi" Type="VI" URL="../Check Properties Equal.vi"/>
