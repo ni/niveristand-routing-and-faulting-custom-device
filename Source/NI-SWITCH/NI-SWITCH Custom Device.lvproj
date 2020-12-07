@@ -53,7 +53,7 @@
 					<Item Name="SLSC Switch Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/SLSC Switch Scripting Unit Tests.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../Scripting/SLSC Switch Scripting.lvlib"/>
+			<Item Name="NI-SWITCH Scripting.lvlib" Type="Library" URL="../Scripting/NI-SWITCH Scripting.lvlib"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="UI Common" Type="Folder">
@@ -96,10 +96,10 @@
 			<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Utility/Copy Scripting API to Installed Location.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
+		<Item Name="Custom Device NI-SWITCH.xml" Type="Document" URL="../Custom Device NI-SWITCH.xml"/>
 		<Item Name="NI-SWITCH Engine.lvlib" Type="Library" URL="../Engine/NI-SWITCH Engine.lvlib"/>
 		<Item Name="NI-SWITCH Shared.lvlib" Type="Library" URL="../Shared/NI-SWITCH Shared.lvlib"/>
 		<Item Name="NI-SWITCH System Explorer.lvlib" Type="Library" URL="../System Explorer/NI-SWITCH System Explorer.lvlib"/>
-		<Item Name="Custom Device NI-SWITCH.xml" Type="Document" URL="../Custom Device NI-SWITCH.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
@@ -539,6 +539,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../../SLSC Switch/System Explorer/Import Configuration RTM.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -565,6 +566,10 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../Scripting/SLSC Switch Scripting.lvlib"/>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -853,7 +858,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{92C83488-8877-4522-B717-8D5521DA9296}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/SLSC Switch Scripting.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/NI-SWITCH Scripting.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
