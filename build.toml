@@ -3,7 +3,7 @@ build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
 
 [dependencies.niveristand-routing-and-faulting-message-library]
-libraries = ['CDMessaging.lvlibp', 'SLSCSwitchMessaging.lvlibp']
+libraries = ['CDMessaging.lvlibp', 'SLSCSwitchMessaging.lvlibp', 'NISWITCHMessaging.lvlibp']
 copy_location = 'Includes'
 
 [projects.raf]
@@ -11,6 +11,9 @@ path = 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
 
 [projects.slsc]
 path = 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
+
+[projects.ni_switch]
+path = 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
 
 [projects.examples]
 path = 'Source\Scripting Examples\Scripting Examples.lvproj'
@@ -107,6 +110,54 @@ dependency_target = 'Linux_32_ARM'
 name = 'SLSC Switch Scripting API'
 type = 'lvBuildSpec'
 project = '{slsc}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'NI-SWITCH Configuration Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'NI-SWITCH Windows Engine Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'My Computer'
+build_spec = 'Engine Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'NI-SWITCH Pharlap Engine Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'RT PXI Target'
+build_spec = 'Engine Release'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'NI-SWITCH Linux x64 Engine Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'RT CompactRIO Target - Linux x64'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
+
+[[build.steps]]
+name = 'NI-SWITCH Linux x86 Engine Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'RT CompactRIO Target - Linux ARM'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'NI-SWITCH Scripting API'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
 target = 'My Computer'
 build_spec = 'Scripting API'
 dependency_target = 'Windows'
