@@ -539,7 +539,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../../SLSC Switch/System Explorer/Import Configuration RTM.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -569,7 +568,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="../Scripting/SLSC Switch Scripting.lvlib"/>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
