@@ -14,7 +14,7 @@ The following diagram illustrates the pattern for these devices.
 
 The producer/consumer design pattern is implemented in the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library). The **Custom Device Message Library** uses named message queues to send requests and receive responses. The library defines base classes for the producer, consumer, and messages. It also defines derived classes for switch consumer and switch messages.
 
-The [SLSC Switch Message Library](https://github.com/ni/niveristand-slsc-switch-message-library) overrides the switch consumer class and calls into the **SLSC Switch API** to connect and disconnect endpoints.
+The [Routing and Faulting Message Library](https://github.com/ni/niveristand-routing-and-faulting-message-library) provides implementations which override the switch consumer class and call into device drivers to connect and disconnect endpoints.
 
 The following diagram illustrates the pattern for these libraries.
 
