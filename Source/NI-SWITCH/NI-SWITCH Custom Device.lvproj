@@ -548,7 +548,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get NI-SWITCH Switches JSON.vi" Type="VI" URL="../Scripting/Properties/Get NI-SWITCH Switches JSON.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -578,20 +577,20 @@
 			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NISWITCHMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/NISWITCHMessaging.lvlibp">
+				<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
+				<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
+				<Item Name="niSwitch Close.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
+				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
+				<Item Name="niSwitch Disconnect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
+				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
+				<Item Name="niSwitch Reset.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Reset.vi"/>
+				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
+			</Item>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
-				<Item Name="SLSC Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Init Parameters/SLSC Switch Init Parameters.lvclass"/>
-				<Item Name="SLSC Switch.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/SLSC_Switch/SLSC Switch.lvlib"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
