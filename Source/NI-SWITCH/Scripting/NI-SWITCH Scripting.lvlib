@@ -57,6 +57,7 @@
 		<Item Name="Create All Endpoints as Load.vi" Type="VI" URL="../Utility/Create All Endpoints as Load.vi"/>
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../Utility/Filter Binary To Text.vi"/>
 		<Item Name="Get Endpoints from Topology.vi" Type="VI" URL="../Utility/Get Endpoints from Topology.vi"/>
+		<Item Name="NI-SWITCH Initialize Simulated Session.vi" Type="VI" URL="../Utility/NI-SWITCH Initialize Simulated Session.vi"/>
 		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../Utility/Read Module Configuration from Switches JSON.vi"/>
 		<Item Name="Read Module Configuration.vi" Type="VI" URL="../Utility/Read Module Configuration.vi"/>
 		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../Utility/Read Module NVMEM.vi"/>
