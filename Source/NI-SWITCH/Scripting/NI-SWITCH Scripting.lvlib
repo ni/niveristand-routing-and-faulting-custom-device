@@ -12,7 +12,6 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Autodetect SLSC Switch Module Configuration.vi" Type="VI" URL="../Custom Device/Autodetect SLSC Switch Module Configuration.vi"/>
 		<Item Name="Add SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Add SLSC Switch Custom Device.vi"/>
 		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
 		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
@@ -37,20 +36,16 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Get All NI-SWITCH Properties.vi" Type="VI" URL="../Properties/Get All NI-SWITCH Properties.vi"/>
 		<Item Name="Get NI-SWITCH Description.vi" Type="VI" URL="../Properties/Get NI-SWITCH Description.vi"/>
-		<Item Name="Get NI-SWITCH Product Name.vi" Type="VI" URL="../Properties/Get NI-SWITCH Product Name.vi"/>
-		<Item Name="Get NI-SWITCH Reservation Group.vi" Type="VI" URL="../Properties/Get NI-SWITCH Reservation Group.vi"/>
+		<Item Name="Get NI-SWITCH Resource.vi" Type="VI" URL="../Properties/Get NI-SWITCH Resource.vi"/>
 		<Item Name="Get NI-SWITCH Slot Number.vi" Type="VI" URL="../Properties/Get NI-SWITCH Slot Number.vi"/>
-		<Item Name="Get NI-SWITCH Switches JSON.vi" Type="VI" URL="../Properties/Get NI-SWITCH Switches JSON.vi"/>
 		<Item Name="Get NI-SWITCH Topology.vi" Type="VI" URL="../Properties/Get NI-SWITCH Topology.vi"/>
 		<Item Name="Set All NI-SWITCH Properties.vi" Type="VI" URL="../Properties/Set All NI-SWITCH Properties.vi"/>
 		<Item Name="Set NI-SWITCH Description.vi" Type="VI" URL="../Properties/Set NI-SWITCH Description.vi"/>
-		<Item Name="Set NI-SWITCH Product Name.vi" Type="VI" URL="../Properties/Set NI-SWITCH Product Name.vi"/>
-		<Item Name="Set NI-SWITCH Reservation Group.vi" Type="VI" URL="../Properties/Set NI-SWITCH Reservation Group.vi"/>
-		<Item Name="Set NI-SWITCH Switches JSON.vi" Type="VI" URL="../Properties/Set NI-SWITCH Switches JSON.vi"/>
+		<Item Name="Set NI-SWITCH Resource.vi" Type="VI" URL="../Properties/Set NI-SWITCH Resource.vi"/>
 		<Item Name="Set NI-SWITCH Topology.vi" Type="VI" URL="../Properties/Set NI-SWITCH Topology.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="SLSC Switch All Properties.ctl" Type="VI" URL="../Properties/SLSC Switch All Properties.ctl"/>
+		<Item Name="NI-SWITCH All Properties.ctl" Type="VI" URL="../Properties/NI-SWITCH All Properties.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -58,10 +53,10 @@
 		<Item Name="Apply Endpoint Configuration.vi" Type="VI" URL="../Utility/Apply Endpoint Configuration.vi"/>
 		<Item Name="Compute Destination Endpoints.vi" Type="VI" URL="../Utility/Compute Destination Endpoints.vi"/>
 		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../Utility/Compute Possible Connections.vi"/>
-		<Item Name="Configure SLSC Switch Custom Device.vi" Type="VI" URL="../Utility/Configure SLSC Switch Custom Device.vi"/>
+		<Item Name="Configure NI-SWITCH Custom Device.vi" Type="VI" URL="../Utility/Configure NI-SWITCH Custom Device.vi"/>
 		<Item Name="Create All Endpoints as Load.vi" Type="VI" URL="../Utility/Create All Endpoints as Load.vi"/>
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../Utility/Filter Binary To Text.vi"/>
-		<Item Name="Get Endpoints from Switches JSON.vi" Type="VI" URL="../Utility/Get Endpoints from Switches JSON.vi"/>
+		<Item Name="Get Endpoints from Topology.vi" Type="VI" URL="../Utility/Get Endpoints from Topology.vi"/>
 		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../Utility/Read Module Configuration from Switches JSON.vi"/>
 		<Item Name="Read Module Configuration.vi" Type="VI" URL="../Utility/Read Module Configuration.vi"/>
 		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../Utility/Read Module NVMEM.vi"/>

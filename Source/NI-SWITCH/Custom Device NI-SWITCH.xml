@@ -119,30 +119,6 @@
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
-          <GUID>7ebfe6d9-c855-4a7f-86db-ab51da5a705a</GUID>
-          <Type>Action</Type>
-          <Name>
-            <eng>Autodetect</eng>
-            <loc>Autodetect</loc>
-          </Name>
-          <Item2Launch>
-            <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Autodetect RTM.vi</Path>
-          </Item2Launch>
-        </MenuItem>
-        <MenuItem>
-          <GUID>843899df-70a6-452c-9a75-64b7908b83a1</GUID>
-          <Type>Action</Type>
-          <Name>
-            <eng>Load from JSON</eng>
-            <loc>Load from JSON</loc>
-          </Name>
-          <Item2Launch>
-            <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Load from JSON RTM.vi</Path>
-          </Item2Launch>
-        </MenuItem>
-        <MenuItem>
           <GUID>52b63a4f-c1ae-47e9-afa7-66a9dc432aee</GUID>
           <Type>Action</Type>
           <Name>
@@ -168,56 +144,6 @@
         </MenuItem>
       </RunTimeMenu>
       <ButtonList>
-        <Button>
-          <ID>Autodetect</ID>
-          <Glyph>
-            <Type>To Application Data Dir</Type>
-            <Path>System Explorer\Glyphs\NI-XNET DropFrames.png</Path>
-          </Glyph>
-          <Type>Action</Type>
-          <ReferencedGUID>7ebfe6d9-c855-4a7f-86db-ab51da5a705a</ReferencedGUID>
-          <ButtonText>
-            <eng>Autodetect</eng>
-            <loc>Autodetect</loc>
-          </ButtonText>
-          <Caption>
-            <eng>Autodetect</eng>
-            <loc>Autodetect</loc>
-          </Caption>
-          <TipStrip>
-            <eng>Automatically detect the configuration for this custom device from the module.</eng>
-            <loc>Automatically detect the configuration for this custom device from the module.</loc>
-          </TipStrip>
-          <Documentation>
-            <eng>Autodetect</eng>
-            <loc>Autodetect</loc>
-          </Documentation>
-        </Button>
-        <Button>
-          <ID>Load from JSON</ID>
-          <Glyph>
-            <Type>To Application Data Dir</Type>
-            <Path>System Explorer\Glyphs\NI-XNET File(Replay).png</Path>
-          </Glyph>
-          <Type>Action</Type>
-          <ReferencedGUID>843899df-70a6-452c-9a75-64b7908b83a1</ReferencedGUID>
-          <ButtonText>
-            <eng>Load from JSON</eng>
-            <loc>Load from JSON</loc>
-          </ButtonText>
-          <Caption>
-            <eng>Load from JSON</eng>
-            <loc>Load from JSON</loc>
-          </Caption>
-          <TipStrip>
-            <eng>Load the configuration for this custom device from the Switches JSON.</eng>
-            <loc>Load the configuration for this custom device from the Switches JSON.</loc>
-          </TipStrip>
-          <Documentation>
-            <eng>Load from JSON</eng>
-            <loc>Load from JSON</loc>
-          </Documentation>
-        </Button>
         <Button>
           <ID>Import</ID>
           <Glyph>
