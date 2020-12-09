@@ -21,7 +21,6 @@
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
 		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
 		<Item Name="Remove SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Remove SLSC Switch Custom Device.vi"/>
-		<Item Name="Load SLSC Switch Module Configuration.vi" Type="VI" URL="../Custom Device/Load SLSC Switch Module Configuration.vi"/>
 		<Item Name="Export SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Export SLSC Switch Custom Device.vi"/>
 		<Item Name="Import SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Import SLSC Switch Custom Device.vi"/>
 	</Item>
@@ -58,14 +57,10 @@
 		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../Utility/Filter Binary To Text.vi"/>
 		<Item Name="Get Endpoints from Topology.vi" Type="VI" URL="../Utility/Get Endpoints from Topology.vi"/>
 		<Item Name="NI-SWITCH Initialize Simulated Session.vi" Type="VI" URL="../Utility/NI-SWITCH Initialize Simulated Session.vi"/>
-		<Item Name="Read Module Configuration from Switches JSON.vi" Type="VI" URL="../Utility/Read Module Configuration from Switches JSON.vi"/>
-		<Item Name="Read Module Configuration.vi" Type="VI" URL="../Utility/Read Module Configuration.vi"/>
-		<Item Name="Read Module NVMEM.vi" Type="VI" URL="../Utility/Read Module NVMEM.vi"/>
 		<Item Name="Refresh Possible Connections.vi" Type="VI" URL="../Utility/Refresh Possible Connections.vi"/>
 		<Item Name="Remove All Endpoint Configurations.vi" Type="VI" URL="../Utility/Remove All Endpoint Configurations.vi"/>
 		<Item Name="Set Endpoint Configuration Property.vi" Type="VI" URL="../Utility/Set Endpoint Configuration Property.vi"/>
 		<Item Name="Set Topology Property.vi" Type="VI" URL="../Utility/Set Topology Property.vi"/>
-		<Item Name="SLSC Switch Close.vi" Type="VI" URL="../Utility/SLSC Switch Close.vi"/>
 		<Item Name="Validate Endpoint Configuration Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Configuration Reference.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
