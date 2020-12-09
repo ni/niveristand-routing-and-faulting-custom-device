@@ -50,7 +50,6 @@
 				<Item Name="UI Common.lvlib" Type="Library" URL="../../Shared/UI Common/UI Common.lvlib"/>
 			</Item>
 			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="../../Shared/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
-			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="../../Shared/VeriStand SLSC Scripting/VeriStand SLSC Scripting.lvlib"/>
 			<Item Name="VeriStand System Definition Test Utilities.lvlib" Type="Library" URL="../../Shared/VeriStand System Definition Test Utilities/VeriStand System Definition Test Utilities.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
@@ -756,54 +755,22 @@
 				<Property Name="Destination[3].destName" Type="Str">Routing and Faulting Hardware API</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/Routing and Faulting/Routing and Faulting Hardware API</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[4].destName" Type="Str">VeriStand SLSC Scripting</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/NI-SWITCH/VeriStand SLSC Scripting API</Property>
-				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[5].destName" Type="Str">Bundled Dependencies</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built/Scripting/NI-SWITCH/Dependencies.llb</Property>
-				<Property Name="Destination[5].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{92C83488-8877-4522-B717-8D5521DA9296}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Bundled Dependencies</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/NI-SWITCH/Dependencies.llb</Property>
+				<Property Name="Destination[4].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{082F4373-DCA0-45DD-A7D5-EF116E0E95E3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Scripting API/NI-SWITCH Scripting.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Shared/VeriStand SLSC Scripting.lvlib/Chassis</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Shared/VeriStand SLSC Scripting.lvlib/Controls</Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Shared/VeriStand SLSC Scripting.lvlib/Module</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[13].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Shared/VeriStand SLSC Scripting.lvlib/Utility</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[14].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[14].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Scripting API/Bundled Dependencies</Property>
-				<Property Name="Source[14].newName" Type="Str">SLSC_Switch_Scripting_Dependencies_</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/NI-SWITCH Shared.lvlib</Property>
-				<Property Name="Source[15].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">Library</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/NI-SWITCH Shared.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -839,12 +806,16 @@
 				<Property Name="Source[8].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Shared/Routing and Faulting Hardware API.lvlib/Utility</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Shared/VeriStand SLSC Scripting.lvlib</Property>
-				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripting API/Bundled Dependencies</Property>
+				<Property Name="Source[9].newName" Type="Str">SLSC_Switch_Scripting_Dependencies_</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -977,6 +948,21 @@
 			</Item>
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NISWITCHMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/NISWITCHMessaging.lvlibp">
+				<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
+				<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
+				<Item Name="niSwitch Close.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
+				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
+				<Item Name="niSwitch Disconnect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
+				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
+				<Item Name="niSwitch Reset.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Reset.vi"/>
+				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
 			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1209,6 +1195,21 @@
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NISWITCHMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/NISWITCHMessaging.lvlibp">
+				<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
+				<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
+				<Item Name="niSwitch Close.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
+				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
+				<Item Name="niSwitch Disconnect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
+				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
+				<Item Name="niSwitch Reset.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Reset.vi"/>
+				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
+			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -1440,6 +1441,21 @@
 			</Item>
 			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NISWITCHMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/NISWITCHMessaging.lvlibp">
+				<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
+				<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
+				<Item Name="niSwitch Close.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
+				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
+				<Item Name="niSwitch Disconnect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
+				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
+				<Item Name="niSwitch Reset.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Reset.vi"/>
+				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
 			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>

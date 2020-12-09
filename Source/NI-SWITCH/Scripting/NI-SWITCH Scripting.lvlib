@@ -12,17 +12,15 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Add SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Add SLSC Switch Custom Device.vi"/>
+		<Item Name="Add NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Add NI-SWITCH Custom Device.vi"/>
 		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
-		<Item Name="Find All SLSC Switch Custom Devices.vi" Type="VI" URL="../Custom Device/Find All SLSC Switch Custom Devices.vi"/>
-		<Item Name="Find SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device.vi"/>
-		<Item Name="Find SLSC Switch Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device by Name.vi"/>
-		<Item Name="Find SLSC Switch Custom Device by Slot Number.vi" Type="VI" URL="../Custom Device/Find SLSC Switch Custom Device by Slot Number.vi"/>
+		<Item Name="Find All NI-SWITCH Custom Devices.vi" Type="VI" URL="../Custom Device/Find All NI-SWITCH Custom Devices.vi"/>
+		<Item Name="Find NI-SWITCH Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find NI-SWITCH Custom Device by Name.vi"/>
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
-		<Item Name="Initialize SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Initialize SLSC Switch Custom Device.vi"/>
-		<Item Name="Remove SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Remove SLSC Switch Custom Device.vi"/>
-		<Item Name="Export SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Export SLSC Switch Custom Device.vi"/>
-		<Item Name="Import SLSC Switch Custom Device.vi" Type="VI" URL="../Custom Device/Import SLSC Switch Custom Device.vi"/>
+		<Item Name="Initialize NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Initialize NI-SWITCH Custom Device.vi"/>
+		<Item Name="Remove NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Remove NI-SWITCH Custom Device.vi"/>
+		<Item Name="Export NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Export NI-SWITCH Custom Device.vi"/>
+		<Item Name="Import NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Import NI-SWITCH Custom Device.vi"/>
 	</Item>
 	<Item Name="Endpoint Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -36,7 +34,6 @@
 		<Item Name="Get All NI-SWITCH Properties.vi" Type="VI" URL="../Properties/Get All NI-SWITCH Properties.vi"/>
 		<Item Name="Get NI-SWITCH Description.vi" Type="VI" URL="../Properties/Get NI-SWITCH Description.vi"/>
 		<Item Name="Get NI-SWITCH Resource.vi" Type="VI" URL="../Properties/Get NI-SWITCH Resource.vi"/>
-		<Item Name="Get NI-SWITCH Slot Number.vi" Type="VI" URL="../Properties/Get NI-SWITCH Slot Number.vi"/>
 		<Item Name="Get NI-SWITCH Topology.vi" Type="VI" URL="../Properties/Get NI-SWITCH Topology.vi"/>
 		<Item Name="Set All NI-SWITCH Properties.vi" Type="VI" URL="../Properties/Set All NI-SWITCH Properties.vi"/>
 		<Item Name="Set NI-SWITCH Description.vi" Type="VI" URL="../Properties/Set NI-SWITCH Description.vi"/>
@@ -61,8 +58,8 @@
 		<Item Name="Set Endpoint Configuration Property.vi" Type="VI" URL="../Utility/Set Endpoint Configuration Property.vi"/>
 		<Item Name="Set Topology Property.vi" Type="VI" URL="../Utility/Set Topology Property.vi"/>
 		<Item Name="Validate Endpoint Configuration Reference.vi" Type="VI" URL="../Utility/Validate Endpoint Configuration Reference.vi"/>
+		<Item Name="Validate NI-SWITCH CD Reference.vi" Type="VI" URL="../Utility/Validate NI-SWITCH CD Reference.vi"/>
 		<Item Name="Validate Reference by GUID.vi" Type="VI" URL="../Utility/Validate Reference by GUID.vi"/>
 		<Item Name="Validate Reference by Name.vi" Type="VI" URL="../Utility/Validate Reference by Name.vi"/>
-		<Item Name="Validate SLSC CD Reference.vi" Type="VI" URL="../Utility/Validate SLSC CD Reference.vi"/>
 	</Item>
 </Library>
