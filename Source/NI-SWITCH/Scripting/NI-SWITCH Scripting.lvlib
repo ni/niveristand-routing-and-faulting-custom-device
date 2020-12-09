@@ -54,7 +54,6 @@
 		<Item Name="Compute Possible Connections.vi" Type="VI" URL="../Utility/Compute Possible Connections.vi"/>
 		<Item Name="Configure NI-SWITCH Custom Device.vi" Type="VI" URL="../Utility/Configure NI-SWITCH Custom Device.vi"/>
 		<Item Name="Create All Endpoints as Load.vi" Type="VI" URL="../Utility/Create All Endpoints as Load.vi"/>
-		<Item Name="Filter Binary To Text.vi" Type="VI" URL="../Utility/Filter Binary To Text.vi"/>
 		<Item Name="Get Endpoints from Topology.vi" Type="VI" URL="../Utility/Get Endpoints from Topology.vi"/>
 		<Item Name="NI-SWITCH Initialize Simulated Session.vi" Type="VI" URL="../Utility/NI-SWITCH Initialize Simulated Session.vi"/>
 		<Item Name="Refresh Possible Connections.vi" Type="VI" URL="../Utility/Refresh Possible Connections.vi"/>
