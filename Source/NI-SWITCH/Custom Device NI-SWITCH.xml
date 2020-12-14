@@ -35,14 +35,6 @@
         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\NI-SWITCH\Linux_32_ARM\NI-SWITCH Engine LinuxARM.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-      <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
@@ -66,22 +58,6 @@
       <Source>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\NI-SWITCH\Pharlap\NISWITCHMessaging.lvlibp</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\NI-SWITCH\Linux_32_ARM\CDMessaging.lvlibp</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\NI-SWITCH\Linux_32_ARM\NISWITCHMessaging.lvlibp</Path>
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
     </Dependency>
