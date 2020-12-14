@@ -4,7 +4,7 @@
 
 List<String> lvVersions = ['2017', '2018', '2019', '2020']
 
-List<String> dependencies = ['niveristand-slsc-switch-message-library']
+List<String> dependencies = ['niveristand-routing-and-faulting-message-library']
 
 ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions, dependencies)
 diffPipeline(lvVersions[0])

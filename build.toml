@@ -2,7 +2,7 @@
 build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
 
-[dependencies.niveristand-slsc-switch-message-library]
+[dependencies.niveristand-routing-and-faulting-message-library]
 libraries = ['CDMessaging.lvlibp', 'SLSCSwitchMessaging.lvlibp']
 copy_location = 'Includes'
 
