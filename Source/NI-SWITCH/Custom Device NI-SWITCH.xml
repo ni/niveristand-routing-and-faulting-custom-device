@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>National Instruments::NI-SWITCH</eng>
+    <loc>National Instruments::NI-SWITCH</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>4ed8d91a-594e-4e06-bfbe-33c7275857dc</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Engine Windows.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Pharlap</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NI-SWITCH\PharLap\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NI-SWITCH\Linux_x64\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies>
+    <Dependency>
+      <SupportedTarget>Pharlap</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Pharlap\CDMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Pharlap</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Pharlap\NISWITCHMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Linux_x64\CDMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Linux_x64\NISWITCHMessaging.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+  </Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>NI-SWITCH</eng>
+        <loc>NI-SWITCH</loc>
+      </Name>
+      <GUID>4ed8d91a-594e-4e06-bfbe-33c7275857dc</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Windows\Glyphs\SLSC_Module.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>52b63a4f-c1ae-47e9-afa7-66a9dc432aee</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Import Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>ea33fe05-c684-4dff-9a7f-5d1f9fbe047b</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Export Configuration RTM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Import</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\import.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>52b63a4f-c1ae-47e9-afa7-66a9dc432aee</ReferencedGUID>
+          <ButtonText>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import a configuration for this custom device.</eng>
+            <loc>Import a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Documentation>
+        </Button>
+        <Button>
+          <ID>Export</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\export.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>ea33fe05-c684-4dff-9a7f-5d1f9fbe047b</ReferencedGUID>
+          <ButtonText>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Export a configuration for this custom device.</eng>
+            <loc>Export a configuration for this custom device.</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Endpoint Configuration</eng>
+        <loc>Endpoint Configuration</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>c99cfbe4-32a5-4370-896f-695dafdfbaf2</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Windows\Glyphs\SLSC_Switch_Endpoint_Configuration.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI-SWITCH\Windows\NI-SWITCH Configuration.llb\Endpoint Configuration Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>0dd570cf-8e67-4405-88e2-bb04896cc7a6</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\system variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>Absolute</Type>
+          <Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
+      </Item2Launch>
+      <Help>
+        <Item2Launch>
+          <Type>To Base</Type>
+            <Path>Veristand.chm\Custom_Devices_SE.html</Path>
+        </Item2Launch>
+        <FileType>chm</FileType>
+      </Help>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
