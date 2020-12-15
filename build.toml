@@ -192,6 +192,20 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
+payload_dir = 'Source\Built\NI-SWITCH'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\NI-SWITCH'
+control_file = 'control_ni_switch'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\Scripting\NI-SWITCH'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
+control_file = 'control_ni_switch_scripting'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
 payload_dir = 'Source\Built\Scripting Examples'
 install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Routing and Faulting'
 control_file = 'control_examples'
