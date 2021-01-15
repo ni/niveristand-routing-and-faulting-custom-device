@@ -10,4 +10,5 @@
 	<Item Name="NI VeriStand - Visually Update the System Explorer Tree.vi" Type="VI" URL="../NI VeriStand - Visually Update the System Explorer Tree.vi"/>
 	<Item Name="System Explorer Action.ctl" Type="VI" URL="../System Explorer Action.ctl"/>
 	<Item Name="Get System Definition Schema Path.vi" Type="VI" URL="../Get System Definition Schema Path.vi"/>
+	<Item Name="Load BaseNodeType from System Storage File.vi" Type="VI" URL="../Load BaseNodeType from System Storage File.vi"/>
 </Library>
