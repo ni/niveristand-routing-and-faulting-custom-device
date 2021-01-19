@@ -11,4 +11,9 @@
 	<Item Name="System Explorer Action.ctl" Type="VI" URL="../System Explorer Action.ctl"/>
 	<Item Name="Get System Definition Schema Path.vi" Type="VI" URL="../Get System Definition Schema Path.vi"/>
 	<Item Name="Load BaseNodeType from System Storage File.vi" Type="VI" URL="../Load BaseNodeType from System Storage File.vi"/>
+	<Item Name="Save BaseNodeType to System Storage File.vi" Type="VI" URL="../Save BaseNodeType to System Storage File.vi"/>
+	<Item Name="Add BaseNodeType Child.vi" Type="VI" URL="../Add BaseNodeType Child.vi"/>
+	<Item Name="Item Ref to BaseNodeType.vi" Type="VI" URL="../Item Ref to BaseNodeType.vi"/>
+	<Item Name="Reroll BaseNodeType Identifiers.vi" Type="VI" URL="../Reroll BaseNodeType Identifiers.vi"/>
+	<Item Name="Force Remove Item.vi" Type="VI" URL="../Force Remove Item.vi"/>
 </Library>
