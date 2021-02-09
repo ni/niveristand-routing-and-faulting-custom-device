@@ -39,6 +39,8 @@
 			<Item Name="Compile Channel States.vi" Type="VI" URL="../Compile Channel States.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
 			<Item Name="Compile Connection.vi" Type="VI" URL="../Compile Connection.vi"/>
+			<Item Name="Compile Initially Connected Endpoints for Module.vi" Type="VI" URL="../Compile Initially Connected Endpoints for Module.vi"/>
+			<Item Name="Compile Initially Connected Endpoints.vi" Type="VI" URL="../Compile Initially Connected Endpoints.vi"/>
 			<Item Name="Compile Routing and Faulting Configuration.vi" Type="VI" URL="../Compile Routing and Faulting Configuration.vi"/>
 			<Item Name="Compile Routing Channels.vi" Type="VI" URL="../Compile Routing Channels.vi"/>
 			<Item Name="Compile Status Channels FIFO Indices.vi" Type="VI" URL="../Compile Status Channels FIFO Indices.vi"/>
