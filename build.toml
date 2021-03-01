@@ -18,6 +18,9 @@ path = 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
 [projects.examples]
 path = 'Source\Scripting Examples\Scripting Examples.lvproj'
 
+[projects.hw_mdk]
+path = 'Source\Hardware Custom Device MDK\Hardware Custom Device MDK.lvproj'
+
 [[build.steps]]
 name = 'Routing and Faulting Configuration Library'
 type = 'lvBuildSpec'
@@ -162,6 +165,14 @@ target = 'My Computer'
 build_spec = 'Examples'
 dependency_target = 'Windows'
 
+[[build.steps]]
+name = 'Hardware Custom Device API'
+type = 'lvBuildSpec'
+project = '{hw_mdk}'
+target = 'My Computer'
+build_spec = 'LabVIEW API'
+dependency_target = 'Windows'
+
 [[package]]
 type = 'nipkg'
 payload_dir = 'Source\Built\Routing and Faulting'
@@ -209,6 +220,13 @@ type = 'nipkg'
 payload_dir = 'Source\Built\Scripting Examples'
 install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\Routing and Faulting'
 control_file = 'control_examples'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Shared\Hardware Custom Device API'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Routing and Faulting Hardware Custom Device MDK'
+control_file = 'control_hardware_cd_mdk'
 package_output_dir = 'Source\Built'
 
 [[package]]
