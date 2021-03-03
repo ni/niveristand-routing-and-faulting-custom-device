@@ -32,6 +32,7 @@
 			<Item Name="Initialize Main Page.vi" Type="VI" URL="../Initialize Main Page.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Redraw Event FGV.vi" Type="VI" URL="../Redraw Event FGV.vi"/>
+			<Item Name="Show or Hide Normally Connected Endpoint Information.vi" Type="VI" URL="../Show or Hide Normally Connected Endpoint Information.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
