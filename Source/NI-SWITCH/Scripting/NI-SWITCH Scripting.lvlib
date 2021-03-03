@@ -21,6 +21,8 @@
 		<Item Name="Remove NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Remove NI-SWITCH Custom Device.vi"/>
 		<Item Name="Export NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Export NI-SWITCH Custom Device.vi"/>
 		<Item Name="Import NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Import NI-SWITCH Custom Device.vi"/>
+		<Item Name="Get Custom Device Name.vi" Type="VI" URL="../Custom Device/Get Custom Device Name.vi"/>
+		<Item Name="Set Custom Device Name.vi" Type="VI" URL="../Custom Device/Set Custom Device Name.vi"/>
 	</Item>
 	<Item Name="Endpoint Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
