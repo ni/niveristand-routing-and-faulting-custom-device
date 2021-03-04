@@ -26,9 +26,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<hr width="100%" noshade>
 		</noscript>
 		<h1>SLSC Switch</h1>
-		<p class="Body">The <strong>SLSC Switch Custom Device</strong> is an add-on that supports SLSC routing modules.</p>
-		<p class="Body">The <strong>SLSC Switch Custom Device</strong> enumerates all available endpoints for a routing module. Set the configuration for each endpoint to inform the SLSC Switch driver of valid endpoints to connect to.</p>
-		<p class="Body">The following table describes the available endpoint configurations.</p>
+		<p class="Body">The <strong>SLSC Switch Custom Device</strong> supports SLSC Switch routing modules by enumerating all available endpoints, and making them available to the Routing and Faulting Custom Device.</p>
+		<p class="Body">Set endpoint configurations to modify the possible connections for the routing module. The following table lists the available endpoint configurations.</p>
 		<p>
 			<table>
 				<tr>
@@ -37,19 +36,19 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><strong>Load</strong</td>
-					<td>A load endpoint is unrestricted and can be connected to other load and source endpoints. This is the default configuration for an endpoint.</td>
+					<td>Endpoint is unrestricted and can be connected to other load and source endpoints. This is the default configuration.</td>
 				</tr>
 				<tr>
 					<td><strong>Source</strong></td>
-					<td>A source endpoint is restricted and cannot be connected to another source endpoint.</td>
+					<td>Endpoint is restricted and cannot be connected to another source endpoint.</td>
 				</tr>
 				<tr>
 					<td><strong>Configuration</strong></td>
-					<td>A configuration endpoint is reserved by the hardware for internal routing. This configuration cannot be used directly.</td>
+					<td>Endpoint is reserved for internal hardware routing. This configuration cannot be used directly.</td>
 				</tr>
 		  </table>
 		</p>
-		<p class="Body"><strong><span class="auto-style1">NOTE:</span> </strong>Configure the <strong>SLSC Switch Custom Device</strong> before configuring the <strong>Routing and Faulting Custom Device</strong>.</p>
+		<p class="Body"><strong><span class="auto-style1">NOTE:</span> </strong>Configure the SLSC Switch Custom Device before configuring the Routing and Faulting Custom Device.</p>
 		<h2>What do you want to do?</h2>
 		<h3>Import SLSC Switch Capabilities</h3>
 		<p class="Body">Click <strong>Autodetect</strong> to import switching capabilities from the SLSC Switch module. The SLSC Switch module must online to automatically detect the capabilities. Click <strong>Load from JSON</strong> to import a switching capabilities file from disk. Import the capabilities from from file if the SLSC Switch module is not present.</p>

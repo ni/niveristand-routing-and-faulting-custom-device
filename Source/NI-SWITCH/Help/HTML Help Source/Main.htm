@@ -26,9 +26,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<hr width="100%" noshade>
 		</noscript>
 		<h1>NI-SWITCH</h1>
-		<p class="Body">The <strong>NI-SWITCH Custom Device</strong> is an add-on that supports NI-SWITCH routing modules.</p>
-		<p class="Body">The <strong>NI-SWITCH Custom Device</strong> enumerates all available endpoints for a routing module. Set the configuration for each endpoint to inform the NI-SWITCH driver of valid endpoints to connect to.</p>
-		<p class="Body">The following table describes the available endpoint configurations.</p>
+		<p class="Body">The <strong>NI-SWITCH Custom Device</strong> supports NI-SWITCH routing modules by enumerating all available endpoints, and making them available to the Routing and Faulting Custom Device.</p>
+		<p class="Body">Set endpoint configurations to modify the possible connections for the routing module. The following table lists the available endpoint configurations.</p>
 		<p>
 			<table>
 				<tr>
@@ -37,18 +36,28 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><strong>Load</strong</td>
-					<td>A load endpoint is unrestricted and can be connected to other load and source endpoints. This is the default configuration for an endpoint.</td>
+					<td>Endpoint is unrestricted and can be connected to other load and source endpoints. This is the default configuration.</td>
 				</tr>
 				<tr>
 					<td><strong>Source</strong></td>
-					<td>A source endpoint is restricted and cannot be connected to another source endpoint.</td>
+					<td>Endpoint is restricted and cannot be connected to another source endpoint.</td>
 				</tr>
 				<tr>
 					<td><strong>Configuration</strong></td>
-					<td>A configuration endpoint is reserved by the hardware for internal routing. This configuration cannot be used directly.</td>
+					<td>Endpoint is reserved for internal hardware routing. This configuration cannot be used directly.</td>
 				</tr>
 		  </table>
 		</p>
-		<p class="Body"><strong><span class="auto-style1">NOTE:</span> </strong>Configure the <strong>NI-SWITCH Custom Device</strong> before configuring the <strong>Routing and Faulting Custom Device</strong>.</p>
+		<p class="Body"><strong><span class="auto-style1">NOTE:</span> </strong>Configure the NI-SWITCH Custom Device before configuring the Routing and Faulting Custom Device.</p>
+		<h2>Normally Connected Endpoints</h2>
+		<p class="Body">
+			Some NI-SWITCH modules, such as the PXI-2510, contain normally connected endpoints.
+			These endpoints are automatically connected by the NI-SWITCH driver when the device is initialized or reset.
+		</p>
+		<p class="Body"></p>
+			If a pair of normally connected endpoints are referenced by a state in the Routing and Faulting custom device, these endpoints will be automatically managed by the custom device.
+			If the pair is not referenced by any of the routing channel states, the endpoints will not be managed by the Routing and Faulting Custom Device.
+			Instead, the endpoints will remain connected during deployment.
+		</p>
 	</body>
 </html> 
