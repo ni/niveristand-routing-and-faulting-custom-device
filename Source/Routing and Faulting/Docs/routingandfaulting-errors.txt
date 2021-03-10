@@ -48,4 +48,10 @@ The specified alias already exists.
 <nierror code="-732014">
 The Routing and Faulting custom device already exists under the specified target.
 </nierror>
+<nierror code="-732015">
+The Routing and Faulting custom device must come after all hardware custom devices. Open and save the system definition in System Explorer to resolve this issue.
+</nierror>
+<nierror code="-732016">
+A referenced custom device could not be found.
+</nierror>
 </nidocument>
