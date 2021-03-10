@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-routing-and-faulting-custom-device/
+</nicomment>
+<nierror code="-732000">
+The specified property does not exist.
+</nierror>
+<nierror code="-732001">
+This custom device is not supported by the installed version of the Routing and Faulting custom device.
+</nierror>
+<nierror code="-732002">
+The reference ID provided does not match the expected name or cannot be found.
+</nierror>
+<nierror code="-732003">
+The reference ID provided does not match the expected GUID or cannot be found.
+</nierror>
+<nierror code="-732004">
+A state name or value is not unique.
+</nierror>
+<nierror code="-732005">
+The specified state does not exist.
+</nierror>
+<nierror code="-732006">
+The state name must not be empty.
+</nierror>
+<nierror code="-732007">
+The specified connection does not exist.
+</nierror>
+<nierror code="-732008">
+The specified connection already exists in the routing channel state.
+</nierror>
+<nierror code="-732009">
+State values must be integers.
+</nierror>
+<nierror code="-732010">
+The specified channel does not exist.
+</nierror>
+<nierror code="-732011">
+The specified channel already exists.
+</nierror>
+<nierror code="-732012">
+The specified alias does not exist.
+</nierror>
+<nierror code="-732013">
+The specified alias already exists.
+</nierror>
+<nierror code="-732014">
+The Routing and Faulting custom device already exists under the specified target.
+</nierror>
+</nidocument>
