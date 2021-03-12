@@ -12,6 +12,7 @@
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
+				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../ActionVIOnSave.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -52,6 +53,7 @@
 			<Item Name="Convert UI Connection to Connection (Module,Source,Destinaton).vi" Type="VI" URL="../Convert UI Connection to Connection (Module,Source,Destinaton).vi"/>
 			<Item Name="Create Alias and Endpoint List.vi" Type="VI" URL="../Create Alias and Endpoint List.vi"/>
 			<Item Name="Enable Disable Routing Channel.vi" Type="VI" URL="../Enable Disable Routing Channel.vi"/>
+			<Item Name="Fix Custom Device Order.vi" Type="VI" URL="../Fix Custom Device Order.vi"/>
 			<Item Name="Form Endpoint.vi" Type="VI" URL="../Form Endpoint.vi"/>
 			<Item Name="Form Monotonically Increasing Name.vi" Type="VI" URL="../Form Monotonically Increasing Name.vi"/>
 			<Item Name="Format Connection UI to Connection.vi" Type="VI" URL="../Format Connection UI to Connection.vi"/>
@@ -92,6 +94,7 @@
 			<Item Name="Populate Connection Source List.vi" Type="VI" URL="../Populate Connection Source List.vi"/>
 			<Item Name="Prepare Aliases for UI.vi" Type="VI" URL="../Prepare Aliases for UI.vi"/>
 			<Item Name="Remove Alias If Valid.vi" Type="VI" URL="../Remove Alias If Valid.vi"/>
+			<Item Name="Reorder Node Children.vi" Type="VI" URL="../Reorder Node Children.vi"/>
 			<Item Name="Replace Aliases with Endpoints.vi" Type="VI" URL="../Replace Aliases with Endpoints.vi"/>
 			<Item Name="Replace Endpoints with Aliases.vi" Type="VI" URL="../Replace Endpoints with Aliases.vi"/>
 			<Item Name="Set Alias.vi" Type="VI" URL="../Set Alias.vi"/>
@@ -101,6 +104,7 @@
 			<Item Name="Update State Value Table Change Controls.vi" Type="VI" URL="../Update State Value Table Change Controls.vi"/>
 			<Item Name="Validate Alias Values.vi" Type="VI" URL="../Validate Alias Values.vi"/>
 			<Item Name="Validate Custom Device Configuration.vi" Type="VI" URL="../Validate Custom Device Configuration.vi"/>
+			<Item Name="Validate Custom Device Order.vi" Type="VI" URL="../Validate Custom Device Order.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Alias Map by Module.ctl" Type="VI" URL="../Alias Map by Module.ctl"/>
