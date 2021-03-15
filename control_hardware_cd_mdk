@@ -1,4 +1,4 @@
-Package: ni-routing-and-faulting-hardware-cd-mdk-veristand-{veristand_version}-labview-support
+Package: ni-routing-and-faulting-mdk-veristand-{veristand_version}
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
