@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Provides LabVIEW support for the Routing and Faulting Hardware Custom Device MDK for NI VeriStand {veristand_version}.
+Description: Provides support for creating Routing and Faulting Hardware Custom Devices for NI VeriStand {veristand_version}.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
