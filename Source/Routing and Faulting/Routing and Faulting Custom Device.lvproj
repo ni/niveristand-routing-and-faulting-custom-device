@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -72,6 +72,7 @@
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="routingandfaulting-errors.txt" Type="Document" URL="../Docs/routingandfaulting-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -646,10 +647,12 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Routing and Faulting/Windows/Glyphs</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Destination[4].destName" Type="Str">Errors</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Errors/Routing and Faulting</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ED67C030-3C89-4942-9FB6-D0D106EB58F4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{94C89D26-9DC2-4A56-B330-4E50609AFD49}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Routing and Faulting.xml</Property>
@@ -672,6 +675,9 @@
 				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Support Files/routingandfaulting-errors.txt</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
@@ -753,7 +759,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
