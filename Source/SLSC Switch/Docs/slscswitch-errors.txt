@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-routing-and-faulting-custom-device/
+</nicomment>
+    <nierror code="-732050">
+    Invalid endpoint configuration type.
+    </nierror>
+    <nierror code="-732051">
+    The specified endpoint does not exist.
+    </nierror>
+    <nierror code="-732052">
+    The reference ID provided does not match the expected name or cannot be found.
+    </nierror>
+    <nierror code="-732053">
+    The reference ID provided does not match the expected GUID or cannot be found.
+    </nierror>
+</nidocument>

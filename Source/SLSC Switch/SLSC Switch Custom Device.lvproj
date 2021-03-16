@@ -72,6 +72,7 @@
 			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="slscswitch-errors.txt" Type="Document" URL="../Docs/slscswitch-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -336,6 +337,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
@@ -538,6 +540,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -567,10 +570,19 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
 				<Item Name="SLSC Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Init Parameters/SLSC Switch Init Parameters.lvclass"/>
 				<Item Name="SLSC Switch.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/SLSC_Switch/SLSC Switch.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
@@ -652,10 +664,12 @@
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/SLSC Switch/Windows/Glyphs</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Destination[4].destName" Type="Str">Errors</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Built/Errors/SLSC Switch</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B54E756B-47FC-482B-98A3-BB1CD3D8BF6D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F8DAAD5-D19B-4788-B910-2168C936D539}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -724,7 +738,10 @@
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].newName" Type="Str">SLSC Switch Routing and Faulting Hardware API.lvlib</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support Files/slscswitch-errors.txt</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
@@ -1058,10 +1075,19 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
 				<Item Name="SLSC Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Init Parameters/SLSC Switch Init Parameters.lvclass"/>
 				<Item Name="SLSC Switch.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/SLSC_Switch/SLSC Switch.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -1280,10 +1306,19 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
 				<Item Name="SLSC Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Init Parameters/SLSC Switch Init Parameters.lvclass"/>
 				<Item Name="SLSC Switch.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/SLSC_Switch/SLSC Switch.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -1503,10 +1538,19 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SLSCSwitchMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/SLSCSwitchMessaging.lvlibp">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="nislscslSession.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="SLSC Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Consumer/SLSC Switch Consumer.lvclass"/>
 				<Item Name="SLSC Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/SLSC Switch Init Parameters/SLSC Switch Init Parameters.lvclass"/>
 				<Item Name="SLSC Switch.lvlib" Type="Library" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/SLSC_Switch/SLSC Switch.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/SLSCSwitchMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
