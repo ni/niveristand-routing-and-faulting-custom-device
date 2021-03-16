@@ -665,7 +665,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/SLSC Switch/Windows/Glyphs</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">Errors</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Built/Errors/SLSC Switch</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Errors/SLSC Switch</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
