@@ -196,17 +196,21 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\NI-SWITCH'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\NI-SWITCH'
 control_file = 'control_ni_switch'
 package_output_dir = 'Source\Built'
 
+[package.payload_map]
+'Source\\Built\\NI-SWITCH' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\NI-SWITCH'
+'Source\\Built\\Errors\\NI-SWITCH' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\Scripting\NI-SWITCH'
-install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
 control_file = 'control_ni_switch_scripting'
 package_output_dir = 'Source\Built'
+
+[package.payload_map]
+'Source\\Built\\Scripting\\NI-SWITCH' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
+'Source\\Built\\Errors\\NI-SWITCH' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [[package]]
 type = 'nipkg'
