@@ -182,17 +182,21 @@ package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\SLSC Switch'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\SLSC Plugins\Modules\SLSC Switch'
 control_file = 'control_slsc_switch'
 package_output_dir = 'Source\Built'
 
+[package.payload_map]
+'Source\\Built\\SLSC Switch' = 'documents\National Instruments\NI VeriStand {veristand_version}\SLSC Plugins\Modules\SLSC Switch'
+'Source\\Built\\Errors\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
+
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\Scripting\SLSC Switch'
-install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
 control_file = 'control_slsc_switch_scripting'
 package_output_dir = 'Source\Built'
+
+[package.payload_map]
+'Source\\Built\\Scripting\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
+'Source\\Built\\Errors\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
 
 [[package]]
 type = 'nipkg'
