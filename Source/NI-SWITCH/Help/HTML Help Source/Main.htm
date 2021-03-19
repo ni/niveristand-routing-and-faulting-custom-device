@@ -27,6 +27,11 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</noscript>
 		<h1>NI-SWITCH</h1>
 		<p class="Body">The <strong>NI-SWITCH Custom Device</strong> supports NI-SWITCH routing modules by enumerating all available endpoints, and making them available to the Routing and Faulting Custom Device.</p>
+		<h2>Configuring the Custom Device</h2>
+		<p class="Body">Set <b>Resource</b> to the name of NI-SWITCH module in NI MAX.</p>
+		<p class="Body">Set <b>Topology</b> to the desired NI-SWITCH topology. The topology must correspond to the model number of the NI-SWITCH module. Some modules support multiple topologies.</p>
+		<p class="Body"><strong><span class="auto-style1">NOTE:</span> </strong>Configure the NI-SWITCH Custom Device before configuring the Routing and Faulting Custom Device.</p>
+		<h2>Endpoint Configuration</h2>
 		<p class="Body">Set endpoint configurations to modify the possible connections for the routing module. The following table lists the available endpoint configurations.</p>
 		<p>
 			<table>
@@ -48,8 +53,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 		  </table>
 		</p>
-		<p class="Body"><strong><span class="auto-style1">NOTE:</span> </strong>Configure the NI-SWITCH Custom Device before configuring the Routing and Faulting Custom Device.</p>
-		<h2>Normally Connected Endpoints</h2>
+		<h3>Normally Connected Endpoints</h3>
 		<p class="Body">
 			Some NI-SWITCH modules, such as the PXI-2510, contain normally connected endpoints.
 			These endpoints are automatically connected by the NI-SWITCH driver when the device is initialized or reset.
