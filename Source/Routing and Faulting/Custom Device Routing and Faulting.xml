@@ -175,6 +175,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
+      <ActionVIOnSave>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnSave.vi</Path>
+      </ActionVIOnSave>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Routing and Faulting\Windows\Routing and Faulting Configuration.llb\ActionVIOnCompile.vi</Path>

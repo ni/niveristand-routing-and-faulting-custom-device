@@ -31,10 +31,12 @@
 	</Item>
 	<Item Name="Natural String Merge Sort.vi" Type="VI" URL="../Natural String Merge Sort.vi"/>
 	<Item Name="Set Control Value.vi" Type="VI" URL="../Set Control Value.vi"/>
+	<Item Name="Set System Explorer Busy.vi" Type="VI" URL="../Set System Explorer Busy.vi"/>
 	<Item Name="Sort Array by Key Array.vim" Type="VI" URL="../Sort Array by Key Array.vim"/>
 	<Item Name="Sort Array of Clusters.vim" Type="VI" URL="../Sort Array of Clusters.vim"/>
 	<Item Name="Split String by Numbers.vi" Type="VI" URL="../Split String by Numbers.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Try Remove Array Element.vim" Type="VI" URL="../Try Remove Array Element.vim"/>
+	<Item Name="Unset System Explorer Busy.vi" Type="VI" URL="../Unset System Explorer Busy.vi"/>
 </Library>

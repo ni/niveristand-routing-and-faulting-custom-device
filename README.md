@@ -9,6 +9,7 @@ LabVIEW 2017
 ## Dependencies
 
 - NI-SLSC >= 19.5
+- NI-SWITCH >= 17.0
 - [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
 - [Routing and Faulting Message Library](https://github.com/ni/niveristand-routing-and-faulting-message-library)
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
