@@ -8,6 +8,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Endpoint Configuration Page.vi" Type="VI" URL="../Endpoint Configuration Page.vi"/>
@@ -20,6 +21,7 @@
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Check If Error Exists.vi" Type="VI" URL="../Check If Error Exists.vi"/>
 			<Item Name="Compile Communication Configuration.vi" Type="VI" URL="../Compile Communication Configuration.vi"/>
 			<Item Name="Compile Driver Configuration.vi" Type="VI" URL="../Compile Driver Configuration.vi"/>
 			<Item Name="Compile Status FIFO Indices.vi" Type="VI" URL="../Compile Status FIFO Indices.vi"/>
@@ -33,6 +35,9 @@
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Redraw Event FGV.vi" Type="VI" URL="../Redraw Event FGV.vi"/>
 			<Item Name="Show or Hide Normally Connected Endpoint Information.vi" Type="VI" URL="../Show or Hide Normally Connected Endpoint Information.vi"/>
+			<Item Name="Update Resource Error.vi" Type="VI" URL="../Update Resource Error.vi"/>
+			<Item Name="Update System Definition Error.vi" Type="VI" URL="../Update System Definition Error.vi"/>
+			<Item Name="Update Topology Error.vi" Type="VI" URL="../Update Topology Error.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
