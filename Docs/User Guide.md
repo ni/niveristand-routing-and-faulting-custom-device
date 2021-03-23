@@ -47,6 +47,20 @@ Use SLSC Switch 20.0.1 or newer to apply the reservation group. If you use SLSC 
 
 By default the reservation group for the SLSC Switch Custom Device is the path to the module in the system definition file. Use the scripting API to update this value.
 
+## NI-SWITCH Custom Device
+
+The **NI-SWITCH Custom Device** is a VeriStand add-on that supports NI-SWITCH PXI routing modules.
+
+NI-SWITCH routing modules are displayed in the VeriStand System Explorer under _Targets >> Controller >> Custom Devices_.
+
+The following image displays this location.
+
+![NI-SWITCH System Explorer](Support/NI-SWITCH%20System%20Explorer.png)
+
+The NI-SWITCH custom device supports the same endpoint configuration options as the SLSC Switch custom device.
+
+_NOTE: Configure the NI-SWITCH Custom Device before configuring the Routing and Faulting Custom Device._
+
 ## Routing and Faulting Custom Device
 
 The **Routing and Faulting Custom Device** is a VeriStand add-on that configures aliases and routing channels. By default, routing channels are not added. Add routing channels for each controllable collection of connections.
