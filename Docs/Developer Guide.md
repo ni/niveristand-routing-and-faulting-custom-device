@@ -34,7 +34,7 @@ Once a new Messaging Library is created, the following VIs need to be implemente
 
 ![Initialize with Switch Paramters Core](Support/Consumer%20Methods/Initialize%20with%20Switch%20Parameters%20Core.png)
 
-Open a hardware session using the switch parameters. The switch parameters include the resource name, topology, and any custom properties for your device.
+Open a hardware session using the given instance of the Switch Parameters class. The parameters include the resource name, topology, and any custom properties for your device.
 
 #### Connect
 
@@ -62,28 +62,25 @@ Reset the hardware state and close the hardware session.
 
 ### Creating a New Switch Consumer Custom Device
 
-Once a Switch Consumer exists for your given driver, you can create a Custom Device that configures and executes your Switch Consumer.
+Once a Switch Consumer exists for your given driver, follow these directions to createa a Custom Device that configures and executes your Switch Consumer for your specific device.
 
-1. Create a hardware specific custom device based on the asynchronous or inline asynchronous template.  
+1. If no Custom Device exists for your device, create a new custom device based on the asynchronous or inline asynchronous template.
 
   _NOTE: Avoid the inline hardware template as it may adversely affect loop rates of the application._
 
-2. Use the contents of `Routing and Faulting Hardware API.lvlib` to opt in to being discovered by the Routing and Faulting Custom Device.
+2. Use the `Routing and Faulting Hardware API.lvlib::Set API Version.vi` in your Custom Device's Initialization VI to set the Routing and Faulting Hardware API version and opt in to being discovered by the Routing and Faulting Custom Device. The version number determines which properties are supported. Currently the only version is `1`.
 
-  | VI Name | Description |
-  |---|---|
-  | `Set API Version.vi` | Determines which properties are supported; currently only version `1` is supported. |
-  | `Set All Possible Connections.vi` | Enumerates the possible direct connections for each endpoint. |
+3. Use the `Routing and Faulting Hardware API.lvlib::Set All Possible Connections.vi` in your Custom Device's Initialization VI to enumerate the possible direct connections for each endpoint in your device. For devices where user configuration affects what endpoints are connectable, you will also need to set this property any time a relevant configuration change occurs.
 
-3. Compile the required properties (and any hardware specific properties) during the OnCompile Action VI.
+4. Compile the required properties (and any hardware specific properties) during the OnCompile Action VI.
 
-4. Initialize the hardware specific switch consumer in the engine and execute all incoming messages.
+5. Initialize the switch consumer for your hardware in the engine and execute all incoming messages.
 
-5. Shut down the consumer if an error occurs or if VeriStand sends the Shut Down message.
+6. Shut down the consumer if an error occurs or if VeriStand sends the Shut Down message.
 
-  The following image displays how the VI processes the message.
+  _NOTE: The following image shows the recommended pattern for processing messages in the engine of your Custom Device._
 
-  ![RT Driver VI](Support/RT%20Driver%20VI.png)
+  ![The recommended pattern for processing messages in the engine of your Custom Device](Support/RT%20Driver%20VI.png)
 
 ## System Definition Compile
 
