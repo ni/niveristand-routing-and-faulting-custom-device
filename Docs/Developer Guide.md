@@ -20,40 +20,67 @@ The following diagram illustrates the pattern for these libraries.
 
 ![Class Diagram](Support/Class%20Diagram.png)
 
-## Adding New Hardware Support
+## Extending Hardware Support
 
-The **Routing and Faulting Custom Device** supports **SLSC Switch** hardware. The Custom Device is designed to support additional hardware with minimal effort.
+### Supporting New Driver Types
 
-1. Override the abstract switch consumer class and implement the following hardware specific methods:
+As seen above, support for new driver types can be added by extending the Switch Consumer class. Switch Consumer implementations for **SLSC Switch** and **NI-SWITCH** hardware are available in the [Routing and Faulting Message Library](https://github.com/ni/niveristand-routing-and-faulting-message-library).
 
-  | Method Name | Description |
-  |---|---|
-  | Initialize with Switch Parameters Core | Open a hardware session using the switch parameters. The switch parameters include the resource name and topology. |
-  | Connect | Connect the specified endpoints. |
-  | Disconnect | Disconnect the specified endpoints. |
-  | Disconnect All | Disconnect all connected endpoints. |
-  | Shutdown Core | Reset the hardware state and close the hardware session. |
+New versions of this library can be created to add support for new driver types by following the [template instructions](https://github.com/ni/niveristand-routing-and-faulting-message-library/tree/main/Source/template-instructions.md) in the Source Directory of the [Routing and Faulting Message Library](https://github.com/ni/niveristand-routing-and-faulting-message-library) repo.
 
-2. Create a hardware specific custom device based on the asynchronous or inline asynchronous template.  
+Once a new Messaging Library is created, the following VIs need to be implemented for your given driver type.
+
+#### Initialize with Switch Parameters Core
+
+![Initialize with Switch Paramters Core](Support/Consumer%20Methods/Initialize%20with%20Switch%20Parameters%20Core.png)
+
+Open a hardware session using the given instance of the Switch Parameters class. The parameters include the resource name, topology, and any custom properties for your device.
+
+#### Connect
+
+![Connect](Support/Consumer%20Methods/Connect.png)
+
+Connect the specified endpoints. Connection list will be a string that follows the [Connection and Disconnection List Syntax](https://zone.ni.com/reference/en-XX/help/375472H-01/switch/connection_disconnection_list/).
+
+#### Disconnect
+
+![Disconnect](Support/Consumer%20Methods/Disconnect.png)
+
+Disconnect the specified endpoints. Disconnection list will be a string that follows the [Connection and Disconnection List Syntax](https://zone.ni.com/reference/en-XX/help/375472H-01/switch/connection_disconnection_list/).
+
+#### Disconnect All
+
+![Disconnect All](Support/Consumer%20Methods/Disconnect%20All.png)
+
+Disconnect all connected endpoints.
+
+#### Shutdown Core
+
+![Shutdown Core](Support/Consumer%20Methods/Shutdown%20Core.png)
+
+Reset the hardware state and close the hardware session.
+
+### Creating a New Switch Consumer Custom Device
+
+Once a Switch Consumer exists for your given driver, follow these directions to createa a Custom Device that configures and executes your Switch Consumer for your specific device.
+
+1. If no Custom Device exists for your device, create a new custom device based on the asynchronous or inline asynchronous template.
 
   _NOTE: Avoid the inline hardware template as it may adversely affect loop rates of the application._
 
-3. Use the contents of `Routing and Faulting Hardware API.lvlib` to opt in to being discovered by the Routing and Faulting Custom Device.
+2. Use the `Routing and Faulting Hardware API.lvlib::Set API Version.vi` in your Custom Device's Initialization VI to set the Routing and Faulting Hardware API version and opt in to being discovered by the Routing and Faulting Custom Device. The version number determines which properties are supported. Currently the only version is `1`.
 
-  | VI Name | Description |
-  |---|---|
-  | `Set API Version.vi` | Determines which properties are supported; currently only version `1` is supported. |
-  | `Set All Possible Connections.vi` | Enumerates the possible direct connections for each endpoint. |
+3. Use the `Routing and Faulting Hardware API.lvlib::Set All Possible Connections.vi` in your Custom Device's Initialization VI to enumerate the possible direct connections for each endpoint in your device. For devices where user configuration affects what endpoints are connectable, you will also need to set this property any time a relevant configuration change occurs.
 
 4. Compile the required properties (and any hardware specific properties) during the OnCompile Action VI.
 
-5. Initialize the hardware specific switch consumer in the engine and execute all incoming messages.
+5. Initialize the switch consumer for your hardware in the engine and execute all incoming messages.
 
 6. Shut down the consumer if an error occurs or if VeriStand sends the Shut Down message.
 
-  The following image displays how the VI processes the message.
+  _NOTE: The following image shows the recommended pattern for processing messages in the engine of your Custom Device._
 
-  ![RT Driver VI](Support/RT%20Driver%20VI.png)
+  ![The recommended pattern for processing messages in the engine of your Custom Device](Support/RT%20Driver%20VI.png)
 
 ## System Definition Compile
 
