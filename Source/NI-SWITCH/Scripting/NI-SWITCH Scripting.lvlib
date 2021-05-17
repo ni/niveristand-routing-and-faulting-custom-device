@@ -8,7 +8,7 @@
 
 </Property>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="SLSC Scripting Constants.vi" Type="VI" URL="../SLSC Scripting Constants.vi"/>
+		<Item Name="NI-SWITCH Constants.vi" Type="VI" URL="../NI-SWITCH Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
