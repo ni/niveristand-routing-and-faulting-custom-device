@@ -8,12 +8,13 @@
 
 </Property>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="SLSC Scripting Constants.vi" Type="VI" URL="../SLSC Scripting Constants.vi"/>
+		<Item Name="NI-SWITCH Constants.vi" Type="VI" URL="../NI-SWITCH Constants.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Add NI-SWITCH Custom Device.vi"/>
 		<Item Name="Add Status Channels.vi" Type="VI" URL="../Custom Device/Add Status Channels.vi"/>
+		<Item Name="Find NI-SWITCH Custom Device.vi" Type="VI" URL="../Custom Device/Find NI-SWITCH Custom Device.vi"/>
 		<Item Name="Find All NI-SWITCH Custom Devices.vi" Type="VI" URL="../Custom Device/Find All NI-SWITCH Custom Devices.vi"/>
 		<Item Name="Find NI-SWITCH Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find NI-SWITCH Custom Device by Name.vi"/>
 		<Item Name="Find Endpoint Configuration Section.vi" Type="VI" URL="../Custom Device/Find Endpoint Configuration Section.vi"/>
