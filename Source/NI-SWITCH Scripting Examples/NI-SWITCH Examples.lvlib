@@ -9,9 +9,7 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../SubVIs/Convert to Absolute Path.vi"/>
-		<Item Name="Get Slot Number.vi" Type="VI" URL="../SubVIs/Get Slot Number.vi"/>
 		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
 		<Item Name="Routing Channel Configuration.ctl" Type="VI" URL="../SubVIs/Routing Channel Configuration.ctl"/>
-		<Item Name="SLSC Switch Offline Configuration Information.ctl" Type="VI" URL="../SubVIs/SLSC Switch Offline Configuration Information.ctl"/>
 	</Item>
 </Library>

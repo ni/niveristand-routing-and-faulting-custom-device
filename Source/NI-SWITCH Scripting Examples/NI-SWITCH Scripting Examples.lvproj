@@ -16,14 +16,10 @@
 		</Item>
 		<Item Name="vi.lib" Type="Folder">
 			<Item Name="Routing and Faulting Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Scripting/Routing and Faulting Scripting.lvlib"/>
-			<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Shared/Routing and Faulting Shared.lvlib"/>
 			<Item Name="Routing and Faulting Hardware API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Routing and Faulting Hardware API/Routing and Faulting Hardware API.lvlib"/>
-			<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Shared/SLSC Switch Shared.lvlib"/>
-			<Item Name="SLSC Switch Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Scripting/SLSC Switch Scripting.lvlib"/>
-			<Item Name="VeriStand SLSC Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/VeriStand SLSC Scripting API/VeriStand SLSC Scripting.lvlib"/>
+			<Item Name="NI-SWITCH Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/NI-SWITCH/Scripting/NI-SWITCH Scripting.lvlib"/>
 		</Item>
-		<Item Name="Configure Modules from Hardware.vi" Type="VI" URL="../Configure Modules from Hardware.vi"/>
-		<Item Name="Configure Modules from Switches JSON.vi" Type="VI" URL="../Configure Modules from Switches JSON.vi"/>
+		<Item Name="Configure NI-SWITCH Custom Device.vi" Type="VI" URL="../Configure NI-SWITCH Custom Device.vi"/>
 		<Item Name="Configure Routing and Faulting Custom Device.vi" Type="VI" URL="../Configure Routing and Faulting Custom Device.vi"/>
 		<Item Name="Add States to Routing and Faulting Custom Device.vi" Type="VI" URL="../Add States to Routing and Faulting Custom Device.vi"/>
 		<Item Name="NI-SWITCH Examples.lvlib" Type="Library" URL="../NI-SWITCH Examples.lvlib"/>
@@ -53,14 +49,11 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="nislscslSession.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/SLSC_Switch/nislscslSession.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="SLSC Switch.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLSC_Switch/SLSC Switch.lvlib"/>
-				<Item Name="SLSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLSC/SLSC.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -69,17 +62,24 @@
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="Routing and Faulting Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Dependencies.llb/Routing and Faulting Shared.lvlib"/>
 				<Item Name="Routing_and_Faulting_Scripting_Dependencies_Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Dependencies.llb/Routing_and_Faulting_Scripting_Dependencies_Advanced System Definition.lvlib"/>
 				<Item Name="Routing_and_Faulting_Scripting_Dependencies_ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Routing and Faulting/Dependencies.llb/Routing_and_Faulting_Scripting_Dependencies_ImportExport.lvlib"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="SLSC Switch Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Dependencies.llb/SLSC Switch Shared.lvlib"/>
-				<Item Name="SLSC_Switch_Scripting_Dependencies_ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Dependencies.llb/SLSC_Switch_Scripting_Dependencies_ImportExport.lvlib"/>
-				<Item Name="SLSC_Switch_Scripting_Dependencies_Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/SLSC Switch/Dependencies.llb/SLSC_Switch_Scripting_Dependencies_Advanced System Definition.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="NI-SWITCH Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/NI-SWITCH/Dependencies.llb/NI-SWITCH Shared.lvlib"/>
+				<Item Name="SLSC_Switch_Scripting_Dependencies_ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/NI-SWITCH/Dependencies.llb/SLSC_Switch_Scripting_Dependencies_ImportExport.lvlib"/>
+				<Item Name="SLSC_Switch_Scripting_Dependencies_Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/NI-SWITCH/Dependencies.llb/SLSC_Switch_Scripting_Dependencies_Advanced System Definition.lvlib"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niSwitch Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
+				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
+				<Item Name="niSwitch Path Capability.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Path Capability.ctl"/>
+				<Item Name="niSwitch Can Connect Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Can Connect Channels.vi"/>
+				<Item Name="niSwitch Get Channel Name.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Get Channel Name.vi"/>
+				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -87,22 +87,13 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nislsclvapi.dll" Type="Document" URL="nislsclvapi.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nislscsl.dll" Type="Document" URL="nislscsl.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -137,11 +128,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{EAD5164B-4359-462F-A85B-4F37314749CA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Configure Modules from Hardware.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Configure Modules from Switches JSON.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Configure NI-SWITCH Custom Device.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>

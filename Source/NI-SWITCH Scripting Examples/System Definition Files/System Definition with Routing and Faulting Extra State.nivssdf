@@ -1,0 +1,3318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2017" Minor="0" Fix="0" Build="0" />
+	<Content>Definition</Content>
+	<Root Name="Default System Definition" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+		<Description />
+		<Properties>
+			<Property Name="Name">
+				<String>Default System Definition</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0.0</String>
+			</Property>
+			<Property Name="Creator">
+				<String />
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3706196068.232924</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<TargetSections Name="Targets" TypeGUID="eb379619-68d7-4d81-be90-c0bc511cdc10">
+			<Description />
+			<Properties />
+			<Errors />
+			<Target Name="Controller" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+				<Description />
+				<Properties>
+					<Property Name="OS">
+						<String>Windows</String>
+					</Property>
+					<Property Name="IP Address">
+						<String />
+					</Property>
+					<Property Name="Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Secondary Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Stream Rate">
+						<I32>1</I32>
+					</Property>
+					<Property Name="DIO Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="Streamed Channels">
+						<I32>512</I32>
+					</Property>
+					<Property Name="Filter DAQ Errors">
+						<Boolean>true</Boolean>
+					</Property>
+					<Property Name="Filter Watchdog Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Engine Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="TL timeout">
+						<Double>120</Double>
+					</Property>
+					<Property Name="daq timeout">
+						<U32>1000</U32>
+					</Property>
+					<Property Name="TL sleep time">
+						<U32>0</U32>
+					</Property>
+					<Property Name="HS Port">
+						<I32>2040</I32>
+					</Property>
+					<Property Name="LS Port">
+						<I32>2050</I32>
+					</Property>
+					<Property Name="HS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="LS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="Deployment Group">
+						<I32>0</I32>
+					</Property>
+					<Property Name="Control Rate">
+						<Double>1</Double>
+					</Property>
+					<Property Name="Input Configuration">
+						<U32>0</U32>
+					</Property>
+					<Property Name="ts">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Warmup Time [ms]">
+						<U32>2000</U32>
+					</Property>
+					<Property Name="Data Rate">
+						<Double>15</Double>
+					</Property>
+					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+				</Properties>
+				<Errors />
+				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Chassis" TypeGUID="03D3BACD-1485-13A6-56E99D97B7543BAF">
+						<Description />
+						<Properties>
+							<Property Name="Master type">
+								<U32>1</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Timing and Sync" TypeGUID="03D3BAED-1485-13A6-56E20B50F6E06D94">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="DAQ" TypeGUID="77550612-1485-13A6-56570AB5032158E9">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Tasks" TypeGUID="1D6B8779-A957-42D1-B074-82153DB7FF44">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="NI-XNET" TypeGUID="6b693e6d-67b1-40b8-8108-4a4cc3147721">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Driver VI Exec Mode">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="FlexRay" TypeGUID="e33fae90-03f1-4f76-b2f1-6eb8fcac2676">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="LIN" TypeGUID="c9c30728-42cb-4dc3-b054-b80e7a54e833">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Data Sharing" TypeGUID="d56f3ac1-7b2c-422c-9d11-fd9cc7abf2a5">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="NI-SWITCH" TypeGUID="4ed8d91a-594e-4e06-bfbe-33c7275857dc">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Loop type">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Use Dev Clk">
+								<Boolean>false</Boolean>
+							</Property>
+							<Property Name="Decimation">
+								<I32>1</I32>
+							</Property>
+							<Property Name="FIFO Source">
+								<U32>1</U32>
+							</Property>
+							<Property Name="FIFO Sink">
+								<U32>1</U32>
+							</Property>
+							<Property Name="TL Priority">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Linux_x64\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\PharLap\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Windows\NI-SWITCH Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Pharlap\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Pharlap\NISWITCHMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Linux_x64\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>40f05b494c87a84d768b873633d1071b</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_4">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Linux_x64\NISWITCHMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>9540e4cb8aee1c8c7887b453d4803624</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.API Version">
+								<U32>1</U32>
+							</Property>
+							<Property Name="user.CD.Resource">
+								<String>PXI1Slot2</String>
+							</Property>
+							<Property Name="user.CD.Topology">
+								<String>2510/Independent</String>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Possible Connections">
+								<Dictionary>
+									<Elem Key="a0">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="a1">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="a2">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="a3">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b0">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b1">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b2">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b3">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="busa">
+										<StringArray>
+											<Elem>a0</Elem>
+											<Elem>a1</Elem>
+											<Elem>a2</Elem>
+											<Elem>a3</Elem>
+											<Elem>dut0</Elem>
+											<Elem>dut1</Elem>
+											<Elem>dut2</Elem>
+											<Elem>dut3</Elem>
+											<Elem>dut4</Elem>
+											<Elem>dut5</Elem>
+											<Elem>dut6</Elem>
+											<Elem>dut7</Elem>
+											<Elem>dut8</Elem>
+											<Elem>dut9</Elem>
+											<Elem>dut10</Elem>
+											<Elem>dut11</Elem>
+											<Elem>dut12</Elem>
+											<Elem>dut13</Elem>
+											<Elem>dut14</Elem>
+											<Elem>dut15</Elem>
+											<Elem>dut16</Elem>
+											<Elem>dut17</Elem>
+											<Elem>dut18</Elem>
+											<Elem>dut19</Elem>
+											<Elem>dut20</Elem>
+											<Elem>dut21</Elem>
+											<Elem>dut22</Elem>
+											<Elem>dut23</Elem>
+											<Elem>dut24</Elem>
+											<Elem>dut25</Elem>
+											<Elem>dut26</Elem>
+											<Elem>dut27</Elem>
+											<Elem>dut28</Elem>
+											<Elem>dut29</Elem>
+											<Elem>dut30</Elem>
+											<Elem>dut31</Elem>
+											<Elem>dut32</Elem>
+											<Elem>dut33</Elem>
+											<Elem>dut34</Elem>
+											<Elem>dut35</Elem>
+											<Elem>dut36</Elem>
+											<Elem>dut37</Elem>
+											<Elem>dut38</Elem>
+											<Elem>dut39</Elem>
+											<Elem>dut40</Elem>
+											<Elem>dut41</Elem>
+											<Elem>dut42</Elem>
+											<Elem>dut43</Elem>
+											<Elem>dut44</Elem>
+											<Elem>dut45</Elem>
+											<Elem>dut46</Elem>
+											<Elem>dut47</Elem>
+											<Elem>dut48</Elem>
+											<Elem>dut49</Elem>
+											<Elem>dut50</Elem>
+											<Elem>dut51</Elem>
+											<Elem>dut52</Elem>
+											<Elem>dut53</Elem>
+											<Elem>dut54</Elem>
+											<Elem>dut55</Elem>
+											<Elem>dut56</Elem>
+											<Elem>dut57</Elem>
+											<Elem>dut58</Elem>
+											<Elem>dut59</Elem>
+											<Elem>dut60</Elem>
+											<Elem>dut61</Elem>
+											<Elem>dut62</Elem>
+											<Elem>dut63</Elem>
+											<Elem>dut64</Elem>
+											<Elem>dut65</Elem>
+											<Elem>dut66</Elem>
+											<Elem>dut67</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="busb">
+										<StringArray>
+											<Elem>b0</Elem>
+											<Elem>b1</Elem>
+											<Elem>b2</Elem>
+											<Elem>b3</Elem>
+											<Elem>dut0</Elem>
+											<Elem>dut1</Elem>
+											<Elem>dut2</Elem>
+											<Elem>dut3</Elem>
+											<Elem>dut4</Elem>
+											<Elem>dut5</Elem>
+											<Elem>dut6</Elem>
+											<Elem>dut7</Elem>
+											<Elem>dut8</Elem>
+											<Elem>dut9</Elem>
+											<Elem>dut10</Elem>
+											<Elem>dut11</Elem>
+											<Elem>dut12</Elem>
+											<Elem>dut13</Elem>
+											<Elem>dut14</Elem>
+											<Elem>dut15</Elem>
+											<Elem>dut16</Elem>
+											<Elem>dut17</Elem>
+											<Elem>dut18</Elem>
+											<Elem>dut19</Elem>
+											<Elem>dut20</Elem>
+											<Elem>dut21</Elem>
+											<Elem>dut22</Elem>
+											<Elem>dut23</Elem>
+											<Elem>dut24</Elem>
+											<Elem>dut25</Elem>
+											<Elem>dut26</Elem>
+											<Elem>dut27</Elem>
+											<Elem>dut28</Elem>
+											<Elem>dut29</Elem>
+											<Elem>dut30</Elem>
+											<Elem>dut31</Elem>
+											<Elem>dut32</Elem>
+											<Elem>dut33</Elem>
+											<Elem>dut34</Elem>
+											<Elem>dut35</Elem>
+											<Elem>dut36</Elem>
+											<Elem>dut37</Elem>
+											<Elem>dut38</Elem>
+											<Elem>dut39</Elem>
+											<Elem>dut40</Elem>
+											<Elem>dut41</Elem>
+											<Elem>dut42</Elem>
+											<Elem>dut43</Elem>
+											<Elem>dut44</Elem>
+											<Elem>dut45</Elem>
+											<Elem>dut46</Elem>
+											<Elem>dut47</Elem>
+											<Elem>dut48</Elem>
+											<Elem>dut49</Elem>
+											<Elem>dut50</Elem>
+											<Elem>dut51</Elem>
+											<Elem>dut52</Elem>
+											<Elem>dut53</Elem>
+											<Elem>dut54</Elem>
+											<Elem>dut55</Elem>
+											<Elem>dut56</Elem>
+											<Elem>dut57</Elem>
+											<Elem>dut58</Elem>
+											<Elem>dut59</Elem>
+											<Elem>dut60</Elem>
+											<Elem>dut61</Elem>
+											<Elem>dut62</Elem>
+											<Elem>dut63</Elem>
+											<Elem>dut64</Elem>
+											<Elem>dut65</Elem>
+											<Elem>dut66</Elem>
+											<Elem>dut67</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch0">
+										<StringArray>
+											<Elem>dut0</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch1">
+										<StringArray>
+											<Elem>dut1</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch2">
+										<StringArray>
+											<Elem>dut2</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch3">
+										<StringArray>
+											<Elem>dut3</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch4">
+										<StringArray>
+											<Elem>dut4</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch5">
+										<StringArray>
+											<Elem>dut5</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch6">
+										<StringArray>
+											<Elem>dut6</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch7">
+										<StringArray>
+											<Elem>dut7</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch8">
+										<StringArray>
+											<Elem>dut8</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch9">
+										<StringArray>
+											<Elem>dut9</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch10">
+										<StringArray>
+											<Elem>dut10</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch11">
+										<StringArray>
+											<Elem>dut11</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch12">
+										<StringArray>
+											<Elem>dut12</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch13">
+										<StringArray>
+											<Elem>dut13</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch14">
+										<StringArray>
+											<Elem>dut14</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch15">
+										<StringArray>
+											<Elem>dut15</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch16">
+										<StringArray>
+											<Elem>dut16</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch17">
+										<StringArray>
+											<Elem>dut17</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch18">
+										<StringArray>
+											<Elem>dut18</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch19">
+										<StringArray>
+											<Elem>dut19</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch20">
+										<StringArray>
+											<Elem>dut20</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch21">
+										<StringArray>
+											<Elem>dut21</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch22">
+										<StringArray>
+											<Elem>dut22</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch23">
+										<StringArray>
+											<Elem>dut23</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch24">
+										<StringArray>
+											<Elem>dut24</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch25">
+										<StringArray>
+											<Elem>dut25</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch26">
+										<StringArray>
+											<Elem>dut26</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch27">
+										<StringArray>
+											<Elem>dut27</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch28">
+										<StringArray>
+											<Elem>dut28</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch29">
+										<StringArray>
+											<Elem>dut29</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch30">
+										<StringArray>
+											<Elem>dut30</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch31">
+										<StringArray>
+											<Elem>dut31</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch32">
+										<StringArray>
+											<Elem>dut32</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch33">
+										<StringArray>
+											<Elem>dut33</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch34">
+										<StringArray>
+											<Elem>dut34</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch35">
+										<StringArray>
+											<Elem>dut35</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch36">
+										<StringArray>
+											<Elem>dut36</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch37">
+										<StringArray>
+											<Elem>dut37</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch38">
+										<StringArray>
+											<Elem>dut38</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch39">
+										<StringArray>
+											<Elem>dut39</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch40">
+										<StringArray>
+											<Elem>dut40</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch41">
+										<StringArray>
+											<Elem>dut41</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch42">
+										<StringArray>
+											<Elem>dut42</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch43">
+										<StringArray>
+											<Elem>dut43</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch44">
+										<StringArray>
+											<Elem>dut44</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch45">
+										<StringArray>
+											<Elem>dut45</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch46">
+										<StringArray>
+											<Elem>dut46</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch47">
+										<StringArray>
+											<Elem>dut47</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch48">
+										<StringArray>
+											<Elem>dut48</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch49">
+										<StringArray>
+											<Elem>dut49</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch50">
+										<StringArray>
+											<Elem>dut50</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch51">
+										<StringArray>
+											<Elem>dut51</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch52">
+										<StringArray>
+											<Elem>dut52</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch53">
+										<StringArray>
+											<Elem>dut53</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch54">
+										<StringArray>
+											<Elem>dut54</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch55">
+										<StringArray>
+											<Elem>dut55</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch56">
+										<StringArray>
+											<Elem>dut56</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch57">
+										<StringArray>
+											<Elem>dut57</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch58">
+										<StringArray>
+											<Elem>dut58</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch59">
+										<StringArray>
+											<Elem>dut59</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch60">
+										<StringArray>
+											<Elem>dut60</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch61">
+										<StringArray>
+											<Elem>dut61</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch62">
+										<StringArray>
+											<Elem>dut62</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch63">
+										<StringArray>
+											<Elem>dut63</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch64">
+										<StringArray>
+											<Elem>dut64</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch65">
+										<StringArray>
+											<Elem>dut65</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch66">
+										<StringArray>
+											<Elem>dut66</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch67">
+										<StringArray>
+											<Elem>dut67</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut0">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch0</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut1">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch1</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut2">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch2</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut3">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch3</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut4">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch4</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut5">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch5</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut6">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch6</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut7">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch7</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut8">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch8</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut9">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch9</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut10">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch10</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut11">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch11</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut12">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch12</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut13">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch13</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut14">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch14</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut15">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch15</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut16">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch16</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut17">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch17</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut18">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch18</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut19">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch19</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut20">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch20</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut21">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch21</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut22">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch22</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut23">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch23</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut24">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch24</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut25">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch25</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut26">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch26</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut27">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch27</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut28">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch28</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut29">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch29</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut30">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch30</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut31">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch31</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut32">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch32</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut33">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch33</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut34">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch34</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut35">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch35</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut36">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch36</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut37">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch37</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut38">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch38</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut39">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch39</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut40">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch40</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut41">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch41</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut42">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch42</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut43">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch43</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut44">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch44</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut45">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch45</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut46">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch46</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut47">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch47</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut48">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch48</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut49">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch49</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut50">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch50</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut51">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch51</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut52">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch52</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut53">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch53</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut54">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch54</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut55">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch55</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut56">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch56</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut57">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch57</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut58">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch58</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut59">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch59</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut60">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch60</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut61">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch61</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut62">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch62</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut63">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch63</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut64">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch64</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut65">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch65</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut66">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch66</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut67">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch67</Elem>
+										</StringArray>
+									</Elem>
+								</Dictionary>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+								<StringArray>
+									<Elem>a0</Elem>
+									<Elem>a1</Elem>
+									<Elem>a2</Elem>
+									<Elem>a3</Elem>
+									<Elem>b0</Elem>
+									<Elem>b1</Elem>
+									<Elem>b2</Elem>
+									<Elem>b3</Elem>
+									<Elem>busa</Elem>
+									<Elem>busb</Elem>
+									<Elem>ch0</Elem>
+									<Elem>ch1</Elem>
+									<Elem>ch2</Elem>
+									<Elem>ch3</Elem>
+									<Elem>ch4</Elem>
+									<Elem>ch5</Elem>
+									<Elem>ch6</Elem>
+									<Elem>ch7</Elem>
+									<Elem>ch8</Elem>
+									<Elem>ch9</Elem>
+									<Elem>ch10</Elem>
+									<Elem>ch11</Elem>
+									<Elem>ch12</Elem>
+									<Elem>ch13</Elem>
+									<Elem>ch14</Elem>
+									<Elem>ch15</Elem>
+									<Elem>ch16</Elem>
+									<Elem>ch17</Elem>
+									<Elem>ch18</Elem>
+									<Elem>ch19</Elem>
+									<Elem>ch20</Elem>
+									<Elem>ch21</Elem>
+									<Elem>ch22</Elem>
+									<Elem>ch23</Elem>
+									<Elem>ch24</Elem>
+									<Elem>ch25</Elem>
+									<Elem>ch26</Elem>
+									<Elem>ch27</Elem>
+									<Elem>ch28</Elem>
+									<Elem>ch29</Elem>
+									<Elem>ch30</Elem>
+									<Elem>ch31</Elem>
+									<Elem>ch32</Elem>
+									<Elem>ch33</Elem>
+									<Elem>ch34</Elem>
+									<Elem>ch35</Elem>
+									<Elem>ch36</Elem>
+									<Elem>ch37</Elem>
+									<Elem>ch38</Elem>
+									<Elem>ch39</Elem>
+									<Elem>ch40</Elem>
+									<Elem>ch41</Elem>
+									<Elem>ch42</Elem>
+									<Elem>ch43</Elem>
+									<Elem>ch44</Elem>
+									<Elem>ch45</Elem>
+									<Elem>ch46</Elem>
+									<Elem>ch47</Elem>
+									<Elem>ch48</Elem>
+									<Elem>ch49</Elem>
+									<Elem>ch50</Elem>
+									<Elem>ch51</Elem>
+									<Elem>ch52</Elem>
+									<Elem>ch53</Elem>
+									<Elem>ch54</Elem>
+									<Elem>ch55</Elem>
+									<Elem>ch56</Elem>
+									<Elem>ch57</Elem>
+									<Elem>ch58</Elem>
+									<Elem>ch59</Elem>
+									<Elem>ch60</Elem>
+									<Elem>ch61</Elem>
+									<Elem>ch62</Elem>
+									<Elem>ch63</Elem>
+									<Elem>ch64</Elem>
+									<Elem>ch65</Elem>
+									<Elem>ch66</Elem>
+									<Elem>ch67</Elem>
+									<Elem>dut0</Elem>
+									<Elem>dut1</Elem>
+									<Elem>dut2</Elem>
+									<Elem>dut3</Elem>
+									<Elem>dut4</Elem>
+									<Elem>dut5</Elem>
+									<Elem>dut6</Elem>
+									<Elem>dut7</Elem>
+									<Elem>dut8</Elem>
+									<Elem>dut9</Elem>
+									<Elem>dut10</Elem>
+									<Elem>dut11</Elem>
+									<Elem>dut12</Elem>
+									<Elem>dut13</Elem>
+									<Elem>dut14</Elem>
+									<Elem>dut15</Elem>
+									<Elem>dut16</Elem>
+									<Elem>dut17</Elem>
+									<Elem>dut18</Elem>
+									<Elem>dut19</Elem>
+									<Elem>dut20</Elem>
+									<Elem>dut21</Elem>
+									<Elem>dut22</Elem>
+									<Elem>dut23</Elem>
+									<Elem>dut24</Elem>
+									<Elem>dut25</Elem>
+									<Elem>dut26</Elem>
+									<Elem>dut27</Elem>
+									<Elem>dut28</Elem>
+									<Elem>dut29</Elem>
+									<Elem>dut30</Elem>
+									<Elem>dut31</Elem>
+									<Elem>dut32</Elem>
+									<Elem>dut33</Elem>
+									<Elem>dut34</Elem>
+									<Elem>dut35</Elem>
+									<Elem>dut36</Elem>
+									<Elem>dut37</Elem>
+									<Elem>dut38</Elem>
+									<Elem>dut39</Elem>
+									<Elem>dut40</Elem>
+									<Elem>dut41</Elem>
+									<Elem>dut42</Elem>
+									<Elem>dut43</Elem>
+									<Elem>dut44</Elem>
+									<Elem>dut45</Elem>
+									<Elem>dut46</Elem>
+									<Elem>dut47</Elem>
+									<Elem>dut48</Elem>
+									<Elem>dut49</Elem>
+									<Elem>dut50</Elem>
+									<Elem>dut51</Elem>
+									<Elem>dut52</Elem>
+									<Elem>dut53</Elem>
+									<Elem>dut54</Elem>
+									<Elem>dut55</Elem>
+									<Elem>dut56</Elem>
+									<Elem>dut57</Elem>
+									<Elem>dut58</Elem>
+									<Elem>dut59</Elem>
+									<Elem>dut60</Elem>
+									<Elem>dut61</Elem>
+									<Elem>dut62</Elem>
+									<Elem>dut63</Elem>
+									<Elem>dut64</Elem>
+									<Elem>dut65</Elem>
+									<Elem>dut66</Elem>
+									<Elem>dut67</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Configuration Revision">
+								<U32>5</U32>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Initially Connected Endpoints">
+								<StringArray>
+									<Elem>ch0,dut0</Elem>
+									<Elem>ch1,dut1</Elem>
+									<Elem>ch2,dut2</Elem>
+									<Elem>ch3,dut3</Elem>
+									<Elem>ch4,dut4</Elem>
+									<Elem>ch5,dut5</Elem>
+									<Elem>ch6,dut6</Elem>
+									<Elem>ch7,dut7</Elem>
+									<Elem>ch8,dut8</Elem>
+									<Elem>ch9,dut9</Elem>
+									<Elem>ch10,dut10</Elem>
+									<Elem>ch11,dut11</Elem>
+									<Elem>ch12,dut12</Elem>
+									<Elem>ch13,dut13</Elem>
+									<Elem>ch14,dut14</Elem>
+									<Elem>ch15,dut15</Elem>
+									<Elem>ch16,dut16</Elem>
+									<Elem>ch17,dut17</Elem>
+									<Elem>ch18,dut18</Elem>
+									<Elem>ch19,dut19</Elem>
+									<Elem>ch20,dut20</Elem>
+									<Elem>ch21,dut21</Elem>
+									<Elem>ch22,dut22</Elem>
+									<Elem>ch23,dut23</Elem>
+									<Elem>ch24,dut24</Elem>
+									<Elem>ch25,dut25</Elem>
+									<Elem>ch26,dut26</Elem>
+									<Elem>ch27,dut27</Elem>
+									<Elem>ch28,dut28</Elem>
+									<Elem>ch29,dut29</Elem>
+									<Elem>ch30,dut30</Elem>
+									<Elem>ch31,dut31</Elem>
+									<Elem>ch32,dut32</Elem>
+									<Elem>ch33,dut33</Elem>
+									<Elem>ch34,dut34</Elem>
+									<Elem>ch35,dut35</Elem>
+									<Elem>ch36,dut36</Elem>
+									<Elem>ch37,dut37</Elem>
+									<Elem>ch38,dut38</Elem>
+									<Elem>ch39,dut39</Elem>
+									<Elem>ch40,dut40</Elem>
+									<Elem>ch41,dut41</Elem>
+									<Elem>ch42,dut42</Elem>
+									<Elem>ch43,dut43</Elem>
+									<Elem>ch44,dut44</Elem>
+									<Elem>ch45,dut45</Elem>
+									<Elem>ch46,dut46</Elem>
+									<Elem>ch47,dut47</Elem>
+									<Elem>ch48,dut48</Elem>
+									<Elem>ch49,dut49</Elem>
+									<Elem>ch50,dut50</Elem>
+									<Elem>ch51,dut51</Elem>
+									<Elem>ch52,dut52</Elem>
+									<Elem>ch53,dut53</Elem>
+									<Elem>ch54,dut54</Elem>
+									<Elem>ch55,dut55</Elem>
+									<Elem>ch56,dut56</Elem>
+									<Elem>ch57,dut57</Elem>
+									<Elem>ch58,dut58</Elem>
+									<Elem>ch59,dut59</Elem>
+									<Elem>ch60,dut60</Elem>
+									<Elem>ch61,dut61</Elem>
+									<Elem>ch62,dut62</Elem>
+									<Elem>ch63,dut63</Elem>
+									<Elem>ch64,dut64</Elem>
+									<Elem>ch65,dut65</Elem>
+									<Elem>ch66,dut66</Elem>
+									<Elem>ch67,dut67</Elem>
+								</StringArray>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Endpoint Configuration" TypeGUID="c99cfbe4-32a5-4370-896f-695dafdfbaf2">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.a0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.a1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.a2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.a3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.busa">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.busb">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch4">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch5">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch6">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch7">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch8">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch9">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch10">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch11">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch12">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch13">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch14">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch15">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch16">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch17">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch18">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch19">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch20">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch21">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch22">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch23">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch24">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch25">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch26">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch27">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch28">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch29">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch30">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch31">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch32">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch33">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch34">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch35">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch36">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch37">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch38">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch39">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch40">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch41">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch42">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch43">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch44">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch45">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch46">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch47">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch48">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch49">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch50">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch51">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch52">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch53">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch54">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch55">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch56">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch57">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch58">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch59">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch60">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch61">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch62">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch63">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch64">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch65">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch66">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch67">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut4">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut5">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut6">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut7">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut8">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut9">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut10">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut11">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut12">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut13">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut14">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut15">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut16">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut17">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut18">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut19">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut20">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut21">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut22">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut23">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut24">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut25">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut26">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut27">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut28">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut29">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut30">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut31">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut32">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut33">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut34">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut35">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut36">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut37">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut38">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut39">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut40">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut41">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut42">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut43">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut44">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut45">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut46">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut47">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut48">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut49">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut50">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut51">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut52">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut53">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut54">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut55">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut56">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut57">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut58">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut59">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut60">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut61">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut62">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut63">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut64">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut65">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut66">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut67">
+									<String>Load</String>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+					</Section>
+					<Section Name="Routing and Faulting" TypeGUID="4e591626-626d-4903-9a6e-1f2a7b879f4d">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Loop type">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Use Dev Clk">
+								<Boolean>false</Boolean>
+							</Property>
+							<Property Name="Decimation">
+								<I32>1</I32>
+							</Property>
+							<Property Name="FIFO Source">
+								<U32>1</U32>
+							</Property>
+							<Property Name="FIFO Sink">
+								<U32>1</U32>
+							</Property>
+							<Property Name="TL Priority">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\PharLap\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Windows\Routing and Faulting Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\Routing and Faulting Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Pharlap\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5>24550d4b79edc16d56e44252c4bf0eb6</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_32_ARM\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>0acde12785d8731287712edb7a983fef</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Routing and Faulting\Linux_x64\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>e16af9f6a74f848ba74ed66b3f30f8b9</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Modules">
+								<StringArray>
+									<Elem>0</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="user.CD.Modules.0">
+								<DependentNode Path="Targets/Controller/Custom Devices/NI-SWITCH" />
+							</Property>
+							<Property Name="user.CD.Revisions.0">
+								<U32>5</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Endpoint Aliases" TypeGUID="58f3342d-82ee-4932-869a-6f49da3049e5">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="Routing Channels" TypeGUID="ce8870b5-cb8e-4b52-ac34-5b792fdc2ead">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Window Up" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>Window-Up Sensor State</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+											<Elem Key="Passthrough">
+												<Double>1</Double>
+											</Elem>
+											<Elem Key="Short to Ground">
+												<Double>2</Double>
+											</Elem>
+											<Elem Key="Short to Power">
+												<Double>3</Double>
+											</Elem>
+											<Elem Key="Open Circuit">
+												<Double>4</Double>
+											</Elem>
+											<Elem Key="My New State">
+												<Double>10</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+											<Elem Key="Passthrough">
+												<StringArray>
+													<Elem>0,dut0,ch0</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Short to Ground">
+												<StringArray>
+													<Elem>0,dut0,busa</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Short to Power">
+												<StringArray>
+													<Elem>0,dut0,busb</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Open Circuit">
+												<StringArray />
+											</Elem>
+											<Elem Key="My New State">
+												<StringArray>
+													<Elem>0,dut6,ch6</Elem>
+												</StringArray>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String>no connections</String>
+											</Elem>
+											<Elem Key="Passthrough">
+												<String>sensor connected</String>
+											</Elem>
+											<Elem Key="Short to Ground">
+												<String>sensor faulted to ground</String>
+											</Elem>
+											<Elem Key="Short to Power">
+												<String>sensor faulted to power</String>
+											</Elem>
+											<Elem Key="Open Circuit">
+												<String>open circuit - not connected</String>
+											</Elem>
+											<Elem Key="My New State">
+												<String>new description</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>-1</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Window Down" TypeGUID="7ecc8b72-3e89-41fd-aa1c-b993e8fe884f" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>Window-Up Sensor State</Description>
+								<Properties>
+									<Property Name="Value Table">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<Double>-1</Double>
+											</Elem>
+											<Elem Key="Passthrough">
+												<Double>1</Double>
+											</Elem>
+											<Elem Key="Short to Ground">
+												<Double>2</Double>
+											</Elem>
+											<Elem Key="Short to Power">
+												<Double>3</Double>
+											</Elem>
+											<Elem Key="Open Circuit">
+												<Double>4</Double>
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Connections">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<StringArray />
+											</Elem>
+											<Elem Key="Passthrough">
+												<StringArray>
+													<Elem>0,dut1,ch1</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Short to Ground">
+												<StringArray>
+													<Elem>0,dut1,busa</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Short to Power">
+												<StringArray>
+													<Elem>0,dut1,busb</Elem>
+												</StringArray>
+											</Elem>
+											<Elem Key="Open Circuit">
+												<StringArray />
+											</Elem>
+										</Dictionary>
+									</Property>
+									<Property Name="user.CD.Descriptions">
+										<Dictionary>
+											<Elem Key="No Connections">
+												<String>no connections</String>
+											</Elem>
+											<Elem Key="Passthrough">
+												<String>sensor connected</String>
+											</Elem>
+											<Elem Key="Short to Ground">
+												<String>sensor faulted to ground</String>
+											</Elem>
+											<Elem Key="Short to Power">
+												<String>sensor faulted to power</String>
+											</Elem>
+											<Elem Key="Open Circuit">
+												<String>open circuit - not connected</String>
+											</Elem>
+										</Dictionary>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>-1</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Status Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
+					<Description />
+					<Properties>
+						<Property Name="ParameterAccess">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+					<Section Name="Models" TypeGUID="03D3B976-1485-13A6-5604255F981010CE">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+					<Section Name="Execution Order" TypeGUID="03D3B966-1485-13A6-569CFF8A449BF90A">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="User Channels" TypeGUID="03D3B6B7-1485-13A6-567BE1E1E0DF999A">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Calculated Channels" TypeGUID="03D3B714-1485-13A6-56031C5F1CCB78A9">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Stimulus" TypeGUID="03D3B7FF-1485-13A6-56B2328F9511AC8B">
+					<Description />
+					<Properties>
+						<Property Name="Max Steps">
+							<I32>128</I32>
+						</Property>
+						<Property Name="Max Gen Maps">
+							<I32>256</I32>
+						</Property>
+						<Property Name="Aux Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Result Size">
+							<I32>5000</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Alarms" TypeGUID="03D3B782-1485-13A6-56F58B35B6CBA484">
+					<Description />
+					<Properties>
+						<Property Name="Alarm Rate">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="XNET Databases" TypeGUID="def5630b-577f-4ae9-9682-5f8ee445ee21">
+					<Description />
+					<Properties>
+						<Property Name="CD Status">
+							<U32>2</U32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="System Channels" TypeGUID="03D3B753-1485-13A6-56B10ED0820CF410">
+					<Description />
+					<Properties />
+					<Errors />
+					<Channel Name="Actual Loop Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Hz" BitFields="1">
+						<Description>The execution rate of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Index" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The decimation of the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The relative system time of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Alarm Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="DAQ Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Error Code" BitFields="3">
+						<Description>The last reported error code from a DAQmx function call. The value zero indicates no error has occurred.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Delta T" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The period in seconds of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Compiler Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 1" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 2" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 3" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Resume Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 4" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 5" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 6" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="RT Engine Build" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>A value representing the build number of the NI VeriStand Engine</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Primary Control Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Data Processing Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>Internally commands the RT system with the following numeric values:
+
+0: None
+1: Restart System
+2: Reset System
+3: Shut Down System
+4: Reboot System</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="None">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Restart System">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Reset System">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Shut Down System">
+										<Double>3</Double>
+									</Elem>
+									<Elem Key="Reboot System">
+										<Double>4</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Channel Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of channels that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Max Streamed Channels" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The maximum number of channels that the VeriStand Engine can stream to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Model Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the models have not completed their execution in time</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Clients" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Maximum GENs" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of stimulus profile generators instantiated by the system</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Generator Engine State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>The current state of the stimulus profile generator engine
+
+0: Idle
+1: Running
+2: Stopped
+3: Paused</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Idle">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Running">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Stopped">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Paused">
+										<Double>3</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Watchdog Timer" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The amount of time in nanoseconds since the Watchdog Timer Loop last executed. The Watchdog Timer Loop is set to execute at a rate of 10Hz.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HS TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the streaming data gets overwritten.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Host IP" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The 32-bit integer IP Address of the connected host. A zero value indicates no host is connected to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Enabled Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether execution tracing is currently active on the RT Target.  Set to 1 to start tracing.  Set to 0 to stop tracing and send result to host (if no host is present it is logged to disk).  Set to -1 to stop tracing and write result to disk.</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Stop and Write to Disk">
+										<Double>-1</Double>
+									</Elem>
+									<Elem Key="Stop and Send to Host">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Start Trace">
+										<Double>1</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Detailed Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether detailed execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="VI Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether VI execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Buffer Size" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Bytes" BitFields="3">
+						<Description>Specifies the size in bytes of the execution trace buffer on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>250000</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Thread Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether thread execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Absolute Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>Returns the current date and time in seconds relative to 12:00 a.m., Friday, January 1, 1904, Universal Time [01-01-1904 00:00:00]. This value is coerced from a 128-bit value to double precision, which may impact resolution.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time - Microseconds" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+						<Description>The relative system time in microseconds of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 43" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 44" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Iterations" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Min Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Actual Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Failure Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The failure count of current analysis settings</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Analysis State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the analysis sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="TCP Data Packet Loss" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the VeriStand Engine fails to send a data packet to the host. A non-zero number can indicate data loss in logged data. The value is reset every time a Workspace connects to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to a waveform read session within the NI VeriStand engine and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to the TCP loop (for a host waveform stream session) and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop encountered an error.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Code" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The last error code encountered by the waveform processing loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Waveform Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of waveforms that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Last Late Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop that last recorded a late count. If the Primary Control Loop has not recorded a late count, this value is -1.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 58" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 59" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Internally commands the active real-time sequences with the following numeric values:
+
+0: None
+1: Stop All
+2: Abort All</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="None">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Stop All">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Abort All">
+										<Double>2</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of real-time sequences currently running.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 62" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 63" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 64" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 65" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 66" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 67" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 68" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 69" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 70" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 71" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 72" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 73" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 74" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 75" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 76" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 77" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 78" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 79" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 80" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 81" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 82" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 83" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 84" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 85" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 86" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 87" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 88" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 89" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 90" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 91" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="AO1 Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Wakeup Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+						<Description>The wakeup status of the Primary Control Loop.
+
+0: Normal
+1: Aborted
+2: Asynchronous wakeup
+3: Timing source error
+4: Timed loop error
+5: Timeout</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Normal">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Aborted">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Asynchronous Wakeup">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Timing Source Error">
+										<Double>3</Double>
+									</Elem>
+									<Elem Key="Timed Loop Error">
+										<Double>4</Double>
+									</Elem>
+									<Elem Key="Timeout">
+										<Double>5</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HD Free Space" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP-LP Overwrite" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop timed out writing channel data to the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Data Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop timed out writing channel data to the Communication Send Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Log Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the logging sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+			</Target>
+		</TargetSections>
+		<Section Name="Aliases" TypeGUID="e11f4519-09e6-4fb0-99df-2967c4313d67">
+			<Description />
+			<Properties>
+				<Property Name="DoNotAllowUnmappedAliases">
+					<Boolean>true</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Data Sharing Network" TypeGUID="8288dbb9-8c87-4fda-9c66-acec90c46c03">
+			<Description />
+			<Properties>
+				<Property Name="CD Status">
+					<U32>2</U32>
+				</Property>
+				<Property Name="DSN Dynamic Data Size">
+					<I32>30</I32>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="System Initialization" TypeGUID="773b9311-3758-47fa-842f-b1c1960dabd0">
+			<Description />
+			<Properties>
+				<Property Name="Auto Start">
+					<Boolean>false</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+	</Root>
+</Document>

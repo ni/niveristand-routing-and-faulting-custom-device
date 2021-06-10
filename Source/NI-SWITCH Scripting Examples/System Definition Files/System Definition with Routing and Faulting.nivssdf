@@ -3,20 +3,20 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Base with SLSC Switch CD" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Default System Definition" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Base with SLSC Switch CD</String>
+				<String>Default System Definition</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.7</String>
+				<String>1.0.0.0</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3651228421.5467181</Double>
+				<Double>3706196068.232924</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -177,758 +177,1819 @@
 						<Description />
 						<Properties />
 						<Errors />
-						<Section Name="SLSC Chassis" TypeGUID="2d230194-1f79-4241-ad00-e5b0a0d634cb">
-							<Description />
-							<Properties>
-								<Property Name="Chassis Type">
-									<String>SLSC-12001</String>
-								</Property>
-								<Property Name="Chassis ID">
-									<String>slsc-12001-00000000</String>
-								</Property>
-								<Property Name="Username">
-									<String>anonymous</String>
-								</Property>
-								<Property Name="Password">
-									<String />
-								</Property>
-								<Property Name="Chassis ID Type">
-									<I32>1</I32>
-								</Property>
-							</Properties>
-							<Errors />
-							<Section Name="Modules" TypeGUID="96319964-d29d-4af0-9c60-b1a785679b5f">
-								<Description />
-								<Properties />
-								<Errors />
-								<Section Name="Slot 1 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 2 (SLSC Switch)" TypeGUID="5e47c8de-3ec6-490b-8897-5526d4aea756">
-									<Description />
-									<Properties>
-										<Property Name="CD Status">
-											<U32>1</U32>
-										</Property>
-										<Property Name="Driver VI Exec Mode">
-											<U32>0</U32>
-										</Property>
-										<Property Name="Driver VI Path_0">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSC Switch Engine Linux64.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Linux64.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Linux_x64</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_1">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Linux_32_ARM</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\PharLap\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>PharLap</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Driver VI Path_3">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Windows\SLSC Switch Engine Windows.llb\RT Driver VI.vi">
-												<Version>1.0.0</Version>
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSC Switch Engine Windows.llb\RT Driver VI.vi</RTDestination>
-												<SupportedTarget>Windows</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Version">
-											<String>1.0.0</String>
-										</Property>
-										<Property Name="Dependency_1">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\CDMessaging.lvlibp">
-												<Version />
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
-												<SupportedTarget>PharLap</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Dependency_2">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Pharlap\SLSCSwitchMessaging.lvlibp">
-												<Version />
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
-												<SupportedTarget>PharLap</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Dependency_3">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\CDMessaging.lvlibp">
-												<Version />
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
-												<SupportedTarget>Linux_32_ARM</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Dependency_4">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_32_ARM\SLSCSwitchMessaging.lvlibp">
-												<Version />
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
-												<SupportedTarget>Linux_32_ARM</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Dependency_5">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\CDMessaging.lvlibp">
-												<Version />
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\CDMessaging.lvlibp</RTDestination>
-												<SupportedTarget>Linux_x64</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="Dependency_6">
-											<DependentFile Type="To Common Doc Dir" Path="SLSC Plugins\Modules\SLSC Switch\Linux_x64\SLSCSwitchMessaging.lvlibp">
-												<Version />
-												<ForceDownload>false</ForceDownload>
-												<RTDestination>c:\ni-rt\NIVeriStand\SLSC Plugins\Modules\SLSC Switch\SLSCSwitchMessaging.lvlibp</RTDestination>
-												<SupportedTarget>Linux_x64</SupportedTarget>
-												<MD5 />
-											</DependentFile>
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.API Version">
-											<U32>1</U32>
-										</Property>
-										<Property Name="user.CD.Model">
-											<String>SLSC-12251</String>
-										</Property>
-										<Property Name="user.CD.Capabilities">
-											<String>{"switchesSpecVersion":1,"switchesSpecOldestCompatibleVersion":1,"relays":[{"name":"Ch0","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch1","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch3","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch5","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch7","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch8","actions":[{"type":"property","resource":"Channel_8","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch9","actions":[{"type":"property","resource":"Channel_9","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch10","actions":[{"type":"property","resource":"Channel_10","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch11","actions":[{"type":"property","resource":"Channel_11","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch12","actions":[{"type":"property","resource":"Channel_12","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch13","actions":[{"type":"property","resource":"Channel_13","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch14","actions":[{"type":"property","resource":"Channel_14","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch15","actions":[{"type":"property","resource":"Channel_15","value":"NI.FIU.Preset.Load"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch0_Ch1","actions":[{"type":"property","resource":"ChannelPair_0","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2_Ch3","actions":[{"type":"property","resource":"ChannelPair_1","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4_Ch5","actions":[{"type":"property","resource":"ChannelPair_2","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6_Ch7","actions":[{"type":"property","resource":"ChannelPair_3","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch8_Ch9","actions":[{"type":"property","resource":"ChannelPair_4","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch10_Ch11","actions":[{"type":"property","resource":"ChannelPair_5","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch12_Ch13","actions":[{"type":"property","resource":"ChannelPair_6","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch14_Ch15","actions":[{"type":"property","resource":"ChannelPair_7","value":"NI.FIU.Preset.InterChannel"},{"type":"command","resource":"","value":"NI.FIU.Update"}]}],"multiStateRelays":[{"name":"Ch0_Bus","relays":[{"name":"Ch0_BusA","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch0_BusB","actions":[{"type":"property","resource":"Channel_0","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch1_Bus","relays":[{"name":"Ch1_BusA","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch1_BusB","actions":[{"type":"property","resource":"Channel_1","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch2_Bus","relays":[{"name":"Ch2_BusA","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch2_BusB","actions":[{"type":"property","resource":"Channel_2","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch3_Bus","relays":[{"name":"Ch3_BusA","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch3_BusB","actions":[{"type":"property","resource":"Channel_3","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch4_Bus","relays":[{"name":"Ch4_BusA","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch4_BusB","actions":[{"type":"property","resource":"Channel_4","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch5_Bus","relays":[{"name":"Ch5_BusA","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch5_BusB","actions":[{"type":"property","resource":"Channel_5","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch6_Bus","relays":[{"name":"Ch6_BusA","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch6_BusB","actions":[{"type":"property","resource":"Channel_6","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch7_Bus","relays":[{"name":"Ch7_BusA","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch7_BusB","actions":[{"type":"property","resource":"Channel_7","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch8_Bus","relays":[{"name":"Ch8_BusA","actions":[{"type":"property","resource":"Channel_8","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch8_BusB","actions":[{"type":"property","resource":"Channel_8","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch9_Bus","relays":[{"name":"Ch9_BusA","actions":[{"type":"property","resource":"Channel_9","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch9_BusB","actions":[{"type":"property","resource":"Channel_9","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch10_Bus","relays":[{"name":"Ch10_BusA","actions":[{"type":"property","resource":"Channel_10","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch10_BusB","actions":[{"type":"property","resource":"Channel_10","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch11_Bus","relays":[{"name":"Ch11_BusA","actions":[{"type":"property","resource":"Channel_11","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch11_BusB","actions":[{"type":"property","resource":"Channel_11","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch12_Bus","relays":[{"name":"Ch12_BusA","actions":[{"type":"property","resource":"Channel_12","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch12_BusB","actions":[{"type":"property","resource":"Channel_12","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch13_Bus","relays":[{"name":"Ch13_BusA","actions":[{"type":"property","resource":"Channel_13","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch13_BusB","actions":[{"type":"property","resource":"Channel_13","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch14_Bus","relays":[{"name":"Ch14_BusA","actions":[{"type":"property","resource":"Channel_14","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch14_BusB","actions":[{"type":"property","resource":"Channel_14","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]},{"name":"Ch15_Bus","relays":[{"name":"Ch15_BusA","actions":[{"type":"property","resource":"Channel_15","value":"NI.FIU.Preset.BusSource","close":1},{"type":"command","resource":"","value":"NI.FIU.Update"}]},{"name":"Ch15_BusB","actions":[{"type":"property","resource":"Channel_15","value":"NI.FIU.Preset.BusSource","close":2},{"type":"command","resource":"","value":"NI.FIU.Update"}]}]}],"topologies":[{"name":"NI12251_topology","initialState":{"open":["Ch0","Ch0_BusA","Ch0_BusB","Ch1","Ch1_BusA","Ch1_BusB","Ch2","Ch2_BusA","Ch2_BusB","Ch3","Ch3_BusA","Ch3_BusB","Ch4","Ch4_BusA","Ch4_BusB","Ch5","Ch5_BusA","Ch5_BusB","Ch6","Ch6_BusA","Ch6_BusB","Ch7","Ch7_BusA","Ch7_BusB","Ch8","Ch8_BusA","Ch8_BusB","Ch9","Ch9_BusA","Ch9_BusB","Ch10","Ch10_BusA","Ch10_BusB","Ch11","Ch11_BusA","Ch11_BusB","Ch12","Ch12_BusA","Ch12_BusB","Ch13","Ch13_BusA","Ch13_BusB","Ch14","Ch14_BusA","Ch14_BusB","Ch15","Ch15_BusA","Ch15_BusB","Ch0_Ch1","Ch2_Ch3","Ch4_Ch5","Ch6_Ch7","Ch8_Ch9","Ch10_Ch11","Ch12_Ch13","Ch14_Ch15"],"close":[]},"channelList":{"names":["DUT_Ch0","LOAD_Ch0","DUT_Ch1","LOAD_Ch1","DUT_Ch2","LOAD_Ch2","DUT_Ch3","LOAD_Ch3","DUT_Ch4","LOAD_Ch4","DUT_Ch5","LOAD_Ch5","DUT_Ch6","LOAD_Ch6","DUT_Ch7","LOAD_Ch7","DUT_Ch8","LOAD_Ch8","DUT_Ch9","LOAD_Ch9","DUT_Ch10","LOAD_Ch10","DUT_Ch11","LOAD_Ch11","DUT_Ch12","LOAD_Ch12","DUT_Ch13","LOAD_Ch13","DUT_Ch14","LOAD_Ch14","DUT_Ch15","LOAD_Ch15","BusA","BusB"]},"connectionList":[{"src":"DUT_Ch0","dest":"LOAD_Ch0","relays":["Ch0"]},{"src":"DUT_Ch0","dest":"BusA","relays":["Ch0_BusA"]},{"src":"DUT_Ch0","dest":"BusB","relays":["Ch0_BusB"]},{"src":"DUT_Ch1","dest":"LOAD_Ch1","relays":["Ch1"]},{"src":"DUT_Ch1","dest":"BusA","relays":["Ch1_BusA"]},{"src":"DUT_Ch1","dest":"BusB","relays":["Ch1_BusB"]},{"src":"DUT_Ch2","dest":"LOAD_Ch2","relays":["Ch2"]},{"src":"DUT_Ch2","dest":"BusA","relays":["Ch2_BusA"]},{"src":"DUT_Ch2","dest":"BusB","relays":["Ch2_BusB"]},{"src":"DUT_Ch3","dest":"LOAD_Ch3","relays":["Ch3"]},{"src":"DUT_Ch3","dest":"BusA","relays":["Ch3_BusA"]},{"src":"DUT_Ch3","dest":"BusB","relays":["Ch3_BusB"]},{"src":"DUT_Ch4","dest":"LOAD_Ch4","relays":["Ch4"]},{"src":"DUT_Ch4","dest":"BusA","relays":["Ch4_BusA"]},{"src":"DUT_Ch4","dest":"BusB","relays":["Ch4_BusB"]},{"src":"DUT_Ch5","dest":"LOAD_Ch5","relays":["Ch5"]},{"src":"DUT_Ch5","dest":"BusA","relays":["Ch5_BusA"]},{"src":"DUT_Ch5","dest":"BusB","relays":["Ch5_BusB"]},{"src":"DUT_Ch6","dest":"LOAD_Ch6","relays":["Ch6"]},{"src":"DUT_Ch6","dest":"BusA","relays":["Ch6_BusA"]},{"src":"DUT_Ch6","dest":"BusB","relays":["Ch6_BusB"]},{"src":"DUT_Ch7","dest":"LOAD_Ch7","relays":["Ch7"]},{"src":"DUT_Ch7","dest":"BusA","relays":["Ch7_BusA"]},{"src":"DUT_Ch7","dest":"BusB","relays":["Ch7_BusB"]},{"src":"DUT_Ch8","dest":"LOAD_Ch8","relays":["Ch8"]},{"src":"DUT_Ch8","dest":"BusA","relays":["Ch8_BusA"]},{"src":"DUT_Ch8","dest":"BusB","relays":["Ch8_BusB"]},{"src":"DUT_Ch9","dest":"LOAD_Ch9","relays":["Ch9"]},{"src":"DUT_Ch9","dest":"BusA","relays":["Ch9_BusA"]},{"src":"DUT_Ch9","dest":"BusB","relays":["Ch9_BusB"]},{"src":"DUT_Ch10","dest":"LOAD_Ch10","relays":["Ch10"]},{"src":"DUT_Ch10","dest":"BusA","relays":["Ch10_BusA"]},{"src":"DUT_Ch10","dest":"BusB","relays":["Ch10_BusB"]},{"src":"DUT_Ch11","dest":"LOAD_Ch11","relays":["Ch11"]},{"src":"DUT_Ch11","dest":"BusA","relays":["Ch11_BusA"]},{"src":"DUT_Ch11","dest":"BusB","relays":["Ch11_BusB"]},{"src":"DUT_Ch12","dest":"LOAD_Ch12","relays":["Ch12"]},{"src":"DUT_Ch12","dest":"BusA","relays":["Ch12_BusA"]},{"src":"DUT_Ch12","dest":"BusB","relays":["Ch12_BusB"]},{"src":"DUT_Ch13","dest":"LOAD_Ch13","relays":["Ch13"]},{"src":"DUT_Ch13","dest":"BusA","relays":["Ch13_BusA"]},{"src":"DUT_Ch13","dest":"BusB","relays":["Ch13_BusB"]},{"src":"DUT_Ch14","dest":"LOAD_Ch14","relays":["Ch14"]},{"src":"DUT_Ch14","dest":"BusA","relays":["Ch14_BusA"]},{"src":"DUT_Ch14","dest":"BusB","relays":["Ch14_BusB"]},{"src":"DUT_Ch15","dest":"LOAD_Ch15","relays":["Ch15"]},{"src":"DUT_Ch15","dest":"BusA","relays":["Ch15_BusA"]},{"src":"DUT_Ch15","dest":"BusB","relays":["Ch15_BusB"]},{"src":"DUT_Ch0","dest":"DUT_Ch1","relays":["Ch0_Ch1"]},{"src":"DUT_Ch2","dest":"DUT_Ch3","relays":["Ch2_Ch3"]},{"src":"DUT_Ch4","dest":"DUT_Ch5","relays":["Ch4_Ch5"]},{"src":"DUT_Ch6","dest":"DUT_Ch7","relays":["Ch6_Ch7"]},{"src":"DUT_Ch8","dest":"DUT_Ch9","relays":["Ch8_Ch9"]},{"src":"DUT_Ch10","dest":"DUT_Ch11","relays":["Ch10_Ch11"]},{"src":"DUT_Ch12","dest":"DUT_Ch13","relays":["Ch12_Ch13"]},{"src":"DUT_Ch14","dest":"DUT_Ch15","relays":["Ch14_Ch15"]}],"muxList":[{"src":"DUT_Ch0","dest":["BusA","BusB"]},{"src":"DUT_Ch1","dest":["BusA","BusB"]},{"src":"DUT_Ch2","dest":["BusA","BusB"]},{"src":"DUT_Ch3","dest":["BusA","BusB"]},{"src":"DUT_Ch4","dest":["BusA","BusB"]},{"src":"DUT_Ch5","dest":["BusA","BusB"]},{"src":"DUT_Ch6","dest":["BusA","BusB"]},{"src":"DUT_Ch7","dest":["BusA","BusB"]},{"src":"DUT_Ch8","dest":["BusA","BusB"]},{"src":"DUT_Ch9","dest":["BusA","BusB"]},{"src":"DUT_Ch10","dest":["BusA","BusB"]},{"src":"DUT_Ch11","dest":["BusA","BusB"]},{"src":"DUT_Ch12","dest":["BusA","BusB"]},{"src":"DUT_Ch13","dest":["BusA","BusB"]},{"src":"DUT_Ch14","dest":["BusA","BusB"]},{"src":"DUT_Ch15","dest":["BusA","BusB"]}]}]}</String>
-										</Property>
-										<Property Name="user.CD.Topology">
-											<String>NI12251_topology</String>
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Possible Connections">
-											<Dictionary>
-												<Elem Key="DUT_Ch0">
-													<StringArray>
-														<Elem>LOAD_Ch0</Elem>
-														<Elem>DUT_Ch1</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch0">
-													<StringArray>
-														<Elem>DUT_Ch0</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch1">
-													<StringArray>
-														<Elem>DUT_Ch0</Elem>
-														<Elem>LOAD_Ch1</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch1">
-													<StringArray>
-														<Elem>DUT_Ch1</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch2">
-													<StringArray>
-														<Elem>LOAD_Ch2</Elem>
-														<Elem>DUT_Ch3</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch2">
-													<StringArray>
-														<Elem>DUT_Ch2</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch3">
-													<StringArray>
-														<Elem>DUT_Ch2</Elem>
-														<Elem>LOAD_Ch3</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch3">
-													<StringArray>
-														<Elem>DUT_Ch3</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch4">
-													<StringArray>
-														<Elem>LOAD_Ch4</Elem>
-														<Elem>DUT_Ch5</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch4">
-													<StringArray>
-														<Elem>DUT_Ch4</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch5">
-													<StringArray>
-														<Elem>DUT_Ch4</Elem>
-														<Elem>LOAD_Ch5</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch5">
-													<StringArray>
-														<Elem>DUT_Ch5</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch6">
-													<StringArray>
-														<Elem>LOAD_Ch6</Elem>
-														<Elem>DUT_Ch7</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch6">
-													<StringArray>
-														<Elem>DUT_Ch6</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch7">
-													<StringArray>
-														<Elem>DUT_Ch6</Elem>
-														<Elem>LOAD_Ch7</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch7">
-													<StringArray>
-														<Elem>DUT_Ch7</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch8">
-													<StringArray>
-														<Elem>LOAD_Ch8</Elem>
-														<Elem>DUT_Ch9</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch8">
-													<StringArray>
-														<Elem>DUT_Ch8</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch9">
-													<StringArray>
-														<Elem>DUT_Ch8</Elem>
-														<Elem>LOAD_Ch9</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch9">
-													<StringArray>
-														<Elem>DUT_Ch9</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch10">
-													<StringArray>
-														<Elem>LOAD_Ch10</Elem>
-														<Elem>DUT_Ch11</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch10">
-													<StringArray>
-														<Elem>DUT_Ch10</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch11">
-													<StringArray>
-														<Elem>DUT_Ch10</Elem>
-														<Elem>LOAD_Ch11</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch11">
-													<StringArray>
-														<Elem>DUT_Ch11</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch12">
-													<StringArray>
-														<Elem>LOAD_Ch12</Elem>
-														<Elem>DUT_Ch13</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch12">
-													<StringArray>
-														<Elem>DUT_Ch12</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch13">
-													<StringArray>
-														<Elem>DUT_Ch12</Elem>
-														<Elem>LOAD_Ch13</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch13">
-													<StringArray>
-														<Elem>DUT_Ch13</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch14">
-													<StringArray>
-														<Elem>LOAD_Ch14</Elem>
-														<Elem>DUT_Ch15</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch14">
-													<StringArray>
-														<Elem>DUT_Ch14</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="DUT_Ch15">
-													<StringArray>
-														<Elem>DUT_Ch14</Elem>
-														<Elem>LOAD_Ch15</Elem>
-														<Elem>BusA</Elem>
-														<Elem>BusB</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="LOAD_Ch15">
-													<StringArray>
-														<Elem>DUT_Ch15</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="BusA">
-													<StringArray>
-														<Elem>DUT_Ch0</Elem>
-														<Elem>DUT_Ch1</Elem>
-														<Elem>DUT_Ch2</Elem>
-														<Elem>DUT_Ch3</Elem>
-														<Elem>DUT_Ch4</Elem>
-														<Elem>DUT_Ch5</Elem>
-														<Elem>DUT_Ch6</Elem>
-														<Elem>DUT_Ch7</Elem>
-														<Elem>DUT_Ch8</Elem>
-														<Elem>DUT_Ch9</Elem>
-														<Elem>DUT_Ch10</Elem>
-														<Elem>DUT_Ch11</Elem>
-														<Elem>DUT_Ch12</Elem>
-														<Elem>DUT_Ch13</Elem>
-														<Elem>DUT_Ch14</Elem>
-														<Elem>DUT_Ch15</Elem>
-													</StringArray>
-												</Elem>
-												<Elem Key="BusB">
-													<StringArray>
-														<Elem>DUT_Ch0</Elem>
-														<Elem>DUT_Ch1</Elem>
-														<Elem>DUT_Ch2</Elem>
-														<Elem>DUT_Ch3</Elem>
-														<Elem>DUT_Ch4</Elem>
-														<Elem>DUT_Ch5</Elem>
-														<Elem>DUT_Ch6</Elem>
-														<Elem>DUT_Ch7</Elem>
-														<Elem>DUT_Ch8</Elem>
-														<Elem>DUT_Ch9</Elem>
-														<Elem>DUT_Ch10</Elem>
-														<Elem>DUT_Ch11</Elem>
-														<Elem>DUT_Ch12</Elem>
-														<Elem>DUT_Ch13</Elem>
-														<Elem>DUT_Ch14</Elem>
-														<Elem>DUT_Ch15</Elem>
-													</StringArray>
-												</Elem>
-											</Dictionary>
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
-											<StringArray>
-												<Elem>DUT_Ch0</Elem>
-												<Elem>LOAD_Ch0</Elem>
-												<Elem>DUT_Ch1</Elem>
-												<Elem>LOAD_Ch1</Elem>
-												<Elem>DUT_Ch2</Elem>
-												<Elem>LOAD_Ch2</Elem>
-												<Elem>DUT_Ch3</Elem>
-												<Elem>LOAD_Ch3</Elem>
-												<Elem>DUT_Ch4</Elem>
-												<Elem>LOAD_Ch4</Elem>
-												<Elem>DUT_Ch5</Elem>
-												<Elem>LOAD_Ch5</Elem>
-												<Elem>DUT_Ch6</Elem>
-												<Elem>LOAD_Ch6</Elem>
-												<Elem>DUT_Ch7</Elem>
-												<Elem>LOAD_Ch7</Elem>
-												<Elem>DUT_Ch8</Elem>
-												<Elem>LOAD_Ch8</Elem>
-												<Elem>DUT_Ch9</Elem>
-												<Elem>LOAD_Ch9</Elem>
-												<Elem>DUT_Ch10</Elem>
-												<Elem>LOAD_Ch10</Elem>
-												<Elem>DUT_Ch11</Elem>
-												<Elem>LOAD_Ch11</Elem>
-												<Elem>DUT_Ch12</Elem>
-												<Elem>LOAD_Ch12</Elem>
-												<Elem>DUT_Ch13</Elem>
-												<Elem>LOAD_Ch13</Elem>
-												<Elem>DUT_Ch14</Elem>
-												<Elem>LOAD_Ch14</Elem>
-												<Elem>DUT_Ch15</Elem>
-												<Elem>LOAD_Ch15</Elem>
-												<Elem>BusA</Elem>
-												<Elem>BusB</Elem>
-											</StringArray>
-										</Property>
-										<Property Name="user.CD.Routing and Faulting.Configuration Revision">
-											<U32>11</U32>
-										</Property>
-										<Property Name="user.CD.Slot #">
-											<I32>2</I32>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="Endpoint Configuration" TypeGUID="f35fa8c0-605e-4a68-bbe7-65ff21f249ff">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.DUT_Ch0">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch0">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch1">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch1">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch2">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch2">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch3">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch3">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch4">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch4">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch5">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch5">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch6">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch6">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch7">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch7">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch8">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch8">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch9">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch9">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch10">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch10">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch11">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch11">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch12">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch12">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch13">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch13">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch14">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch14">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.DUT_Ch15">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.LOAD_Ch15">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.BusA">
-												<String>Load</String>
-											</Property>
-											<Property Name="user.CD.BusB">
-												<String>Load</String>
-											</Property>
-										</Properties>
-										<Errors />
-									</Section>
-									<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
-										<Description />
-										<Properties />
-										<Errors />
-										<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-											<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
-											<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-								<Section Name="Slot 3 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 4 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 5 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 6 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 7 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 8 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 9 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 10 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 11 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-								<Section Name="Slot 12 (Empty)" TypeGUID="8a754f70-4d3d-42e2-9846-157cb4981bb4">
-									<Description />
-									<Properties />
-									<Errors />
-								</Section>
-							</Section>
-							<Section Name="Channels" TypeGUID="fa98037a-a524-4a77-b7d2-13997631fa25">
-								<Description />
-								<Properties />
-								<Errors />
-								<Section Name="BatteryVoltageSensor" TypeGUID="96faf7a1-7cab-4db2-971e-68b73536c883">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="SensorReading" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
-										<Description>The current voltage of the battery in unit voltage.</Description>
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="SensorNominal" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
-										<Description>The nomial voltage of the battery in unit voltage.</Description>
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>3.6</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="SensorLowerCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
-										<Description>The lower battery threshold in unit voltage.</Description>
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>2.9</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="HealthState" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
-										<Description>Health State of the chassis battery.
-
--1: Unknown
-0: Normal
-1: OutOfSpec
-2: RiskOfDamage</Description>
-										<Properties>
-											<Property Name="Value Table">
-												<Dictionary>
-													<Elem Key="Unknown">
-														<Double>-1</Double>
-													</Elem>
-													<Elem Key="Normal">
-														<Double>0</Double>
-													</Elem>
-													<Elem Key="OutOfSpec">
-														<Double>1</Double>
-													</Elem>
-													<Elem Key="RiskOfDamage">
-														<Double>2</Double>
-													</Elem>
-												</Dictionary>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>-1</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-								<Section Name="FanVoltageSensor" TypeGUID="96faf7a1-7cab-4db2-971e-68b73536c883">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="SensorReading" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
-										<Description>The current voltage of the fan in unit voltage.</Description>
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="SensorLowerCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
-										<Description>The fan's lower threshold of the operating voltage in unit voltage.</Description>
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0.08</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="SensorUpperCritical" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Double" BitFields="1">
-										<Description>The fan's upper threshold of the operating voltage in unit voltage.</Description>
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0.12</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="HealthState" TypeGUID="92ef77b2-7367-42f8-a914-3eb37c710e2e" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
-										<Description>Health State of the chassis fan.
-
--1: Unknown
-0: Normal
-1: OutOfSpec
-2: RiskOfDamage</Description>
-										<Properties>
-											<Property Name="Value Table">
-												<Dictionary>
-													<Elem Key="Unknown">
-														<Double>-1</Double>
-													</Elem>
-													<Elem Key="Normal">
-														<Double>0</Double>
-													</Elem>
-													<Elem Key="OutOfSpec">
-														<Double>1</Double>
-													</Elem>
-													<Elem Key="RiskOfDamage">
-														<Double>2</Double>
-													</Elem>
-												</Dictionary>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>-1</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-							</Section>
-						</Section>
 					</Section>
 				</Section>
 				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
 					<Description />
 					<Properties />
 					<Errors />
+					<Section Name="NI-SWITCH" TypeGUID="4ed8d91a-594e-4e06-bfbe-33c7275857dc">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Loop type">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Use Dev Clk">
+								<Boolean>false</Boolean>
+							</Property>
+							<Property Name="Decimation">
+								<I32>1</I32>
+							</Property>
+							<Property Name="FIFO Source">
+								<U32>1</U32>
+							</Property>
+							<Property Name="FIFO Sink">
+								<U32>1</U32>
+							</Property>
+							<Property Name="TL Priority">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Linux_x64\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\PharLap\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Windows\NI-SWITCH Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NI-SWITCH Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Pharlap\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Pharlap\NISWITCHMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Pharlap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Linux_x64\CDMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\CDMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>40f05b494c87a84d768b873633d1071b</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_4">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\NI-SWITCH\Linux_x64\NISWITCHMessaging.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI-SWITCH\NISWITCHMessaging.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>9540e4cb8aee1c8c7887b453d4803624</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.API Version">
+								<U32>1</U32>
+							</Property>
+							<Property Name="user.CD.Resource">
+								<String>PXI1Slot2</String>
+							</Property>
+							<Property Name="user.CD.Topology">
+								<String>2510/Independent</String>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Possible Connections">
+								<Dictionary>
+									<Elem Key="a0">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="a1">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="a2">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="a3">
+										<StringArray>
+											<Elem>busa</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b0">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b1">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b2">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="b3">
+										<StringArray>
+											<Elem>busb</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="busa">
+										<StringArray>
+											<Elem>a0</Elem>
+											<Elem>a1</Elem>
+											<Elem>a2</Elem>
+											<Elem>a3</Elem>
+											<Elem>dut0</Elem>
+											<Elem>dut1</Elem>
+											<Elem>dut2</Elem>
+											<Elem>dut3</Elem>
+											<Elem>dut4</Elem>
+											<Elem>dut5</Elem>
+											<Elem>dut6</Elem>
+											<Elem>dut7</Elem>
+											<Elem>dut8</Elem>
+											<Elem>dut9</Elem>
+											<Elem>dut10</Elem>
+											<Elem>dut11</Elem>
+											<Elem>dut12</Elem>
+											<Elem>dut13</Elem>
+											<Elem>dut14</Elem>
+											<Elem>dut15</Elem>
+											<Elem>dut16</Elem>
+											<Elem>dut17</Elem>
+											<Elem>dut18</Elem>
+											<Elem>dut19</Elem>
+											<Elem>dut20</Elem>
+											<Elem>dut21</Elem>
+											<Elem>dut22</Elem>
+											<Elem>dut23</Elem>
+											<Elem>dut24</Elem>
+											<Elem>dut25</Elem>
+											<Elem>dut26</Elem>
+											<Elem>dut27</Elem>
+											<Elem>dut28</Elem>
+											<Elem>dut29</Elem>
+											<Elem>dut30</Elem>
+											<Elem>dut31</Elem>
+											<Elem>dut32</Elem>
+											<Elem>dut33</Elem>
+											<Elem>dut34</Elem>
+											<Elem>dut35</Elem>
+											<Elem>dut36</Elem>
+											<Elem>dut37</Elem>
+											<Elem>dut38</Elem>
+											<Elem>dut39</Elem>
+											<Elem>dut40</Elem>
+											<Elem>dut41</Elem>
+											<Elem>dut42</Elem>
+											<Elem>dut43</Elem>
+											<Elem>dut44</Elem>
+											<Elem>dut45</Elem>
+											<Elem>dut46</Elem>
+											<Elem>dut47</Elem>
+											<Elem>dut48</Elem>
+											<Elem>dut49</Elem>
+											<Elem>dut50</Elem>
+											<Elem>dut51</Elem>
+											<Elem>dut52</Elem>
+											<Elem>dut53</Elem>
+											<Elem>dut54</Elem>
+											<Elem>dut55</Elem>
+											<Elem>dut56</Elem>
+											<Elem>dut57</Elem>
+											<Elem>dut58</Elem>
+											<Elem>dut59</Elem>
+											<Elem>dut60</Elem>
+											<Elem>dut61</Elem>
+											<Elem>dut62</Elem>
+											<Elem>dut63</Elem>
+											<Elem>dut64</Elem>
+											<Elem>dut65</Elem>
+											<Elem>dut66</Elem>
+											<Elem>dut67</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="busb">
+										<StringArray>
+											<Elem>b0</Elem>
+											<Elem>b1</Elem>
+											<Elem>b2</Elem>
+											<Elem>b3</Elem>
+											<Elem>dut0</Elem>
+											<Elem>dut1</Elem>
+											<Elem>dut2</Elem>
+											<Elem>dut3</Elem>
+											<Elem>dut4</Elem>
+											<Elem>dut5</Elem>
+											<Elem>dut6</Elem>
+											<Elem>dut7</Elem>
+											<Elem>dut8</Elem>
+											<Elem>dut9</Elem>
+											<Elem>dut10</Elem>
+											<Elem>dut11</Elem>
+											<Elem>dut12</Elem>
+											<Elem>dut13</Elem>
+											<Elem>dut14</Elem>
+											<Elem>dut15</Elem>
+											<Elem>dut16</Elem>
+											<Elem>dut17</Elem>
+											<Elem>dut18</Elem>
+											<Elem>dut19</Elem>
+											<Elem>dut20</Elem>
+											<Elem>dut21</Elem>
+											<Elem>dut22</Elem>
+											<Elem>dut23</Elem>
+											<Elem>dut24</Elem>
+											<Elem>dut25</Elem>
+											<Elem>dut26</Elem>
+											<Elem>dut27</Elem>
+											<Elem>dut28</Elem>
+											<Elem>dut29</Elem>
+											<Elem>dut30</Elem>
+											<Elem>dut31</Elem>
+											<Elem>dut32</Elem>
+											<Elem>dut33</Elem>
+											<Elem>dut34</Elem>
+											<Elem>dut35</Elem>
+											<Elem>dut36</Elem>
+											<Elem>dut37</Elem>
+											<Elem>dut38</Elem>
+											<Elem>dut39</Elem>
+											<Elem>dut40</Elem>
+											<Elem>dut41</Elem>
+											<Elem>dut42</Elem>
+											<Elem>dut43</Elem>
+											<Elem>dut44</Elem>
+											<Elem>dut45</Elem>
+											<Elem>dut46</Elem>
+											<Elem>dut47</Elem>
+											<Elem>dut48</Elem>
+											<Elem>dut49</Elem>
+											<Elem>dut50</Elem>
+											<Elem>dut51</Elem>
+											<Elem>dut52</Elem>
+											<Elem>dut53</Elem>
+											<Elem>dut54</Elem>
+											<Elem>dut55</Elem>
+											<Elem>dut56</Elem>
+											<Elem>dut57</Elem>
+											<Elem>dut58</Elem>
+											<Elem>dut59</Elem>
+											<Elem>dut60</Elem>
+											<Elem>dut61</Elem>
+											<Elem>dut62</Elem>
+											<Elem>dut63</Elem>
+											<Elem>dut64</Elem>
+											<Elem>dut65</Elem>
+											<Elem>dut66</Elem>
+											<Elem>dut67</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch0">
+										<StringArray>
+											<Elem>dut0</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch1">
+										<StringArray>
+											<Elem>dut1</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch2">
+										<StringArray>
+											<Elem>dut2</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch3">
+										<StringArray>
+											<Elem>dut3</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch4">
+										<StringArray>
+											<Elem>dut4</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch5">
+										<StringArray>
+											<Elem>dut5</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch6">
+										<StringArray>
+											<Elem>dut6</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch7">
+										<StringArray>
+											<Elem>dut7</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch8">
+										<StringArray>
+											<Elem>dut8</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch9">
+										<StringArray>
+											<Elem>dut9</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch10">
+										<StringArray>
+											<Elem>dut10</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch11">
+										<StringArray>
+											<Elem>dut11</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch12">
+										<StringArray>
+											<Elem>dut12</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch13">
+										<StringArray>
+											<Elem>dut13</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch14">
+										<StringArray>
+											<Elem>dut14</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch15">
+										<StringArray>
+											<Elem>dut15</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch16">
+										<StringArray>
+											<Elem>dut16</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch17">
+										<StringArray>
+											<Elem>dut17</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch18">
+										<StringArray>
+											<Elem>dut18</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch19">
+										<StringArray>
+											<Elem>dut19</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch20">
+										<StringArray>
+											<Elem>dut20</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch21">
+										<StringArray>
+											<Elem>dut21</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch22">
+										<StringArray>
+											<Elem>dut22</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch23">
+										<StringArray>
+											<Elem>dut23</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch24">
+										<StringArray>
+											<Elem>dut24</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch25">
+										<StringArray>
+											<Elem>dut25</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch26">
+										<StringArray>
+											<Elem>dut26</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch27">
+										<StringArray>
+											<Elem>dut27</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch28">
+										<StringArray>
+											<Elem>dut28</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch29">
+										<StringArray>
+											<Elem>dut29</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch30">
+										<StringArray>
+											<Elem>dut30</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch31">
+										<StringArray>
+											<Elem>dut31</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch32">
+										<StringArray>
+											<Elem>dut32</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch33">
+										<StringArray>
+											<Elem>dut33</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch34">
+										<StringArray>
+											<Elem>dut34</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch35">
+										<StringArray>
+											<Elem>dut35</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch36">
+										<StringArray>
+											<Elem>dut36</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch37">
+										<StringArray>
+											<Elem>dut37</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch38">
+										<StringArray>
+											<Elem>dut38</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch39">
+										<StringArray>
+											<Elem>dut39</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch40">
+										<StringArray>
+											<Elem>dut40</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch41">
+										<StringArray>
+											<Elem>dut41</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch42">
+										<StringArray>
+											<Elem>dut42</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch43">
+										<StringArray>
+											<Elem>dut43</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch44">
+										<StringArray>
+											<Elem>dut44</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch45">
+										<StringArray>
+											<Elem>dut45</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch46">
+										<StringArray>
+											<Elem>dut46</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch47">
+										<StringArray>
+											<Elem>dut47</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch48">
+										<StringArray>
+											<Elem>dut48</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch49">
+										<StringArray>
+											<Elem>dut49</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch50">
+										<StringArray>
+											<Elem>dut50</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch51">
+										<StringArray>
+											<Elem>dut51</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch52">
+										<StringArray>
+											<Elem>dut52</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch53">
+										<StringArray>
+											<Elem>dut53</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch54">
+										<StringArray>
+											<Elem>dut54</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch55">
+										<StringArray>
+											<Elem>dut55</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch56">
+										<StringArray>
+											<Elem>dut56</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch57">
+										<StringArray>
+											<Elem>dut57</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch58">
+										<StringArray>
+											<Elem>dut58</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch59">
+										<StringArray>
+											<Elem>dut59</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch60">
+										<StringArray>
+											<Elem>dut60</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch61">
+										<StringArray>
+											<Elem>dut61</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch62">
+										<StringArray>
+											<Elem>dut62</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch63">
+										<StringArray>
+											<Elem>dut63</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch64">
+										<StringArray>
+											<Elem>dut64</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch65">
+										<StringArray>
+											<Elem>dut65</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch66">
+										<StringArray>
+											<Elem>dut66</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="ch67">
+										<StringArray>
+											<Elem>dut67</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut0">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch0</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut1">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch1</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut2">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch2</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut3">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch3</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut4">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch4</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut5">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch5</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut6">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch6</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut7">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch7</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut8">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch8</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut9">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch9</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut10">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch10</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut11">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch11</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut12">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch12</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut13">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch13</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut14">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch14</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut15">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch15</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut16">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch16</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut17">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch17</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut18">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch18</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut19">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch19</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut20">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch20</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut21">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch21</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut22">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch22</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut23">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch23</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut24">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch24</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut25">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch25</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut26">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch26</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut27">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch27</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut28">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch28</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut29">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch29</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut30">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch30</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut31">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch31</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut32">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch32</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut33">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch33</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut34">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch34</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut35">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch35</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut36">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch36</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut37">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch37</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut38">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch38</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut39">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch39</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut40">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch40</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut41">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch41</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut42">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch42</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut43">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch43</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut44">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch44</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut45">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch45</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut46">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch46</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut47">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch47</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut48">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch48</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut49">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch49</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut50">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch50</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut51">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch51</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut52">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch52</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut53">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch53</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut54">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch54</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut55">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch55</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut56">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch56</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut57">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch57</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut58">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch58</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut59">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch59</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut60">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch60</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut61">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch61</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut62">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch62</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut63">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch63</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut64">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch64</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut65">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch65</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut66">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch66</Elem>
+										</StringArray>
+									</Elem>
+									<Elem Key="dut67">
+										<StringArray>
+											<Elem>busa</Elem>
+											<Elem>busb</Elem>
+											<Elem>ch67</Elem>
+										</StringArray>
+									</Elem>
+								</Dictionary>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Addressable Endpoints">
+								<StringArray>
+									<Elem>a0</Elem>
+									<Elem>a1</Elem>
+									<Elem>a2</Elem>
+									<Elem>a3</Elem>
+									<Elem>b0</Elem>
+									<Elem>b1</Elem>
+									<Elem>b2</Elem>
+									<Elem>b3</Elem>
+									<Elem>busa</Elem>
+									<Elem>busb</Elem>
+									<Elem>ch0</Elem>
+									<Elem>ch1</Elem>
+									<Elem>ch2</Elem>
+									<Elem>ch3</Elem>
+									<Elem>ch4</Elem>
+									<Elem>ch5</Elem>
+									<Elem>ch6</Elem>
+									<Elem>ch7</Elem>
+									<Elem>ch8</Elem>
+									<Elem>ch9</Elem>
+									<Elem>ch10</Elem>
+									<Elem>ch11</Elem>
+									<Elem>ch12</Elem>
+									<Elem>ch13</Elem>
+									<Elem>ch14</Elem>
+									<Elem>ch15</Elem>
+									<Elem>ch16</Elem>
+									<Elem>ch17</Elem>
+									<Elem>ch18</Elem>
+									<Elem>ch19</Elem>
+									<Elem>ch20</Elem>
+									<Elem>ch21</Elem>
+									<Elem>ch22</Elem>
+									<Elem>ch23</Elem>
+									<Elem>ch24</Elem>
+									<Elem>ch25</Elem>
+									<Elem>ch26</Elem>
+									<Elem>ch27</Elem>
+									<Elem>ch28</Elem>
+									<Elem>ch29</Elem>
+									<Elem>ch30</Elem>
+									<Elem>ch31</Elem>
+									<Elem>ch32</Elem>
+									<Elem>ch33</Elem>
+									<Elem>ch34</Elem>
+									<Elem>ch35</Elem>
+									<Elem>ch36</Elem>
+									<Elem>ch37</Elem>
+									<Elem>ch38</Elem>
+									<Elem>ch39</Elem>
+									<Elem>ch40</Elem>
+									<Elem>ch41</Elem>
+									<Elem>ch42</Elem>
+									<Elem>ch43</Elem>
+									<Elem>ch44</Elem>
+									<Elem>ch45</Elem>
+									<Elem>ch46</Elem>
+									<Elem>ch47</Elem>
+									<Elem>ch48</Elem>
+									<Elem>ch49</Elem>
+									<Elem>ch50</Elem>
+									<Elem>ch51</Elem>
+									<Elem>ch52</Elem>
+									<Elem>ch53</Elem>
+									<Elem>ch54</Elem>
+									<Elem>ch55</Elem>
+									<Elem>ch56</Elem>
+									<Elem>ch57</Elem>
+									<Elem>ch58</Elem>
+									<Elem>ch59</Elem>
+									<Elem>ch60</Elem>
+									<Elem>ch61</Elem>
+									<Elem>ch62</Elem>
+									<Elem>ch63</Elem>
+									<Elem>ch64</Elem>
+									<Elem>ch65</Elem>
+									<Elem>ch66</Elem>
+									<Elem>ch67</Elem>
+									<Elem>dut0</Elem>
+									<Elem>dut1</Elem>
+									<Elem>dut2</Elem>
+									<Elem>dut3</Elem>
+									<Elem>dut4</Elem>
+									<Elem>dut5</Elem>
+									<Elem>dut6</Elem>
+									<Elem>dut7</Elem>
+									<Elem>dut8</Elem>
+									<Elem>dut9</Elem>
+									<Elem>dut10</Elem>
+									<Elem>dut11</Elem>
+									<Elem>dut12</Elem>
+									<Elem>dut13</Elem>
+									<Elem>dut14</Elem>
+									<Elem>dut15</Elem>
+									<Elem>dut16</Elem>
+									<Elem>dut17</Elem>
+									<Elem>dut18</Elem>
+									<Elem>dut19</Elem>
+									<Elem>dut20</Elem>
+									<Elem>dut21</Elem>
+									<Elem>dut22</Elem>
+									<Elem>dut23</Elem>
+									<Elem>dut24</Elem>
+									<Elem>dut25</Elem>
+									<Elem>dut26</Elem>
+									<Elem>dut27</Elem>
+									<Elem>dut28</Elem>
+									<Elem>dut29</Elem>
+									<Elem>dut30</Elem>
+									<Elem>dut31</Elem>
+									<Elem>dut32</Elem>
+									<Elem>dut33</Elem>
+									<Elem>dut34</Elem>
+									<Elem>dut35</Elem>
+									<Elem>dut36</Elem>
+									<Elem>dut37</Elem>
+									<Elem>dut38</Elem>
+									<Elem>dut39</Elem>
+									<Elem>dut40</Elem>
+									<Elem>dut41</Elem>
+									<Elem>dut42</Elem>
+									<Elem>dut43</Elem>
+									<Elem>dut44</Elem>
+									<Elem>dut45</Elem>
+									<Elem>dut46</Elem>
+									<Elem>dut47</Elem>
+									<Elem>dut48</Elem>
+									<Elem>dut49</Elem>
+									<Elem>dut50</Elem>
+									<Elem>dut51</Elem>
+									<Elem>dut52</Elem>
+									<Elem>dut53</Elem>
+									<Elem>dut54</Elem>
+									<Elem>dut55</Elem>
+									<Elem>dut56</Elem>
+									<Elem>dut57</Elem>
+									<Elem>dut58</Elem>
+									<Elem>dut59</Elem>
+									<Elem>dut60</Elem>
+									<Elem>dut61</Elem>
+									<Elem>dut62</Elem>
+									<Elem>dut63</Elem>
+									<Elem>dut64</Elem>
+									<Elem>dut65</Elem>
+									<Elem>dut66</Elem>
+									<Elem>dut67</Elem>
+								</StringArray>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Configuration Revision">
+								<U32>5</U32>
+							</Property>
+							<Property Name="user.CD.Routing and Faulting.Initially Connected Endpoints">
+								<StringArray>
+									<Elem>ch0,dut0</Elem>
+									<Elem>ch1,dut1</Elem>
+									<Elem>ch2,dut2</Elem>
+									<Elem>ch3,dut3</Elem>
+									<Elem>ch4,dut4</Elem>
+									<Elem>ch5,dut5</Elem>
+									<Elem>ch6,dut6</Elem>
+									<Elem>ch7,dut7</Elem>
+									<Elem>ch8,dut8</Elem>
+									<Elem>ch9,dut9</Elem>
+									<Elem>ch10,dut10</Elem>
+									<Elem>ch11,dut11</Elem>
+									<Elem>ch12,dut12</Elem>
+									<Elem>ch13,dut13</Elem>
+									<Elem>ch14,dut14</Elem>
+									<Elem>ch15,dut15</Elem>
+									<Elem>ch16,dut16</Elem>
+									<Elem>ch17,dut17</Elem>
+									<Elem>ch18,dut18</Elem>
+									<Elem>ch19,dut19</Elem>
+									<Elem>ch20,dut20</Elem>
+									<Elem>ch21,dut21</Elem>
+									<Elem>ch22,dut22</Elem>
+									<Elem>ch23,dut23</Elem>
+									<Elem>ch24,dut24</Elem>
+									<Elem>ch25,dut25</Elem>
+									<Elem>ch26,dut26</Elem>
+									<Elem>ch27,dut27</Elem>
+									<Elem>ch28,dut28</Elem>
+									<Elem>ch29,dut29</Elem>
+									<Elem>ch30,dut30</Elem>
+									<Elem>ch31,dut31</Elem>
+									<Elem>ch32,dut32</Elem>
+									<Elem>ch33,dut33</Elem>
+									<Elem>ch34,dut34</Elem>
+									<Elem>ch35,dut35</Elem>
+									<Elem>ch36,dut36</Elem>
+									<Elem>ch37,dut37</Elem>
+									<Elem>ch38,dut38</Elem>
+									<Elem>ch39,dut39</Elem>
+									<Elem>ch40,dut40</Elem>
+									<Elem>ch41,dut41</Elem>
+									<Elem>ch42,dut42</Elem>
+									<Elem>ch43,dut43</Elem>
+									<Elem>ch44,dut44</Elem>
+									<Elem>ch45,dut45</Elem>
+									<Elem>ch46,dut46</Elem>
+									<Elem>ch47,dut47</Elem>
+									<Elem>ch48,dut48</Elem>
+									<Elem>ch49,dut49</Elem>
+									<Elem>ch50,dut50</Elem>
+									<Elem>ch51,dut51</Elem>
+									<Elem>ch52,dut52</Elem>
+									<Elem>ch53,dut53</Elem>
+									<Elem>ch54,dut54</Elem>
+									<Elem>ch55,dut55</Elem>
+									<Elem>ch56,dut56</Elem>
+									<Elem>ch57,dut57</Elem>
+									<Elem>ch58,dut58</Elem>
+									<Elem>ch59,dut59</Elem>
+									<Elem>ch60,dut60</Elem>
+									<Elem>ch61,dut61</Elem>
+									<Elem>ch62,dut62</Elem>
+									<Elem>ch63,dut63</Elem>
+									<Elem>ch64,dut64</Elem>
+									<Elem>ch65,dut65</Elem>
+									<Elem>ch66,dut66</Elem>
+									<Elem>ch67,dut67</Elem>
+								</StringArray>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Endpoint Configuration" TypeGUID="c99cfbe4-32a5-4370-896f-695dafdfbaf2">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.a0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.a1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.a2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.a3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.b3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.busa">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.busb">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch4">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch5">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch6">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch7">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch8">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch9">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch10">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch11">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch12">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch13">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch14">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch15">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch16">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch17">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch18">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch19">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch20">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch21">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch22">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch23">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch24">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch25">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch26">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch27">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch28">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch29">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch30">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch31">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch32">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch33">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch34">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch35">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch36">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch37">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch38">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch39">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch40">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch41">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch42">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch43">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch44">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch45">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch46">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch47">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch48">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch49">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch50">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch51">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch52">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch53">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch54">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch55">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch56">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch57">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch58">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch59">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch60">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch61">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch62">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch63">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch64">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch65">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch66">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.ch67">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut0">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut1">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut2">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut3">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut4">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut5">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut6">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut7">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut8">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut9">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut10">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut11">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut12">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut13">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut14">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut15">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut16">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut17">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut18">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut19">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut20">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut21">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut22">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut23">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut24">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut25">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut26">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut27">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut28">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut29">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut30">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut31">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut32">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut33">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut34">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut35">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut36">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut37">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut38">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut39">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut40">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut41">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut42">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut43">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut44">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut45">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut46">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut47">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut48">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut49">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut50">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut51">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut52">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut53">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut54">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut55">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut56">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut57">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut58">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut59">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut60">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut61">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut62">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut63">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut64">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut65">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut66">
+									<String>Load</String>
+								</Property>
+								<Property Name="user.CD.dut67">
+									<String>Load</String>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Status" TypeGUID="fafe2633-52e8-4be6-bb95-b07e42834d60">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Status code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Status code of the custom device. A negative value indicates failure. A positive value indicates warning.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Heartbeat" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Running count used for debugging. If this channel continues to increment, the custom device is still executing.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+					</Section>
 					<Section Name="Routing and Faulting" TypeGUID="4e591626-626d-4903-9a6e-1f2a7b879f4d">
 						<Description />
 						<Properties>
@@ -1000,7 +2061,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
 									<SupportedTarget>Pharlap</SupportedTarget>
-									<MD5>bd30a9ceb08dc366ccc7cbf39f9eb083</MD5>
+									<MD5>24550d4b79edc16d56e44252c4bf0eb6</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_2">
@@ -1008,7 +2069,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
+									<MD5>0acde12785d8731287712edb7a983fef</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="Dependency_3">
@@ -1016,7 +2077,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Routing and Faulting\CDMessaging.lvlibp</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
-									<MD5 />
+									<MD5>e16af9f6a74f848ba74ed66b3f30f8b9</MD5>
 								</DependentFile>
 							</Property>
 							<Property Name="user.CD.Modules">
@@ -1025,10 +2086,10 @@
 								</StringArray>
 							</Property>
 							<Property Name="user.CD.Modules.0">
-								<DependentNode Path="Targets/Controller/Hardware/SLSC/SLSC Chassis/Modules/Slot 2 (SLSC Switch)" />
+								<DependentNode Path="Targets/Controller/Custom Devices/NI-SWITCH" />
 							</Property>
 							<Property Name="user.CD.Revisions.0">
-								<U32>11</U32>
+								<U32>5</U32>
 							</Property>
 						</Properties>
 						<Errors />
@@ -1070,17 +2131,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>0,DUT_Ch0,LOAD_Ch0</Elem>
+													<Elem>0,dut0,ch0</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Ground">
 												<StringArray>
-													<Elem>0,DUT_Ch0,BusA</Elem>
+													<Elem>0,dut0,busa</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Power">
 												<StringArray>
-													<Elem>0,DUT_Ch0,BusB</Elem>
+													<Elem>0,dut0,busb</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Open Circuit">
@@ -1142,17 +2203,17 @@
 											</Elem>
 											<Elem Key="Passthrough">
 												<StringArray>
-													<Elem>0,DUT_Ch1,LOAD_Ch1</Elem>
+													<Elem>0,dut1,ch1</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Ground">
 												<StringArray>
-													<Elem>0,DUT_Ch1,BusA</Elem>
+													<Elem>0,dut1,busa</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Short to Power">
 												<StringArray>
-													<Elem>0,DUT_Ch1,BusB</Elem>
+													<Elem>0,dut1,busb</Elem>
 												</StringArray>
 											</Elem>
 											<Elem Key="Open Circuit">
