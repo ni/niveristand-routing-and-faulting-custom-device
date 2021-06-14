@@ -13,4 +13,4 @@ Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: NI-SWITCH for VeriStand {veristand_version}
 Depends: {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0), ni-switch (>= {labview_short_version}.0.0)
-Recommends: ni-switch-veristand-{veristand_version}-labview-support (>= {display_version}), ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (>= {display_version})
+Recommends: ni-switch-veristand-{veristand_version}-labview-support (>= {display_version}), ni-switch-veristand-{veristand_version}-labview-examples (>= {display_version})
