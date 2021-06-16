@@ -13,4 +13,4 @@ Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: NI Routing and Faulting LabVIEW Support for VeriStand {veristand_version}
 Depends: {AUTOVERSION_ni-labview-{labview_version}-x86}, {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0), ni-routing-and-faulting-veristand-{veristand_version}-support (>= {display_version}), ni-veristand-{veristand_version}-custom-device-labview-support-common
-Recommends: ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (>= {display_version})
+Recommends: ni-switch-veristand-{veristand_version}-labview-examples (>= {display_version}), ni-slsc-switch-veristand-{veristand_version}-labview-examples (>= {display_version})
