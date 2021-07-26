@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::NI-SWITCH</eng>
-		<loc>National Instruments::NI-SWITCH</loc>
+		<eng>NI::NI-SWITCH</eng>
+		<loc>NI::NI-SWITCH</loc>
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Asynchronous</Type>

@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
   <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>National Instruments::Routing and Faulting</eng>
-    <loc>National Instruments::Routing and Faulting</loc>
+    <eng>NI::Routing and Faulting</eng>
+    <loc>NI::Routing and Faulting</loc>
   </AddMenu>
   <Version>1.0.0</Version>
   <Type>Asynchronous</Type>
