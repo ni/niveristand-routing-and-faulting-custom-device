@@ -38,28 +38,12 @@ build_spec = 'Engine Release'
 dependency_target = 'Windows'
 
 [[build.steps]]
-name = 'Routing and Faulting Pharlap Engine Library'
-type = 'lvBuildSpec'
-project = '{raf}'
-target = 'RT PXI Target'
-build_spec = 'Engine Release'
-dependency_target = 'Pharlap'
-
-[[build.steps]]
 name = 'Routing and Faulting Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{raf}'
-target = 'RT CompactRIO Target - Linux x64'
+target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
-
-[[build.steps]]
-name = 'Routing and Faulting Linux x86 Engine Library'
-type = 'lvBuildSpec'
-project = '{raf}'
-target = 'RT CompactRIO Target - Linux ARM'
-build_spec = 'Engine Release'
-dependency_target = 'Linux_32_ARM'
 
 [[build.steps]]
 name = 'Routing and Faulting Scripting API'
@@ -86,28 +70,12 @@ build_spec = 'Engine Release'
 dependency_target = 'Windows'
 
 [[build.steps]]
-name = 'SLSC Switch Pharlap Engine Library'
-type = 'lvBuildSpec'
-project = '{slsc}'
-target = 'RT PXI Target'
-build_spec = 'Engine Release'
-dependency_target = 'Pharlap'
-
-[[build.steps]]
 name = 'SLSC Switch Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{slsc}'
-target = 'RT CompactRIO Target - Linux x64'
+target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
-
-[[build.steps]]
-name = 'SLSC Switch Linux x86 Engine Library'
-type = 'lvBuildSpec'
-project = '{slsc}'
-target = 'RT CompactRIO Target - Linux ARM'
-build_spec = 'Engine Release'
-dependency_target = 'Linux_32_ARM'
 
 [[build.steps]]
 name = 'SLSC Switch Scripting API'
@@ -134,18 +102,10 @@ build_spec = 'Engine Release'
 dependency_target = 'Windows'
 
 [[build.steps]]
-name = 'NI-SWITCH Pharlap Engine Library'
-type = 'lvBuildSpec'
-project = '{ni_switch}'
-target = 'RT PXI Target'
-build_spec = 'Engine Release'
-dependency_target = 'Pharlap'
-
-[[build.steps]]
 name = 'NI-SWITCH Linux x64 Engine Library'
 type = 'lvBuildSpec'
 project = '{ni_switch}'
-target = 'RT CompactRIO Target - Linux x64'
+target = 'Linux x64'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
 
