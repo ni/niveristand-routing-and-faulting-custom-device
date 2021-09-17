@@ -140,7 +140,7 @@ package_output_dir = 'Source\Built'
 
 [package.payload_map]
 'Source\\Built\\Routing and Faulting' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Routing and Faulting'
-'Source\\Built\\Errors\\Routing and Faulting' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Source\\Built\\Errors\\Routing and Faulting' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [[package]]
 type = 'nipkg'
@@ -148,8 +148,8 @@ control_file = 'control_routing_faulting_scripting'
 package_output_dir = 'Source\Built'
 
 [package.payload_map]
-'Source\\Built\\Scripting\\Routing and Faulting' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
-'Source\\Built\\Errors\\Routing and Faulting' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
+'Source\\Built\\Scripting\\Routing and Faulting' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
+'Source\\Built\\Errors\\Routing and Faulting' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\resource\errors\English'
 
 [[package]]
 type = 'nipkg'
@@ -158,7 +158,7 @@ package_output_dir = 'Source\Built'
 
 [package.payload_map]
 'Source\\Built\\SLSC Switch' = 'documents\National Instruments\NI VeriStand {veristand_version}\SLSC Plugins\Modules\SLSC Switch'
-'Source\\Built\\Errors\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
+'Source\\Built\\Errors\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\resource\errors\English'
 
 [[package]]
 type = 'nipkg'
@@ -166,8 +166,8 @@ control_file = 'control_slsc_switch_scripting'
 package_output_dir = 'Source\Built'
 
 [package.payload_map]
-'Source\\Built\\Scripting\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
-'Source\\Built\\Errors\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
+'Source\\Built\\Scripting\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
+'Source\\Built\\Errors\\SLSC Switch' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\resource\errors\English'
 
 [[package]]
 type = 'nipkg'
@@ -176,7 +176,7 @@ package_output_dir = 'Source\Built'
 
 [package.payload_map]
 'Source\\Built\\NI-SWITCH' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\NI-SWITCH'
-'Source\\Built\\Errors\\NI-SWITCH' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Source\\Built\\Errors\\NI-SWITCH' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [[package]]
 type = 'nipkg'
@@ -184,27 +184,27 @@ control_file = 'control_ni_switch_scripting'
 package_output_dir = 'Source\Built'
 
 [package.payload_map]
-'Source\\Built\\Scripting\\NI-SWITCH' = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
-'Source\\Built\\Errors\\NI-SWITCH' = 'ni-paths-LV{veristand_version}DIR\resource\errors\English'
+'Source\\Built\\Scripting\\NI-SWITCH' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
+'Source\\Built\\Errors\\NI-SWITCH' = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\resource\errors\English'
 
 [[package]]
 type = 'nipkg'
 payload_dir = 'Source\Built\SLSC Switch Scripting Examples'
-install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\SLSC Switch'
+install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\examples\NI VeriStand Custom Devices\SLSC Switch'
 control_file = 'control_slsc_switch_examples'
 package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
 payload_dir = 'Source\Built\NI-SWITCH Scripting Examples'
-install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\NI-SWITCH'
+install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\examples\NI VeriStand Custom Devices\NI-SWITCH'
 control_file = 'control_ni_switch_examples'
 package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
 payload_dir = 'Source\Shared\Custom Device LabVIEW Common'
-install_destination = 'ni-paths-LV{veristand_version}DIR'
+install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}'
 control_file = 'control_custom_device_labview_support_common'
 package_output_dir = 'Source\Built'
 
