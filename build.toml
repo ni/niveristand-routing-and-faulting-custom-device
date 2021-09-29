@@ -201,12 +201,5 @@ install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suff
 control_file = 'control_ni_switch_examples'
 package_output_dir = 'Source\Built'
 
-[[package]]
-type = 'nipkg'
-payload_dir = 'Source\Shared\Custom Device LabVIEW Common'
-install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}'
-control_file = 'control_custom_device_labview_support_common'
-package_output_dir = 'Source\Built'
-
 [notification]
 type = 'teams'
