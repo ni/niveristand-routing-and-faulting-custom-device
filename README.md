@@ -4,12 +4,12 @@ The **Routing and Faulting Custom Device** allows users to configure routes and 
 
 ## LabVIEW Version
 
-LabVIEW 2017
+LabVIEW 2019
 
 ## Dependencies
 
 - NI-SLSC >= 19.5
-- NI-SWITCH >= 17.0
+- NI-SWITCH >= 19.0
 - [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
 - [Routing and Faulting Message Library](https://github.com/ni/niveristand-routing-and-faulting-message-library)
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
