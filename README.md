@@ -4,7 +4,7 @@ The **Routing and Faulting Custom Device** allows users to configure routes and 
 
 ## Using the Custom Device
 
-- Download the latest release package from the [Releases page](https://github.com/ni/niveristand-routing-and-faulting-custom-device/releases/).
+- Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-routing-and-faulting-custom-device/releases/)
 - See the [User Guide](Docs/User%20Guide.md) for a walkthrough of using the Custom Device.
 - See the [Developer Guide](Docs/Developer%20Guide.md) for information about extending the Custom Device.
 
@@ -18,7 +18,7 @@ LabVIEW 2019
 
 - [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
   - Includes [NI-SLSC](https://www.ni.com/en-us/support/downloads/drivers/download.ni-slsc.html)
-- [NI-SWITCH](https://www.ni.com/en-us/support/downloads/drivers/download.ni-switch.html)
+- [NI-SWITCH](https://www.ni.com/en-us/support/downloads/drivers/download.ni-switch.html) (if using the NI-SWITCH Custom Device)
 
 ### Real-Time target software components
 
