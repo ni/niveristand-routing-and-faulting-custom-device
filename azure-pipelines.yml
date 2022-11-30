@@ -1,0 +1,91 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+      - release/*
+
+resources:
+  repositories:
+    - repository: niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: ni (2)
+      name: ni/niveristand-custom-device-build-tools
+
+pool:
+  name: custom-device-temp
+  demands:
+    - agent.os -equals Windows_NT
+
+# Custom Device-specific Parameters
+parameters:
+  - name:    customDeviceRepoName
+    type:    string
+    default: imitation-cd
+    # LabVIEW Versions to Build
+  - name:    lvVersions
+    type:    object
+    default:
+      - version: '2020'
+        bitness: '32-bit'
+        releaseVersion: '20.0'
+        quarterlyVersion: ''
+      - version: '2021'
+        bitness: '64-bit'
+        releaseVersion: '21.0'
+      - version: '2023'
+        bitness: '64-bit'
+        releaseVersion: '23.0'
+# Build Output Location
+  - name:    buildOutputLocation
+    type:    string
+    default: 'Built'
+  - name:    nipkgInstallLocation
+    type:    string
+    default: 'documents\National Instruments\NI VeriStand $(lvVersion)\SLSC Plugins\Modules'
+# Post-build Archive Location
+  - name:    archiveLocation
+    type:    string
+    default: '\\nirvana\temp\papower\Measurements\VeriStandAddons\imitation-cd'
+# Custom Device Build Steps (project location, LabVIEW CLI Build operation)
+  - name:    buildSteps
+    type:    object
+    default:
+      - projectLocation: 'Source\TestProject.lvproj'
+        buildOperation: 'ExecuteAllBuildSpecs'
+        target: ''
+        buildSpec: ''
+# Always Run (set to True to override build skip optimization)
+  - name:    alwaysRun
+    type:    boolean
+    default: false
+
+stages:
+  - stage: build
+    jobs:
+      - ${{ each lvVersion in parameters.lvVersions }}:
+        - job:
+          displayName: Build ${{ parameters.customDeviceRepoName }} for LabVIEW ${{ lvVersion.version }}
+          steps:
+            - template: azure-templates\pre-job-steps.yml # Configure variables, check out repos, Clear cache
+              parameters:
+                customDeviceRepoName:  ${{ parameters.customDeviceRepoName }}
+                lvVersion:             ${{ lvVersion.version }}
+                bitness:               ${{ lvVersion.bitness }} 
+                archiveLocation:       ${{ parameters.archiveLocation }}
+                alwaysRun:             ${{ parameters.alwaysRun }}
+
+            - ${{ each buildStep in parameters.buildSteps }}:
+              - template: azure-templates\build-op-steps.yml # config file and build specs
+                parameters:
+                  projectLocation: ${{ buildStep.projectLocation }}
+                  buildOperation:  ${{ buildStep.buildOperation }}
+                  target:          ${{ buildStep.target }}
+                  buildSpec:       ${{ buildStep.buildSpec }}
+
+            - template: azure-templates\post-job-steps.yml # nipkg and archive
+              parameters:
+                nipkgInstallLocation: ${{ parameters.nipkgInstallLocation }}
+                buildOutputLocation:  ${{ parameters.buildOutputLocation }}
+                pack:                 true
