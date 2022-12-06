@@ -149,13 +149,57 @@ parameters:
   - name:    packages
     type:    object
     default:
-      - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\SLSC Switch'
-        controlFileName: 'control_slsc_switch_examples'
-        payloadLocation: 'Source\Built\SLSC Switch Scripting Examples'
+      - controlFileName: 'control_routing_faulting'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\Routing and Faulting'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Routing and Faulting'
+          - payloadLocation: 'Source\Built\Errors\Routing and Faulting'
+            installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
-      - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\NI-SWITCH'
-        controlFileName: 'control_ni_switch_examples'
-        payloadLocation: 'Source\Built\NI-SWITCH Scripting Examples'
+      - controlFileName: 'control_routing_faulting_scripting'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\Scripting\Routing and Faulting'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
+          - payloadLocation: 'Source\Built\Errors\Routing and Faulting'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+
+      - controlFileName: 'control_slsc_switch'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\SLSC Switch'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\SLSC Plugins\Modules\SLSC Switch'
+          - payloadLocation: 'Source\Built\Errors\SLSC Switch'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+
+      - controlFileName: 'control_slsc_switch_scripting'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\Scripting\SLSC Switch'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
+          - payloadLocation: 'Source\Built\Errors\SLSC Switch'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+
+      - controlFileName: 'control_ni_switch'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\RNI-SWITCH'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\NI-SWITCH'
+          - payloadLocation: 'Source\Built\Errors\NI-SWITCH'
+            installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+
+      - controlFileName: 'control_ni_switch_scripting'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\Scripting\NI-SWITCH'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
+          - payloadLocation: 'Source\Built\Errors\NI-SWITCH'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+
+      - controlFileName: 'control_slsc_switch_examples'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\SLSC Switch Scripting Examples'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\SLSC Switch'
+
+      - controlFileName: 'control_ni_switch_examples'
+        payloadMaps:
+          - payloadLocation: 'Source\Built\NI-SWITCH Scripting Examples'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\NI-SWITCH'
 
     # archiveLocation - location to store build artifacts for archival
   - name:    archiveLocation
@@ -189,7 +233,7 @@ stages:
 
             - template: azure-templates\post-job-steps.yml@imitation-cd # nipkg and archive
               parameters:
-                packages:             ${{ parameters.packages }}
+                packages:            ${{ parameters.packages }}
                 buildOutputLocation: ${{ parameters.buildOutputLocation }}
                 archiveLocation:     ${{ parameters.archiveLocation }}
                 pack:                false
