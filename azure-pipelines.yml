@@ -179,7 +179,7 @@ parameters:
 
       - controlFileName: 'control_ni_switch'
         payloadMaps:
-          - payloadLocation: 'Source\Built\RNI-SWITCH'
+          - payloadLocation: 'Source\Built\NI-SWITCH'
             installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\NI-SWITCH'
           - payloadLocation: 'Source\Built\Errors\NI-SWITCH'
             installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
