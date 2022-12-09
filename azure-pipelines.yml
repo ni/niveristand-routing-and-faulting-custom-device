@@ -44,20 +44,28 @@ parameters:
         bitness: '32-bit'
       - version: '2021'
         bitness: '64-bit'
-      # - version: '2023' TEMPORARY, disable 2023 build since LabVIEW is still buggy
-      #   bitness: '64-bit'
+      - version: '2023'
+        bitness: '64-bit'
+
+    # releaseVersionm quarterlyReleaseVersion - release versions for output package
+  - name:    releaseVersion
+    type:    string
+    default: '23.0.0'
+  - name:    quarterlyReleaseVersion
+    type:    string
+    default: '2023 Q1'
 
     # dependencies - source location, file, and copy destination
   - name:    dependencies
     type:    object
     default: 
-      - source: '\\nirvana\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      - source: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
         file: 'CDMessaging.lvlibp'
         destination: 'Includes'
-      - source: '\\nirvana\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      - source: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
         file: 'SLSCSwitchMessaging.lvlibp'
         destination: 'Includes'
-      - source: '\\nirvana\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      - source: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
         file: 'NISWITCHMessaging.lvlibp'
         destination: 'Includes'
 
@@ -204,7 +212,7 @@ parameters:
     # archiveLocation - location to store build artifacts for archival
   - name:    archiveLocation
     type:    string
-    default: '\\nirvana\temp\papower\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+    default: '\\daqserver\temp\papower\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
 
 # --------- Call Build Templates ---------
 # Note: If custom build steps are needed for a particular custom device, they can be inserted before or after existing templates below
@@ -221,6 +229,8 @@ stages:
                 customDeviceRepoName:  ${{ parameters.customDeviceRepoName }}
                 lvVersion:             ${{ lvVersion.version }}
                 bitness:               ${{ lvVersion.bitness }} 
+                releaseVersion:          ${{ parameters.releaseVersion }}
+                quarterlyReleaseVersion: ${{ parameters.quarterlyReleaseVersion }}
 
             - ${{ each buildStep in parameters.buildSteps }}:
               - template: azure-templates\build-op-steps.yml@imitation-cd # config file and build specs
