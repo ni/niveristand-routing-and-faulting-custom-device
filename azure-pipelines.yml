@@ -30,13 +30,13 @@ stages:
           bitness: '64bit'
 
       dependencies:
-        - source: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
           file: 'CDMessaging.lvlibp'
           destination: 'Includes'
-        - source: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
           file: 'SLSCSwitchMessaging.lvlibp'
           destination: 'Includes'
-        - source: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
           file: 'NISWITCHMessaging.lvlibp'
           destination: 'Includes'
 
@@ -118,7 +118,7 @@ stages:
       releaseVersion: '23.0.0'
       quarterlyReleaseVersion: '2023 Q1'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\daqserver\temp\papower\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+      archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\routing_and_faulting_custom_device'
 
       pack: true
       packages:
