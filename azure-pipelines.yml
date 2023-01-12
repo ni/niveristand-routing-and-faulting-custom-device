@@ -120,10 +120,9 @@ stages:
 
       releaseVersion: '23.0.0'
       quarterlyReleaseVersion: '2023 Q1'
-      buildOutputLocation: 'Built'
+      buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\routing_and_faulting_custom_device'
 
-      pack: true
       packages:
         - controlFileName: 'control_routing_faulting'
           payloadMaps:
