@@ -123,7 +123,6 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\routing_and_faulting_custom_device'
 
-      pack: true
       packages:
         - controlFileName: 'control_routing_faulting'
           payloadMaps:
