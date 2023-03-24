@@ -12,14 +12,10 @@ resources:
       ref:        main
       endpoint:   nivs-custom-devices
       name:       ni/niveristand-custom-device-build-tools
-# Pipeline Completion Triggers:
   pipelines:
     - pipeline: RoutingAndFaultingMessageLibrary
       source:   ni.niveristand-routing-and-faulting-message-library
-      trigger:
-        branches:
-          include:
-            - main
+      trigger:  true
 
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
@@ -33,13 +29,13 @@ stages:
           bitness: '64bit'
 
       dependencies:
-        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
+        - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
           file: 'CDMessaging.lvlibp'
           destination: 'Includes'
-        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
+        - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
           file: 'SLSCSwitchMessaging.lvlibp'
           destination: 'Includes'
-        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
+        - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
           file: 'NISWITCHMessaging.lvlibp'
           destination: 'Includes'
 
@@ -118,10 +114,9 @@ stages:
           target: 'My Computer'
           buildSpec: 'Examples'
 
-      releaseVersion: '23.0.0'
-      quarterlyReleaseVersion: '2023 Q1'
+      releaseVersion: '23.3.0'
       buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\routing_and_faulting_custom_device'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
 
       packages:
         - controlFileName: 'control_routing_faulting'
