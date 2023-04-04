@@ -30,13 +30,13 @@ stages:
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
-          file: 'CDMessaging.lvlibp'
+          file: '$target\CDMessaging.lvlibp'
           destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
-          file: 'SLSCSwitchMessaging.lvlibp'
+          file: '$target\SLSCSwitchMessaging.lvlibp'
           destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
-          file: 'NISWITCHMessaging.lvlibp'
+          file: '$target\NISWITCHMessaging.lvlibp'
           destination: 'Includes'
 
       buildSteps:
