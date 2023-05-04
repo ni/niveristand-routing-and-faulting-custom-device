@@ -10,13 +10,13 @@ The **Routing and Faulting Custom Device** allows users to configure routes and 
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2019
+LabVIEW 2020
 
 ## Dependencies
 
 ### Running the custom device
 
-- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
   - Includes [NI-SLSC](https://www.ni.com/en-us/support/downloads/drivers/download.ni-slsc.html)
 - [NI-SWITCH](https://www.ni.com/en-us/support/downloads/drivers/download.ni-switch.html) (if using the NI-SWITCH Custom Device)
 
@@ -27,7 +27,7 @@ LabVIEW 2019
 
 ### Developing or building from source
 
-- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - `CDMessaging.lvlibp` from [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
 - `SLSCSwitchMessaging.lvlibp` from [Routing and Faulting Message Library](https://github.com/ni/niveristand-routing-and-faulting-message-library)
