@@ -68,7 +68,6 @@
 			<Item Name="Copy Scripting API to Installed Location.vi" Type="VI" URL="../Utility/Copy Scripting API to Installed Location.vi"/>
 			<Item Name="Create Stub Files.vi" Type="VI" URL="../Utility/Create Stub Files.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Utility/Pre-Build Action.vi"/>
-			<Item Name="Pre-Build CHM Build.vi" Type="VI" URL="../Utility/Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Custom Device NI-SWITCH.xml" Type="Document" URL="../Custom Device NI-SWITCH.xml"/>
 		<Item Name="NI-SWITCH Engine.lvlib" Type="Library" URL="../Engine/NI-SWITCH Engine.lvlib"/>
@@ -113,7 +112,6 @@
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
@@ -126,7 +124,6 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="CHM Generator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
 				<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Clear All Errors__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Generic Object Refnum (Array VI)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Close Generic Object Refnum (Array VI)__ogtk__jki_vi_tester.vi"/>
@@ -134,7 +131,6 @@
 				<Item Name="Close Generic Object Refnum (Scalar VI)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Close Generic Object Refnum (Scalar VI)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Close Generic Object Refnum (Scalar)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Close Generic Object Refnum (Scalar)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Close Generic Object Refnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Close Generic Object Refnum__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Conditional Auto-Indexing Tunnel (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Conditional Auto-Indexing Tunnel (CSG)__ogtk__jki_vi_tester.vi"/>
@@ -260,7 +256,6 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Array Element TDEnum__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Get Current LV Bitness.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Current LV Bitness.vi"/>
 				<Item Name="Get Data Name from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
@@ -284,8 +279,6 @@
 				<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Keyed Value Tree.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/Keyed Value Tree/Keyed Value Tree.lvclass"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -293,7 +286,6 @@
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
@@ -427,7 +419,6 @@
 				<Item Name="Sort 2D Array (U32)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 2D Array (U32)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 2D Array (U64)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 2D Array (U64)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort Array__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="String to 1D Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/String to 1D Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - 1D Array of Paths__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - 1D Array of Strings__ogtk__jki_vi_tester.vi"/>
@@ -437,7 +428,6 @@
 				<Item Name="Strip Units__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Units__ogtk__jki_vi_tester.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TestCase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestCase.llb/TestCase.lvclass"/>
 				<Item Name="TestLoader.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestLoader.llb/TestLoader.lvclass"/>
@@ -460,41 +450,12 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/CDMessaging.lvlibp">
-				<Item Name="Message Queue" Type="Folder">
-					<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-					<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
-				</Item>
-				<Item Name="Consumer" Type="Folder">
-					<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-				</Item>
-				<Item Name="Message" Type="Folder">
-					<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Message/Abstract Message.lvclass"/>
-					<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-					<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-					<Item Name="Shutdown Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Shutdown Message/Shutdown Message.lvclass"/>
-				</Item>
-				<Item Name="Parameters" Type="Folder">
-					<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Producer" Type="Folder">
-					<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-				</Item>
-				<Item Name="Switch" Type="Folder">
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Switch Connect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Connect Message/Switch Connect Message.lvclass"/>
-						<Item Name="Switch Disconnect All Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect All Message/Switch Disconnect All Message.lvclass"/>
-						<Item Name="Switch Disconnect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect Message/Switch Disconnect Message.lvclass"/>
-					</Item>
-					<Item Name="Abstract Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Consumer/Abstract Switch Consumer.lvclass"/>
-					<Item Name="Abstract Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Init Parameters/Abstract Switch Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Initialize Request Response Queues.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Initialize Request Response Queues.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Execute Message.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Execute Message.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Initialize.vi"/>
+			<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -510,22 +471,12 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
+			<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
 			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NISWITCHMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/NISWITCHMessaging.lvlibp">
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
-				<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
-				<Item Name="niSwitch Close.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
-				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
-				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
-				<Item Name="niSwitch Disconnect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect Channels (Multiple).vi"/>
-				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
-				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
-				<Item Name="niSwitch Reset.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Reset.vi"/>
-				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
-			</Item>
+			<Item Name="Shutdown.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Shutdown.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -550,10 +501,13 @@
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/NI-SWITCH/Windows/Glyphs</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Destination[4].destName" Type="Str">Page Help</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/NI-SWITCH/Windows/Page Help</Property>
+				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F89EDA95-BB81-4B84-AB8E-05261E30D968}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4D40757-FB72-4D35-9A62-17040AA850DA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -579,7 +533,14 @@
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].newName" Type="Str">SLSC Switch Routing and Faulting Hardware API.lvlib</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Help/HTML Help Source</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Configuration Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{F7E936A1-C50B-4217-AC2B-A4DA3629CD4B}</Property>
@@ -605,10 +566,13 @@
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">Errors</Property>
 				<Property Name="Destination[4].path" Type="Path">../Built/Errors/NI-SWITCH</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Destination[5].destName" Type="Str">Page Help</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/NI-SWITCH/Windows/Page Help</Property>
+				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F89EDA95-BB81-4B84-AB8E-05261E30D968}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4D40757-FB72-4D35-9A62-17040AA850DA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -680,7 +644,14 @@
 				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support Files/niswitch-errors.txt</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Help/HTML Help Source</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
@@ -946,57 +917,15 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/CDMessaging.lvlibp">
-				<Item Name="Consumer" Type="Folder">
-					<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
-				</Item>
-				<Item Name="Message" Type="Folder">
-					<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Message/Abstract Message.lvclass"/>
-					<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
-					<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
-					<Item Name="Shutdown Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message/Shutdown Message/Shutdown Message.lvclass"/>
-				</Item>
-				<Item Name="Message Queue" Type="Folder">
-					<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
-					<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
-				</Item>
-				<Item Name="Parameters" Type="Folder">
-					<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Producer" Type="Folder">
-					<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Producer/Abstract Producer/Abstract Producer.lvclass"/>
-				</Item>
-				<Item Name="Switch" Type="Folder">
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Switch Connect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Connect Message/Switch Connect Message.lvclass"/>
-						<Item Name="Switch Disconnect All Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect All Message/Switch Disconnect All Message.lvclass"/>
-						<Item Name="Switch Disconnect Message.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Switch Disconnect Message/Switch Disconnect Message.lvclass"/>
-					</Item>
-					<Item Name="Abstract Switch Consumer.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Consumer/Abstract Switch Consumer.lvclass"/>
-					<Item Name="Abstract Switch Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Switch/Abstract Switch Init Parameters/Abstract Switch Init Parameters.lvclass"/>
-				</Item>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Initialize Request Response Queues.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Initialize Request Response Queues.vi"/>
-			</Item>
+			<Item Name="Execute Message.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Execute Message.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Initialize.vi"/>
+			<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Includes/CDMessaging.lvlibp/Message Queue/Message Queue/Message Queue.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niswitch_32.dll" Type="Document" URL="niswitch_32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NISWITCHMessaging.lvlibp" Type="LVLibp" URL="../../../Includes/NISWITCHMessaging.lvlibp">
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
-				<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
-				<Item Name="niSwitch Close.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
-				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
-				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
-				<Item Name="niSwitch Disconnect Channels (Multiple).vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Disconnect Channels (Multiple).vi"/>
-				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
-				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
-				<Item Name="niSwitch Reset.vi" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Reset.vi"/>
-				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="../../../Includes/NISWITCHMessaging.lvlibp/1abvi3w/instr.lib/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
-			</Item>
+			<Item Name="NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Consumer/NI-SWITCH Consumer.lvclass"/>
+			<Item Name="NI-SWITCH Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/NISWITCHMessaging.lvlibp/NI-SWITCH Init Parameters/NI-SWITCH Init Parameters.lvclass"/>
+			<Item Name="Shutdown.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/Consumer/Abstract Consumer/Shutdown.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
