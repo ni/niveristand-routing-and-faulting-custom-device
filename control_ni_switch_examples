@@ -13,3 +13,13 @@ Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI-SWITCH LabVIEW Examples for VeriStand {veristand_version}
 Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-routing-and-faulting-veristand-{veristand_version}-labview-support (>= {display_version}), ni-switch-veristand-{veristand_version}-labview-support (>= {display_version})
+Description-zh-CN: 为NI VeriStand {veristand_version}提供NI-SWITCH自定义设备的LabVIEW范例
+XB-DisplayName-zh-CN: VeriStand {veristand_version}的NI-SWITCH LabVIEW范例
+Description-de: Stellt LabVIEW-Beispiele für benutzerdefinierte NI-SWITCH-Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI-SWITCH - LabVIEW-Beispiele für VeriStand {veristand_version}
+Description-fr: Fournit des exemples LabVIEW pour le périphérique personnalisé NI-SWITCH pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI-SWITCH - Exemples LabVIEW pour VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用のNI-SWITCHカスタムデバイスのLabVIEWサンプルプログラムを提供します
+XB-DisplayName-ja: NI-SWITCH LabVIEWサンプルプログラム - VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 NI-SWITCH Custom Device의 LabVIEW 예제를 제공합니다.
+XB-DisplayName-ko: NI-SWITCH Switch LabVIEW Examples - VeriStand {veristand_version} 지원
