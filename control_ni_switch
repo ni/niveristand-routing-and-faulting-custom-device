@@ -14,3 +14,13 @@ XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI-SWITCH for VeriStand {veristand_version}
 Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-switch (>= 20.0.0)
 Recommends: ni-switch-veristand-{veristand_version}-labview-support (>= {display_version}), ni-switch-veristand-{veristand_version}-labview-examples (>= {display_version})
+Description-zh-CN: 为NI VeriStand {veristand_version}提供SLSC Switch自定义设备支持
+XB-DisplayName-zh-CN: >NI SLSC Switch for VeriStand {veristand_version}
+Description-de: Stellt Unterstützung für benutzerdefinierte SLSC-Switch-Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI SLSC Switch für VeriStand {veristand_version}
+Description-fr: Fournit le support pour le périphérique personnalisé SLSC Switch pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI SLSC Switch for VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用のSLSC Switchカスタムデバイスのサポートを提供します。
+XB-DisplayName-ja: NI SLSC Switch - VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 SLSC Switch Custom Device의 지원을 제공합니다.
+XB-DisplayName-ko: NI SLSC Switch - VeriStand {veristand_version} 지원
