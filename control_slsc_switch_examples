@@ -16,3 +16,13 @@ Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short
 Replaces: ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (<< 20.6.0)
 Conflicts: ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (<< 20.6.0)
 Provides: ni-routing-and-faulting-veristand-{veristand_version}-labview-examples (= 20.6.0)
+Description-zh-CN: 为NI VeriStand {veristand_version}提供LabVIEW范例
+XB-DisplayName-zh-CN: VeriStand {veristand_version}的NI SLSC Switch LabVIEW范例
+Description-de: Stellt LabVIEW-Beispiele für benutzerdefinierte SLSC-Switch-Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI SLSC Switch - LabVIEW-Beispiele für VeriStand {veristand_version}
+Description-fr: Fournit des exemples LabVIEW pour le périphérique personnalisé SLSC Switch pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI SLSC Switch - Exemples LabVIEW pour VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用のSLSC SwitchカスタムデバイスのLabVIEWサンプルプログラムを提供します。
+XB-DisplayName-ja: NI SLSC Switch LabVIEWサンプルプログラム - VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 SLSC Switch Custom Device의 LabVIEW 예제를 제공합니다.
+XB-DisplayName-ko: NI SLSC Switch LabVIEW Examples - VeriStand {veristand_version} 지원
