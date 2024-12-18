@@ -12,7 +12,7 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI SLSC Switch for VeriStand {veristand_version}
-Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-slsc-switch-runtime (>= 20.0.0)
+Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-slsc-switch-runtime (>= {labview_short_version}.0.0)
 Recommends: ni-slsc-switch-veristand-{veristand_version}-labview-support (>= {display_version}), ni-slsc-switch-veristand-{veristand_version}-labview-examples (>= {display_version})
 Description-zh-CN: 为NI VeriStand {veristand_version}提供SLSC Switch自定义设备支持
 XB-DisplayName-zh-CN: >NI SLSC Switch for VeriStand {veristand_version}
