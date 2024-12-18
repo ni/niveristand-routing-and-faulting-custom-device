@@ -12,7 +12,7 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI SLSC Switch LabVIEW Support for VeriStand {veristand_version}
-Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-slsc-switch-{labview_support_package_suffix} (>= 20.0.0), ni-slsc-switch-veristand-{veristand_version}-support (>= {display_version}), ni-routing-and-faulting-veristand-{veristand_version}-labview-support (>= {display_version}), ni-veristand-{veristand_version}-custom-device-labview-support-common (>= 24.0.0)
+Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-slsc-switch-{labview_support_package_suffix} (>= {labview_short_version}.0.0), ni-slsc-switch-veristand-{veristand_version}-support (>= {display_version}), ni-routing-and-faulting-veristand-{veristand_version}-labview-support (>= {display_version}), ni-veristand-{veristand_version}-custom-device-labview-support-common (>= {labview_short_version}.0.0)
 Recommends: ni-slsc-switch-veristand-{veristand_version}-labview-examples (>= {display_version})
 Description-zh-CN: 为NI VeriStand {veristand_version}提供LabVIEW支持
 XB-DisplayName-zh-CN: VeriStand {veristand_version}的NI SLSC Switch LabVIEW支持
