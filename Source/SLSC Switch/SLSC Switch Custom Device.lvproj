@@ -526,9 +526,9 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
-			<Item Name="Linux Configuration Debug" Type="Source Distribution">
+			<Item Name="Configuration(Linux) Debug" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{872CA026-F4C0-4292-98F2-244970AA6415}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Linux Configuration Debug</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Configuration(Linux) Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch</Property>
@@ -555,9 +555,9 @@
 				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
-			<Item Name="Linux Configuration Release" Type="Source Distribution">
+			<Item Name="Configuration(Linux) Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{3E131872-E999-427E-8A0D-A31B43F74AB5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Linux Configuration Release</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Configuration(Linux) Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/SLSC Switch</Property>
