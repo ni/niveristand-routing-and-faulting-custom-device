@@ -120,6 +120,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+      repoName: 'niveristand-routing-and-faulting-custom-device'
+      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control_routing_faulting'
