@@ -5,6 +5,10 @@ trigger:
       - main
       - release/*
 
+variables:
+  - name: ConvertNetCore
+    value: true
+
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
@@ -21,190 +25,203 @@ resources:
             - main
 
 stages:
-  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
-    parameters:
-      lvVersionsToBuild: 
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2026'
-          bitness: '64bit'
 
-      dependencies:
-        - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
-          file: '$target\CDMessaging.lvlibp'
-          destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
-          file: '$target\SLSCSwitchMessaging.lvlibp'
-          destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
-          file: '$target\NISWITCHMessaging.lvlibp'
-          destination: 'Includes'
+# =====================================================================
+# WINDOWS BUILD (Stage Template)
+# =====================================================================
+- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+  parameters:
+    stageName: WindowsBuild
 
-      buildSteps:
-          # Routing and Faulting
-        - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
+    lvVersionsToBuild: 
+      - version: '2024'
+        bitness: '64bit'
+      - version: '2025'
+        bitness: '64bit'
+      - version: '2026'
+        bitness: '64bit'
 
-        - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Engine Release'
+    dependencies:
+      - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+        file: '$target\CDMessaging.lvlibp'
+        destination: 'Includes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+        file: '$target\SLSCSwitchMessaging.lvlibp'
+        destination: 'Includes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+        file: '$target\NISWITCHMessaging.lvlibp'
+        destination: 'Includes'
 
-        - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux x64'
-          buildSpec: 'Engine Release'
+    buildSteps:
+        # Routing and Faulting
+      - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration Release'
 
-        - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting API'
+      - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Engine Release'
 
-          # SLSC Switch
-        - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
+      - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'Linux x64'
+        buildSpec: 'Engine Release'
 
-        - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Engine Release'
+      - projectLocation: 'Source\Routing and Faulting\Routing and Faulting Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Scripting API'
 
-        - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux x64'
-          buildSpec: 'Engine Release'
+        # SLSC Switch
+      - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration Release'
 
-        - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting API'
+      - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Engine Release'
 
-          # NI-SWITCH
-        - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
+      - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'Linux x64'
+        buildSpec: 'Engine Release'
 
-        - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Engine Release'
+      - projectLocation: 'Source\SLSC Switch\SLSC Switch Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Scripting API'
 
-        - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux x64'
-          buildSpec: 'Engine Release'
+        # NI-SWITCH
+      - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration Release'
 
-        - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting API'
+      - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Engine Release'
 
-          # Scripting Examples
-        - projectLocation: 'Source\SLSC Switch Scripting Examples\SLSC Switch Scripting Examples.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Examples'
+      - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'Linux x64'
+        buildSpec: 'Engine Release'
 
-        - projectLocation: 'Source\NI-SWITCH Scripting Examples\NI-SWITCH Scripting Examples.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Examples'
+      - projectLocation: 'Source\NI-SWITCH\NI-SWITCH Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Scripting API'
 
-      releaseVersion: '26.5.0'
-      buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
-      repoName: 'niveristand-routing-and-faulting-custom-device'
-      createNetCoreRepo: true
+        # Scripting Examples
+      - projectLocation: 'Source\SLSC Switch Scripting Examples\SLSC Switch Scripting Examples.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Examples'
 
-      packages:
-        - controlFileName: 'control_routing_faulting'
-          payloadMaps:
-            - payloadLocation: 'Routing and Faulting'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Routing and Faulting'
-            - payloadLocation: 'Errors\Routing and Faulting'
-              installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+      - projectLocation: 'Source\NI-SWITCH Scripting Examples\NI-SWITCH Scripting Examples.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Examples'
 
-        - controlFileName: 'control_routing_faulting_scripting'
-          payloadMaps:
-            - payloadLocation: 'Scripting\Routing and Faulting'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
-            - payloadLocation: 'Errors\Routing and Faulting'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+    releaseVersion: '26.5.0'
+    buildOutputLocation: 'Source\Built'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+    repoName: 'niveristand-routing-and-faulting-custom-device'
 
-        - controlFileName: 'control_slsc_switch'
-          payloadMaps:
-            - payloadLocation: 'SLSC Switch'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\SLSC Plugins\Modules\SLSC Switch'
-            - payloadLocation: 'Errors\SLSC Switch'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+    packages:
+      - controlFileName: 'control_routing_faulting'
+        payloadMaps:
+          - payloadLocation: 'Routing and Faulting'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Routing and Faulting'
+          - payloadLocation: 'Errors\Routing and Faulting'
+            installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
-        - controlFileName: 'control_slsc_switch_scripting'
-          payloadMaps:
-            - payloadLocation: 'Scripting\SLSC Switch'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
-            - payloadLocation: 'Errors\SLSC Switch'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+      - controlFileName: 'control_routing_faulting_scripting'
+        payloadMaps:
+          - payloadLocation: 'Scripting\Routing and Faulting'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Routing and Faulting'
+          - payloadLocation: 'Errors\Routing and Faulting'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
 
-        - controlFileName: 'control_ni_switch'
-          payloadMaps:
-            - payloadLocation: 'NI-SWITCH'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\NI-SWITCH'
-            - payloadLocation: 'Errors\NI-SWITCH'
-              installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+      - controlFileName: 'control_slsc_switch'
+        payloadMaps:
+          - payloadLocation: 'SLSC Switch'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\SLSC Plugins\Modules\SLSC Switch'
+          - payloadLocation: 'Errors\SLSC Switch'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
 
-        - controlFileName: 'control_ni_switch_scripting'
-          payloadMaps:
-            - payloadLocation: 'Scripting\NI-SWITCH'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
-            - payloadLocation: 'Errors\NI-SWITCH'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+      - controlFileName: 'control_slsc_switch_scripting'
+        payloadMaps:
+          - payloadLocation: 'Scripting\SLSC Switch'
+           installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
+          - payloadLocation: 'Errors\SLSC Switch'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
 
-        - controlFileName: 'control_slsc_switch_examples'
-          payloadMaps:
-            - payloadLocation: 'SLSC Switch Scripting Examples'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\SLSC Switch'
+      - controlFileName: 'control_ni_switch'
+        payloadMaps:
+          - payloadLocation: 'NI-SWITCH'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\NI-SWITCH'
+          - payloadLocation: 'Errors\NI-SWITCH'
+            installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
-        - controlFileName: 'control_ni_switch_examples'
-          payloadMaps:
-            - payloadLocation: 'NI-SWITCH Scripting Examples'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\NI-SWITCH'
+      - controlFileName: 'control_ni_switch_scripting'
+        payloadMaps:
+          - payloadLocation: 'Scripting\NI-SWITCH'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\NI-SWITCH'
+          - payloadLocation: 'Errors\NI-SWITCH'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
 
+      - controlFileName: 'control_slsc_switch_examples'
+        payloadMaps:
+          - payloadLocation: 'SLSC Switch Scripting Examples'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\SLSC Switch'
 
-  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
-    parameters:
-      lvVersionsToBuild:
-        - version: '2026'
-          bitness: '64bit'
+      - controlFileName: 'control_ni_switch_examples'
+        payloadMaps:
+          - payloadLocation: 'NI-SWITCH Scripting Examples'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\NI-SWITCH'
 
-      buildSteps:
-        - id: 'routing_faulting_configuration_release'
-          projectLocation: 'Source/Routing and Faulting/Routing and Faulting Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration(Linux) Release'
+# =====================================================================
+# LINUX BUILD
+# =====================================================================
+- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+  parameters:
+    stageName: LinuxBuild
 
-        - id: 'slsc_switch_configuration_release'
-          projectLocation: 'Source/SLSC Switch/SLSC Switch Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration(Linux) Release'
+    # If your linux-stage.yml supports these parameters:
+    dependsOn: 
+      - WindowsBuild
 
-        - id: 'ni_switch_configuration_release'
-          projectLocation: 'Source/NI-SWITCH/NI-SWITCH Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration(Linux) Release'
+    lvVersionsToBuild:
+      - version: '2026'
+        bitness: '64bit'
+
+    buildSteps:
+      - id: 'routing_faulting_configuration_release'
+        projectLocation: 'Source/Routing and Faulting/Routing and Faulting Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration(Linux) Release'
+
+      - id: 'slsc_switch_configuration_release'
+        projectLocation: 'Source/SLSC Switch/SLSC Switch Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration(Linux) Release'
+
+      - id: 'ni_switch_configuration_release'
+        projectLocation: 'Source/NI-SWITCH/NI-SWITCH Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration(Linux) Release'
       
-      releaseVersion: '26.5.0'
-      branch: 'main'
-      debugBuild: 'no'
-      buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
-      repoName: 'niveristand-routing-and-faulting-custom-device'
+    releaseVersion: '26.5.0'
+    branch: 'main'
+    debugBuild: 'no'
+    buildOutputLocation: 'Built'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+    repoName: 'niveristand-routing-and-faulting-custom-device'
