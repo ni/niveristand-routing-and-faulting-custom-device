@@ -12,13 +12,13 @@ variables:
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
-      type:       github
-      ref:        main
-      endpoint:   nivs-custom-devices
-      name:       ni/niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: nivs-custom-devices
+      name: ni/niveristand-custom-device-build-tools
   pipelines:
     - pipeline: RoutingAndFaultingMessageLibrary
-      source:   ni.niveristand-routing-and-faulting-message-library
+      source: ni.niveristand-routing-and-faulting-message-library
       trigger:  
         branches: 
           include:
