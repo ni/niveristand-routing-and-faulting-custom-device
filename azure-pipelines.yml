@@ -157,7 +157,7 @@ stages:
       - controlFileName: 'control_slsc_switch_scripting'
         payloadMaps:
           - payloadLocation: 'Scripting\SLSC Switch'
-           installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\SLSC Switch'
           - payloadLocation: 'Errors\SLSC Switch'
             installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
 
