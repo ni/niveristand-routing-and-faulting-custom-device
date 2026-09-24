@@ -12,7 +12,7 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI-SWITCH LabVIEW Examples for VeriStand {veristand_version}
-Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-routing-and-faulting-veristand-{veristand_version}-labview-support (>= {display_version}), ni-switch-veristand-{veristand_version}-labview-support (>= {display_version})
+Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-routing-and-faulting-veristand-{veristand_version}-labview-support (>= {display_version}), ni-switch-veristand-{veristand_version}-labview-support (>= {display_version})
 Description-zh-CN: 为NI VeriStand {veristand_version}提供NI-SWITCH自定义设备的LabVIEW范例
 XB-DisplayName-zh-CN: VeriStand {veristand_version}的NI-SWITCH LabVIEW范例
 Description-de: Stellt LabVIEW-Beispiele für benutzerdefinierte NI-SWITCH-Geräte für NI VeriStand {veristand_version} bereit.
