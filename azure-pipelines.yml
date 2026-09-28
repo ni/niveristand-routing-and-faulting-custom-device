@@ -138,7 +138,7 @@ stages:
       - controlFileName: 'control_routing_faulting'
         payloadMaps:
           - payloadLocation: 'Routing and Faulting'
-            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\Custom Devices\Routing and Faulting'
+            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\Routing and Faulting'
           - payloadLocation: 'Errors\Routing and Faulting'
             installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
@@ -152,7 +152,7 @@ stages:
       - controlFileName: 'control_slsc_switch'
         payloadMaps:
           - payloadLocation: 'SLSC Switch'
-            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\SLSC Plugins\Modules\SLSC Switch'
+            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\SLSC Plugins\Modules\SLSC Switch'
           - payloadLocation: 'Errors\SLSC Switch'
             installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
 
@@ -166,7 +166,7 @@ stages:
       - controlFileName: 'control_ni_switch'
         payloadMaps:
           - payloadLocation: 'NI-SWITCH'
-            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\Custom Devices\NI-SWITCH'
+            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\NI-SWITCH'
           - payloadLocation: 'Errors\NI-SWITCH'
             installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
 
