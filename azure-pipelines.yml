@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -34,23 +34,17 @@ stages:
     stageName: WindowsBuild
 
     lvVersionsToBuild: 
-      - version: '2024'
-        bitness: '64bit'
-      - version: '2025'
-        bitness: '64bit'
-      - version: '2026'
-        bitness: '64bit'
       - version: '2027'
         bitness: '64bit'
 
     dependencies:
-      - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      - source: '\\nirvana\Measurements\VeriStandAddons\netcore\slsc_switch_messaging_library'
         file: '$target\CDMessaging.lvlibp'
         destination: 'Includes'
-      - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      - source: '\\nirvana\Measurements\VeriStandAddons\netcore\slsc_switch_messaging_library'
         file: '$target\SLSCSwitchMessaging.lvlibp'
         destination: 'Includes'
-      - source: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      - source: '\\nirvana\Measurements\VeriStandAddons\netcore\slsc_switch_messaging_library'
         file: '$target\NISWITCHMessaging.lvlibp'
         destination: 'Includes'
 
@@ -129,9 +123,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Examples'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Source\Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\routing_and_faulting_custom_device'
     repoName: 'niveristand-routing-and-faulting-custom-device'
 
     packages:
@@ -194,10 +188,6 @@ stages:
   parameters:
     stageName: LinuxBuild
 
-    # If your linux-stage.yml supports these parameters:
-    dependsOn: 
-      - WindowsBuild
-
     lvVersionsToBuild:
       - version: '2027'
         bitness: '64bit'
@@ -221,9 +211,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
       
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\routing_and_faulting_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\routing_and_faulting_custom_device'
     repoName: 'niveristand-routing-and-faulting-custom-device'
