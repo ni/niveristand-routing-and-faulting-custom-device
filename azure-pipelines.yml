@@ -9,15 +9,6 @@ variables:
   - name: ConvertNetCore
     value: false
 
-  - name: BranchToBuild
-    value: $[
-      iif(
-        ne(variables['System.PullRequest.SourceBranch'], ''),
-        variables['System.PullRequest.SourceBranch'],
-        variables['Build.SourceBranch']
-      )
-    ]
-
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
@@ -221,7 +212,7 @@ stages:
         buildSpec: 'Configuration(Linux) Release'
       
     releaseVersion: '27.0.0'
-    branch: $(BranchToBuild)
+    branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\routing_and_faulting_custom_device'
